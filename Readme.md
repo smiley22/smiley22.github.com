@@ -15,7 +15,7 @@ Dummy
 
 ### License
 
-This library is released under the [MIT license](http://smiley22.github/S22.Imap/LICENSE) MIT license.
+This library is released under the [MIT license](https://github.com/smiley22/smiley22.github.com/blob/master/License.md).
 
 
 ### Bug reports
