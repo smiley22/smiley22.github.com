@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="a62e2253-c90d-4263-a464-f70246b32a6f" Title="S22.Imap Namespace" Url="html/5c2873d2-bc3e-ee8c-c54e-cbb944725a10.htm">
+    <HelpTOCNode Title="AuthMethod Enumeration" Url="html/b133e1f9-7016-fdef-edc9-70cc16ca8692.htm" />
+    <HelpTOCNode Id="0438512e-ab34-4ccb-bb9e-68f0d39dda91" Title="BadServerResponseException Class" Url="html/2bec91c0-9b3e-754e-b0b3-a8948302f25c.htm">
+      <HelpTOCNode Title="BadServerResponseException Members" Url="html/96ce65c6-c46e-6aa9-be91-bed32194362a.htm" />
+      <HelpTOCNode Id="f0d40a10-fe38-4c7d-b949-3e7796f107b9" Title="BadServerResponseException Constructor " Url="html/6cede3e4-b62f-142f-0699-cf4c11afc90a.htm">
+        <HelpTOCNode Title="BadServerResponseException Constructor " Url="html/00257a72-a0a3-61e2-528f-6e4a2e71b81b.htm" />
+        <HelpTOCNode Title="BadServerResponseException Constructor (String)" Url="html/4a2f6d14-2e17-056d-88a0-bece0b0f7f0d.htm" />
+        <HelpTOCNode Title="BadServerResponseException Constructor (SerializationInfo, StreamingContext)" Url="html/5e0ef35a-fb15-9432-2465-51c234a6c0c6.htm" />
+        <HelpTOCNode Title="BadServerResponseException Constructor (String, Exception)" Url="html/0907ce50-0bcb-e0d5-9f12-f2ce8949f454.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BadServerResponseException Methods" Url="html/9ee862a6-4848-0662-6482-c7b294a20fe8.htm" />
+      <HelpTOCNode Title="BadServerResponseException Properties" Url="html/ac43b1c9-767e-44ee-f7d8-bb3eba39312e.htm" />
+      <HelpTOCNode Title="BadServerResponseException Events" Url="html/22390f08-5dba-3c2a-d0c1-4d952bb66719.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="073d6b5f-1fc6-4d6b-b9d2-c39b3d7afc7d" Title="IdleMessageEventArgs Class" Url="html/dcb59908-2cc3-5f91-e2fa-0ca07a494fc2.htm">
+      <HelpTOCNode Title="IdleMessageEventArgs Members" Url="html/dbeb284a-87da-7d45-a4ae-a68a504f37e1.htm" />
+      <HelpTOCNode Title="IdleMessageEventArgs Methods" Url="html/1faded78-e31e-396f-2fb1-aed3327f7992.htm" />
+      <HelpTOCNode Id="bb31cc21-eb89-4906-876e-66b9b0272a70" Title="IdleMessageEventArgs Properties" Url="html/9d741f07-d850-0216-2140-36e7e2dbb182.htm">
+        <HelpTOCNode Title="Client Property " Url="html/a316bb6c-0c8c-9d89-0589-2e7d198f5338.htm" />
+        <HelpTOCNode Title="MessageCount Property " Url="html/6385413f-ae01-7931-d1b5-c066942b17df.htm" />
+        <HelpTOCNode Title="MessageUID Property " Url="html/2bf81bba-6633-7c7b-71d3-e8365b2d7f27.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5c630d25-d173-47ff-9df4-5f8d94c131c7" Title="ImapClient Class" Url="html/19882281-0aa8-5237-27b9-765b8a47a79a.htm">
+      <HelpTOCNode Title="ImapClient Members" Url="html/1e672977-c54f-46e2-ab51-7a7ec2116075.htm" />
+      <HelpTOCNode Id="1a7a3561-9333-44c1-aff1-f9b69a4f14cd" Title="ImapClient Constructor " Url="html/a059df68-5ad0-90ee-d15f-4c466c985f7e.htm">
+        <HelpTOCNode Title="ImapClient Constructor (String, Int32, Boolean, RemoteCertificateValidationCallback)" Url="html/6ed5d1f9-a0ae-aca5-5200-35e4d976116d.htm" />
+        <HelpTOCNode Title="ImapClient Constructor (String, Int32, String, String, AuthMethod, Boolean, RemoteCertificateValidationCallback)" Url="html/13362fc2-06b8-0b6d-d049-23fef164c7fe.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5b4cdf49-6c63-4958-9c79-7ffbd3481bdb" Title="ImapClient Methods" Url="html/ca67411a-f106-88f9-7950-8a88721ac882.htm">
+        <HelpTOCNode Title="Capabilities Method " Url="html/3bf94f6f-0bc7-c6c5-8f88-b591a109d58f.htm" />
+        <HelpTOCNode Title="CreateMailbox Method " Url="html/07213e1b-f186-0e2b-465c-b0b77046ad3a.htm" />
+        <HelpTOCNode Title="DeleteMailbox Method " Url="html/aadb5ad9-de52-0298-11d1-937d0348ccb1.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/6ec685a4-5e74-845a-0b39-f67e31665901.htm" />
+        <HelpTOCNode Title="Expunge Method " Url="html/3a28d35f-f492-2513-29d5-c39df00119fa.htm" />
+        <HelpTOCNode Title="GetMessage Method " Url="html/c4feca17-3169-dc22-7bdb-7cb9d0062a3e.htm" />
+        <HelpTOCNode Title="GetMessages Method " Url="html/8e047b81-03c1-b028-fcf7-17465bf3032b.htm" />
+        <HelpTOCNode Title="GetStatus Method " Url="html/6820d817-0549-92ba-f2e1-cdab1116104b.htm" />
+        <HelpTOCNode Title="Login Method " Url="html/1cdf0d97-77b6-510e-6cdc-0e9e89876dea.htm" />
+        <HelpTOCNode Title="Logout Method " Url="html/c1e9692f-0e92-cd3e-bd30-59576e9f0577.htm" />
+        <HelpTOCNode Title="RenameMailbox Method " Url="html/542e01e3-eca6-2cea-84c5-0ae5ca873fe4.htm" />
+        <HelpTOCNode Title="Search Method " Url="html/7893931d-e797-191f-2a6e-17747299b5e8.htm" />
+        <HelpTOCNode Title="Supports Method " Url="html/ac73ae56-e2ab-41bf-db70-6a7607dd1356.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6d3118b9-066f-4d36-adba-f98036e460fe" Title="ImapClient Properties" Url="html/c9494fdb-d6ce-c3d8-b7cb-3d7963650bb1.htm">
+        <HelpTOCNode Title="Authed Property " Url="html/97b9bb0b-1c56-9b66-2336-d7c9b40cac7a.htm" />
+        <HelpTOCNode Title="DefaultMailbox Property " Url="html/5ae4340e-09bf-51da-a55d-e921401b4b0b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b1660735-7c0f-4aea-bed9-a5bb7e90c650" Title="ImapClient Events" Url="html/7bc1ed61-e894-c44a-2f69-677b091cf92a.htm">
+        <HelpTOCNode Title="MessageDeleted Event" Url="html/a3578a51-c96e-c242-4804-f97c4ee72e00.htm" />
+        <HelpTOCNode Title="NewMessage Event" Url="html/8058d475-1e16-ef39-c865-a537f8b8a7a8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0608f4d9-1a99-4b99-a217-cbca4b5bb238" Title="InvalidCredentialsException Class" Url="html/31f9fa9e-fd2b-417b-8580-4eede1321d44.htm">
+      <HelpTOCNode Title="InvalidCredentialsException Members" Url="html/3d8f5ba4-3699-5beb-62a1-06c1b4c9a779.htm" />
+      <HelpTOCNode Id="0d4e5fe0-6a82-4ea3-98ab-2aca5189dac5" Title="InvalidCredentialsException Constructor " Url="html/96fae2fb-d586-4f87-564a-571a77a62815.htm">
+        <HelpTOCNode Title="InvalidCredentialsException Constructor " Url="html/a52f769d-d026-bcc1-e71e-f9022620127d.htm" />
+        <HelpTOCNode Title="InvalidCredentialsException Constructor (String)" Url="html/8711d851-ad94-ebc4-d85a-028e645ef202.htm" />
+        <HelpTOCNode Title="InvalidCredentialsException Constructor (SerializationInfo, StreamingContext)" Url="html/d11a67ab-1d4b-45b0-e01b-1cc20c5536f3.htm" />
+        <HelpTOCNode Title="InvalidCredentialsException Constructor (String, Exception)" Url="html/c72fa1ad-72b3-cda1-9cde-e9c6e018d068.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="InvalidCredentialsException Methods" Url="html/82f352d7-6482-0d3c-0f56-68753b7369c9.htm" />
+      <HelpTOCNode Title="InvalidCredentialsException Properties" Url="html/5de7e224-2476-70d0-a63a-3e6b0658b30e.htm" />
+      <HelpTOCNode Title="InvalidCredentialsException Events" Url="html/32029f51-53fb-c6e9-385c-e5817bffd186.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a41e6b98-249d-4719-8f92-6da956486380" Title="MailboxStatus Class" Url="html/aa17f5a8-9a1e-ff20-125e-e7540bbcbbb2.htm">
+      <HelpTOCNode Title="MailboxStatus Members" Url="html/b143a305-0590-e313-d452-d413764c79a3.htm" />
+      <HelpTOCNode Title="MailboxStatus Methods" Url="html/88c3aec5-4f9a-f8b2-447c-11048777a0d0.htm" />
+      <HelpTOCNode Id="b10304ee-2441-4142-a7a7-ef565a8e744c" Title="MailboxStatus Properties" Url="html/fc8daf8d-5f99-db46-f4ad-f27b00221219.htm">
+        <HelpTOCNode Title="Messages Property " Url="html/7dc4b125-bdca-493b-e074-c8d24b29b31f.htm" />
+        <HelpTOCNode Title="Unread Property " Url="html/b6586c86-a9d9-cd48-8fa9-b7378bfe5fed.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="baadcbf8-d56b-4846-9592-62a7f3a0ab9a" Title="NotAuthenticatedException Class" Url="html/9ef6b076-038c-12ba-c775-6c8f9ac35a66.htm">
+      <HelpTOCNode Title="NotAuthenticatedException Members" Url="html/29931722-1c45-4014-8028-ea6fb437725e.htm" />
+      <HelpTOCNode Id="eb9139e7-3460-4271-96df-4a128a24f3aa" Title="NotAuthenticatedException Constructor " Url="html/c06c7260-af78-9f60-77b6-e2040d966037.htm">
+        <HelpTOCNode Title="NotAuthenticatedException Constructor " Url="html/84c4901c-cc3d-0e1a-baed-8d5c7bce845e.htm" />
+        <HelpTOCNode Title="NotAuthenticatedException Constructor (String)" Url="html/98af0769-31c7-3f5a-f68b-51c24d866ce6.htm" />
+        <HelpTOCNode Title="NotAuthenticatedException Constructor (SerializationInfo, StreamingContext)" Url="html/1aeee64d-7001-501e-a5ac-fa4b961af2ef.htm" />
+        <HelpTOCNode Title="NotAuthenticatedException Constructor (String, Exception)" Url="html/69cd9018-4725-62fa-86db-927e68bf66ba.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="NotAuthenticatedException Methods" Url="html/261120d8-ac53-04c5-8b6d-da9201b27f4e.htm" />
+      <HelpTOCNode Title="NotAuthenticatedException Properties" Url="html/2009d28b-437f-5ae0-b5d0-d547fc84534c.htm" />
+      <HelpTOCNode Title="NotAuthenticatedException Events" Url="html/42c04440-a4d2-8495-42f5-30e265d67c1d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bbf4917e-5ff6-4e0a-a9e4-6bc585563c70" Title="SearchCondition Class" Url="html/5bb8dadf-2a09-bbbc-6a71-f11c4d2f5bb4.htm">
+      <HelpTOCNode Title="SearchCondition Members" Url="html/f9a702e1-9422-2571-95ea-4584a2928946.htm" />
+      <HelpTOCNode Title="SearchCondition Constructor " Url="html/423525fc-d37f-8ee5-8daa-dabe6743410b.htm" />
+      <HelpTOCNode Id="1e4b6d6f-9e05-4393-867e-0411885315b0" Title="SearchCondition Methods" Url="html/4841ce7f-2ffa-d735-91f7-a06cdb3a14d2.htm">
+        <HelpTOCNode Title="And Method " Url="html/42c515fd-a911-de67-b32e-fc2a1ecd4dc3.htm" />
+        <HelpTOCNode Title="Answered Method " Url="html/ac21aea4-8737-deb5-4ba6-7ba0b0e6e734.htm" />
+        <HelpTOCNode Title="BCC Method " Url="html/a03433e7-32ed-6c17-c449-206f1716008c.htm" />
+        <HelpTOCNode Title="Before Method " Url="html/ebea2c23-b920-d03d-6e70-88089f6936b7.htm" />
+        <HelpTOCNode Title="Body Method " Url="html/b0b64e9f-0173-a48c-4ead-ac16090d4438.htm" />
+        <HelpTOCNode Title="Cc Method " Url="html/23200416-2f1c-e8e6-7ff1-082022f532de.htm" />
+        <HelpTOCNode Title="Deleted Method " Url="html/0ec77852-32da-87ec-d476-3458c688d654.htm" />
+        <HelpTOCNode Title="Draft Method " Url="html/b1eab590-a5b8-1e48-9a3e-67ce96a79ae6.htm" />
+        <HelpTOCNode Title="Flagged Method " Url="html/bceda7ef-b6e1-af7b-a74e-527a327683a3.htm" />
+        <HelpTOCNode Title="From Method " Url="html/c7b6fac9-f6fa-2bb1-aceb-7dd1fd7ae8c5.htm" />
+        <HelpTOCNode Title="Header Method " Url="html/ee50eb84-bbad-3106-43d9-abe3c9171f9f.htm" />
+        <HelpTOCNode Title="Keyword Method " Url="html/52dbe10d-0770-44fe-14a2-4c1959ec44ac.htm" />
+        <HelpTOCNode Title="Larger Method " Url="html/642481fe-157c-9cc0-71a7-26857a86d896.htm" />
+        <HelpTOCNode Title="New Method " Url="html/6da38534-e54d-c91b-075c-2e77898813de.htm" />
+        <HelpTOCNode Title="Not Method " Url="html/1acfac55-ffca-8980-b370-f5866b08d38c.htm" />
+        <HelpTOCNode Title="Old Method " Url="html/b1d985cd-4040-45dd-39f6-fbc21b06c976.htm" />
+        <HelpTOCNode Title="Or Method " Url="html/740a771b-51a3-37d7-f3a2-9e977d9ea911.htm" />
+        <HelpTOCNode Title="Recent Method " Url="html/225a130a-0f04-44e4-974c-b2fd3197023b.htm" />
+        <HelpTOCNode Title="Seen Method " Url="html/41f58f45-7383-7669-941a-f4f0a159cc06.htm" />
+        <HelpTOCNode Title="SentBefore Method " Url="html/cc2c658c-a95a-eac7-b4a8-f12cf3022619.htm" />
+        <HelpTOCNode Title="SentOn Method " Url="html/41d1e813-c0fe-66e5-e1e1-0f526ce80f8a.htm" />
+        <HelpTOCNode Title="SentSince Method " Url="html/48e5e9a8-903c-3bec-629a-d10ddb774e55.htm" />
+        <HelpTOCNode Title="Smaller Method " Url="html/df8e2eb2-d810-3cd4-2d46-a41f19675cda.htm" />
+        <HelpTOCNode Title="Subject Method " Url="html/06279545-f8f2-3fdf-19ba-4e238dc9cf4e.htm" />
+        <HelpTOCNode Title="Text Method " Url="html/b282c978-3465-a066-53b6-110358467638.htm" />
+        <HelpTOCNode Title="To Method " Url="html/fcc0b096-d59f-cf06-a04c-5cdf606a0327.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/18b59763-bfb1-8f08-5319-3ad362d05ef6.htm" />
+        <HelpTOCNode Title="UID Method " Url="html/58c64320-b915-456d-17dc-8d6772ca2d89.htm" />
+        <HelpTOCNode Title="Unanswered Method " Url="html/ddebe3e7-6dd7-7b2a-ef4b-44029cb1ce1e.htm" />
+        <HelpTOCNode Title="Undeleted Method " Url="html/cad654a4-22ad-bb71-c979-cd4c7e444470.htm" />
+        <HelpTOCNode Title="Undraft Method " Url="html/c3ceba31-d42b-a2f8-4e1c-53dc679df7c6.htm" />
+        <HelpTOCNode Title="Unflagged Method " Url="html/a946b3d9-8e49-23da-a3f9-7bc619b06376.htm" />
+        <HelpTOCNode Title="Unkeyword Method " Url="html/d501c97d-9ca2-50ab-a9e5-bd16d1ea5163.htm" />
+        <HelpTOCNode Title="Unseen Method " Url="html/cc2723a9-ac52-70fc-9743-55f529a7d37a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
