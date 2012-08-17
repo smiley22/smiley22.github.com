@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
 
+  <HelpKINode Title="AddMessageFlags method" Url="html/aafd5b71-1843-d4a6-bda1-5734cf599860.htm" />
   <HelpKINode Title="And method" Url="html/42c515fd-a911-de67-b32e-fc2a1ecd4dc3.htm" />
   <HelpKINode Title="Answered enumeration member" Url="html/d3b19846-85c0-df1e-8318-8f2d550eb2fc.htm" />
   <HelpKINode Title="Answered method" Url="html/ac21aea4-8737-deb5-4ba6-7ba0b0e6e734.htm" />
@@ -64,6 +65,7 @@
     <HelpKINode Title="methods" Url="html/ca67411a-f106-88f9-7950-8a88721ac882.htm" />
     <HelpKINode Title="properties" Url="html/c9494fdb-d6ce-c3d8-b7cb-3d7963650bb1.htm" />
   </HelpKINode>
+  <HelpKINode Title="ImapClient.AddMessageFlags method" Url="html/aafd5b71-1843-d4a6-bda1-5734cf599860.htm" />
   <HelpKINode Title="ImapClient.Authed property" Url="html/97b9bb0b-1c56-9b66-2336-d7c9b40cac7a.htm" />
   <HelpKINode Title="ImapClient.Capabilities method" Url="html/3bf94f6f-0bc7-c6c5-8f88-b591a109d58f.htm" />
   <HelpKINode Title="ImapClient.CopyMessage method" Url="html/9219ddf0-d50d-6876-cb21-429fd6e672b2.htm" />
@@ -84,8 +86,10 @@
   <HelpKINode Title="ImapClient.MessageDeleted event" Url="html/a3578a51-c96e-c242-4804-f97c4ee72e00.htm" />
   <HelpKINode Title="ImapClient.MoveMessage method" Url="html/85e70fa5-c3dc-8257-c286-355634fbe59b.htm" />
   <HelpKINode Title="ImapClient.NewMessage event" Url="html/8058d475-1e16-ef39-c865-a537f8b8a7a8.htm" />
+  <HelpKINode Title="ImapClient.RemoveMessageFlags method" Url="html/ebeb5677-9938-90eb-f774-80127acbf536.htm" />
   <HelpKINode Title="ImapClient.RenameMailbox method" Url="html/542e01e3-eca6-2cea-84c5-0ae5ca873fe4.htm" />
   <HelpKINode Title="ImapClient.Search method" Url="html/7893931d-e797-191f-2a6e-17747299b5e8.htm" />
+  <HelpKINode Title="ImapClient.SetMessageFlags method" Url="html/10e563ab-43e0-6a0f-99e7-3bb2e255c9a6.htm" />
   <HelpKINode Title="ImapClient.Supports method" Url="html/ac73ae56-e2ab-41bf-db70-6a7607dd1356.htm" />
   <HelpKINode Title="InvalidCredentialsException class" Url="html/31f9fa9e-fd2b-417b-8580-4eede1321d44.htm" />
   <HelpKINode Title="InvalidCredentialsException class" Url="html/3d8f5ba4-3699-5beb-62a1-06c1b4c9a779.htm" />
@@ -138,6 +142,7 @@
   <HelpKINode Title="Or method" Url="html/740a771b-51a3-37d7-f3a2-9e977d9ea911.htm" />
   <HelpKINode Title="Recent enumeration member" Url="html/d3b19846-85c0-df1e-8318-8f2d550eb2fc.htm" />
   <HelpKINode Title="Recent method" Url="html/225a130a-0f04-44e4-974c-b2fd3197023b.htm" />
+  <HelpKINode Title="RemoveMessageFlags method" Url="html/ebeb5677-9938-90eb-f774-80127acbf536.htm" />
   <HelpKINode Title="RenameMailbox method" Url="html/542e01e3-eca6-2cea-84c5-0ae5ca873fe4.htm" />
   <HelpKINode Title="S22.Imap namespace" Url="html/5c2873d2-bc3e-ee8c-c54e-cbb944725a10.htm" />
   <HelpKINode Title="S22.Imap.AuthMethod enumeration" Url="html/b133e1f9-7016-fdef-edc9-70cc16ca8692.htm" />
@@ -206,6 +211,7 @@
   <HelpKINode Title="SentBefore method" Url="html/cc2c658c-a95a-eac7-b4a8-f12cf3022619.htm" />
   <HelpKINode Title="SentOn method" Url="html/41d1e813-c0fe-66e5-e1e1-0f526ce80f8a.htm" />
   <HelpKINode Title="SentSince method" Url="html/48e5e9a8-903c-3bec-629a-d10ddb774e55.htm" />
+  <HelpKINode Title="SetMessageFlags method" Url="html/10e563ab-43e0-6a0f-99e7-3bb2e255c9a6.htm" />
   <HelpKINode Title="Smaller method" Url="html/df8e2eb2-d810-3cd4-2d46-a41f19675cda.htm" />
   <HelpKINode Title="Subject method" Url="html/06279545-f8f2-3fdf-19ba-4e238dc9cf4e.htm" />
   <HelpKINode Title="Supports method" Url="html/ac73ae56-e2ab-41bf-db70-6a7607dd1356.htm" />
