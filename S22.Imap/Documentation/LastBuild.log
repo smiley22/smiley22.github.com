@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.4.0" projectFile="C:\Users\abc\Documents\GitHub\S22.Imap\Documentation\S22.Imap.shfbproj" started="17.08.2012 13:40:39">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.4.0" projectFile="C:\Users\abc\Documents\GitHub\S22.Imap\Documentation\S22.Imap.shfbproj" started="17.08.2012 17:41:54">
 <buildStep step="Initializing">
 </buildStep>
 <buildStep step="FindingTools">
@@ -18,11 +18,11 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0260
+    Last step completed in 00:00:00.0740
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0110
+    Last step completed in 00:00:00.0130
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -30,22 +30,22 @@ Generating reflection information...
   MRefBuilder (v2.7.0.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Loaded 1 assemblies for reflection and 0 dependency assemblies.
-  Info: Wrote information on 1 namespaces, 9 types, and 88 members
+  Info: Wrote information on 1 namespaces, 9 types, and 90 members
   XslTransform (v2.7.0.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:01.9071
+    Last step completed in 00:00:01.7031
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0140
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
     0 attribute nodes removed
     0 explicit interface implementations removed
     0 local and base class EII elements removed
-    Last step completed in 00:00:00.0590
+    Last step completed in 00:00:00.0330
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -57,12 +57,12 @@ Transforming reflection output...
   XslTransform (v2.7.0.0)
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-    Last step completed in 00:00:01.0451
+    Last step completed in 00:00:01.1231
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
     No changes required
-    Last step completed in 00:00:00.0200
+    Last step completed in 00:00:00.0250
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -280,12 +280,12 @@ C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_manifold.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\scripts\SplitScreen.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\styles\Presentation.css
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Whidbey\Presentation.css -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\styles\Whidbey\Presentation.css
-    Last step completed in 00:00:00.5330
+    Last step completed in 00:00:00.8881
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0110
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -298,17 +298,17 @@ Generating intermediate table of contents file...
   Copyright &#184; 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2800
+    Last step completed in 00:00:00.3110
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0500
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\sandcastle.config
-    Last step completed in 00:00:00.0210
+    Last step completed in 00:00:00.0560
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -320,7 +320,7 @@ Building reference help topics...
   Info: CopyFromIndexComponent: Instantiating component.
   Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39;.
-  Info: CopyFromIndexComponent: Indexed 194811 elements in 420 files.
+  Info: CopyFromIndexComponent: Indexed 194813 elements in 420 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: CopyFromIndexComponent: Instantiating component.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
@@ -365,7 +365,7 @@ Building reference help topics...
   Info: CopyFromIndexComponent: Instantiating component.
   Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\S22.Imap.XML&#39;.
-  Info: CopyFromIndexComponent: Indexed 144222 elements in 127 files.
+  Info: CopyFromIndexComponent: Indexed 144230 elements in 127 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: ForEachComponent: Instantiating component.
   Info: ForEachComponent: Loading subcomponents.
@@ -447,7 +447,7 @@ Building reference help topics...
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
-  Info: ResolveReferenceLinksComponent2: Loaded 194811 reference targets.
+  Info: ResolveReferenceLinksComponent2: Loaded 194813 reference targets.
   Info: SaveComponent: Instantiating component.
   Info: MultiFormatOutputComponent: Loading components for Website format
   Info: SharedContentComponent: Instantiating component.
@@ -492,7 +492,7 @@ Building reference help topics...
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
-  Info: ResolveReferenceLinksComponent2: Loaded 194811 reference targets.
+  Info: ResolveReferenceLinksComponent2: Loaded 194813 reference targets.
   Info: SaveComponent: Instantiating component.
   Info: BuildAssembler: Building topic N:S22.Imap
   Info: BuildAssembler: Building topic T:S22.Imap.AuthMethod
@@ -560,8 +560,10 @@ Building reference help topics...
   Info: BuildAssembler: Building topic AllMembers.T:S22.Imap.MailboxStatus
   Info: BuildAssembler: Building topic Methods.T:S22.Imap.MailboxStatus
   Info: BuildAssembler: Building topic Properties.T:S22.Imap.MailboxStatus
+  Info: BuildAssembler: Building topic P:S22.Imap.MailboxStatus.FreeStorage
   Info: BuildAssembler: Building topic P:S22.Imap.MailboxStatus.Messages
   Info: BuildAssembler: Building topic P:S22.Imap.MailboxStatus.Unread
+  Info: BuildAssembler: Building topic P:S22.Imap.MailboxStatus.UsedStorage
   Info: BuildAssembler: Building topic T:S22.Imap.MessageFlag
   Info: BuildAssembler: Building topic T:S22.Imap.NotAuthenticatedException
   Info: BuildAssembler: Building topic AllMembers.T:S22.Imap.NotAuthenticatedException
@@ -613,14 +615,14 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:S22.Imap.SearchCondition.Unflagged
   Info: BuildAssembler: Building topic M:S22.Imap.SearchCondition.Unkeyword(System.String)
   Info: BuildAssembler: Building topic M:S22.Imap.SearchCondition.Unseen
-  Info: Processed 117 topics
-    Last step completed in 00:01:35.1474
+  Info: Processed 119 topics
+    Last step completed in 00:01:50.9543
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.1590
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -632,29 +634,29 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\HtmlHelp1
-Processed 117 HTML files
+Processed 119 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Documentation.hhk
 Saving HTML Help 1 table of contents to C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Documentation.hhc
 
 Processing website files in C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website
-Processed 117 HTML files
+Processed 119 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\WebKI.xml
 Saving website table of contents to C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\WebTOC.xml
-    Last step completed in 00:00:00.6730
+    Last step completed in 00:00:00.7800
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0120
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -669,13 +671,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 0 minutes, 6 seconds
+  Compile time: 0 minutes, 3 seconds
   
-  119	Topics
+  121	Topics
   
-  1,495	Local links
+  1,521	Local links
   
-  601	Internet links
+  603	Internet links
   
   0	Graphics
   
@@ -683,20 +685,20 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\HtmlHelp1\Documentation.chm, 268,388 bytes
+  Created c:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\HtmlHelp1\Documentation.chm, 266,990 bytes
   
-  Compression decreased file by 1,354,567 bytes.
+  Compression decreased file by 1,378,459 bytes.
   
-    Last step completed in 00:00:08.2245
+    Last step completed in 00:00:05.2103
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0120
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.5210
+    Last step completed in 00:00:01.0221
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -714,6 +716,7 @@ C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\fti\FTI_110.json -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\fti\FTI_110.json
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\fti\FTI_111.json -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\fti\FTI_111.json
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\fti\FTI_112.json -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\fti\FTI_112.json
+C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\fti\FTI_113.json -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\fti\FTI_113.json
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\fti\FTI_114.json -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\fti\FTI_114.json
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\fti\FTI_115.json -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\fti\FTI_115.json
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\fti\FTI_116.json -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\fti\FTI_116.json
@@ -748,6 +751,7 @@ C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\29931722-1c45-4014-8028-ea6fb437725e.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\29931722-1c45-4014-8028-ea6fb437725e.htm
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\2bec91c0-9b3e-754e-b0b3-a8948302f25c.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\2bec91c0-9b3e-754e-b0b3-a8948302f25c.htm
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\2bf81bba-6633-7c7b-71d3-e8365b2d7f27.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\2bf81bba-6633-7c7b-71d3-e8365b2d7f27.htm
+C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\2f305f4e-4f01-74e2-b218-037eaa6c3976.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\2f305f4e-4f01-74e2-b218-037eaa6c3976.htm
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\31f9fa9e-fd2b-417b-8580-4eede1321d44.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\31f9fa9e-fd2b-417b-8580-4eede1321d44.htm
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\32029f51-53fb-c6e9-385c-e5817bffd186.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\32029f51-53fb-c6e9-385c-e5817bffd186.htm
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\3a28d35f-f492-2513-29d5-c39df00119fa.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\3a28d35f-f492-2513-29d5-c39df00119fa.htm
@@ -839,6 +843,7 @@ C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\ebea2c23-b920-d03d-6e70-88089f6936b7.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\ebea2c23-b920-d03d-6e70-88089f6936b7.htm
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\ebeb5677-9938-90eb-f774-80127acbf536.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\ebeb5677-9938-90eb-f774-80127acbf536.htm
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\ee50eb84-bbad-3106-43d9-abe3c9171f9f.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\ee50eb84-bbad-3106-43d9-abe3c9171f9f.htm
+C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\f07ca530-92c9-1a78-ba25-f0d9625fe9fb.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\f07ca530-92c9-1a78-ba25-f0d9625fe9fb.htm
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\f9a702e1-9422-2571-95ea-4584a2928946.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\f9a702e1-9422-2571-95ea-4584a2928946.htm
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\fc8daf8d-5f99-db46-f4ad-f27b00221219.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\fc8daf8d-5f99-db46-f4ad-f27b00221219.htm
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\html\fcc0b096-d59f-cf06-a04c-5cdf606a0327.htm -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\html\fcc0b096-d59f-cf06-a04c-5cdf606a0327.htm
@@ -952,15 +957,15 @@ C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\styles\highlight.css -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\styles\highlight.css
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\styles\Presentation.css -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\styles\Presentation.css
 C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\Working\Output\Website\styles\Whidbey\Presentation.css -&gt; C:\Users\abc\Documents\GitHub\smiley22.github.com\S22.Imap\Documentation\styles\Whidbey\Presentation.css
-    Last step completed in 00:00:00.8560
+    Last step completed in 00:00:01.1631
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.3010
+    Last step completed in 00:00:00.2410
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 08.17.2012 01:42 .  Total time: 00:01:49,7773
+Build completed successfully at 08.17.2012 05:43 .  Total time: 00:02:04,0451
 
 </buildStep>
 </shfbBuild>
