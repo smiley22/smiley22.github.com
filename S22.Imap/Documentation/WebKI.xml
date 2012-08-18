@@ -2,6 +2,7 @@
 <HelpKI>
 
   <HelpKINode Title="AddMessageFlags method" Url="html/aafd5b71-1843-d4a6-bda1-5734cf599860.htm" />
+  <HelpKINode Title="All method" Url="html/37b5191a-b460-ec37-25e3-7d2f8d322ce1.htm" />
   <HelpKINode Title="And method" Url="html/42c515fd-a911-de67-b32e-fc2a1ecd4dc3.htm" />
   <HelpKINode Title="Answered enumeration member" Url="html/d3b19846-85c0-df1e-8318-8f2d550eb2fc.htm" />
   <HelpKINode Title="Answered method" Url="html/ac21aea4-8737-deb5-4ba6-7ba0b0e6e734.htm" />
@@ -174,6 +175,7 @@
     <HelpKINode Title="constructor" Url="html/423525fc-d37f-8ee5-8daa-dabe6743410b.htm" />
     <HelpKINode Title="methods" Url="html/4841ce7f-2ffa-d735-91f7-a06cdb3a14d2.htm" />
   </HelpKINode>
+  <HelpKINode Title="SearchCondition.All method" Url="html/37b5191a-b460-ec37-25e3-7d2f8d322ce1.htm" />
   <HelpKINode Title="SearchCondition.And method" Url="html/42c515fd-a911-de67-b32e-fc2a1ecd4dc3.htm" />
   <HelpKINode Title="SearchCondition.Answered method" Url="html/ac21aea4-8737-deb5-4ba6-7ba0b0e6e734.htm" />
   <HelpKINode Title="SearchCondition.BCC method" Url="html/a03433e7-32ed-6c17-c449-206f1716008c.htm" />
