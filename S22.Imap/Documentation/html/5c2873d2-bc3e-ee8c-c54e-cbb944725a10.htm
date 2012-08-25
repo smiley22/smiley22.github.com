@@ -2,6 +2,12 @@
            
        </th><th class="nameColumn">Class</th><th class="descriptionColumn">Description</th></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="2bec91c0-9b3e-754e-b0b3-a8948302f25c.htm">BadServerResponseException</a></td><td><div class="summary">
             The exception is thrown when an unexpected response is received from the server.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="18bd2fb1-8820-10f5-6f0b-a2fa27854695.htm">Bodypart</a></td><td><div class="summary">
+            Represents a MIME body part of a mail message that has multiple
+            parts.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="3835d9fb-42c6-0288-8d35-3b5d5d43fbf2.htm">ContentDisposition</a></td><td><div class="summary">
+            Represents the content disposition as is presented in the BODYSTRUCTURE
+            response by the IMAP server.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="dcb59908-2cc3-5f91-e2fa-0ca07a494fc2.htm">IdleMessageEventArgs</a></td><td><div class="summary">
             Provides data for IMAP idle notification events, such as the NewMessage and
             MessageDelete events.
@@ -18,10 +24,32 @@
             attempts to call a method which can only be called in an authenticated context.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="5bb8dadf-2a09-bbbc-6a71-f11c4d2f5bb4.htm">SearchCondition</a></td><td><div class="summary">
             Chainable search conditions to be used with the Search method.
+            </div></td></tr></table></div><h1 class="heading"><span onclick="ExpandCollapse(delegateToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(delegateToggle, event)" tabindex="0"><img id="delegateToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Delegates</span></h1><div id="delegateSection" class="section" name="collapseableSection" style=""><table id="typeList" class="members" frame="lhs" cellpadding="2"><col width="10%" /><tr><th class="iconColumn">
+           
+       </th><th class="nameColumn">Delegate</th><th class="descriptionColumn">Description</th></tr><tr data="delegate; public"><td><img src="../icons/pubdelegate.gif" alt="Public delegate" title="Public delegate" /></td><td><a href="afa48488-c7b3-2bca-de5b-92bfdcda61dd.htm">ExaminePartDelegate</a></td><td><div class="summary">
+            A delegate which is invoked during a call to GetMessage or GetMessages for every
+            MIME part in a multipart mail message. The delegate can examine the MIME body
+            part and decide to either include it in the returned mail message or dismiss
+            it.
             </div></td></tr></table></div><h1 class="heading"><span onclick="ExpandCollapse(enumerationToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(enumerationToggle, event)" tabindex="0"><img id="enumerationToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Enumerations</span></h1><div id="enumerationSection" class="section" name="collapseableSection" style=""><table id="typeList" class="members" frame="lhs" cellpadding="2"><col width="10%" /><tr><th class="iconColumn">
            
        </th><th class="nameColumn">Enumeration</th><th class="descriptionColumn">Description</th></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="b133e1f9-7016-fdef-edc9-70cc16ca8692.htm">AuthMethod</a></td><td><div class="summary">
             Defines supported means of authenticating with the IMAP server.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="15892356-c62b-3714-a491-f3eee917a02e.htm">ContentDispositionType</a></td><td><div class="summary">
+            Possible values for the content disposition type which determines the presentation
+            style
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="5207e9ec-592a-1905-5657-24c465c85c4c.htm">ContentTransferEncoding</a></td><td><div class="summary">
+            Possible values for the "Encoding" property of the Bodypart class. The content
+            transfer encoding indicates whether or not a binary-to-text encoding
+            scheme has been used on top of the original encoding as specified within the
+            Content-Type header.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="69261a95-a1c0-addf-2898-51b97e112651.htm">ContentType</a></td><td><div class="summary">
+            Possible values for the "Type" property of the Bodypart class.
+            For a detailed description of MIME Media Types refer to
+            RFC 2046.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="9217439b-c16d-ff09-41ed-8bccc9d05006.htm">FetchOptions</a></td><td><div class="summary">
+            Fetch options that can be used with the GetMessage and GetMessages methods
+            to selectively retrieve parts of a mail message while skipping others.
             </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="d3b19846-85c0-df1e-8318-8f2d550eb2fc.htm">MessageFlag</a></td><td><div class="summary">
             Flag message attributes that can be associated with a mail message on an IMAP
             server.
