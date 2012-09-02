@@ -146,6 +146,8 @@
   <HelpKINode Title="ImapClient.RenameMailbox method" Url="html/542e01e3-eca6-2cea-84c5-0ae5ca873fe4.htm" />
   <HelpKINode Title="ImapClient.Search method" Url="html/7893931d-e797-191f-2a6e-17747299b5e8.htm" />
   <HelpKINode Title="ImapClient.SetMessageFlags method" Url="html/10e563ab-43e0-6a0f-99e7-3bb2e255c9a6.htm" />
+  <HelpKINode Title="ImapClient.StoreMessage method" Url="html/70a7d41f-40f3-4838-b5ef-b2a7c06d7142.htm" />
+  <HelpKINode Title="ImapClient.StoreMessages method" Url="html/d92817cb-0b31-f56f-de73-445300d8eda9.htm" />
   <HelpKINode Title="ImapClient.Supports method" Url="html/ac73ae56-e2ab-41bf-db70-6a7607dd1356.htm" />
   <HelpKINode Title="Inline enumeration member" Url="html/15892356-c62b-3714-a491-f3eee917a02e.htm" />
   <HelpKINode Title="InvalidCredentialsException class" Url="html/31f9fa9e-fd2b-417b-8580-4eede1321d44.htm" />
@@ -292,6 +294,8 @@
   <HelpKINode Title="SetMessageFlags method" Url="html/10e563ab-43e0-6a0f-99e7-3bb2e255c9a6.htm" />
   <HelpKINode Title="Size property" Url="html/ea938930-9e9c-ced1-dac3-f9544ae3869e.htm" />
   <HelpKINode Title="Smaller method" Url="html/df8e2eb2-d810-3cd4-2d46-a41f19675cda.htm" />
+  <HelpKINode Title="StoreMessage method" Url="html/70a7d41f-40f3-4838-b5ef-b2a7c06d7142.htm" />
+  <HelpKINode Title="StoreMessages method" Url="html/d92817cb-0b31-f56f-de73-445300d8eda9.htm" />
   <HelpKINode Title="Subject method" Url="html/06279545-f8f2-3fdf-19ba-4e238dc9cf4e.htm" />
   <HelpKINode Title="Subtype property" Url="html/5f2f08ef-dc0d-3644-5ea8-d38333ee1ae1.htm" />
   <HelpKINode Title="Supports method" Url="html/ac73ae56-e2ab-41bf-db70-6a7607dd1356.htm" />
