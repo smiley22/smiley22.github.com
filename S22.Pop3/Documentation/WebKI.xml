@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="Authed property" Url="html/P_S22_Pop3_Pop3Client_Authed.htm" />
+  <HelpKINode Title="AuthMethod enumeration" Url="html/T_S22_Pop3_AuthMethod.htm" />
+  <HelpKINode Title="BadServerResponseException class" Url="html/AllMembers_T_S22_Pop3_BadServerResponseException.htm" />
+  <HelpKINode Title="BadServerResponseException class" Url="html/T_S22_Pop3_BadServerResponseException.htm" />
+  <HelpKINode Title="BadServerResponseException class">
+    <HelpKINode Title="about BadServerResponseException class" Url="html/T_S22_Pop3_BadServerResponseException.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Pop3_BadServerResponseException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_S22_Pop3_BadServerResponseException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_S22_Pop3_BadServerResponseException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Pop3_BadServerResponseException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_S22_Pop3_BadServerResponseException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BadServerResponseException.BadServerResponseException constructor" Url="html/Overload_S22_Pop3_BadServerResponseException__ctor.htm" />
+  <HelpKINode Title="Capabilities method" Url="html/M_S22_Pop3_Pop3Client_Capabilities.htm" />
+  <HelpKINode Title="CRAMMD5 enumeration member" Url="html/T_S22_Pop3_AuthMethod.htm" />
+  <HelpKINode Title="DeleteMessage method" Url="html/M_S22_Pop3_Pop3Client_DeleteMessage.htm" />
+  <HelpKINode Title="Dispose method" Url="html/M_S22_Pop3_Pop3Client_Dispose.htm" />
+  <HelpKINode Title="FetchOptions enumeration" Url="html/T_S22_Pop3_FetchOptions.htm" />
+  <HelpKINode Title="GetMessage method" Url="html/M_S22_Pop3_Pop3Client_GetMessage.htm" />
+  <HelpKINode Title="GetMessageNumbers method" Url="html/M_S22_Pop3_Pop3Client_GetMessageNumbers.htm" />
+  <HelpKINode Title="GetMessages method" Url="html/M_S22_Pop3_Pop3Client_GetMessages.htm" />
+  <HelpKINode Title="GetStatus method" Url="html/M_S22_Pop3_Pop3Client_GetStatus.htm" />
+  <HelpKINode Title="HeadersOnly enumeration member" Url="html/T_S22_Pop3_FetchOptions.htm" />
+  <HelpKINode Title="InvalidCredentialsException class" Url="html/AllMembers_T_S22_Pop3_InvalidCredentialsException.htm" />
+  <HelpKINode Title="InvalidCredentialsException class" Url="html/T_S22_Pop3_InvalidCredentialsException.htm" />
+  <HelpKINode Title="InvalidCredentialsException class">
+    <HelpKINode Title="about InvalidCredentialsException class" Url="html/T_S22_Pop3_InvalidCredentialsException.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Pop3_InvalidCredentialsException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_S22_Pop3_InvalidCredentialsException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_S22_Pop3_InvalidCredentialsException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Pop3_InvalidCredentialsException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_S22_Pop3_InvalidCredentialsException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InvalidCredentialsException.InvalidCredentialsException constructor" Url="html/Overload_S22_Pop3_InvalidCredentialsException__ctor.htm" />
+  <HelpKINode Title="Login enumeration member" Url="html/T_S22_Pop3_AuthMethod.htm" />
+  <HelpKINode Title="Login method" Url="html/M_S22_Pop3_Pop3Client_Login.htm" />
+  <HelpKINode Title="Logout method" Url="html/M_S22_Pop3_Pop3Client_Logout.htm" />
+  <HelpKINode Title="MessageInfo class" Url="html/AllMembers_T_S22_Pop3_MessageInfo.htm" />
+  <HelpKINode Title="MessageInfo class" Url="html/T_S22_Pop3_MessageInfo.htm" />
+  <HelpKINode Title="MessageInfo class">
+    <HelpKINode Title="about MessageInfo class" Url="html/T_S22_Pop3_MessageInfo.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Pop3_MessageInfo.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Pop3_MessageInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_S22_Pop3_MessageInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageInfo.Number property" Url="html/P_S22_Pop3_MessageInfo_Number.htm" />
+  <HelpKINode Title="MessageInfo.Size property" Url="html/P_S22_Pop3_MessageInfo_Size.htm" />
+  <HelpKINode Title="Normal enumeration member" Url="html/T_S22_Pop3_FetchOptions.htm" />
+  <HelpKINode Title="NotAuthenticatedException class" Url="html/AllMembers_T_S22_Pop3_NotAuthenticatedException.htm" />
+  <HelpKINode Title="NotAuthenticatedException class" Url="html/T_S22_Pop3_NotAuthenticatedException.htm" />
+  <HelpKINode Title="NotAuthenticatedException class">
+    <HelpKINode Title="about NotAuthenticatedException class" Url="html/T_S22_Pop3_NotAuthenticatedException.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Pop3_NotAuthenticatedException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_S22_Pop3_NotAuthenticatedException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_S22_Pop3_NotAuthenticatedException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Pop3_NotAuthenticatedException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_S22_Pop3_NotAuthenticatedException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NotAuthenticatedException.NotAuthenticatedException constructor" Url="html/Overload_S22_Pop3_NotAuthenticatedException__ctor.htm" />
+  <HelpKINode Title="Number property" Url="html/P_S22_Pop3_MessageInfo_Number.htm" />
+  <HelpKINode Title="Pop3Client class" Url="html/AllMembers_T_S22_Pop3_Pop3Client.htm" />
+  <HelpKINode Title="Pop3Client class" Url="html/T_S22_Pop3_Pop3Client.htm" />
+  <HelpKINode Title="Pop3Client class">
+    <HelpKINode Title="about Pop3Client class" Url="html/T_S22_Pop3_Pop3Client.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Pop3_Pop3Client.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_S22_Pop3_Pop3Client__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Pop3_Pop3Client.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_S22_Pop3_Pop3Client.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Pop3Client.Authed property" Url="html/P_S22_Pop3_Pop3Client_Authed.htm" />
+  <HelpKINode Title="Pop3Client.Capabilities method" Url="html/M_S22_Pop3_Pop3Client_Capabilities.htm" />
+  <HelpKINode Title="Pop3Client.DeleteMessage method" Url="html/M_S22_Pop3_Pop3Client_DeleteMessage.htm" />
+  <HelpKINode Title="Pop3Client.Dispose method" Url="html/M_S22_Pop3_Pop3Client_Dispose.htm" />
+  <HelpKINode Title="Pop3Client.GetMessage method" Url="html/M_S22_Pop3_Pop3Client_GetMessage.htm" />
+  <HelpKINode Title="Pop3Client.GetMessageNumbers method" Url="html/M_S22_Pop3_Pop3Client_GetMessageNumbers.htm" />
+  <HelpKINode Title="Pop3Client.GetMessages method" Url="html/M_S22_Pop3_Pop3Client_GetMessages.htm" />
+  <HelpKINode Title="Pop3Client.GetStatus method" Url="html/M_S22_Pop3_Pop3Client_GetStatus.htm" />
+  <HelpKINode Title="Pop3Client.Login method" Url="html/M_S22_Pop3_Pop3Client_Login.htm" />
+  <HelpKINode Title="Pop3Client.Logout method" Url="html/M_S22_Pop3_Pop3Client_Logout.htm" />
+  <HelpKINode Title="Pop3Client.Pop3Client constructor" Url="html/Overload_S22_Pop3_Pop3Client__ctor.htm" />
+  <HelpKINode Title="Pop3Client.Supports method" Url="html/M_S22_Pop3_Pop3Client_Supports.htm" />
+  <HelpKINode Title="S22.Pop3 namespace" Url="html/N_S22_Pop3.htm" />
+  <HelpKINode Title="S22.Pop3.AuthMethod enumeration" Url="html/T_S22_Pop3_AuthMethod.htm" />
+  <HelpKINode Title="S22.Pop3.BadServerResponseException class" Url="html/AllMembers_T_S22_Pop3_BadServerResponseException.htm" />
+  <HelpKINode Title="S22.Pop3.BadServerResponseException class" Url="html/T_S22_Pop3_BadServerResponseException.htm" />
+  <HelpKINode Title="S22.Pop3.FetchOptions enumeration" Url="html/T_S22_Pop3_FetchOptions.htm" />
+  <HelpKINode Title="S22.Pop3.InvalidCredentialsException class" Url="html/AllMembers_T_S22_Pop3_InvalidCredentialsException.htm" />
+  <HelpKINode Title="S22.Pop3.InvalidCredentialsException class" Url="html/T_S22_Pop3_InvalidCredentialsException.htm" />
+  <HelpKINode Title="S22.Pop3.MessageInfo class" Url="html/AllMembers_T_S22_Pop3_MessageInfo.htm" />
+  <HelpKINode Title="S22.Pop3.MessageInfo class" Url="html/T_S22_Pop3_MessageInfo.htm" />
+  <HelpKINode Title="S22.Pop3.NotAuthenticatedException class" Url="html/AllMembers_T_S22_Pop3_NotAuthenticatedException.htm" />
+  <HelpKINode Title="S22.Pop3.NotAuthenticatedException class" Url="html/T_S22_Pop3_NotAuthenticatedException.htm" />
+  <HelpKINode Title="S22.Pop3.Pop3Client class" Url="html/AllMembers_T_S22_Pop3_Pop3Client.htm" />
+  <HelpKINode Title="S22.Pop3.Pop3Client class" Url="html/T_S22_Pop3_Pop3Client.htm" />
+  <HelpKINode Title="SaslOAuth enumeration member" Url="html/T_S22_Pop3_AuthMethod.htm" />
+  <HelpKINode Title="Size property" Url="html/P_S22_Pop3_MessageInfo_Size.htm" />
+  <HelpKINode Title="Supports method" Url="html/M_S22_Pop3_Pop3Client_Supports.htm" />
+</HelpKI>
