@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="3aea91bd-269b-4e50-b9d0-90ac40b092ad" Title="S22.Pop3 Namespace" Url="html/N_S22_Pop3.htm">
+  <HelpTOCNode Id="e9099a2b-20d6-416b-a5ee-59e1f9019ea5" Title="S22.Pop3 Namespace" Url="html/N_S22_Pop3.htm">
     <HelpTOCNode Title="AuthMethod Enumeration" Url="html/T_S22_Pop3_AuthMethod.htm" />
-    <HelpTOCNode Id="7d3998a8-28f9-41ae-a345-740669916541" Title="BadServerResponseException Class" Url="html/T_S22_Pop3_BadServerResponseException.htm">
+    <HelpTOCNode Id="1c2391bc-6e4e-4f2b-aa1a-734d0e302931" Title="BadServerResponseException Class" Url="html/T_S22_Pop3_BadServerResponseException.htm">
       <HelpTOCNode Title="BadServerResponseException Members" Url="html/AllMembers_T_S22_Pop3_BadServerResponseException.htm" />
-      <HelpTOCNode Id="6be3287e-ef2f-4466-8425-80461b36655c" Title="BadServerResponseException Constructor " Url="html/Overload_S22_Pop3_BadServerResponseException__ctor.htm">
+      <HelpTOCNode Id="e7878b5b-ea9c-4d3e-add1-18ccb5323848" Title="BadServerResponseException Constructor " Url="html/Overload_S22_Pop3_BadServerResponseException__ctor.htm">
         <HelpTOCNode Title="BadServerResponseException Constructor " Url="html/M_S22_Pop3_BadServerResponseException__ctor.htm" />
         <HelpTOCNode Title="BadServerResponseException Constructor (String)" Url="html/M_S22_Pop3_BadServerResponseException__ctor_2.htm" />
         <HelpTOCNode Title="BadServerResponseException Constructor (SerializationInfo, StreamingContext)" Url="html/M_S22_Pop3_BadServerResponseException__ctor_1.htm" />
@@ -16,9 +16,9 @@
       <HelpTOCNode Title="BadServerResponseException Events" Url="html/Events_T_S22_Pop3_BadServerResponseException.htm" />
     </HelpTOCNode>
     <HelpTOCNode Title="FetchOptions Enumeration" Url="html/T_S22_Pop3_FetchOptions.htm" />
-    <HelpTOCNode Id="6edbac5d-6bc2-4b62-86c2-2baab18ca597" Title="InvalidCredentialsException Class" Url="html/T_S22_Pop3_InvalidCredentialsException.htm">
+    <HelpTOCNode Id="1da5bd3a-ca7b-43be-ac66-12fe709f5aa2" Title="InvalidCredentialsException Class" Url="html/T_S22_Pop3_InvalidCredentialsException.htm">
       <HelpTOCNode Title="InvalidCredentialsException Members" Url="html/AllMembers_T_S22_Pop3_InvalidCredentialsException.htm" />
-      <HelpTOCNode Id="ac80d132-0b13-4c09-891b-5279f2d13931" Title="InvalidCredentialsException Constructor " Url="html/Overload_S22_Pop3_InvalidCredentialsException__ctor.htm">
+      <HelpTOCNode Id="95d0645a-7bce-4c08-94d6-3577a7602eb8" Title="InvalidCredentialsException Constructor " Url="html/Overload_S22_Pop3_InvalidCredentialsException__ctor.htm">
         <HelpTOCNode Title="InvalidCredentialsException Constructor " Url="html/M_S22_Pop3_InvalidCredentialsException__ctor.htm" />
         <HelpTOCNode Title="InvalidCredentialsException Constructor (String)" Url="html/M_S22_Pop3_InvalidCredentialsException__ctor_2.htm" />
         <HelpTOCNode Title="InvalidCredentialsException Constructor (SerializationInfo, StreamingContext)" Url="html/M_S22_Pop3_InvalidCredentialsException__ctor_1.htm" />
@@ -28,17 +28,17 @@
       <HelpTOCNode Title="InvalidCredentialsException Properties" Url="html/Properties_T_S22_Pop3_InvalidCredentialsException.htm" />
       <HelpTOCNode Title="InvalidCredentialsException Events" Url="html/Events_T_S22_Pop3_InvalidCredentialsException.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="fc2b2952-ff5a-4c6e-ab18-fd51d0d2b3c8" Title="MessageInfo Class" Url="html/T_S22_Pop3_MessageInfo.htm">
+    <HelpTOCNode Id="f7f46a91-1736-4155-964d-15362a5a4a0b" Title="MessageInfo Class" Url="html/T_S22_Pop3_MessageInfo.htm">
       <HelpTOCNode Title="MessageInfo Members" Url="html/AllMembers_T_S22_Pop3_MessageInfo.htm" />
       <HelpTOCNode Title="MessageInfo Methods" Url="html/Methods_T_S22_Pop3_MessageInfo.htm" />
-      <HelpTOCNode Id="30003f98-5ae6-4079-a0dd-520e0243f7a3" Title="MessageInfo Properties" Url="html/Properties_T_S22_Pop3_MessageInfo.htm">
+      <HelpTOCNode Id="9f36c261-8e1d-4806-abdd-f32612fb281f" Title="MessageInfo Properties" Url="html/Properties_T_S22_Pop3_MessageInfo.htm">
         <HelpTOCNode Title="Number Property " Url="html/P_S22_Pop3_MessageInfo_Number.htm" />
         <HelpTOCNode Title="Size Property " Url="html/P_S22_Pop3_MessageInfo_Size.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="4048f6e6-2aaa-4b6b-a82e-4807c42a7901" Title="NotAuthenticatedException Class" Url="html/T_S22_Pop3_NotAuthenticatedException.htm">
+    <HelpTOCNode Id="5e0f689d-2d4f-43f8-aa0a-08f2bdbea58e" Title="NotAuthenticatedException Class" Url="html/T_S22_Pop3_NotAuthenticatedException.htm">
       <HelpTOCNode Title="NotAuthenticatedException Members" Url="html/AllMembers_T_S22_Pop3_NotAuthenticatedException.htm" />
-      <HelpTOCNode Id="5bea8800-3731-43b7-b5aa-b3b3bf8f811a" Title="NotAuthenticatedException Constructor " Url="html/Overload_S22_Pop3_NotAuthenticatedException__ctor.htm">
+      <HelpTOCNode Id="bdf9f359-1bf0-4f82-9454-c9f0b6a7ee30" Title="NotAuthenticatedException Constructor " Url="html/Overload_S22_Pop3_NotAuthenticatedException__ctor.htm">
         <HelpTOCNode Title="NotAuthenticatedException Constructor " Url="html/M_S22_Pop3_NotAuthenticatedException__ctor.htm" />
         <HelpTOCNode Title="NotAuthenticatedException Constructor (String)" Url="html/M_S22_Pop3_NotAuthenticatedException__ctor_2.htm" />
         <HelpTOCNode Title="NotAuthenticatedException Constructor (SerializationInfo, StreamingContext)" Url="html/M_S22_Pop3_NotAuthenticatedException__ctor_1.htm" />
@@ -48,13 +48,13 @@
       <HelpTOCNode Title="NotAuthenticatedException Properties" Url="html/Properties_T_S22_Pop3_NotAuthenticatedException.htm" />
       <HelpTOCNode Title="NotAuthenticatedException Events" Url="html/Events_T_S22_Pop3_NotAuthenticatedException.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="6daaf160-cd59-41fb-ad7a-fa51653b4b98" Title="Pop3Client Class" Url="html/T_S22_Pop3_Pop3Client.htm">
+    <HelpTOCNode Id="110fa1ac-3c28-43ef-999f-3d1c67140f8a" Title="Pop3Client Class" Url="html/T_S22_Pop3_Pop3Client.htm">
       <HelpTOCNode Title="Pop3Client Members" Url="html/AllMembers_T_S22_Pop3_Pop3Client.htm" />
-      <HelpTOCNode Id="53d74a5d-be52-48e2-a2ee-efd3cbe67208" Title="Pop3Client Constructor " Url="html/Overload_S22_Pop3_Pop3Client__ctor.htm">
+      <HelpTOCNode Id="abddc1a5-6a00-49c1-8675-ed579da402b7" Title="Pop3Client Constructor " Url="html/Overload_S22_Pop3_Pop3Client__ctor.htm">
         <HelpTOCNode Title="Pop3Client Constructor (String, Int32, Boolean, RemoteCertificateValidationCallback)" Url="html/M_S22_Pop3_Pop3Client__ctor.htm" />
         <HelpTOCNode Title="Pop3Client Constructor (String, Int32, String, String, AuthMethod, Boolean, RemoteCertificateValidationCallback)" Url="html/M_S22_Pop3_Pop3Client__ctor_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="4f0188b0-3be6-491d-a616-67deaa352046" Title="Pop3Client Methods" Url="html/Methods_T_S22_Pop3_Pop3Client.htm">
+      <HelpTOCNode Id="adbd28f9-37e7-4b15-acdb-ae9536924035" Title="Pop3Client Methods" Url="html/Methods_T_S22_Pop3_Pop3Client.htm">
         <HelpTOCNode Title="Capabilities Method " Url="html/M_S22_Pop3_Pop3Client_Capabilities.htm" />
         <HelpTOCNode Title="DeleteMessage Method " Url="html/M_S22_Pop3_Pop3Client_DeleteMessage.htm" />
         <HelpTOCNode Title="Dispose Method " Url="html/M_S22_Pop3_Pop3Client_Dispose.htm" />
@@ -66,7 +66,7 @@
         <HelpTOCNode Title="Logout Method " Url="html/M_S22_Pop3_Pop3Client_Logout.htm" />
         <HelpTOCNode Title="Supports Method " Url="html/M_S22_Pop3_Pop3Client_Supports.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="491831dd-eb8d-4679-81ec-673a40288bbd" Title="Pop3Client Properties" Url="html/Properties_T_S22_Pop3_Pop3Client.htm">
+      <HelpTOCNode Id="af85d154-d30f-4625-b532-8cb5a3cde088" Title="Pop3Client Properties" Url="html/Properties_T_S22_Pop3_Pop3Client.htm">
         <HelpTOCNode Title="Authed Property " Url="html/P_S22_Pop3_Pop3Client_Authed.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
