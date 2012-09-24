@@ -173,6 +173,7 @@ div#mainSectionMHS
 html>body #mainSection, html>body #mainSectionMHS
 {
 	width: 100%;
+	overflow-x:hidden;
 }
 
 /* Applies to everything below the non-scrolling header region, minus the footer. */
