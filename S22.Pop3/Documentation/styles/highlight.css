@@ -1,8 +1,8 @@
 .highlight-inline { color: #000066; font-size: 9pt; font-family: Consolas, "Courier New", Courier, monospace; }
 .highlight-pre { clear: both; width: 99.5%; background-color: #EFEFF7; padding: 0.4em; font-size: 9pt; font-family: Consolas, "Courier New", Courier, monospace; margin-top: 0px; margin-bottom: 1em; }
-.highlight-comment { color: #006633; }
-.highlight-literal { color: #CC0000; }
-.highlight-number { color: #009966; }
+.highlight-comment { color: #008000; }
+.highlight-literal { color: #A31515; }
+.highlight-number { color: #000000; }
 .highlight-keyword { color: #0000FF; }
 .highlight-preprocessor { color: #996666; }
 .highlight-xml-tag { color: #AA4400 }

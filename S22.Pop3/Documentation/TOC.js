@@ -41,9 +41,9 @@ var pageExtension = ".aspx";
 var minWidth = 100;
 
 // Elements and sizing info
-var divTOC, divSizer, topicContent, divNavOpts, divSearchOpts, divSearchResults,
+var divTOC, divSizer, topicContent, divSearchOpts, divSearchResults,
     divIndexOpts, divIndexResults, divTree, docBody, maxWidth, offset,
-    txtSearchText, chkSortByTitle;
+    txtSearchText, chkSortByTitle, divResizeLayer;
 
 // Last node selected
 var lastNode, lastSearchNode, lastIndexNode;
@@ -61,7 +61,6 @@ function Initialize(extension)
     divTOC = document.getElementById("TOCDiv");
     divSizer = document.getElementById("TOCSizer");
     topicContent = document.getElementById("TopicContent");
-    divNavOpts = document.getElementById("divNavOpts");
     divSearchOpts = document.getElementById("divSearchOpts");
     divSearchResults = document.getElementById("divSearchResults");
     divIndexOpts = document.getElementById("divIndexOpts");
@@ -69,6 +68,7 @@ function Initialize(extension)
     divTree = document.getElementById("divTree");
     txtSearchText = document.getElementById("txtSearchText");
     chkSortByTitle = document.getElementById("chkSortByTitle");
+	divResizeLayer = $('<div style="position:absolute"/>');
 
     // Set the page extension if specified
     if(typeof(extension) != "undefined" && extension != "")
@@ -76,7 +76,7 @@ function Initialize(extension)
 
     // The sizes are bit off in FireFox
     if(!isIE)
-        divNavOpts.style.width = divSearchOpts.style.width =
+        divSearchOpts.style.width =
             divIndexOpts.style.width = 292;
 
     ResizeTree();
@@ -453,7 +453,7 @@ function ResizeTree()
             if(document.body)
                 y = document.body.clientHeight;
 
-    newHeight = y - parseInt(divNavOpts.style.height, 10) - 6;
+    newHeight = y;
 
     if(newHeight < 50)
         newHeight = 50;
@@ -501,7 +501,14 @@ function OnMouseDown(event)
 
     // The content is in an IFRAME which steals mouse events so
     // hide it while resizing.
-    topicContent.style.display = "none";
+//    topicContent.style.display = "none";
+
+	divResizeLayer.css({
+		left: $('#TOCSizer').position().left + "px",
+		top: '0px',
+		width: $(topicContent).width() + 'px',
+		height: $(topicContent).height() + 'px'
+	}).appendTo('#IndexForm');
 
     if(isIE)
         x = window.event.clientX + document.documentElement.scrollLeft +
@@ -546,6 +553,9 @@ function OnMouseMove(event)
 
     left = offset + x;
 
+	divResizeLayer.css('left', $('#TOCSizer').position().left + 'px').
+		width(maxWidth);
+
     // Adjusts the width of the TOC divs
     pos = (event.clientX > maxWidth) ? maxWidth :
         (event.clientX < minWidth) ? minWidth : event.clientX;
@@ -556,7 +566,7 @@ function OnMouseMove(event)
     if(!isIE)
         pos -= 8;
 
-    divNavOpts.style.width = divSearchOpts.style.width =
+    divSearchOpts.style.width =
         divIndexOpts.style.width = pos;
 
     // Resize the content div to fit in the remaining space
@@ -578,7 +588,8 @@ function OnMouseUp(event)
     }
 
     // Show the content div again
-    topicContent.style.display = "inline";
+//    topicContent.style.display = "inline";
+	divResizeLayer.detach();
 }
 
 //============================================================================
@@ -588,13 +599,13 @@ function ShowHideSearch(show)
 {
     if(show)
     {
-        divNavOpts.style.display = divTree.style.display = "none";
+        divTree.style.display = "none";
         divSearchOpts.style.display = divSearchResults.style.display = "";
     }
     else
     {
         divSearchOpts.style.display = divSearchResults.style.display = "none";
-        divNavOpts.style.display = divTree.style.display = "";
+        divTree.style.display = "";
     }
 }
 
@@ -671,13 +682,13 @@ function ShowHideIndex(show)
     {
         PopulateIndex(currentIndexPage);
 
-        divNavOpts.style.display = divTree.style.display = "none";
+        divTree.style.display = "none";
         divIndexOpts.style.display = divIndexResults.style.display = "";
     }
     else
     {
         divIndexOpts.style.display = divIndexResults.style.display = "none";
-        divNavOpts.style.display = divTree.style.display = "";
+        divTree.style.display = "";
     }
 }
 
