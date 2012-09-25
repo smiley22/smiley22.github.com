@@ -183,6 +183,7 @@
   <HelpKINode Title="MailboxStatus.Unread property" Url="html/P_S22_Imap_MailboxStatus_Unread.htm" />
   <HelpKINode Title="MailboxStatus.UsedStorage property" Url="html/P_S22_Imap_MailboxStatus_UsedStorage.htm" />
   <HelpKINode Title="Md5 property" Url="html/P_S22_Imap_Bodypart_Md5.htm" />
+  <HelpKINode Title="Message enumeration member" Url="html/T_S22_Imap_ContentType.htm" />
   <HelpKINode Title="MessageCount property" Url="html/P_S22_Imap_IdleMessageEventArgs_MessageCount.htm" />
   <HelpKINode Title="MessageDeleted event" Url="html/E_S22_Imap_ImapClient_MessageDeleted.htm" />
   <HelpKINode Title="MessageFlag enumeration" Url="html/T_S22_Imap_MessageFlag.htm" />
