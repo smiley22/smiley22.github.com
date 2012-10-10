@@ -96,6 +96,7 @@
   <HelpKINode Title="GetMessageFlags method" Url="html/M_S22_Imap_ImapClient_GetMessageFlags.htm" />
   <HelpKINode Title="GetMessages method" Url="html/Overload_S22_Imap_ImapClient_GetMessages.htm" />
   <HelpKINode Title="GetStatus method" Url="html/M_S22_Imap_ImapClient_GetStatus.htm" />
+  <HelpKINode Title="GreaterThan method" Url="html/M_S22_Imap_SearchCondition_GreaterThan.htm" />
   <HelpKINode Title="Header method" Url="html/M_S22_Imap_SearchCondition_Header.htm" />
   <HelpKINode Title="HeadersOnly enumeration member" Url="html/T_S22_Imap_FetchOptions.htm" />
   <HelpKINode Title="Id property" Url="html/P_S22_Imap_Bodypart_Id.htm" />
@@ -164,6 +165,7 @@
   <HelpKINode Title="Keyword method" Url="html/M_S22_Imap_SearchCondition_Keyword.htm" />
   <HelpKINode Title="Language property" Url="html/P_S22_Imap_Bodypart_Language.htm" />
   <HelpKINode Title="Larger method" Url="html/M_S22_Imap_SearchCondition_Larger.htm" />
+  <HelpKINode Title="LessThan method" Url="html/M_S22_Imap_SearchCondition_LessThan.htm" />
   <HelpKINode Title="Lines property" Url="html/P_S22_Imap_Bodypart_Lines.htm" />
   <HelpKINode Title="ListMailboxes method" Url="html/M_S22_Imap_ImapClient_ListMailboxes.htm" />
   <HelpKINode Title="Location property" Url="html/P_S22_Imap_Bodypart_Location.htm" />
@@ -262,9 +264,11 @@
   <HelpKINode Title="SearchCondition.Draft method" Url="html/M_S22_Imap_SearchCondition_Draft.htm" />
   <HelpKINode Title="SearchCondition.Flagged method" Url="html/M_S22_Imap_SearchCondition_Flagged.htm" />
   <HelpKINode Title="SearchCondition.From method" Url="html/M_S22_Imap_SearchCondition_From.htm" />
+  <HelpKINode Title="SearchCondition.GreaterThan method" Url="html/M_S22_Imap_SearchCondition_GreaterThan.htm" />
   <HelpKINode Title="SearchCondition.Header method" Url="html/M_S22_Imap_SearchCondition_Header.htm" />
   <HelpKINode Title="SearchCondition.Keyword method" Url="html/M_S22_Imap_SearchCondition_Keyword.htm" />
   <HelpKINode Title="SearchCondition.Larger method" Url="html/M_S22_Imap_SearchCondition_Larger.htm" />
+  <HelpKINode Title="SearchCondition.LessThan method" Url="html/M_S22_Imap_SearchCondition_LessThan.htm" />
   <HelpKINode Title="SearchCondition.New method" Url="html/M_S22_Imap_SearchCondition_New.htm" />
   <HelpKINode Title="SearchCondition.Not method" Url="html/M_S22_Imap_SearchCondition_Not.htm" />
   <HelpKINode Title="SearchCondition.Old method" Url="html/M_S22_Imap_SearchCondition_Old.htm" />
