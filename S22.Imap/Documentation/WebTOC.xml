@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="2e6a3a27-e798-4ba5-b323-022d3b9c9276" Title="S22.Imap Namespace" Url="html/N_S22_Imap.htm">
+  <HelpTOCNode Id="f2c33916-e37d-4dab-ac8f-e4645820c9b0" Title="S22.Imap Namespace" Url="html/N_S22_Imap.htm">
     <HelpTOCNode Title="AuthMethod Enumeration" Url="html/T_S22_Imap_AuthMethod.htm" />
-    <HelpTOCNode Id="80ecde49-88b5-4819-8179-a3090b4ab042" Title="BadServerResponseException Class" Url="html/T_S22_Imap_BadServerResponseException.htm">
+    <HelpTOCNode Id="5ac3f4a5-8ce7-46fa-9a4a-82d9a96f1ade" Title="BadServerResponseException Class" Url="html/T_S22_Imap_BadServerResponseException.htm">
       <HelpTOCNode Title="BadServerResponseException Members" Url="html/AllMembers_T_S22_Imap_BadServerResponseException.htm" />
-      <HelpTOCNode Id="e65f922a-4e85-4925-ab8a-5e9f23aae760" Title="BadServerResponseException Constructor " Url="html/Overload_S22_Imap_BadServerResponseException__ctor.htm">
+      <HelpTOCNode Id="cd41e1b5-becc-4481-8cdd-1006cd927b06" Title="BadServerResponseException Constructor " Url="html/Overload_S22_Imap_BadServerResponseException__ctor.htm">
         <HelpTOCNode Title="BadServerResponseException Constructor " Url="html/M_S22_Imap_BadServerResponseException__ctor.htm" />
         <HelpTOCNode Title="BadServerResponseException Constructor (String)" Url="html/M_S22_Imap_BadServerResponseException__ctor_2.htm" />
         <HelpTOCNode Title="BadServerResponseException Constructor (SerializationInfo, StreamingContext)" Url="html/M_S22_Imap_BadServerResponseException__ctor_1.htm" />
@@ -15,12 +15,12 @@
       <HelpTOCNode Title="BadServerResponseException Properties" Url="html/Properties_T_S22_Imap_BadServerResponseException.htm" />
       <HelpTOCNode Title="BadServerResponseException Events" Url="html/Events_T_S22_Imap_BadServerResponseException.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="84f1b0cd-053f-455c-9c19-99e25a3d6305" Title="Bodypart Class" Url="html/T_S22_Imap_Bodypart.htm">
+    <HelpTOCNode Id="646114dc-a75c-4475-862f-6dc1fffe124e" Title="Bodypart Class" Url="html/T_S22_Imap_Bodypart.htm">
       <HelpTOCNode Title="Bodypart Members" Url="html/AllMembers_T_S22_Imap_Bodypart.htm" />
-      <HelpTOCNode Id="95b14f7f-ea0b-4fc3-b606-c8ddf6f4abe7" Title="Bodypart Methods" Url="html/Methods_T_S22_Imap_Bodypart.htm">
+      <HelpTOCNode Id="51c996cf-e987-4f2f-b3d8-7bbcf5a394c5" Title="Bodypart Methods" Url="html/Methods_T_S22_Imap_Bodypart.htm">
         <HelpTOCNode Title="ToString Method " Url="html/M_S22_Imap_Bodypart_ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="1cc134f5-ebcc-4956-ad23-1405fcc47345" Title="Bodypart Properties" Url="html/Properties_T_S22_Imap_Bodypart.htm">
+      <HelpTOCNode Id="3159368d-49df-494d-b7a2-f3ba41904e40" Title="Bodypart Properties" Url="html/Properties_T_S22_Imap_Bodypart.htm">
         <HelpTOCNode Title="Description Property " Url="html/P_S22_Imap_Bodypart_Description.htm" />
         <HelpTOCNode Title="Disposition Property " Url="html/P_S22_Imap_Bodypart_Disposition.htm" />
         <HelpTOCNode Title="Encoding Property " Url="html/P_S22_Imap_Bodypart_Encoding.htm" />
@@ -35,11 +35,11 @@
         <HelpTOCNode Title="Type Property " Url="html/P_S22_Imap_Bodypart_Type.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="532b3fc8-5ff2-4063-91f7-dd261185a41b" Title="ContentDisposition Class" Url="html/T_S22_Imap_ContentDisposition.htm">
+    <HelpTOCNode Id="6aa830c8-9c0e-4686-a36a-08359c333935" Title="ContentDisposition Class" Url="html/T_S22_Imap_ContentDisposition.htm">
       <HelpTOCNode Title="ContentDisposition Members" Url="html/AllMembers_T_S22_Imap_ContentDisposition.htm" />
       <HelpTOCNode Title="ContentDisposition Constructor " Url="html/M_S22_Imap_ContentDisposition__ctor.htm" />
       <HelpTOCNode Title="ContentDisposition Methods" Url="html/Methods_T_S22_Imap_ContentDisposition.htm" />
-      <HelpTOCNode Id="8eab1542-8974-4bde-8d75-62d00e6546ec" Title="ContentDisposition Properties" Url="html/Properties_T_S22_Imap_ContentDisposition.htm">
+      <HelpTOCNode Id="ea0a3f72-f64e-4ff4-9b73-950bdf54c514" Title="ContentDisposition Properties" Url="html/Properties_T_S22_Imap_ContentDisposition.htm">
         <HelpTOCNode Title="Attributes Property " Url="html/P_S22_Imap_ContentDisposition_Attributes.htm" />
         <HelpTOCNode Title="Filename Property " Url="html/P_S22_Imap_ContentDisposition_Filename.htm" />
         <HelpTOCNode Title="Type Property " Url="html/P_S22_Imap_ContentDisposition_Type.htm" />
@@ -50,22 +50,22 @@
     <HelpTOCNode Title="ContentType Enumeration" Url="html/T_S22_Imap_ContentType.htm" />
     <HelpTOCNode Title="ExaminePartDelegate Delegate" Url="html/T_S22_Imap_ExaminePartDelegate.htm" />
     <HelpTOCNode Title="FetchOptions Enumeration" Url="html/T_S22_Imap_FetchOptions.htm" />
-    <HelpTOCNode Id="0ac7470d-55a1-419c-8fcb-1331cd1ddc49" Title="IdleMessageEventArgs Class" Url="html/T_S22_Imap_IdleMessageEventArgs.htm">
+    <HelpTOCNode Id="477055b7-de8e-4310-9025-48a30fb6211c" Title="IdleMessageEventArgs Class" Url="html/T_S22_Imap_IdleMessageEventArgs.htm">
       <HelpTOCNode Title="IdleMessageEventArgs Members" Url="html/AllMembers_T_S22_Imap_IdleMessageEventArgs.htm" />
       <HelpTOCNode Title="IdleMessageEventArgs Methods" Url="html/Methods_T_S22_Imap_IdleMessageEventArgs.htm" />
-      <HelpTOCNode Id="a7d09b6e-4dd8-41f5-8b10-dbec4c204aa6" Title="IdleMessageEventArgs Properties" Url="html/Properties_T_S22_Imap_IdleMessageEventArgs.htm">
+      <HelpTOCNode Id="0c1ff120-2a40-4af3-83b0-403415c7136b" Title="IdleMessageEventArgs Properties" Url="html/Properties_T_S22_Imap_IdleMessageEventArgs.htm">
         <HelpTOCNode Title="Client Property " Url="html/P_S22_Imap_IdleMessageEventArgs_Client.htm" />
         <HelpTOCNode Title="MessageCount Property " Url="html/P_S22_Imap_IdleMessageEventArgs_MessageCount.htm" />
         <HelpTOCNode Title="MessageUID Property " Url="html/P_S22_Imap_IdleMessageEventArgs_MessageUID.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="cccb2fa1-c7ff-46e2-b05d-32a304a05caf" Title="ImapClient Class" Url="html/T_S22_Imap_ImapClient.htm">
+    <HelpTOCNode Id="8f73e96c-8bfc-4ae8-94b0-21e9d96570a0" Title="ImapClient Class" Url="html/T_S22_Imap_ImapClient.htm">
       <HelpTOCNode Title="ImapClient Members" Url="html/AllMembers_T_S22_Imap_ImapClient.htm" />
-      <HelpTOCNode Id="54b8bc31-460f-45cb-8694-15a6b9e6e5f3" Title="ImapClient Constructor " Url="html/Overload_S22_Imap_ImapClient__ctor.htm">
+      <HelpTOCNode Id="c6c3aece-08d6-4544-93da-21ecf2ac0a62" Title="ImapClient Constructor " Url="html/Overload_S22_Imap_ImapClient__ctor.htm">
         <HelpTOCNode Title="ImapClient Constructor (String, Int32, Boolean, RemoteCertificateValidationCallback)" Url="html/M_S22_Imap_ImapClient__ctor.htm" />
         <HelpTOCNode Title="ImapClient Constructor (String, Int32, String, String, AuthMethod, Boolean, RemoteCertificateValidationCallback)" Url="html/M_S22_Imap_ImapClient__ctor_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0367ddc3-6267-4443-ab03-5c12727ccf1a" Title="ImapClient Methods" Url="html/Methods_T_S22_Imap_ImapClient.htm">
+      <HelpTOCNode Id="2ae4fb49-f8c0-4423-a91c-5c0302204d2b" Title="ImapClient Methods" Url="html/Methods_T_S22_Imap_ImapClient.htm">
         <HelpTOCNode Title="AddMessageFlags Method " Url="html/M_S22_Imap_ImapClient_AddMessageFlags.htm" />
         <HelpTOCNode Title="Capabilities Method " Url="html/M_S22_Imap_ImapClient_Capabilities.htm" />
         <HelpTOCNode Title="CopyMessage Method " Url="html/M_S22_Imap_ImapClient_CopyMessage.htm" />
@@ -74,13 +74,13 @@
         <HelpTOCNode Title="DeleteMessage Method " Url="html/M_S22_Imap_ImapClient_DeleteMessage.htm" />
         <HelpTOCNode Title="Dispose Method " Url="html/M_S22_Imap_ImapClient_Dispose.htm" />
         <HelpTOCNode Title="Expunge Method " Url="html/M_S22_Imap_ImapClient_Expunge.htm" />
-        <HelpTOCNode Id="e024005d-6330-4aa0-b94e-628181fdc32e" Title="GetMessage Method " Url="html/Overload_S22_Imap_ImapClient_GetMessage.htm">
+        <HelpTOCNode Id="2d355bf1-b831-4c38-b9c8-a391d427638d" Title="GetMessage Method " Url="html/Overload_S22_Imap_ImapClient_GetMessage.htm">
           <HelpTOCNode Title="GetMessage Method (UInt32, Boolean, String)" Url="html/M_S22_Imap_ImapClient_GetMessage_2.htm" />
           <HelpTOCNode Title="GetMessage Method (UInt32, ExaminePartDelegate, Boolean, String)" Url="html/M_S22_Imap_ImapClient_GetMessage.htm" />
           <HelpTOCNode Title="GetMessage Method (UInt32, FetchOptions, Boolean, String)" Url="html/M_S22_Imap_ImapClient_GetMessage_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="GetMessageFlags Method " Url="html/M_S22_Imap_ImapClient_GetMessageFlags.htm" />
-        <HelpTOCNode Id="20bc0e09-a095-458e-8dcc-76bc3c8ecb6a" Title="GetMessages Method " Url="html/Overload_S22_Imap_ImapClient_GetMessages.htm">
+        <HelpTOCNode Id="91f8c8bb-85f8-4ce3-8627-3e902096a488" Title="GetMessages Method " Url="html/Overload_S22_Imap_ImapClient_GetMessages.htm">
           <HelpTOCNode Title="GetMessages Method (UInt32[], Boolean, String)" Url="html/M_S22_Imap_ImapClient_GetMessages_2.htm" />
           <HelpTOCNode Title="GetMessages Method (UInt32[], ExaminePartDelegate, Boolean, String)" Url="html/M_S22_Imap_ImapClient_GetMessages.htm" />
           <HelpTOCNode Title="GetMessages Method (UInt32[], FetchOptions, Boolean, String)" Url="html/M_S22_Imap_ImapClient_GetMessages_1.htm" />
@@ -98,18 +98,18 @@
         <HelpTOCNode Title="StoreMessages Method " Url="html/M_S22_Imap_ImapClient_StoreMessages.htm" />
         <HelpTOCNode Title="Supports Method " Url="html/M_S22_Imap_ImapClient_Supports.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="ccafcd4e-2623-4bef-ad72-be633ebac27b" Title="ImapClient Properties" Url="html/Properties_T_S22_Imap_ImapClient.htm">
+      <HelpTOCNode Id="45febfe3-c67a-4f2d-998c-2d6cfc7258db" Title="ImapClient Properties" Url="html/Properties_T_S22_Imap_ImapClient.htm">
         <HelpTOCNode Title="Authed Property " Url="html/P_S22_Imap_ImapClient_Authed.htm" />
         <HelpTOCNode Title="DefaultMailbox Property " Url="html/P_S22_Imap_ImapClient_DefaultMailbox.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="1434cafa-2faf-4291-8680-d7f434ffc94d" Title="ImapClient Events" Url="html/Events_T_S22_Imap_ImapClient.htm">
+      <HelpTOCNode Id="964d7842-6d06-4189-bfa1-26329e649f95" Title="ImapClient Events" Url="html/Events_T_S22_Imap_ImapClient.htm">
         <HelpTOCNode Title="MessageDeleted Event" Url="html/E_S22_Imap_ImapClient_MessageDeleted.htm" />
         <HelpTOCNode Title="NewMessage Event" Url="html/E_S22_Imap_ImapClient_NewMessage.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5584a368-3792-4ad4-a8ab-ee5483cb27ec" Title="InvalidCredentialsException Class" Url="html/T_S22_Imap_InvalidCredentialsException.htm">
+    <HelpTOCNode Id="e51377c5-0eff-440f-920e-559eb90f04de" Title="InvalidCredentialsException Class" Url="html/T_S22_Imap_InvalidCredentialsException.htm">
       <HelpTOCNode Title="InvalidCredentialsException Members" Url="html/AllMembers_T_S22_Imap_InvalidCredentialsException.htm" />
-      <HelpTOCNode Id="b4b9fa24-e5b1-4a0a-8c0d-90e7120b6f38" Title="InvalidCredentialsException Constructor " Url="html/Overload_S22_Imap_InvalidCredentialsException__ctor.htm">
+      <HelpTOCNode Id="d6106620-121b-4b82-b158-36e0a6b7fc06" Title="InvalidCredentialsException Constructor " Url="html/Overload_S22_Imap_InvalidCredentialsException__ctor.htm">
         <HelpTOCNode Title="InvalidCredentialsException Constructor " Url="html/M_S22_Imap_InvalidCredentialsException__ctor.htm" />
         <HelpTOCNode Title="InvalidCredentialsException Constructor (String)" Url="html/M_S22_Imap_InvalidCredentialsException__ctor_2.htm" />
         <HelpTOCNode Title="InvalidCredentialsException Constructor (SerializationInfo, StreamingContext)" Url="html/M_S22_Imap_InvalidCredentialsException__ctor_1.htm" />
@@ -119,10 +119,10 @@
       <HelpTOCNode Title="InvalidCredentialsException Properties" Url="html/Properties_T_S22_Imap_InvalidCredentialsException.htm" />
       <HelpTOCNode Title="InvalidCredentialsException Events" Url="html/Events_T_S22_Imap_InvalidCredentialsException.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="155aa573-de11-4518-8800-a10df5f5fc6a" Title="MailboxStatus Class" Url="html/T_S22_Imap_MailboxStatus.htm">
+    <HelpTOCNode Id="d4c4d3dd-f3a1-481e-a8c0-9c18db424fc7" Title="MailboxStatus Class" Url="html/T_S22_Imap_MailboxStatus.htm">
       <HelpTOCNode Title="MailboxStatus Members" Url="html/AllMembers_T_S22_Imap_MailboxStatus.htm" />
       <HelpTOCNode Title="MailboxStatus Methods" Url="html/Methods_T_S22_Imap_MailboxStatus.htm" />
-      <HelpTOCNode Id="5adba886-e1e5-4dea-b4bb-81170ca02866" Title="MailboxStatus Properties" Url="html/Properties_T_S22_Imap_MailboxStatus.htm">
+      <HelpTOCNode Id="8f646783-6fe3-45c2-bc52-06f82a033587" Title="MailboxStatus Properties" Url="html/Properties_T_S22_Imap_MailboxStatus.htm">
         <HelpTOCNode Title="FreeStorage Property " Url="html/P_S22_Imap_MailboxStatus_FreeStorage.htm" />
         <HelpTOCNode Title="Messages Property " Url="html/P_S22_Imap_MailboxStatus_Messages.htm" />
         <HelpTOCNode Title="Unread Property " Url="html/P_S22_Imap_MailboxStatus_Unread.htm" />
@@ -130,9 +130,9 @@
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="MessageFlag Enumeration" Url="html/T_S22_Imap_MessageFlag.htm" />
-    <HelpTOCNode Id="0d9024de-4d8e-454a-8c45-4f25010e4eaa" Title="NotAuthenticatedException Class" Url="html/T_S22_Imap_NotAuthenticatedException.htm">
+    <HelpTOCNode Id="c17c9c56-bf77-454f-be88-5ab42304516e" Title="NotAuthenticatedException Class" Url="html/T_S22_Imap_NotAuthenticatedException.htm">
       <HelpTOCNode Title="NotAuthenticatedException Members" Url="html/AllMembers_T_S22_Imap_NotAuthenticatedException.htm" />
-      <HelpTOCNode Id="8be1d10d-053a-4353-88c7-692bad28e123" Title="NotAuthenticatedException Constructor " Url="html/Overload_S22_Imap_NotAuthenticatedException__ctor.htm">
+      <HelpTOCNode Id="c93015b8-7e81-488d-8ef9-ab33d13379a4" Title="NotAuthenticatedException Constructor " Url="html/Overload_S22_Imap_NotAuthenticatedException__ctor.htm">
         <HelpTOCNode Title="NotAuthenticatedException Constructor " Url="html/M_S22_Imap_NotAuthenticatedException__ctor.htm" />
         <HelpTOCNode Title="NotAuthenticatedException Constructor (String)" Url="html/M_S22_Imap_NotAuthenticatedException__ctor_2.htm" />
         <HelpTOCNode Title="NotAuthenticatedException Constructor (SerializationInfo, StreamingContext)" Url="html/M_S22_Imap_NotAuthenticatedException__ctor_1.htm" />
@@ -142,10 +142,10 @@
       <HelpTOCNode Title="NotAuthenticatedException Properties" Url="html/Properties_T_S22_Imap_NotAuthenticatedException.htm" />
       <HelpTOCNode Title="NotAuthenticatedException Events" Url="html/Events_T_S22_Imap_NotAuthenticatedException.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="97845fd7-79bf-4f96-994f-f2268f48052a" Title="SearchCondition Class" Url="html/T_S22_Imap_SearchCondition.htm">
+    <HelpTOCNode Id="605e605a-79d1-4c18-8165-c5020cb3c73b" Title="SearchCondition Class" Url="html/T_S22_Imap_SearchCondition.htm">
       <HelpTOCNode Title="SearchCondition Members" Url="html/AllMembers_T_S22_Imap_SearchCondition.htm" />
       <HelpTOCNode Title="SearchCondition Constructor " Url="html/M_S22_Imap_SearchCondition__ctor.htm" />
-      <HelpTOCNode Id="7ff76950-28e8-415a-8b0a-5abd886c73ec" Title="SearchCondition Methods" Url="html/Methods_T_S22_Imap_SearchCondition.htm">
+      <HelpTOCNode Id="20d84c8d-b5fd-4d22-9c88-5aee18cd8aa7" Title="SearchCondition Methods" Url="html/Methods_T_S22_Imap_SearchCondition.htm">
         <HelpTOCNode Title="All Method " Url="html/M_S22_Imap_SearchCondition_All.htm" />
         <HelpTOCNode Title="And Method " Url="html/M_S22_Imap_SearchCondition_And.htm" />
         <HelpTOCNode Title="Answered Method " Url="html/M_S22_Imap_SearchCondition_Answered.htm" />
