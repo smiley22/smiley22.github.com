@@ -17,8 +17,10 @@
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_S22_Imap_InvalidCredentialsException.htm">InvalidCredentialsException</a></td><td><div class="summary">
             This exception is thrown when the supplied credentials in a login attempt were rejected
             by the server.
-            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_S22_Imap_MailboxStatus.htm">MailboxStatus</a></td><td><div class="summary">
-            Contains status information for a mailbox.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_S22_Imap_MailboxInfo.htm">MailboxInfo</a></td><td><div class="summary">
+            Contains status information for an IMAP mailbox such as the total
+            number of messages in the mailbox, various attributes as well as
+            quota information.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_S22_Imap_NotAuthenticatedException.htm">NotAuthenticatedException</a></td><td><div class="summary">
             This exception is thrown when a client has not authenticated with the server and
             attempts to call a method which can only be called in an authenticated context.
@@ -50,6 +52,14 @@
             </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_S22_Imap_FetchOptions.htm">FetchOptions</a></td><td><div class="summary">
             Fetch options that can be used with the GetMessage and GetMessages methods
             to selectively retrieve parts of a mail message while skipping others.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_S22_Imap_MailboxFlag.htm">MailboxFlag</a></td><td><div class="summary">
+            An IMAP mailbox can have a number of flags (read: attributes) set on it,
+            indicating its designated purpose (such as "Spam" or "Drafts").
+            
+            This is especially convenient if dealing with international mailbox
+            names, because by examining the associated flags, the mailbox purpose
+            can be easily determined, even if the mailbox name provides no useful
+            indication.
             </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_S22_Imap_MessageFlag.htm">MessageFlag</a></td><td><div class="summary">
             Flag message attributes that can be associated with a mail message on an IMAP
             server.
