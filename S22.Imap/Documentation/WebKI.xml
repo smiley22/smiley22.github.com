@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
 
+  <HelpKINode Title="AddMessageFlags method" Url="html/M_S22_Imap_IImapClient_AddMessageFlags.htm" />
   <HelpKINode Title="AddMessageFlags method" Url="html/M_S22_Imap_ImapClient_AddMessageFlags.htm" />
   <HelpKINode Title="All method" Url="html/M_S22_Imap_SearchCondition_All.htm" />
   <HelpKINode Title="AllMail enumeration member" Url="html/T_S22_Imap_MailboxFlag.htm" />
@@ -12,6 +13,7 @@
   <HelpKINode Title="Attachment enumeration member" Url="html/T_S22_Imap_ContentDispositionType.htm" />
   <HelpKINode Title="Attributes property" Url="html/P_S22_Imap_ContentDisposition_Attributes.htm" />
   <HelpKINode Title="Audio enumeration member" Url="html/T_S22_Imap_ContentType.htm" />
+  <HelpKINode Title="Authed property" Url="html/P_S22_Imap_IImapClient_Authed.htm" />
   <HelpKINode Title="Authed property" Url="html/P_S22_Imap_ImapClient_Authed.htm" />
   <HelpKINode Title="AuthMethod enumeration" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="BadServerResponseException class" Url="html/AllMembers_T_S22_Imap_BadServerResponseException.htm" />
@@ -53,6 +55,7 @@
   <HelpKINode Title="Bodypart.Subtype property" Url="html/P_S22_Imap_Bodypart_Subtype.htm" />
   <HelpKINode Title="Bodypart.ToString method" Url="html/M_S22_Imap_Bodypart_ToString.htm" />
   <HelpKINode Title="Bodypart.Type property" Url="html/P_S22_Imap_Bodypart_Type.htm" />
+  <HelpKINode Title="Capabilities method" Url="html/M_S22_Imap_IImapClient_Capabilities.htm" />
   <HelpKINode Title="Capabilities method" Url="html/M_S22_Imap_ImapClient_Capabilities.htm" />
   <HelpKINode Title="Cc method" Url="html/M_S22_Imap_SearchCondition_Cc.htm" />
   <HelpKINode Title="Client property" Url="html/P_S22_Imap_IdleMessageEventArgs_Client.htm" />
@@ -72,13 +75,18 @@
   <HelpKINode Title="ContentDispositionType enumeration" Url="html/T_S22_Imap_ContentDispositionType.htm" />
   <HelpKINode Title="ContentTransferEncoding enumeration" Url="html/T_S22_Imap_ContentTransferEncoding.htm" />
   <HelpKINode Title="ContentType enumeration" Url="html/T_S22_Imap_ContentType.htm" />
+  <HelpKINode Title="CopyMessage method" Url="html/M_S22_Imap_IImapClient_CopyMessage.htm" />
   <HelpKINode Title="CopyMessage method" Url="html/M_S22_Imap_ImapClient_CopyMessage.htm" />
   <HelpKINode Title="CRAMMD5 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
+  <HelpKINode Title="CreateMailbox method" Url="html/M_S22_Imap_IImapClient_CreateMailbox.htm" />
   <HelpKINode Title="CreateMailbox method" Url="html/M_S22_Imap_ImapClient_CreateMailbox.htm" />
+  <HelpKINode Title="DefaultMailbox property" Url="html/P_S22_Imap_IImapClient_DefaultMailbox.htm" />
   <HelpKINode Title="DefaultMailbox property" Url="html/P_S22_Imap_ImapClient_DefaultMailbox.htm" />
   <HelpKINode Title="Deleted enumeration member" Url="html/T_S22_Imap_MessageFlag.htm" />
   <HelpKINode Title="Deleted method" Url="html/M_S22_Imap_SearchCondition_Deleted.htm" />
+  <HelpKINode Title="DeleteMailbox method" Url="html/M_S22_Imap_IImapClient_DeleteMailbox.htm" />
   <HelpKINode Title="DeleteMailbox method" Url="html/M_S22_Imap_ImapClient_DeleteMailbox.htm" />
+  <HelpKINode Title="DeleteMessage method" Url="html/M_S22_Imap_IImapClient_DeleteMessage.htm" />
   <HelpKINode Title="DeleteMessage method" Url="html/M_S22_Imap_ImapClient_DeleteMessage.htm" />
   <HelpKINode Title="Description property" Url="html/P_S22_Imap_Bodypart_Description.htm" />
   <HelpKINode Title="Dispose method" Url="html/M_S22_Imap_ImapClient_Dispose.htm" />
@@ -88,6 +96,7 @@
   <HelpKINode Title="Drafts enumeration member" Url="html/T_S22_Imap_MailboxFlag.htm" />
   <HelpKINode Title="Encoding property" Url="html/P_S22_Imap_Bodypart_Encoding.htm" />
   <HelpKINode Title="ExaminePartDelegate delegate" Url="html/T_S22_Imap_ExaminePartDelegate.htm" />
+  <HelpKINode Title="Expunge method" Url="html/M_S22_Imap_IImapClient_Expunge.htm" />
   <HelpKINode Title="Expunge method" Url="html/M_S22_Imap_ImapClient_Expunge.htm" />
   <HelpKINode Title="FetchOptions enumeration" Url="html/T_S22_Imap_FetchOptions.htm" />
   <HelpKINode Title="Filename property" Url="html/P_S22_Imap_ContentDisposition_Filename.htm" />
@@ -96,9 +105,13 @@
   <HelpKINode Title="Flags property" Url="html/P_S22_Imap_MailboxInfo_Flags.htm" />
   <HelpKINode Title="FreeStorage property" Url="html/P_S22_Imap_MailboxInfo_FreeStorage.htm" />
   <HelpKINode Title="From method" Url="html/M_S22_Imap_SearchCondition_From.htm" />
+  <HelpKINode Title="GetMailboxInfo method" Url="html/M_S22_Imap_IImapClient_GetMailboxInfo.htm" />
   <HelpKINode Title="GetMailboxInfo method" Url="html/M_S22_Imap_ImapClient_GetMailboxInfo.htm" />
+  <HelpKINode Title="GetMessage method" Url="html/Overload_S22_Imap_IImapClient_GetMessage.htm" />
   <HelpKINode Title="GetMessage method" Url="html/Overload_S22_Imap_ImapClient_GetMessage.htm" />
+  <HelpKINode Title="GetMessageFlags method" Url="html/M_S22_Imap_IImapClient_GetMessageFlags.htm" />
   <HelpKINode Title="GetMessageFlags method" Url="html/M_S22_Imap_ImapClient_GetMessageFlags.htm" />
+  <HelpKINode Title="GetMessages method" Url="html/Overload_S22_Imap_IImapClient_GetMessages.htm" />
   <HelpKINode Title="GetMessages method" Url="html/Overload_S22_Imap_ImapClient_GetMessages.htm" />
   <HelpKINode Title="GreaterThan method" Url="html/M_S22_Imap_SearchCondition_GreaterThan.htm" />
   <HelpKINode Title="Header method" Url="html/M_S22_Imap_SearchCondition_Header.htm" />
@@ -115,6 +128,41 @@
   <HelpKINode Title="IdleMessageEventArgs.Client property" Url="html/P_S22_Imap_IdleMessageEventArgs_Client.htm" />
   <HelpKINode Title="IdleMessageEventArgs.MessageCount property" Url="html/P_S22_Imap_IdleMessageEventArgs_MessageCount.htm" />
   <HelpKINode Title="IdleMessageEventArgs.MessageUID property" Url="html/P_S22_Imap_IdleMessageEventArgs_MessageUID.htm" />
+  <HelpKINode Title="IImapClient interface" Url="html/AllMembers_T_S22_Imap_IImapClient.htm" />
+  <HelpKINode Title="IImapClient interface" Url="html/T_S22_Imap_IImapClient.htm" />
+  <HelpKINode Title="IImapClient interface">
+    <HelpKINode Title="about IImapClient interface" Url="html/T_S22_Imap_IImapClient.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Imap_IImapClient.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_S22_Imap_IImapClient.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Imap_IImapClient.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_S22_Imap_IImapClient.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IImapClient.AddMessageFlags method" Url="html/M_S22_Imap_IImapClient_AddMessageFlags.htm" />
+  <HelpKINode Title="IImapClient.Authed property" Url="html/P_S22_Imap_IImapClient_Authed.htm" />
+  <HelpKINode Title="IImapClient.Capabilities method" Url="html/M_S22_Imap_IImapClient_Capabilities.htm" />
+  <HelpKINode Title="IImapClient.CopyMessage method" Url="html/M_S22_Imap_IImapClient_CopyMessage.htm" />
+  <HelpKINode Title="IImapClient.CreateMailbox method" Url="html/M_S22_Imap_IImapClient_CreateMailbox.htm" />
+  <HelpKINode Title="IImapClient.DefaultMailbox property" Url="html/P_S22_Imap_IImapClient_DefaultMailbox.htm" />
+  <HelpKINode Title="IImapClient.DeleteMailbox method" Url="html/M_S22_Imap_IImapClient_DeleteMailbox.htm" />
+  <HelpKINode Title="IImapClient.DeleteMessage method" Url="html/M_S22_Imap_IImapClient_DeleteMessage.htm" />
+  <HelpKINode Title="IImapClient.Expunge method" Url="html/M_S22_Imap_IImapClient_Expunge.htm" />
+  <HelpKINode Title="IImapClient.GetMailboxInfo method" Url="html/M_S22_Imap_IImapClient_GetMailboxInfo.htm" />
+  <HelpKINode Title="IImapClient.GetMessage method" Url="html/Overload_S22_Imap_IImapClient_GetMessage.htm" />
+  <HelpKINode Title="IImapClient.GetMessageFlags method" Url="html/M_S22_Imap_IImapClient_GetMessageFlags.htm" />
+  <HelpKINode Title="IImapClient.GetMessages method" Url="html/Overload_S22_Imap_IImapClient_GetMessages.htm" />
+  <HelpKINode Title="IImapClient.ListMailboxes method" Url="html/M_S22_Imap_IImapClient_ListMailboxes.htm" />
+  <HelpKINode Title="IImapClient.Login method" Url="html/M_S22_Imap_IImapClient_Login.htm" />
+  <HelpKINode Title="IImapClient.Logout method" Url="html/M_S22_Imap_IImapClient_Logout.htm" />
+  <HelpKINode Title="IImapClient.MessageDeleted event" Url="html/E_S22_Imap_IImapClient_MessageDeleted.htm" />
+  <HelpKINode Title="IImapClient.MoveMessage method" Url="html/M_S22_Imap_IImapClient_MoveMessage.htm" />
+  <HelpKINode Title="IImapClient.NewMessage event" Url="html/E_S22_Imap_IImapClient_NewMessage.htm" />
+  <HelpKINode Title="IImapClient.RemoveMessageFlags method" Url="html/M_S22_Imap_IImapClient_RemoveMessageFlags.htm" />
+  <HelpKINode Title="IImapClient.RenameMailbox method" Url="html/M_S22_Imap_IImapClient_RenameMailbox.htm" />
+  <HelpKINode Title="IImapClient.Search method" Url="html/M_S22_Imap_IImapClient_Search.htm" />
+  <HelpKINode Title="IImapClient.SetMessageFlags method" Url="html/M_S22_Imap_IImapClient_SetMessageFlags.htm" />
+  <HelpKINode Title="IImapClient.StoreMessage method" Url="html/M_S22_Imap_IImapClient_StoreMessage.htm" />
+  <HelpKINode Title="IImapClient.StoreMessages method" Url="html/M_S22_Imap_IImapClient_StoreMessages.htm" />
+  <HelpKINode Title="IImapClient.Supports method" Url="html/M_S22_Imap_IImapClient_Supports.htm" />
   <HelpKINode Title="Image enumeration member" Url="html/T_S22_Imap_ContentType.htm" />
   <HelpKINode Title="ImapClient class" Url="html/AllMembers_T_S22_Imap_ImapClient.htm" />
   <HelpKINode Title="ImapClient class" Url="html/T_S22_Imap_ImapClient.htm" />
@@ -171,10 +219,13 @@
   <HelpKINode Title="Larger method" Url="html/M_S22_Imap_SearchCondition_Larger.htm" />
   <HelpKINode Title="LessThan method" Url="html/M_S22_Imap_SearchCondition_LessThan.htm" />
   <HelpKINode Title="Lines property" Url="html/P_S22_Imap_Bodypart_Lines.htm" />
+  <HelpKINode Title="ListMailboxes method" Url="html/M_S22_Imap_IImapClient_ListMailboxes.htm" />
   <HelpKINode Title="ListMailboxes method" Url="html/M_S22_Imap_ImapClient_ListMailboxes.htm" />
   <HelpKINode Title="Location property" Url="html/P_S22_Imap_Bodypart_Location.htm" />
   <HelpKINode Title="Login enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
+  <HelpKINode Title="Login method" Url="html/M_S22_Imap_IImapClient_Login.htm" />
   <HelpKINode Title="Login method" Url="html/M_S22_Imap_ImapClient_Login.htm" />
+  <HelpKINode Title="Logout method" Url="html/M_S22_Imap_IImapClient_Logout.htm" />
   <HelpKINode Title="Logout method" Url="html/M_S22_Imap_ImapClient_Logout.htm" />
   <HelpKINode Title="MailboxFlag enumeration" Url="html/T_S22_Imap_MailboxFlag.htm" />
   <HelpKINode Title="MailboxInfo class" Url="html/AllMembers_T_S22_Imap_MailboxInfo.htm" />
@@ -196,13 +247,16 @@
   <HelpKINode Title="Md5 property" Url="html/P_S22_Imap_Bodypart_Md5.htm" />
   <HelpKINode Title="Message enumeration member" Url="html/T_S22_Imap_ContentType.htm" />
   <HelpKINode Title="MessageCount property" Url="html/P_S22_Imap_IdleMessageEventArgs_MessageCount.htm" />
+  <HelpKINode Title="MessageDeleted event" Url="html/E_S22_Imap_IImapClient_MessageDeleted.htm" />
   <HelpKINode Title="MessageDeleted event" Url="html/E_S22_Imap_ImapClient_MessageDeleted.htm" />
   <HelpKINode Title="MessageFlag enumeration" Url="html/T_S22_Imap_MessageFlag.htm" />
   <HelpKINode Title="Messages property" Url="html/P_S22_Imap_MailboxInfo_Messages.htm" />
   <HelpKINode Title="MessageUID property" Url="html/P_S22_Imap_IdleMessageEventArgs_MessageUID.htm" />
+  <HelpKINode Title="MoveMessage method" Url="html/M_S22_Imap_IImapClient_MoveMessage.htm" />
   <HelpKINode Title="MoveMessage method" Url="html/M_S22_Imap_ImapClient_MoveMessage.htm" />
   <HelpKINode Title="Name property" Url="html/P_S22_Imap_MailboxInfo_Name.htm" />
   <HelpKINode Title="New method" Url="html/M_S22_Imap_SearchCondition_New.htm" />
+  <HelpKINode Title="NewMessage event" Url="html/E_S22_Imap_IImapClient_NewMessage.htm" />
   <HelpKINode Title="NewMessage event" Url="html/E_S22_Imap_ImapClient_NewMessage.htm" />
   <HelpKINode Title="NextUID property" Url="html/P_S22_Imap_MailboxInfo_NextUID.htm" />
   <HelpKINode Title="NoAttachments enumeration member" Url="html/T_S22_Imap_FetchOptions.htm" />
@@ -226,7 +280,9 @@
   <HelpKINode Title="QuotedPrintable enumeration member" Url="html/T_S22_Imap_ContentTransferEncoding.htm" />
   <HelpKINode Title="Recent enumeration member" Url="html/T_S22_Imap_MessageFlag.htm" />
   <HelpKINode Title="Recent method" Url="html/M_S22_Imap_SearchCondition_Recent.htm" />
+  <HelpKINode Title="RemoveMessageFlags method" Url="html/M_S22_Imap_IImapClient_RemoveMessageFlags.htm" />
   <HelpKINode Title="RemoveMessageFlags method" Url="html/M_S22_Imap_ImapClient_RemoveMessageFlags.htm" />
+  <HelpKINode Title="RenameMailbox method" Url="html/M_S22_Imap_IImapClient_RenameMailbox.htm" />
   <HelpKINode Title="RenameMailbox method" Url="html/M_S22_Imap_ImapClient_RenameMailbox.htm" />
   <HelpKINode Title="S22.Imap namespace" Url="html/N_S22_Imap.htm" />
   <HelpKINode Title="S22.Imap.AuthMethod enumeration" Url="html/T_S22_Imap_AuthMethod.htm" />
@@ -243,6 +299,8 @@
   <HelpKINode Title="S22.Imap.FetchOptions enumeration" Url="html/T_S22_Imap_FetchOptions.htm" />
   <HelpKINode Title="S22.Imap.IdleMessageEventArgs class" Url="html/AllMembers_T_S22_Imap_IdleMessageEventArgs.htm" />
   <HelpKINode Title="S22.Imap.IdleMessageEventArgs class" Url="html/T_S22_Imap_IdleMessageEventArgs.htm" />
+  <HelpKINode Title="S22.Imap.IImapClient interface" Url="html/AllMembers_T_S22_Imap_IImapClient.htm" />
+  <HelpKINode Title="S22.Imap.IImapClient interface" Url="html/T_S22_Imap_IImapClient.htm" />
   <HelpKINode Title="S22.Imap.ImapClient class" Url="html/AllMembers_T_S22_Imap_ImapClient.htm" />
   <HelpKINode Title="S22.Imap.ImapClient class" Url="html/T_S22_Imap_ImapClient.htm" />
   <HelpKINode Title="S22.Imap.InvalidCredentialsException class" Url="html/AllMembers_T_S22_Imap_InvalidCredentialsException.htm" />
@@ -256,6 +314,7 @@
   <HelpKINode Title="S22.Imap.SearchCondition class" Url="html/AllMembers_T_S22_Imap_SearchCondition.htm" />
   <HelpKINode Title="S22.Imap.SearchCondition class" Url="html/T_S22_Imap_SearchCondition.htm" />
   <HelpKINode Title="SaslOAuth enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
+  <HelpKINode Title="Search method" Url="html/M_S22_Imap_IImapClient_Search.htm" />
   <HelpKINode Title="Search method" Url="html/M_S22_Imap_ImapClient_Search.htm" />
   <HelpKINode Title="SearchCondition class" Url="html/AllMembers_T_S22_Imap_SearchCondition.htm" />
   <HelpKINode Title="SearchCondition class" Url="html/T_S22_Imap_SearchCondition.htm" />
@@ -309,14 +368,18 @@
   <HelpKINode Title="SentBefore method" Url="html/M_S22_Imap_SearchCondition_SentBefore.htm" />
   <HelpKINode Title="SentOn method" Url="html/M_S22_Imap_SearchCondition_SentOn.htm" />
   <HelpKINode Title="SentSince method" Url="html/M_S22_Imap_SearchCondition_SentSince.htm" />
+  <HelpKINode Title="SetMessageFlags method" Url="html/M_S22_Imap_IImapClient_SetMessageFlags.htm" />
   <HelpKINode Title="SetMessageFlags method" Url="html/M_S22_Imap_ImapClient_SetMessageFlags.htm" />
   <HelpKINode Title="Size property" Url="html/P_S22_Imap_Bodypart_Size.htm" />
   <HelpKINode Title="Smaller method" Url="html/M_S22_Imap_SearchCondition_Smaller.htm" />
   <HelpKINode Title="Spam enumeration member" Url="html/T_S22_Imap_MailboxFlag.htm" />
+  <HelpKINode Title="StoreMessage method" Url="html/M_S22_Imap_IImapClient_StoreMessage.htm" />
   <HelpKINode Title="StoreMessage method" Url="html/M_S22_Imap_ImapClient_StoreMessage.htm" />
+  <HelpKINode Title="StoreMessages method" Url="html/M_S22_Imap_IImapClient_StoreMessages.htm" />
   <HelpKINode Title="StoreMessages method" Url="html/M_S22_Imap_ImapClient_StoreMessages.htm" />
   <HelpKINode Title="Subject method" Url="html/M_S22_Imap_SearchCondition_Subject.htm" />
   <HelpKINode Title="Subtype property" Url="html/P_S22_Imap_Bodypart_Subtype.htm" />
+  <HelpKINode Title="Supports method" Url="html/M_S22_Imap_IImapClient_Supports.htm" />
   <HelpKINode Title="Supports method" Url="html/M_S22_Imap_ImapClient_Supports.htm" />
   <HelpKINode Title="Text enumeration member" Url="html/T_S22_Imap_ContentType.htm" />
   <HelpKINode Title="Text method" Url="html/M_S22_Imap_SearchCondition_Text.htm" />
