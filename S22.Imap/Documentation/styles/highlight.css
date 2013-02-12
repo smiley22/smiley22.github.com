@@ -12,7 +12,7 @@
 .highlight-xml-attribute-name { color: #0000FF }
 .highlight-xml-attribute-equal { color: #000000 }
 .highlight-xml-attribute-value {color: #CC0000 }
-.highlight-title { font-weight: bold; margin-top: 1em; margin-bottom: 2px; border-bottom: gray 1px solid; padding-bottom: 3px; }
+.highlight-title { font-weight: bold; margin-top: 1em; margin-bottom: 2px; /*border-bottom: gray 1px solid;*/ padding-bottom: 3px; }
 .highlight-copycode { float: right; padding-right: 10px; font-weight: normal; cursor: pointer; }
 .highlight-copycode_h { float: right; padding-right: 10px; font-weight: normal; cursor: pointer; text-decoration: underline}
 .highlight-lineno { font-size: 80%; color: black }

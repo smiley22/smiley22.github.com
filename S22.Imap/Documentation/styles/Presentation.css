@@ -781,6 +781,13 @@ div.code pre
 	background: #FFF;
 }
 
+#exampleSection div.code pre {
+	background-color:#FAFAFA;
+	margin-top:0;
+	padding:1em;
+	border:1px solid #BBB;
+}
+
 /* Formats parameter tooltips. */
 .tip
 {
