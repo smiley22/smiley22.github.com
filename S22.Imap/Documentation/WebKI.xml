@@ -16,6 +16,7 @@
   <HelpKINode Title="Authed property" Url="html/P_S22_Imap_IImapClient_Authed.htm" />
   <HelpKINode Title="Authed property" Url="html/P_S22_Imap_ImapClient_Authed.htm" />
   <HelpKINode Title="AuthMethod enumeration" Url="html/T_S22_Imap_AuthMethod.htm" />
+  <HelpKINode Title="Auto enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="BadServerResponseException class" Url="html/AllMembers_T_S22_Imap_BadServerResponseException.htm" />
   <HelpKINode Title="BadServerResponseException class" Url="html/T_S22_Imap_BadServerResponseException.htm" />
   <HelpKINode Title="BadServerResponseException class">
@@ -77,7 +78,7 @@
   <HelpKINode Title="ContentType enumeration" Url="html/T_S22_Imap_ContentType.htm" />
   <HelpKINode Title="CopyMessage method" Url="html/M_S22_Imap_IImapClient_CopyMessage.htm" />
   <HelpKINode Title="CopyMessage method" Url="html/M_S22_Imap_ImapClient_CopyMessage.htm" />
-  <HelpKINode Title="CRAMMD5 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
+  <HelpKINode Title="CramMD5 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="CreateMailbox method" Url="html/M_S22_Imap_IImapClient_CreateMailbox.htm" />
   <HelpKINode Title="CreateMailbox method" Url="html/M_S22_Imap_ImapClient_CreateMailbox.htm" />
   <HelpKINode Title="DefaultMailbox property" Url="html/P_S22_Imap_IImapClient_DefaultMailbox.htm" />
@@ -89,6 +90,7 @@
   <HelpKINode Title="DeleteMessage method" Url="html/M_S22_Imap_IImapClient_DeleteMessage.htm" />
   <HelpKINode Title="DeleteMessage method" Url="html/M_S22_Imap_ImapClient_DeleteMessage.htm" />
   <HelpKINode Title="Description property" Url="html/P_S22_Imap_Bodypart_Description.htm" />
+  <HelpKINode Title="DigestMD5 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="Dispose method" Url="html/M_S22_Imap_ImapClient_Dispose.htm" />
   <HelpKINode Title="Disposition property" Url="html/P_S22_Imap_Bodypart_Disposition.htm" />
   <HelpKINode Title="Draft enumeration member" Url="html/T_S22_Imap_MessageFlag.htm" />
@@ -277,6 +279,7 @@
   <HelpKINode Title="Or method" Url="html/M_S22_Imap_SearchCondition_Or.htm" />
   <HelpKINode Title="Other enumeration member" Url="html/T_S22_Imap_ContentType.htm" />
   <HelpKINode Title="Parameters property" Url="html/P_S22_Imap_Bodypart_Parameters.htm" />
+  <HelpKINode Title="Plain enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="QuotedPrintable enumeration member" Url="html/T_S22_Imap_ContentTransferEncoding.htm" />
   <HelpKINode Title="Recent enumeration member" Url="html/T_S22_Imap_MessageFlag.htm" />
   <HelpKINode Title="Recent method" Url="html/M_S22_Imap_SearchCondition_Recent.htm" />
@@ -313,7 +316,6 @@
   <HelpKINode Title="S22.Imap.NotAuthenticatedException class" Url="html/T_S22_Imap_NotAuthenticatedException.htm" />
   <HelpKINode Title="S22.Imap.SearchCondition class" Url="html/AllMembers_T_S22_Imap_SearchCondition.htm" />
   <HelpKINode Title="S22.Imap.SearchCondition class" Url="html/T_S22_Imap_SearchCondition.htm" />
-  <HelpKINode Title="SaslOAuth enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="Search method" Url="html/M_S22_Imap_IImapClient_Search.htm" />
   <HelpKINode Title="Search method" Url="html/M_S22_Imap_ImapClient_Search.htm" />
   <HelpKINode Title="SearchCondition class" Url="html/AllMembers_T_S22_Imap_SearchCondition.htm" />
