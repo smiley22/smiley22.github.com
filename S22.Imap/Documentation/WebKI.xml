@@ -276,6 +276,7 @@
   </HelpKINode>
   <HelpKINode Title="NotAuthenticatedException.NotAuthenticatedException constructor" Url="html/Overload_S22_Imap_NotAuthenticatedException__ctor.htm" />
   <HelpKINode Title="Ntlm enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
+  <HelpKINode Title="Ntlmv2 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="OAuth enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="OAuth2 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="Old method" Url="html/M_S22_Imap_SearchCondition_Old.htm" />
