@@ -116,6 +116,7 @@
   <HelpKINode Title="GetMessages method" Url="html/Overload_S22_Imap_IImapClient_GetMessages.htm" />
   <HelpKINode Title="GetMessages method" Url="html/Overload_S22_Imap_ImapClient_GetMessages.htm" />
   <HelpKINode Title="GreaterThan method" Url="html/M_S22_Imap_SearchCondition_GreaterThan.htm" />
+  <HelpKINode Title="Gssapi enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="Header method" Url="html/M_S22_Imap_SearchCondition_Header.htm" />
   <HelpKINode Title="HeadersOnly enumeration member" Url="html/T_S22_Imap_FetchOptions.htm" />
   <HelpKINode Title="Id property" Url="html/P_S22_Imap_Bodypart_Id.htm" />
@@ -276,6 +277,7 @@
   </HelpKINode>
   <HelpKINode Title="NotAuthenticatedException.NotAuthenticatedException constructor" Url="html/Overload_S22_Imap_NotAuthenticatedException__ctor.htm" />
   <HelpKINode Title="Ntlm enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
+  <HelpKINode Title="NtlmOverSspi enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="Ntlmv2 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="OAuth enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="OAuth2 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
