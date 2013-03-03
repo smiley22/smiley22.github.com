@@ -322,6 +322,7 @@
   <HelpKINode Title="S22.Imap.NotAuthenticatedException class" Url="html/T_S22_Imap_NotAuthenticatedException.htm" />
   <HelpKINode Title="S22.Imap.SearchCondition class" Url="html/AllMembers_T_S22_Imap_SearchCondition.htm" />
   <HelpKINode Title="S22.Imap.SearchCondition class" Url="html/T_S22_Imap_SearchCondition.htm" />
+  <HelpKINode Title="ScramSha1 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="Search method" Url="html/M_S22_Imap_IImapClient_Search.htm" />
   <HelpKINode Title="Search method" Url="html/M_S22_Imap_ImapClient_Search.htm" />
   <HelpKINode Title="SearchCondition class" Url="html/AllMembers_T_S22_Imap_SearchCondition.htm" />
