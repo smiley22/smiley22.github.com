@@ -78,7 +78,7 @@
   <HelpKINode Title="ContentType enumeration" Url="html/T_S22_Imap_ContentType.htm" />
   <HelpKINode Title="CopyMessage method" Url="html/M_S22_Imap_IImapClient_CopyMessage.htm" />
   <HelpKINode Title="CopyMessage method" Url="html/M_S22_Imap_ImapClient_CopyMessage.htm" />
-  <HelpKINode Title="CramMD5 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
+  <HelpKINode Title="CramMd5 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="CreateMailbox method" Url="html/M_S22_Imap_IImapClient_CreateMailbox.htm" />
   <HelpKINode Title="CreateMailbox method" Url="html/M_S22_Imap_ImapClient_CreateMailbox.htm" />
   <HelpKINode Title="DefaultMailbox property" Url="html/P_S22_Imap_IImapClient_DefaultMailbox.htm" />
@@ -90,7 +90,7 @@
   <HelpKINode Title="DeleteMessage method" Url="html/M_S22_Imap_IImapClient_DeleteMessage.htm" />
   <HelpKINode Title="DeleteMessage method" Url="html/M_S22_Imap_ImapClient_DeleteMessage.htm" />
   <HelpKINode Title="Description property" Url="html/P_S22_Imap_Bodypart_Description.htm" />
-  <HelpKINode Title="DigestMD5 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
+  <HelpKINode Title="DigestMd5 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="Dispose method" Url="html/M_S22_Imap_ImapClient_Dispose.htm" />
   <HelpKINode Title="Disposition property" Url="html/P_S22_Imap_Bodypart_Disposition.htm" />
   <HelpKINode Title="Draft enumeration member" Url="html/T_S22_Imap_MessageFlag.htm" />
@@ -382,6 +382,7 @@
   <HelpKINode Title="Size property" Url="html/P_S22_Imap_Bodypart_Size.htm" />
   <HelpKINode Title="Smaller method" Url="html/M_S22_Imap_SearchCondition_Smaller.htm" />
   <HelpKINode Title="Spam enumeration member" Url="html/T_S22_Imap_MailboxFlag.htm" />
+  <HelpKINode Title="Srp enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="StoreMessage method" Url="html/M_S22_Imap_IImapClient_StoreMessage.htm" />
   <HelpKINode Title="StoreMessage method" Url="html/M_S22_Imap_ImapClient_StoreMessage.htm" />
   <HelpKINode Title="StoreMessages method" Url="html/M_S22_Imap_IImapClient_StoreMessages.htm" />
