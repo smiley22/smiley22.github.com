@@ -93,7 +93,6 @@
   <HelpKINode Title="Cancel enumeration member" Url="html/T_S22_Xmpp_ErrorType.htm" />
   <HelpKINode Title="Cancel enumeration member" Url="html/T_S22_Xmpp_Extensions_Dataforms_DataFormType.htm" />
   <HelpKINode Title="CancelFileTransfer method" Url="html/M_S22_Xmpp_Client_XmppClient_CancelFileTransfer.htm" />
-  <HelpKINode Title="Category property" Url="html/P_S22_Xmpp_Extensions_Identity_Category.htm" />
   <HelpKINode Title="Cautious enumeration member" Url="html/T_S22_Xmpp_Extensions_Mood.htm" />
   <HelpKINode Title="Chat enumeration member" Url="html/T_S22_Xmpp_Im_Availability.htm" />
   <HelpKINode Title="Chat enumeration member" Url="html/T_S22_Xmpp_Im_MessageType.htm" />
@@ -228,6 +227,7 @@
   <HelpKINode Title="Equals method" Url="html/M_S22_Xmpp_Jid_Equals.htm" />
   <HelpKINode Title="Error enumeration member" Url="html/T_S22_Xmpp_Core_IqType.htm" />
   <HelpKINode Title="Error enumeration member" Url="html/T_S22_Xmpp_Im_MessageType.htm" />
+  <HelpKINode Title="Error event" Url="html/E_S22_Xmpp_Client_XmppClient_Error.htm" />
   <HelpKINode Title="Error event" Url="html/E_S22_Xmpp_Core_XmppCore_Error.htm" />
   <HelpKINode Title="Error event" Url="html/E_S22_Xmpp_Im_XmppIm_Error.htm" />
   <HelpKINode Title="Error property" Url="html/P_S22_Xmpp_XmppErrorException_Error.htm" />
@@ -435,19 +435,6 @@
   <HelpKINode Title="Hungry enumeration member" Url="html/T_S22_Xmpp_Extensions_Mood.htm" />
   <HelpKINode Title="Hurt enumeration member" Url="html/T_S22_Xmpp_Extensions_Mood.htm" />
   <HelpKINode Title="Id property" Url="html/P_S22_Xmpp_Core_Stanza_Id.htm" />
-  <HelpKINode Title="Identity class" Url="html/AllMembers_T_S22_Xmpp_Extensions_Identity.htm" />
-  <HelpKINode Title="Identity class" Url="html/T_S22_Xmpp_Extensions_Identity.htm" />
-  <HelpKINode Title="Identity class">
-    <HelpKINode Title="about Identity class" Url="html/T_S22_Xmpp_Extensions_Identity.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Identity.htm" />
-    <HelpKINode Title="constructor" Url="html/M_S22_Xmpp_Extensions_Identity__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_S22_Xmpp_Extensions_Identity.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_S22_Xmpp_Extensions_Identity.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Identity.Category property" Url="html/P_S22_Xmpp_Extensions_Identity_Category.htm" />
-  <HelpKINode Title="Identity.Identity constructor" Url="html/M_S22_Xmpp_Extensions_Identity__ctor.htm" />
-  <HelpKINode Title="Identity.Name property" Url="html/P_S22_Xmpp_Extensions_Identity_Name.htm" />
-  <HelpKINode Title="Identity.Type property" Url="html/P_S22_Xmpp_Extensions_Identity_Type.htm" />
   <HelpKINode Title="Im property" Url="html/P_S22_Xmpp_Client_XmppClient_Im.htm" />
   <HelpKINode Title="Impressed enumeration member" Url="html/T_S22_Xmpp_Extensions_Mood.htm" />
   <HelpKINode Title="InACar enumeration member" Url="html/T_S22_Xmpp_Extensions_SpecificActivity.htm" />
@@ -509,21 +496,8 @@
   <HelpKINode Title="IsReadOnly property" Url="html/P_S22_Xmpp_Im_PrivacyList_IsReadOnly.htm" />
   <HelpKINode Title="IsRequest property" Url="html/P_S22_Xmpp_Core_Iq_IsRequest.htm" />
   <HelpKINode Title="IsResponse property" Url="html/P_S22_Xmpp_Core_Iq_IsResponse.htm" />
-  <HelpKINode Title="Item class" Url="html/AllMembers_T_S22_Xmpp_Extensions_Item.htm" />
-  <HelpKINode Title="Item class" Url="html/T_S22_Xmpp_Extensions_Item.htm" />
-  <HelpKINode Title="Item class">
-    <HelpKINode Title="about Item class" Url="html/T_S22_Xmpp_Extensions_Item.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Item.htm" />
-    <HelpKINode Title="constructor" Url="html/M_S22_Xmpp_Extensions_Item__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_S22_Xmpp_Extensions_Item.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_S22_Xmpp_Extensions_Item.htm" />
-  </HelpKINode>
   <HelpKINode Title="Item property" Url="html/Overload_S22_Xmpp_Extensions_Dataforms_FieldList_Item.htm" />
   <HelpKINode Title="Item property" Url="html/P_S22_Xmpp_Im_RosterUpdatedEventArgs_Item.htm" />
-  <HelpKINode Title="Item.Item constructor" Url="html/M_S22_Xmpp_Extensions_Item__ctor.htm" />
-  <HelpKINode Title="Item.Jid property" Url="html/P_S22_Xmpp_Extensions_Item_Jid.htm" />
-  <HelpKINode Title="Item.Name property" Url="html/P_S22_Xmpp_Extensions_Item_Name.htm" />
-  <HelpKINode Title="Item.Node property" Url="html/P_S22_Xmpp_Extensions_Item_Node.htm" />
   <HelpKINode Title="ItemNotFound enumeration member" Url="html/T_S22_Xmpp_ErrorCondition.htm" />
   <HelpKINode Title="Jealous enumeration member" Url="html/T_S22_Xmpp_Extensions_Mood.htm" />
   <HelpKINode Title="Jid class" Url="html/AllMembers_T_S22_Xmpp_Jid.htm" />
@@ -542,7 +516,6 @@
   <HelpKINode Title="Jid property" Url="html/P_S22_Xmpp_Extensions_AvatarChangedEventArgs_Jid.htm" />
   <HelpKINode Title="Jid property" Url="html/P_S22_Xmpp_Extensions_ChatStateChangedEventArgs_Jid.htm" />
   <HelpKINode Title="Jid property" Url="html/P_S22_Xmpp_Extensions_Dataforms_JidField_Jid.htm" />
-  <HelpKINode Title="Jid property" Url="html/P_S22_Xmpp_Extensions_Item_Jid.htm" />
   <HelpKINode Title="Jid property" Url="html/P_S22_Xmpp_Extensions_MoodChangedEventArgs_Jid.htm" />
   <HelpKINode Title="Jid property" Url="html/P_S22_Xmpp_Extensions_Streamhost_Jid.htm" />
   <HelpKINode Title="Jid property" Url="html/P_S22_Xmpp_Extensions_TuneEventArgs_Jid.htm" />
@@ -719,14 +692,11 @@
   <HelpKINode Title="Moody enumeration member" Url="html/T_S22_Xmpp_Extensions_Mood.htm" />
   <HelpKINode Title="Name property" Url="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Name.htm" />
   <HelpKINode Title="Name property" Url="html/P_S22_Xmpp_Extensions_FileTransfer_Name.htm" />
-  <HelpKINode Title="Name property" Url="html/P_S22_Xmpp_Extensions_Identity_Name.htm" />
-  <HelpKINode Title="Name property" Url="html/P_S22_Xmpp_Extensions_Item_Name.htm" />
   <HelpKINode Title="Name property" Url="html/P_S22_Xmpp_Extensions_VersionInformation_Name.htm" />
   <HelpKINode Title="Name property" Url="html/P_S22_Xmpp_Im_PrivacyList_Name.htm" />
   <HelpKINode Title="Name property" Url="html/P_S22_Xmpp_Im_RosterItem_Name.htm" />
   <HelpKINode Title="Nervous enumeration member" Url="html/T_S22_Xmpp_Extensions_Mood.htm" />
   <HelpKINode Title="Neutral enumeration member" Url="html/T_S22_Xmpp_Extensions_Mood.htm" />
-  <HelpKINode Title="Node property" Url="html/P_S22_Xmpp_Extensions_Item_Node.htm" />
   <HelpKINode Title="Node property" Url="html/P_S22_Xmpp_Jid_Node.htm" />
   <HelpKINode Title="None enumeration member" Url="html/T_S22_Xmpp_Im_SubscriptionState.htm" />
   <HelpKINode Title="Normal enumeration member" Url="html/T_S22_Xmpp_Im_MessageType.htm" />
@@ -1015,10 +985,6 @@
   <HelpKINode Title="S22.Xmpp.Extensions.FileTransferProgressEventArgs class" Url="html/T_S22_Xmpp_Extensions_FileTransferProgressEventArgs.htm" />
   <HelpKINode Title="S22.Xmpp.Extensions.FileTransferRequest delegate" Url="html/T_S22_Xmpp_Extensions_FileTransferRequest.htm" />
   <HelpKINode Title="S22.Xmpp.Extensions.GeneralActivity enumeration" Url="html/T_S22_Xmpp_Extensions_GeneralActivity.htm" />
-  <HelpKINode Title="S22.Xmpp.Extensions.Identity class" Url="html/AllMembers_T_S22_Xmpp_Extensions_Identity.htm" />
-  <HelpKINode Title="S22.Xmpp.Extensions.Identity class" Url="html/T_S22_Xmpp_Extensions_Identity.htm" />
-  <HelpKINode Title="S22.Xmpp.Extensions.Item class" Url="html/AllMembers_T_S22_Xmpp_Extensions_Item.htm" />
-  <HelpKINode Title="S22.Xmpp.Extensions.Item class" Url="html/T_S22_Xmpp_Extensions_Item.htm" />
   <HelpKINode Title="S22.Xmpp.Extensions.Mood enumeration" Url="html/T_S22_Xmpp_Extensions_Mood.htm" />
   <HelpKINode Title="S22.Xmpp.Extensions.MoodChangedEventArgs class" Url="html/AllMembers_T_S22_Xmpp_Extensions_MoodChangedEventArgs.htm" />
   <HelpKINode Title="S22.Xmpp.Extensions.MoodChangedEventArgs class" Url="html/T_S22_Xmpp_Extensions_MoodChangedEventArgs.htm" />
@@ -1358,7 +1324,6 @@
   <HelpKINode Title="Type property" Url="html/P_S22_Xmpp_Core_Iq_Type.htm" />
   <HelpKINode Title="Type property" Url="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Type.htm" />
   <HelpKINode Title="Type property" Url="html/P_S22_Xmpp_Extensions_Dataforms_DataForm_Type.htm" />
-  <HelpKINode Title="Type property" Url="html/P_S22_Xmpp_Extensions_Identity_Type.htm" />
   <HelpKINode Title="Type property" Url="html/P_S22_Xmpp_Im_Message_Type.htm" />
   <HelpKINode Title="Type property" Url="html/P_S22_Xmpp_XmppError_Type.htm" />
   <HelpKINode Title="Unblock method" Url="html/M_S22_Xmpp_Client_XmppClient_Unblock.htm" />
@@ -1450,6 +1415,7 @@
   <HelpKINode Title="XmppClient.Connect method" Url="html/M_S22_Xmpp_Client_XmppClient_Connect.htm" />
   <HelpKINode Title="XmppClient.Connected property" Url="html/P_S22_Xmpp_Client_XmppClient_Connected.htm" />
   <HelpKINode Title="XmppClient.Dispose method" Url="html/Overload_S22_Xmpp_Client_XmppClient_Dispose.htm" />
+  <HelpKINode Title="XmppClient.Error event" Url="html/E_S22_Xmpp_Client_XmppClient_Error.htm" />
   <HelpKINode Title="XmppClient.FileTransferAborted event" Url="html/E_S22_Xmpp_Client_XmppClient_FileTransferAborted.htm" />
   <HelpKINode Title="XmppClient.FileTransferProgress event" Url="html/E_S22_Xmpp_Client_XmppClient_FileTransferProgress.htm" />
   <HelpKINode Title="XmppClient.FileTransferRequest property" Url="html/P_S22_Xmpp_Client_XmppClient_FileTransferRequest.htm" />
