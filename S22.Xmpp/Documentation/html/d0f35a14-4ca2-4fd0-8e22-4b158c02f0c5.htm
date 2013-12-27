@@ -1,0 +1,144 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" /><META NAME="save" CONTENT="history" /><title>Howto: Configure file-transfers</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="d0f35a14-4ca2-4fd0-8e22-4b158c02f0c5" /><meta name="Description" content="The following walkthrough demonstrates the steps required to setup file-transfers; It demonstrates how to send as well as how to receive files using the built-in file-transfer methods of XMPP." /><meta name="Microsoft.Help.ContentType" content="How To" /><link rel="stylesheet" type="text/css" href="../styles/Presentation.css" /><link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" /><script type="text/javascript" src="../scripts/EventUtilities.js"> </script><script type="text/javascript" src="../scripts/SplitScreen.js"> </script><script type="text/javascript" src="../scripts/Dropdown.js"> </script><script type="text/javascript" src="../scripts/script_manifold.js"> </script><script type="text/javascript" src="../scripts/script_feedBack.js"> </script><script type="text/javascript" src="../scripts/CheckboxMenu.js"> </script><script type="text/javascript" src="../scripts/CommonUtilities.js"> </script><xml><MSHelp:Keyword Index="A" Term="d0f35a14-4ca2-4fd0-8e22-4b158c02f0c5" /><MSHelp:Attr Name="RevisionNumber" Value="1" /><MSHelp:Attr Name="AssetID" Value="d0f35a14-4ca2-4fd0-8e22-4b158c02f0c5" /><MSHelp:Attr Name="Abstract" Value="The following walkthrough demonstrates the steps required to setup file-transfers; It demonstrates how to send as well as how to receive files using the built-in file-transfer methods of XMPP." /><MSHelp:Attr Name="TopicType" Value="kbHowTo" /><MSHelp:Attr Name="Locale" Value="en-us" /></xml><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script></head><body><input type="hidden" id="userDataCache" class="userDataStyle" /><input type="hidden" id="hiddenScrollOffset" /><img id="collapseImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" alt="Collapse image" title="Collapse image" /><img id="expandImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" alt="Expand Image" title="Expand Image" /><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" /><img id="expandAllImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" /><img id="dropDownImage" style="display:none; height:0; width:0;" src="../icons/dropdown.gif" /><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../icons/dropdownHover.gif" /><img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" /><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" /><div id="header"><table id="topTable" cellspacing="0" cellpadding="0"><tr><td><span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage, event)" tabindex="0"><img ID="toggleAllImage" class="toggleAll" src="../icons/collapse_all.gif" /> <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">Collapse All</label><label id="expandAllLabel" for="toggleAllImage" style="display: none;">Expand All</label> </span></td></tr></table><div id="devlangsMenu"><input id="CSharpCheckbox" type="checkbox" data="CSharp,cs,'persist'" value="on" onClick="SetLanguage(this)" /><label class="checkboxLabel" for="CSharpCheckbox">C#</label><br /></div><table id="bottomTable" cellpadding="0" cellspacing="0"><tr id="headerTableRow1"><td align="left"><span id="runningHeaderText">S22.Xmpp Documentation</span></td></tr><tr id="headerTableRow2"><td align="left"><span id="nsrTitle">Howto: Configure file-transfers</span></td></tr></table><table id="gradientTable"><tr><td class="nsrBottom" background="../icons/gradient.gif" /></tr></table></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" /><span style="color: DarkGray"></span><div class="introduction"><p>
+		The following walkthrough demonstrates the steps required to setup file-transfers; It demonstrates
+		how to send as well as how to receive files using the built-in file-transfer methods of XMPP.
+	  </p></div><h3 class="procedureSubHeading">Transferring files</h3><div class="subSection"><ol><li><p>
+				In order to proccess incoming file-requests you must provide a delegate of type
+				<span sdata="cer" target="T:S22.Xmpp.Extensions.FileTransferRequest"><a href="T_S22_Xmpp_Extensions_FileTransferRequest.htm">FileTransferRequest</a></span>
+				to the XmppClient instance. This delegate is invoked whenever
+				another XMPP user attempts to initiate a file-transfer. It is then this method's
+				responsibility to examine or present the provided meta-data (file name, file size and
+				description) to the user in order to determine whether to accept or refuse the pending
+				file-transfer request. The following example illustrates how to setup the
+				<span sdata="cer" target="T:S22.Xmpp.Extensions.FileTransferRequest"><a href="T_S22_Xmpp_Extensions_FileTransferRequest.htm">FileTransferRequest</a></span>
+				delegate.
+				<span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" onkeypress="javascript:CopyColorizedCodeCheckKey(this.parentNode, event);" tabindex="0" onmouseover="CopyCodeChangeIcon(this)" onmouseout="CopyCodeChangeIcon(this)" onclick="javascript:CopyColorizedCode(this.parentNode);"><img style="margin-right: 5px;" src="../icons/CopyCode.gif" />Copy</span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">using</span> S22.Xmpp.Client;
+<span class="highlight-keyword">using</span> S22.Xmpp.Extensions;
+<span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> System.Threading;
+
+<span class="highlight-keyword">namespace</span> ConsoleApplication54 {
+    <span class="highlight-keyword">class</span> Program {
+        <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> Main(<span class="highlight-keyword">string</span>[] args) {
+            <span class="highlight-keyword">string</span> hostname = <span class="highlight-literal">"jabber.se"</span>;
+            <span class="highlight-keyword">string</span> username = <span class="highlight-literal">"myUsername"</span>;
+            <span class="highlight-keyword">string</span> password = <span class="highlight-literal">"myPassword"</span>;
+
+            <span class="highlight-keyword">using</span> (XmppClient client = <span class="highlight-keyword">new</span> XmppClient(hostname, username, password)) {
+                <span class="highlight-comment">// Setup any event handlers here.</span>
+                <span class="highlight-comment">// ...</span>
+                <span class="highlight-comment">// Provide a FileTransferRequest delegate to the XmppClient instance.</span>
+                client.FileTransferRequest = OnFileTransferRequest;
+                client.Connect();
+
+                Console.WriteLine(<span class="highlight-literal">"Connected as "</span> + client.Jid);
+                Console.WriteLine(<span class="highlight-literal">"Waiting for incoming file-requests..."</span>);
+                <span class="highlight-comment">// Block indefinitely.</span>
+                Thread.Sleep(Timeout.Infinite);
+            }
+        }
+
+        <span class="highlight-comment">/// &lt;summary&gt;</span>
+        <span class="highlight-comment">/// A callback method invoked whenever another user wishes to send us a file.</span>
+        <span class="highlight-comment">/// &lt;/summary&gt;</span>
+        <span class="highlight-comment">/// &lt;param name="transfer"&gt;</span>
+        <span class="highlight-comment">/// A FileTransfer object containing meta-data about the</span>
+        <span class="highlight-comment">/// respective file.</span>
+        <span class="highlight-comment">/// &lt;/param&gt;</span>
+        <span class="highlight-comment">/// &lt;returns&gt;</span>
+        <span class="highlight-comment">/// The location at which to save the incoming file, or null to refuse</span>
+        <span class="highlight-comment">/// the file-request.</span>
+        <span class="highlight-comment">/// &lt;/returns&gt;</span>
+        <span class="highlight-keyword">static</span> <span class="highlight-keyword">string</span> OnFileTransferRequest(FileTransfer transfer) {
+            <span class="highlight-comment">// Let the user decide whether we want to accept the file-request or not.</span>
+            Console.WriteLine(<span class="highlight-literal">"Incoming file-transfer request from &lt;"</span> + transfer.From + <span class="highlight-literal">"&gt;: "</span>);
+            Console.WriteLine(<span class="highlight-literal">" - Filename: "</span> + transfer.Name);
+            Console.WriteLine(<span class="highlight-literal">" - Filesize: "</span> + transfer.Size + <span class="highlight-literal">" bytes"</span>);
+            <span class="highlight-keyword">if</span> (!String.IsNullOrEmpty(transfer.Description))
+                Console.WriteLine(<span class="highlight-literal">" - Description: "</span> + transfer.Description);
+
+            Console.Write(<span class="highlight-literal">"Type Y to accept or N to refuse the request: "</span>);
+            <span class="highlight-keyword">string</span> s = Console.ReadLine().ToLowerInvariant();
+            <span class="highlight-keyword">if</span> (s == <span class="highlight-literal">"y"</span>)
+                <span class="highlight-comment">// This saves the file in the current working directory of the process.</span>
+                <span class="highlight-keyword">return</span> transfer.Name;
+            <span class="highlight-keyword">else</span>
+                <span class="highlight-comment">// Returning null indicates we don't wish to accept the file-transfer.</span>
+                <span class="highlight-keyword">return</span> <span class="highlight-keyword">null</span>;
+        }
+    }
+}</pre></div></span></p><p>
+				Upon accepting a pending request for a file, the progress of the
+				file-transfer operation can be observed by subscribing to the
+				<span sdata="cer" target="E:S22.Xmpp.Client.XmppClient.FileTransferProgress"><a href="E_S22_Xmpp_Client_XmppClient_FileTransferProgress.htm">FileTransferProgress</a></span>
+				event, which is raised periodically as the file is being transferred. If a
+				file-transfer is aborted prematurely, the
+				<span sdata="cer" target="E:S22.Xmpp.Client.XmppClient.FileTransferAborted"><a href="E_S22_Xmpp_Client_XmppClient_FileTransferAborted.htm">FileTransferAborted</a></span>
+				event is raised.
+			</p></li><li><p>
+				In order to offer a file to another XMPP user, call the
+				<span sdata="cer" target="M:S22.Xmpp.Client.XmppClient.InitiateFileTransfer"><span class="nolink">InitiateFileTransfer</span></span>
+				method; The method expects the JID of the recipient, the file you wish
+				to transfer and optionally a callback method that is invoked once the
+				other site has either accepted or rejected the file-transfer request. The
+				following example demonstrates how to initiate a file-transfer with another
+				XMPP user and print the progress of the subsequent file-transfer operation to
+				the console.
+				<span id="cbc_2" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" onkeypress="javascript:CopyColorizedCodeCheckKey(this.parentNode, event);" tabindex="0" onmouseover="CopyCodeChangeIcon(this)" onmouseout="CopyCodeChangeIcon(this)" onclick="javascript:CopyColorizedCode(this.parentNode);"><img style="margin-right: 5px;" src="../icons/CopyCode.gif" />Copy</span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">using</span> S22.Xmpp.Client;
+<span class="highlight-keyword">using</span> S22.Xmpp.Extensions;
+<span class="highlight-keyword">using</span> System;
+
+<span class="highlight-keyword">namespace</span> ConsoleApplication1 {
+    <span class="highlight-keyword">class</span> Program {
+        <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> Main(<span class="highlight-keyword">string</span>[] args) {
+            <span class="highlight-keyword">string</span> hostname = <span class="highlight-literal">"jabber.se"</span>;
+            <span class="highlight-keyword">string</span> username = <span class="highlight-literal">"myUsername"</span>;
+            <span class="highlight-keyword">string</span> password = <span class="highlight-literal">"myPassword"</span>;
+            <span class="highlight-keyword">string</span> recipient = <span class="highlight-literal">"king_olaf@jabber.no/laptop"</span>;
+
+            <span class="highlight-keyword">using</span> (XmppClient client = <span class="highlight-keyword">new</span> XmppClient(hostname, username, password)) {
+                <span class="highlight-comment">// Setup event handlers.</span>
+                client.FileTransferProgress += OnFileTransferProgress;
+                client.FileTransferAborted += OnFileTransferAborted;
+
+                client.Connect();
+                Console.WriteLine(<span class="highlight-literal">"Connected as "</span> + client.Jid);
+
+                <span class="highlight-keyword">while</span> (<span class="highlight-keyword">true</span>) {
+                    Console.Write(<span class="highlight-literal">"Type 'send' to initiate the file-transfer, or 'quit' to exit: "</span>);
+                    <span class="highlight-keyword">string</span> s = Console.ReadLine().ToLowerInvariant();
+                    <span class="highlight-keyword">if</span> (s == <span class="highlight-literal">"quit"</span>)
+                        <span class="highlight-keyword">return</span>;
+                    <span class="highlight-keyword">if</span> (s == <span class="highlight-literal">"send"</span>) {
+                        client.InitiateFileTransfer(recipient, <span class="highlight-literal">"polarbear_greenland.jpg"</span>,
+                            <span class="highlight-literal">"This is a picture of a polar bear from Greenland!"</span>, FileTransferCallback);
+                    }
+                }
+            }
+        }
+
+        <span class="highlight-comment">/// &lt;summary&gt;</span>
+        <span class="highlight-comment">/// The callback method invoked once the pending file-transfer has been accepted or</span>
+        <span class="highlight-comment">/// rejected.</span>
+        <span class="highlight-comment">/// &lt;/summary&gt;</span>
+        <span class="highlight-comment">/// &lt;param name="accepted"&gt;</span>
+        <span class="highlight-comment">/// true if the other site accepted our file-transfer request; Otherwise false.</span>
+        <span class="highlight-comment">/// &lt;/param&gt;</span>
+        <span class="highlight-comment">/// &lt;param name="transfer"&gt;</span>
+        <span class="highlight-comment">/// A FileTransfer object containing meta-data about the file-transfer.</span>
+        <span class="highlight-comment">/// &lt;/param&gt;</span>
+        <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> FileTransferCallback(<span class="highlight-keyword">bool</span> accepted, FileTransfer transfer) {
+            Console.WriteLine(transfer.To + <span class="highlight-literal">" has "</span> + (accepted == <span class="highlight-keyword">true</span> ? <span class="highlight-literal">"accepted "</span> : <span class="highlight-literal">"rejected "</span>) +
+                <span class="highlight-literal">"the transfer of "</span> + transfer.Name + <span class="highlight-literal">"."</span>);
+        }
+
+        <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> OnFileTransferProgress(<span class="highlight-keyword">object</span> sender, FileTransferProgressEventArgs e) {
+            <span class="highlight-comment">// Print out the progress of the file-transfer operation.</span>
+            Console.WriteLine(<span class="highlight-literal">"Transferring "</span> + e.Transfer.Name + <span class="highlight-literal">"..."</span> +
+                e.Transfer.Transferred + <span class="highlight-literal">"/"</span> + e.Transfer.Size + <span class="highlight-literal">" Bytes"</span>);
+        }
+
+        <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> OnFileTransferAborted(<span class="highlight-keyword">object</span> sender, FileTransferAbortedEventArgs e) {
+            Console.WriteLine(<span class="highlight-literal">"The transfer of "</span> + e.Transfer.Name + <span class="highlight-literal">" has been aborted."</span>);
+        }
+    }
+}</pre></div></span></p></li></ol></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><span sdata="cer" target="P:S22.Xmpp.Client.XmppClient.FileTransferSettings"><a href="P_S22_Xmpp_Client_XmppClient_FileTransferSettings.htm">FileTransferSettings</a></span></div><h4 class="subHeading">Other Resources</h4><div class="seeAlsoStyle"><span sdata="link"><a href="0e3b67fa-4603-4607-93eb-9aa2c173c85d.htm">Howto: Connect to an XMPP server</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="695c31af-6d2b-40fa-bab6-d8168e36e358.htm">Howto: Setup XMPP event handlers</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="0d3301ee-e88e-44a2-955a-3ff6e44007e1.htm">Howto: Register an account</a></span></div></div></div><div id="footer"><div class="footerLine"><img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" /></div><A NAME="feedback"></A><span id="fb" class="feedbackcss"></span></div></div></body></html>

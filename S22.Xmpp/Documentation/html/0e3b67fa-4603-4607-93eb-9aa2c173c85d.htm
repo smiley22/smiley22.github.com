@@ -1,0 +1,59 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" /><META NAME="save" CONTENT="history" /><title>Howto: Connect to an XMPP server</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="0e3b67fa-4603-4607-93eb-9aa2c173c85d" /><meta name="Description" content="The following example demonstrates how to connect to an XMPP server using the T:S22.Xmpp.Client.XmppClient class." /><meta name="Microsoft.Help.ContentType" content="How To" /><link rel="stylesheet" type="text/css" href="../styles/Presentation.css" /><link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" /><script type="text/javascript" src="../scripts/EventUtilities.js"> </script><script type="text/javascript" src="../scripts/SplitScreen.js"> </script><script type="text/javascript" src="../scripts/Dropdown.js"> </script><script type="text/javascript" src="../scripts/script_manifold.js"> </script><script type="text/javascript" src="../scripts/script_feedBack.js"> </script><script type="text/javascript" src="../scripts/CheckboxMenu.js"> </script><script type="text/javascript" src="../scripts/CommonUtilities.js"> </script><xml><MSHelp:Keyword Index="A" Term="0e3b67fa-4603-4607-93eb-9aa2c173c85d" /><MSHelp:Attr Name="RevisionNumber" Value="1" /><MSHelp:Attr Name="AssetID" Value="0e3b67fa-4603-4607-93eb-9aa2c173c85d" /><MSHelp:Attr Name="Abstract" Value="The following example demonstrates how to connect to an XMPP server using the T:S22.Xmpp.Client.XmppClient class." /><MSHelp:Attr Name="TopicType" Value="kbHowTo" /><MSHelp:Attr Name="Locale" Value="en-us" /></xml><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script></head><body><input type="hidden" id="userDataCache" class="userDataStyle" /><input type="hidden" id="hiddenScrollOffset" /><img id="collapseImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" alt="Collapse image" title="Collapse image" /><img id="expandImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" alt="Expand Image" title="Expand Image" /><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" /><img id="expandAllImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" /><img id="dropDownImage" style="display:none; height:0; width:0;" src="../icons/dropdown.gif" /><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../icons/dropdownHover.gif" /><img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" /><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" /><div id="header"><table id="topTable" cellspacing="0" cellpadding="0"><tr><td><span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage, event)" tabindex="0"><img ID="toggleAllImage" class="toggleAll" src="../icons/collapse_all.gif" /> <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">Collapse All</label><label id="expandAllLabel" for="toggleAllImage" style="display: none;">Expand All</label> </span></td></tr></table><div id="devlangsMenu"><input id="CSharpCheckbox" type="checkbox" data="CSharp,cs,'persist'" value="on" onClick="SetLanguage(this)" /><label class="checkboxLabel" for="CSharpCheckbox">C#</label><br /></div><table id="bottomTable" cellpadding="0" cellspacing="0"><tr id="headerTableRow1"><td align="left"><span id="runningHeaderText">S22.Xmpp Documentation</span></td></tr><tr id="headerTableRow2"><td align="left"><span id="nsrTitle">Howto: Connect to an XMPP server</span></td></tr></table><table id="gradientTable"><tr><td class="nsrBottom" background="../icons/gradient.gif" /></tr></table></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" /><span style="color: DarkGray"></span><div class="introduction"><p>
+			The	following example demonstrates how to connect to an XMPP server using the
+			<span sdata="cer" target="T:S22.Xmpp.Client.XmppClient"><a href="T_S22_Xmpp_Client_XmppClient.htm">XmppClient</a></span>
+			class.
+	  </p></div><h1 class="heading"><span onclick="ExpandCollapse(sectionToggleID0EGAAA)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(sectionToggleID0EGAAA, event)" tabindex="0"><img id="sectionToggleID0EGAAA" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Connecting using an existing XMPP account</span></h1><div id="sectionSectionID0EGAAA" class="section" name="collapseableSection" style=""><p>
+				If you already have an account on the server to which you want to connect,
+				establishing a connection is as easy as initializing a new instance of the
+				<span sdata="cer" target="T:S22.Xmpp.Client.XmppClient"><a href="T_S22_Xmpp_Client_XmppClient.htm">XmppClient</a></span>			
+				class und calling the
+				<span sdata="cer" target="M:S22.Xmpp.Client.XmppClient.Connect"><span class="nolink">Connect</span></span>			
+				method as demonstrated in the following example application:
+				<span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" onkeypress="javascript:CopyColorizedCodeCheckKey(this.parentNode, event);" tabindex="0" onmouseover="CopyCodeChangeIcon(this)" onmouseout="CopyCodeChangeIcon(this)" onclick="javascript:CopyColorizedCode(this.parentNode);"><img style="margin-right: 5px;" src="../icons/CopyCode.gif" />Copy</span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">using</span> S22.Xmpp.Client;
+<span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> System.Text.RegularExpressions;
+
+<span class="highlight-keyword">namespace</span> ConsoleApplication52 {
+    <span class="highlight-keyword">class</span> Program {
+        <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> Main(<span class="highlight-keyword">string</span>[] args) {
+            <span class="highlight-keyword">string</span> hostname = <span class="highlight-literal">"jabber.dk"</span>;
+            <span class="highlight-keyword">string</span> username = <span class="highlight-literal">"myusername"</span>;
+            <span class="highlight-keyword">string</span> password = <span class="highlight-literal">"mysecretpassword"</span>;
+
+            <span class="highlight-keyword">using</span> (XmppClient client = <span class="highlight-keyword">new</span> XmppClient(hostname, username, password)) {
+                <span class="highlight-comment">// Setup any event handlers.</span>
+                <span class="highlight-comment">// ...</span>
+                client.Connect();
+                Console.WriteLine(<span class="highlight-literal">"Connected as "</span> + client.Jid + Environment.NewLine);
+                Console.WriteLine(<span class="highlight-literal">" Type 'send &lt;JID&gt; &lt;Message&gt;' to send a chat message, or 'quit' to exit."</span>);
+                Console.WriteLine(<span class="highlight-literal">" Example: send user@domain.com Hello!"</span>);
+                Console.WriteLine();
+
+                <span class="highlight-keyword">while</span> (<span class="highlight-keyword">true</span>) {
+                    Console.Write(<span class="highlight-literal">"&gt; "</span>);
+                    <span class="highlight-keyword">string</span> s = Console.ReadLine();
+                    <span class="highlight-keyword">if</span> (s.StartsWith(<span class="highlight-literal">"send "</span>)) {
+                        Match m = Regex.Match(s, <span class="highlight-literal">@"^send\s(?&lt;jid&gt;[^\s]+)\s(?&lt;message&gt;.+)$"</span>);
+                        <span class="highlight-keyword">if</span> (!m.Success)
+                            <span class="highlight-keyword">continue</span>;
+                        <span class="highlight-keyword">string</span> recipient = m.Groups[<span class="highlight-literal">"jid"</span>].Value, message = m.Groups[<span class="highlight-literal">"message"</span>].Value;
+                        <span class="highlight-comment">// Send the chat-message.</span>
+                        client.SendMessage(recipient, message);
+                    }
+                    <span class="highlight-keyword">if</span> (s == <span class="highlight-literal">"quit"</span>)
+                        <span class="highlight-keyword">return</span>;
+                }
+            }
+        }
+    }
+}</pre></div></span></p><p>
+			Using the constructor of the XmppClient class as in the example above will automatically
+			negotiate TLS/SSL encryption if the server supports it, however this behaviour can be
+			disabled by passing the constructor a value of false for the tls parameter.
+			</p></div><h1 class="heading"><span onclick="ExpandCollapse(sectionToggleID0EFAAA)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(sectionToggleID0EFAAA, event)" tabindex="0"><img id="sectionToggleID0EFAAA" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Connecting without an existing account</span></h1><div id="sectionSectionID0EFAAA" class="section" name="collapseableSection" style=""><p><span sdata="cer" target="T:S22.Xmpp.Client.XmppClient"><a href="T_S22_Xmpp_Client_XmppClient.htm">XmppClient</a></span>	
+				also supports in-band registration, that is account creation from within
+				an XMPP session. Please go
+				<span sdata="link"><a href="0d3301ee-e88e-44a2-955a-3ff6e44007e1.htm">here</a></span>
+				for a brief walkthrough how to register an account using the in-band
+				registration process.
+			</p></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><h4 class="subHeading">Other Resources</h4><div class="seeAlsoStyle"><span sdata="link"><a href="695c31af-6d2b-40fa-bab6-d8168e36e358.htm">Howto: Setup XMPP event handlers</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="0d3301ee-e88e-44a2-955a-3ff6e44007e1.htm">Howto: Register an account</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="d0f35a14-4ca2-4fd0-8e22-4b158c02f0c5.htm">Howto: Initiate a file transfer</a></span></div></div></div><div id="footer"><div class="footerLine"><img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" /></div><A NAME="feedback"></A><span id="fb" class="feedbackcss"></span></div></div></body></html>

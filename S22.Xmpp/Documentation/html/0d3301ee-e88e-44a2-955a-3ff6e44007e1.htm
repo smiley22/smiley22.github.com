@@ -1,0 +1,98 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" /><META NAME="save" CONTENT="history" /><title>Howto: Register an account</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="0d3301ee-e88e-44a2-955a-3ff6e44007e1" /><meta name="Description" content="The following walkthrough demonstrates the steps required to register an XMPP account through the in-band registration process." /><meta name="Microsoft.Help.ContentType" content="How To" /><link rel="stylesheet" type="text/css" href="../styles/Presentation.css" /><link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" /><script type="text/javascript" src="../scripts/EventUtilities.js"> </script><script type="text/javascript" src="../scripts/SplitScreen.js"> </script><script type="text/javascript" src="../scripts/Dropdown.js"> </script><script type="text/javascript" src="../scripts/script_manifold.js"> </script><script type="text/javascript" src="../scripts/script_feedBack.js"> </script><script type="text/javascript" src="../scripts/CheckboxMenu.js"> </script><script type="text/javascript" src="../scripts/CommonUtilities.js"> </script><xml><MSHelp:Keyword Index="A" Term="0d3301ee-e88e-44a2-955a-3ff6e44007e1" /><MSHelp:Attr Name="RevisionNumber" Value="1" /><MSHelp:Attr Name="AssetID" Value="0d3301ee-e88e-44a2-955a-3ff6e44007e1" /><MSHelp:Attr Name="Abstract" Value="The following walkthrough demonstrates the steps required to register an XMPP account through the in-band registration process." /><MSHelp:Attr Name="TopicType" Value="kbHowTo" /><MSHelp:Attr Name="Locale" Value="en-us" /></xml><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script></head><body><input type="hidden" id="userDataCache" class="userDataStyle" /><input type="hidden" id="hiddenScrollOffset" /><img id="collapseImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" alt="Collapse image" title="Collapse image" /><img id="expandImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" alt="Expand Image" title="Expand Image" /><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" /><img id="expandAllImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" /><img id="dropDownImage" style="display:none; height:0; width:0;" src="../icons/dropdown.gif" /><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../icons/dropdownHover.gif" /><img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" /><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" /><div id="header"><table id="topTable" cellspacing="0" cellpadding="0"><tr><td><span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage, event)" tabindex="0"><img ID="toggleAllImage" class="toggleAll" src="../icons/collapse_all.gif" /> <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">Collapse All</label><label id="expandAllLabel" for="toggleAllImage" style="display: none;">Expand All</label> </span></td></tr></table><div id="devlangsMenu"><input id="CSharpCheckbox" type="checkbox" data="CSharp,cs,'persist'" value="on" onClick="SetLanguage(this)" /><label class="checkboxLabel" for="CSharpCheckbox">C#</label><br /></div><table id="bottomTable" cellpadding="0" cellspacing="0"><tr id="headerTableRow1"><td align="left"><span id="runningHeaderText">S22.Xmpp Documentation</span></td></tr><tr id="headerTableRow2"><td align="left"><span id="nsrTitle">Howto: Register an account</span></td></tr></table><table id="gradientTable"><tr><td class="nsrBottom" background="../icons/gradient.gif" /></tr></table></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" /><span style="color: DarkGray"></span><div class="introduction"><p>
+			The	following walkthrough demonstrates the steps required to register an XMPP account
+			through	the	in-band	registration process.
+		</p><p>
+			The	XMPP/Jabber	protocols have long	included a method for in-band registration with
+			instant	messaging servers and associated services. While not all XMPP servers support
+			in-band	registration, quite	a few do and it's a	very convenient	way	for	a new user to
+			register an	account directly from within their chat client application.
+		</p></div><h3 class="procedureSubHeading">In-Band Account Registration</h3><div class="subSection"><ol><li><p>
+				Create an instance of the
+				<span sdata="cer" target="T:S22.Xmpp.Client.XmppClient"><a href="T_S22_Xmpp_Client_XmppClient.htm">XmppClient</a></span>
+				class using the
+				constructor that does
+				not expect username and password parameters, connect to the XMPP server
+				on which you wish to register a new XMPP account and call the
+				<span sdata="cer" target="M:S22.Xmpp.Client.XmppClient.Register"><span class="nolink">Register</span></span>
+				method, passing it a delegate of type
+				<span sdata="cer" target="T:S22.Xmpp.Extensions.RegistrationCallback"><a href="T_S22_Xmpp_Extensions_RegistrationCallback.htm">RegistrationCallback</a></span>.
+				<span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" onkeypress="javascript:CopyColorizedCodeCheckKey(this.parentNode, event);" tabindex="0" onmouseover="CopyCodeChangeIcon(this)" onmouseout="CopyCodeChangeIcon(this)" onclick="javascript:CopyColorizedCode(this.parentNode);"><img style="margin-right: 5px;" src="../icons/CopyCode.gif" />Copy</span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">using</span> (XmppClient client = <span class="highlight-keyword">new</span> XmppClient(<span class="highlight-literal">"jabber.ccc.de"</span>)) {
+    <span class="highlight-comment">// Setup any event handlers here, before connecting to the server.</span>
+    <span class="highlight-comment">// In this example, we don't need to install any.</span>
+    client.Connect();
+
+    <span class="highlight-comment">// Try to initiate the in-band registration process with the server.</span>
+    client.Register(RegistrationCallback);
+
+    [...]</pre></div></span></p></li><li><p>
+				The RegistrationCallback is a method that is invoked during the registration
+				process to let the user enter any data that the server requires in order to
+				create a new account. Many servers merely require the user to enter their
+				designated username and password, but some ask the user to provide additional
+				information such as his or her real name or ask the the user to enter a
+				CAPTCHA.
+			</p><p>
+				To facilitate the different needs of server administrators, XMPP employs
+				a flexible request/submit mechanism similar to HTML forms: The server
+				sends a form with various fields and asks the client to fill it out. What kind of
+				fields the form contains is entirely up to the server administrator and differs
+				from server to server.
+			</p><p>
+				A shortended version of the RegistrationCallback method is given below. You can
+				find the full example code at the end of this walkthrough.
+				<span id="cbc_2" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" onkeypress="javascript:CopyColorizedCodeCheckKey(this.parentNode, event);" tabindex="0" onmouseover="CopyCodeChangeIcon(this)" onmouseout="CopyCodeChangeIcon(this)" onclick="javascript:CopyColorizedCode(this.parentNode);"><img style="margin-right: 5px;" src="../icons/CopyCode.gif" />Copy</span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">static</span> SubmitForm RegistrationCallback(RequestForm form) {
+    <span class="highlight-comment">// The RequestForm contains all fields the user is required to fill out</span>
+    <span class="highlight-comment">// in order to complete account registration with the XMPP server.</span>
+    <span class="highlight-keyword">if</span>(!String.IsNullOrEmpty(form.Instructions))
+        Console.WriteLine(form.Instructions);
+
+    SubmitForm submitForm = <span class="highlight-keyword">new</span> SubmitForm();
+    <span class="highlight-comment">// Go through each field of the form and gather the data from the user.</span>
+    <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> field <span class="highlight-keyword">in</span> form.Fields) {
+        <span class="highlight-comment">// Gather the input data; XMPP dataforms support different field-types</span>
+        <span class="highlight-comment">// allowing server administrators to flexibly gather whatever data</span>
+        <span class="highlight-comment">// is required to register an account;</span>
+        DataField f = <span class="highlight-keyword">null</span>;
+
+        <span class="highlight-comment">// The field is a text-field, similar to a WinForms TextControl or HTML input field.</span>
+        <span class="highlight-keyword">if</span> (field <span class="highlight-keyword">is</span> TextField)
+            f = ReadTextField(field <span class="highlight-keyword">as</span> TextField);
+        <span class="highlight-comment">// The field is a password field, similar to an HTML input field of type "password".</span>
+        <span class="highlight-keyword">else</span> <span class="highlight-keyword">if</span> (field <span class="highlight-keyword">is</span> PasswordField)
+            f = ReadPasswordField(field <span class="highlight-keyword">as</span> PasswordField);
+        <span class="highlight-comment">// The field is a boolean field, which can be either true or false.</span>
+        <span class="highlight-keyword">else</span> <span class="highlight-keyword">if</span> (field <span class="highlight-keyword">is</span> BooleanField)
+            f = ReadBoolField(field <span class="highlight-keyword">as</span> BooleanField);
+        <span class="highlight-comment">// The field is an input field expecting a Jabber ID (JID).</span>
+        <span class="highlight-keyword">else</span> <span class="highlight-keyword">if</span> (field <span class="highlight-keyword">is</span> JidField)
+            f = ReadJidField(field <span class="highlight-keyword">as</span> JidField);
+        <span class="highlight-comment">// Hidden fields should just be returned to the server, usually without</span>
+        <span class="highlight-comment">// modification. They serve the same purpose as hidden fields in HTML</span>
+        <span class="highlight-comment">// forms.</span>
+        <span class="highlight-keyword">else</span> <span class="highlight-keyword">if</span> (field <span class="highlight-keyword">is</span> HiddenField)
+            f = field;
+        <span class="highlight-keyword">else</span> <span class="highlight-keyword">if</span> (field <span class="highlight-keyword">is</span> FixedField) {
+            <span class="highlight-comment">// Fixed fields are static labels of text that should be rendered to the user much</span>
+            <span class="highlight-comment">// like a WinForms Label. They don't require any input.</span>
+            <span class="highlight-keyword">var</span> fixedField = field <span class="highlight-keyword">as</span> FixedField;
+            Console.WriteLine(<span class="highlight-literal">"Static label: "</span> + fixedField.Description);
+        }
+
+        <span class="highlight-keyword">if</span> (f != <span class="highlight-keyword">null</span>)
+            submitForm.Fields.Add(f);
+    }
+    <span class="highlight-comment">// Return the filled-out form to the server.</span>
+    <span class="highlight-keyword">return</span> submitForm;
+}</pre></div></span></p></li><li><p>
+				After the registration process has been completed, all that is left to do to use
+				the newly created account, is to log in with the credentials that the user provided
+				during the registration.
+				<span id="cbc_3" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" onkeypress="javascript:CopyColorizedCodeCheckKey(this.parentNode, event);" tabindex="0" onmouseover="CopyCodeChangeIcon(this)" onmouseout="CopyCodeChangeIcon(this)" onclick="javascript:CopyColorizedCode(this.parentNode);"><img style="margin-right: 5px;" src="../icons/CopyCode.gif" />Copy</span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-comment">// Upon successful account registration, we can authenticate with the server.</span>
+Console.Write(<span class="highlight-literal">"Enter your username: "</span>);
+<span class="highlight-keyword">string</span> username = Console.ReadLine();
+Console.Write(<span class="highlight-literal">"Enter your password: "</span>);
+<span class="highlight-keyword">string</span> password = Console.ReadLine();
+
+client.Authenticate(username, password);
+
+[...]</pre></div></span></p></li></ol></div><h1 class="heading"><span onclick="ExpandCollapse(exampleToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(exampleToggle, event)" tabindex="0"><img id="exampleToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Example</span></h1><div id="exampleSection" class="section" name="collapseableSection" style="">You can view the full code for the above example here.</div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><h4 class="subHeading">Other Resources</h4><div class="seeAlsoStyle"><span sdata="link"><a href="0e3b67fa-4603-4607-93eb-9aa2c173c85d.htm">Howto: Connect to an XMPP server</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="695c31af-6d2b-40fa-bab6-d8168e36e358.htm">Howto: Setup XMPP event handlers</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="d0f35a14-4ca2-4fd0-8e22-4b158c02f0c5.htm">Howto: Initiate a file transfer</a></span></div></div></div><div id="footer"><div class="footerLine"><img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" /></div><A NAME="feedback"></A><span id="fb" class="feedbackcss"></span></div></div></body></html>

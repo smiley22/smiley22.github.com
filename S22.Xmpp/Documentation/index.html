@@ -1,0 +1,2647 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>S22.Xmpp Documentation - Table of Content</title>
+<link rel="stylesheet" href="TOC.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="TOC.js"></script>
+</head>
+
+<body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
+<form id="IndexForm" runat="server">
+
+<div id="TOCDiv" class="TOCDiv">
+
+<div id="divSearchOpts" class="SearchOpts" style="height: 100px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideSearch(false);"
+    src="CloseSearch.png" height="16" width="16" alt="Hide search" style="float: right;"/>
+Keyword(s) for which to search:
+<input id="txtSearchText" type="text" style="width: 100%;"
+  onkeypress="javascript: return OnSearchTextKeyPress(event);" /><br />
+<input id="chkSortByTitle" type="checkbox" /><label for="chkSortByTitle">&nbsp;Sort results by title</label><br />
+<input type="button" value="Search" onclick="javascript: return PerformSearch();" />
+</div>
+
+<div id="divIndexOpts" class="IndexOpts" style="height: 25px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+    src="CloseSearch.png" height="17" width="17" alt="Hide index" style="float: right;"/>
+Keyword Index
+</div>
+
+<div id="divNavOpts" class="NavOpts" style="display:none; height: 20px;">
+    <img class="TOCLink" onclick="javascript: SyncTOC();" src="SyncTOC.gif"
+        height="16" width="16" alt="Sync to TOC"/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+        src="ExpandAll.bmp" height="16" width="16" alt="Expand all "/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+        src="CollapseAll.bmp" height="16" width="16" alt="Collapse all" />
+    <a href="#" title="Click to obtain a direct link to the displayed topic"
+        style="margin-left: 10px; vertical-align: top;"
+        onclick="javascript: ShowDirectLink();">Direct Link</a>
+</div>
+
+<div class="Tree" id="divSearchResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divIndexResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divTree" onselectstart="javascript: return false;">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/9d783340-62ce-4064-80b2-ff72a890dbcc.htm" target="TopicContent">Introduction</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/61c28636-6bb6-4238-bb8b-87e5a3c4994a.htm" target="TopicContent">About XMPP</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/92f6838a-b0e2-461e-873a-ebdaf28d4e11.htm" target="TopicContent">Installation</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f9e6adf5-0277-4806-b402-0597eeaab625.htm" target="TopicContent">Getting Started</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/0e3b67fa-4603-4607-93eb-9aa2c173c85d.htm" target="TopicContent">Howto: Connect to an XMPP server</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/695c31af-6d2b-40fa-bab6-d8168e36e358.htm" target="TopicContent">Howto: Setup XMPP event handlers</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/0d3301ee-e88e-44a2-955a-3ff6e44007e1.htm" target="TopicContent">Howto: Register an account</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d0f35a14-4ca2-4fd0-8e22-4b158c02f0c5.htm" target="TopicContent">Howto: Configure file-transfers</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_S22_Xmpp.htm" target="TopicContent">S22.Xmpp Namespace</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_ErrorCondition.htm" target="TopicContent">ErrorCondition Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_ErrorType.htm" target="TopicContent">ErrorType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Jid.htm" target="TopicContent">Jid Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Jid.htm" target="TopicContent">Jid Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Jid__ctor.htm" target="TopicContent">Jid Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Jid__ctor.htm" target="TopicContent">Jid Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Jid__ctor_1.htm" target="TopicContent">Jid Constructor (String, String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_S22_Xmpp_Jid.htm" target="TopicContent">Jid Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Jid_Equals.htm" target="TopicContent">Equals Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Jid_GetBareJid.htm" target="TopicContent">GetBareJid Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Jid_GetHashCode.htm" target="TopicContent">GetHashCode Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Jid_ToString.htm" target="TopicContent">ToString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Operators_T_S22_Xmpp_Jid.htm" target="TopicContent">Jid Operators and Type Conversions</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Jid_op_Equality.htm" target="TopicContent">Equality Operator </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Jid_op_Implicit.htm" target="TopicContent">Implicit Conversion (String to Jid)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Jid_op_Inequality.htm" target="TopicContent">Inequality Operator </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Jid.htm" target="TopicContent">Jid Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Jid_Domain.htm" target="TopicContent">Domain Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Jid_IsBareJid.htm" target="TopicContent">IsBareJid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Jid_IsFullJid.htm" target="TopicContent">IsFullJid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Jid_Node.htm" target="TopicContent">Node Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Jid_Resource.htm" target="TopicContent">Resource Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_XmppError.htm" target="TopicContent">XmppError Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_XmppError.htm" target="TopicContent">XmppError Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_XmppError__ctor.htm" target="TopicContent">XmppError Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_S22_Xmpp_XmppError.htm" target="TopicContent">XmppError Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_XmppError_ToString.htm" target="TopicContent">ToString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_XmppError.htm" target="TopicContent">XmppError Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_XmppError_Condition.htm" target="TopicContent">Condition Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_XmppError_Data.htm" target="TopicContent">Data Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_XmppError_Text.htm" target="TopicContent">Text Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_XmppError_Type.htm" target="TopicContent">Type Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_XmppErrorException.htm" target="TopicContent">XmppErrorException Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_XmppErrorException.htm" target="TopicContent">XmppErrorException Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_XmppErrorException__ctor.htm" target="TopicContent">XmppErrorException Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_XmppErrorException__ctor.htm" target="TopicContent">XmppErrorException Constructor (XmppError)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_XmppErrorException__ctor_2.htm" target="TopicContent">XmppErrorException Constructor (XmppError, String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_XmppErrorException__ctor_1.htm" target="TopicContent">XmppErrorException Constructor (XmppError, SerializationInfo, StreamingContext)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_XmppErrorException__ctor_3.htm" target="TopicContent">XmppErrorException Constructor (XmppError, String, Exception)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_XmppErrorException.htm" target="TopicContent">XmppErrorException Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_XmppErrorException.htm" target="TopicContent">XmppErrorException Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_XmppErrorException_Error.htm" target="TopicContent">Error Property </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_S22_Xmpp_XmppErrorException.htm" target="TopicContent">XmppErrorException Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_XmppException.htm" target="TopicContent">XmppException Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_XmppException.htm" target="TopicContent">XmppException Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_XmppException__ctor.htm" target="TopicContent">XmppException Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_XmppException__ctor.htm" target="TopicContent">XmppException Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_XmppException__ctor_2.htm" target="TopicContent">XmppException Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_XmppException__ctor_1.htm" target="TopicContent">XmppException Constructor (SerializationInfo, StreamingContext)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_XmppException__ctor_3.htm" target="TopicContent">XmppException Constructor (String, Exception)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_XmppException.htm" target="TopicContent">XmppException Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_S22_Xmpp_XmppException.htm" target="TopicContent">XmppException Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_S22_Xmpp_XmppException.htm" target="TopicContent">XmppException Events</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_S22_Xmpp_Client.htm" target="TopicContent">S22.Xmpp.Client Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Client_FileTransferSettings.htm" target="TopicContent">FileTransferSettings Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Client_FileTransferSettings.htm" target="TopicContent">FileTransferSettings Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Client_FileTransferSettings.htm" target="TopicContent">FileTransferSettings Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Client_FileTransferSettings.htm" target="TopicContent">FileTransferSettings Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_FileTransferSettings_ForceInBandBytestreams.htm" target="TopicContent">ForceInBandBytestreams Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_FileTransferSettings_Proxies.htm" target="TopicContent">Proxies Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_FileTransferSettings_ProxyAllowed.htm" target="TopicContent">ProxyAllowed Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_FileTransferSettings_Socks5ServerPortFrom.htm" target="TopicContent">Socks5ServerPortFrom Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_FileTransferSettings_Socks5ServerPortTo.htm" target="TopicContent">Socks5ServerPortTo Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_FileTransferSettings_StunServer.htm" target="TopicContent">StunServer Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_FileTransferSettings_UseUPnP.htm" target="TopicContent">UseUPnP Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Client_XmppClient.htm" target="TopicContent">XmppClient Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Client_XmppClient.htm" target="TopicContent">XmppClient Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Client_XmppClient__ctor.htm" target="TopicContent">XmppClient Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient__ctor.htm" target="TopicContent">XmppClient Constructor (String, Int32, Boolean, RemoteCertificateValidationCallback)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient__ctor_1.htm" target="TopicContent">XmppClient Constructor (String, String, String, Int32, Boolean, RemoteCertificateValidationCallback)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_S22_Xmpp_Client_XmppClient.htm" target="TopicContent">XmppClient Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_AddContact.htm" target="TopicContent">AddContact Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_Authenticate.htm" target="TopicContent">Authenticate Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_Block.htm" target="TopicContent">Block Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_Buzz.htm" target="TopicContent">Buzz Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_CancelFileTransfer.htm" target="TopicContent">CancelFileTransfer Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_Close.htm" target="TopicContent">Close Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_Connect.htm" target="TopicContent">Connect Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Client_XmppClient_Dispose.htm" target="TopicContent">Dispose Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_Dispose.htm" target="TopicContent">Dispose Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_Dispose_1.htm" target="TopicContent">Dispose Method (Boolean)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_GetBlocklist.htm" target="TopicContent">GetBlocklist Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_GetFeatures.htm" target="TopicContent">GetFeatures Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_GetRoster.htm" target="TopicContent">GetRoster Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_GetTime.htm" target="TopicContent">GetTime Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_GetVersion.htm" target="TopicContent">GetVersion Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Client_XmppClient_InitiateFileTransfer.htm" target="TopicContent">InitiateFileTransfer Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_InitiateFileTransfer_1.htm" target="TopicContent">InitiateFileTransfer Method (Jid, String, String, Action(Boolean, FileTransfer))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_InitiateFileTransfer.htm" target="TopicContent">InitiateFileTransfer Method (Jid, Stream, String, Int64, String, Action(Boolean, FileTransfer))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_Ping.htm" target="TopicContent">Ping Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_Register.htm" target="TopicContent">Register Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Client_XmppClient_RemoveContact.htm" target="TopicContent">RemoveContact Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_RemoveContact_1.htm" target="TopicContent">RemoveContact Method (Jid)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_RemoveContact.htm" target="TopicContent">RemoveContact Method (RosterItem)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Client_XmppClient_SendMessage.htm" target="TopicContent">SendMessage Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_SendMessage.htm" target="TopicContent">SendMessage Method (Message)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_SendMessage_1.htm" target="TopicContent">SendMessage Method (Jid, IDictionary(String, String), IDictionary(String, String), String, MessageType, CultureInfo)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_SendMessage_2.htm" target="TopicContent">SendMessage Method (Jid, String, String, String, MessageType, CultureInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_SetActivity.htm" target="TopicContent">SetActivity Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_SetAvatar.htm" target="TopicContent">SetAvatar Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_SetMood.htm" target="TopicContent">SetMood Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Client_XmppClient_SetStatus.htm" target="TopicContent">SetStatus Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_SetStatus_2.htm" target="TopicContent">SetStatus Method (Status)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_SetStatus.htm" target="TopicContent">SetStatus Method (Availability, Dictionary(String, String), SByte)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_SetStatus_1.htm" target="TopicContent">SetStatus Method (Availability, String, SByte, CultureInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Client_XmppClient_SetTune.htm" target="TopicContent">SetTune Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_SetTune.htm" target="TopicContent">SetTune Method (TuneInformation)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_SetTune_1.htm" target="TopicContent">SetTune Method (String, String, String, Int32, Int32, String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Client_XmppClient_Unblock.htm" target="TopicContent">Unblock Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Client_XmppClient.htm" target="TopicContent">XmppClient Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_Authenticated.htm" target="TopicContent">Authenticated Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_Connected.htm" target="TopicContent">Connected Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_FileTransferRequest.htm" target="TopicContent">FileTransferRequest Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_FileTransferSettings.htm" target="TopicContent">FileTransferSettings Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_Hostname.htm" target="TopicContent">Hostname Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_Im.htm" target="TopicContent">Im Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_IsEncrypted.htm" target="TopicContent">IsEncrypted Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_Password.htm" target="TopicContent">Password Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_Port.htm" target="TopicContent">Port Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_SubscriptionRequest.htm" target="TopicContent">SubscriptionRequest Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_Tls.htm" target="TopicContent">Tls Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_Username.htm" target="TopicContent">Username Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Client_XmppClient_Validate.htm" target="TopicContent">Validate Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_S22_Xmpp_Client_XmppClient.htm" target="TopicContent">XmppClient Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_ActivityChanged.htm" target="TopicContent">ActivityChanged Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_AvatarChanged.htm" target="TopicContent">AvatarChanged Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_ChatStateChanged.htm" target="TopicContent">ChatStateChanged Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_FileTransferAborted.htm" target="TopicContent">FileTransferAborted Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_FileTransferProgress.htm" target="TopicContent">FileTransferProgress Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_Message.htm" target="TopicContent">Message Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_MoodChanged.htm" target="TopicContent">MoodChanged Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_RosterUpdated.htm" target="TopicContent">RosterUpdated Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_StatusChanged.htm" target="TopicContent">StatusChanged Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_SubscriptionApproved.htm" target="TopicContent">SubscriptionApproved Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_SubscriptionRefused.htm" target="TopicContent">SubscriptionRefused Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_Tune.htm" target="TopicContent">Tune Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Client_XmppClient_Unsubscribed.htm" target="TopicContent">Unsubscribed Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_S22_Xmpp_Core.htm" target="TopicContent">S22.Xmpp.Core Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Core_ErrorEventArgs.htm" target="TopicContent">ErrorEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Core_ErrorEventArgs.htm" target="TopicContent">ErrorEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_ErrorEventArgs__ctor.htm" target="TopicContent">ErrorEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Core_ErrorEventArgs.htm" target="TopicContent">ErrorEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Core_ErrorEventArgs.htm" target="TopicContent">ErrorEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_ErrorEventArgs_Exception.htm" target="TopicContent">Exception Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_ErrorEventArgs_Reason.htm" target="TopicContent">Reason Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Core_Iq.htm" target="TopicContent">Iq Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Core_Iq.htm" target="TopicContent">Iq Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Core_Iq__ctor.htm" target="TopicContent">Iq Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_Iq__ctor_1.htm" target="TopicContent">Iq Constructor (XmlElement)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_Iq__ctor.htm" target="TopicContent">Iq Constructor (IqType, String, Jid, Jid, XmlElement, CultureInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Core_Iq.htm" target="TopicContent">Iq Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Core_Iq.htm" target="TopicContent">Iq Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Core_Iq.htm" target="TopicContent">Iq Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_Iq_IsRequest.htm" target="TopicContent">IsRequest Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_Iq_IsResponse.htm" target="TopicContent">IsResponse Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_Iq_Type.htm" target="TopicContent">Type Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Core_IqEventArgs.htm" target="TopicContent">IqEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Core_IqEventArgs.htm" target="TopicContent">IqEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_IqEventArgs__ctor.htm" target="TopicContent">IqEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Core_IqEventArgs.htm" target="TopicContent">IqEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Core_IqEventArgs.htm" target="TopicContent">IqEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_IqEventArgs_Stanza.htm" target="TopicContent">Stanza Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Core_IqType.htm" target="TopicContent">IqType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Core_Message.htm" target="TopicContent">Message Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Core_Message.htm" target="TopicContent">Message Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Core_Message__ctor.htm" target="TopicContent">Message Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_Message__ctor_1.htm" target="TopicContent">Message Constructor (XmlElement)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_Message__ctor.htm" target="TopicContent">Message Constructor (Jid, Jid, XmlElement, String, CultureInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Core_Message.htm" target="TopicContent">Message Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Core_Message.htm" target="TopicContent">Message Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_S22_Xmpp_Core_Message.htm" target="TopicContent">Message Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Core_MessageEventArgs.htm" target="TopicContent">MessageEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Core_MessageEventArgs.htm" target="TopicContent">MessageEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_MessageEventArgs__ctor.htm" target="TopicContent">MessageEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Core_MessageEventArgs.htm" target="TopicContent">MessageEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Core_MessageEventArgs.htm" target="TopicContent">MessageEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_MessageEventArgs_Stanza.htm" target="TopicContent">Stanza Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Core_Presence.htm" target="TopicContent">Presence Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Core_Presence.htm" target="TopicContent">Presence Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Core_Presence__ctor.htm" target="TopicContent">Presence Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_Presence__ctor_1.htm" target="TopicContent">Presence Constructor (XmlElement)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_Presence__ctor.htm" target="TopicContent">Presence Constructor (Jid, Jid, String, CultureInfo, XmlElement[])</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Core_Presence.htm" target="TopicContent">Presence Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Core_Presence.htm" target="TopicContent">Presence Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_S22_Xmpp_Core_Presence.htm" target="TopicContent">Presence Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Core_PresenceEventArgs.htm" target="TopicContent">PresenceEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Core_PresenceEventArgs.htm" target="TopicContent">PresenceEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_PresenceEventArgs__ctor.htm" target="TopicContent">PresenceEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Core_PresenceEventArgs.htm" target="TopicContent">PresenceEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Core_PresenceEventArgs.htm" target="TopicContent">PresenceEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_PresenceEventArgs_Stanza.htm" target="TopicContent">Stanza Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Core_Stanza.htm" target="TopicContent">Stanza Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Core_Stanza.htm" target="TopicContent">Stanza Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Core_Stanza__ctor.htm" target="TopicContent">Stanza Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_Stanza__ctor_1.htm" target="TopicContent">Stanza Constructor (XmlElement)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_Stanza__ctor.htm" target="TopicContent">Stanza Constructor (String, Jid, Jid, String, CultureInfo, XmlElement[])</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_S22_Xmpp_Core_Stanza.htm" target="TopicContent">Stanza Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_S22_Xmpp_Core_Stanza_element.htm" target="TopicContent">element Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_S22_Xmpp_Core_Stanza.htm" target="TopicContent">Stanza Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_Stanza_ToString.htm" target="TopicContent">ToString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Core_Stanza.htm" target="TopicContent">Stanza Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_Stanza_Data.htm" target="TopicContent">Data Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_Stanza_From.htm" target="TopicContent">From Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_Stanza_Id.htm" target="TopicContent">Id Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_Stanza_IsEmpty.htm" target="TopicContent">IsEmpty Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_Stanza_Language.htm" target="TopicContent">Language Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_Stanza_To.htm" target="TopicContent">To Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Core_XmppCore.htm" target="TopicContent">XmppCore Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Core_XmppCore.htm" target="TopicContent">XmppCore Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Core_XmppCore__ctor.htm" target="TopicContent">XmppCore Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore__ctor.htm" target="TopicContent">XmppCore Constructor (String, Int32, Boolean, RemoteCertificateValidationCallback)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore__ctor_1.htm" target="TopicContent">XmppCore Constructor (String, String, String, Int32, Boolean, RemoteCertificateValidationCallback)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_S22_Xmpp_Core_XmppCore.htm" target="TopicContent">XmppCore Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_Authenticate.htm" target="TopicContent">Authenticate Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_Close.htm" target="TopicContent">Close Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_Connect.htm" target="TopicContent">Connect Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Core_XmppCore_Dispose.htm" target="TopicContent">Dispose Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_Dispose.htm" target="TopicContent">Dispose Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_Dispose_1.htm" target="TopicContent">Dispose Method (Boolean)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Core_XmppCore_IqRequest.htm" target="TopicContent">IqRequest Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_IqRequest.htm" target="TopicContent">IqRequest Method (Iq, Int32)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_IqRequest_1.htm" target="TopicContent">IqRequest Method (IqType, Jid, Jid, XmlElement, CultureInfo, Int32)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Core_XmppCore_IqRequestAsync.htm" target="TopicContent">IqRequestAsync Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_IqRequestAsync.htm" target="TopicContent">IqRequestAsync Method (Iq, Action(String, Iq))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_IqRequestAsync_1.htm" target="TopicContent">IqRequestAsync Method (IqType, Jid, Jid, XmlElement, CultureInfo, Action(String, Iq))</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Core_XmppCore_IqResponse.htm" target="TopicContent">IqResponse Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_IqResponse.htm" target="TopicContent">IqResponse Method (Iq)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_IqResponse_1.htm" target="TopicContent">IqResponse Method (IqType, String, Jid, Jid, XmlElement, CultureInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Core_XmppCore_SendMessage.htm" target="TopicContent">SendMessage Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_SendMessage.htm" target="TopicContent">SendMessage Method (Message)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_SendMessage_1.htm" target="TopicContent">SendMessage Method (Jid, Jid, XmlElement, String, CultureInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Core_XmppCore_SendPresence.htm" target="TopicContent">SendPresence Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_SendPresence.htm" target="TopicContent">SendPresence Method (Presence)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Core_XmppCore_SendPresence_1.htm" target="TopicContent">SendPresence Method (Jid, Jid, String, CultureInfo, XmlElement[])</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Core_XmppCore.htm" target="TopicContent">XmppCore Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_XmppCore_Authenticated.htm" target="TopicContent">Authenticated Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_XmppCore_Connected.htm" target="TopicContent">Connected Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_XmppCore_Hostname.htm" target="TopicContent">Hostname Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_XmppCore_IsEncrypted.htm" target="TopicContent">IsEncrypted Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_XmppCore_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_XmppCore_Language.htm" target="TopicContent">Language Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_XmppCore_Password.htm" target="TopicContent">Password Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_XmppCore_Port.htm" target="TopicContent">Port Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_XmppCore_Tls.htm" target="TopicContent">Tls Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_XmppCore_Username.htm" target="TopicContent">Username Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Core_XmppCore_Validate.htm" target="TopicContent">Validate Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_S22_Xmpp_Core_XmppCore.htm" target="TopicContent">XmppCore Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Core_XmppCore_Error.htm" target="TopicContent">Error Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Core_XmppCore_Iq.htm" target="TopicContent">Iq Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Core_XmppCore_Message.htm" target="TopicContent">Message Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Core_XmppCore_Presence.htm" target="TopicContent">Presence Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_S22_Xmpp_Extensions.htm" target="TopicContent">S22.Xmpp.Extensions Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_ActivityChangedEventArgs.htm" target="TopicContent">ActivityChangedEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_ActivityChangedEventArgs.htm" target="TopicContent">ActivityChangedEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_ActivityChangedEventArgs__ctor.htm" target="TopicContent">ActivityChangedEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_ActivityChangedEventArgs.htm" target="TopicContent">ActivityChangedEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_ActivityChangedEventArgs.htm" target="TopicContent">ActivityChangedEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_ActivityChangedEventArgs_Activity.htm" target="TopicContent">Activity Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_ActivityChangedEventArgs_Description.htm" target="TopicContent">Description Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_ActivityChangedEventArgs_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_ActivityChangedEventArgs_Specific.htm" target="TopicContent">Specific Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_AvatarChangedEventArgs.htm" target="TopicContent">AvatarChangedEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_AvatarChangedEventArgs.htm" target="TopicContent">AvatarChangedEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_AvatarChangedEventArgs__ctor.htm" target="TopicContent">AvatarChangedEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_AvatarChangedEventArgs.htm" target="TopicContent">AvatarChangedEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_AvatarChangedEventArgs.htm" target="TopicContent">AvatarChangedEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_AvatarChangedEventArgs_Avatar.htm" target="TopicContent">Avatar Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_AvatarChangedEventArgs_Cleared.htm" target="TopicContent">Cleared Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_AvatarChangedEventArgs_Hash.htm" target="TopicContent">Hash Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_AvatarChangedEventArgs_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Extensions_ChatState.htm" target="TopicContent">ChatState Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_ChatStateChangedEventArgs.htm" target="TopicContent">ChatStateChangedEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_ChatStateChangedEventArgs.htm" target="TopicContent">ChatStateChangedEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_ChatStateChangedEventArgs__ctor.htm" target="TopicContent">ChatStateChangedEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_ChatStateChangedEventArgs.htm" target="TopicContent">ChatStateChangedEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_ChatStateChangedEventArgs.htm" target="TopicContent">ChatStateChangedEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_ChatStateChangedEventArgs_ChatState.htm" target="TopicContent">ChatState Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_ChatStateChangedEventArgs_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Extensions_Extension.htm" target="TopicContent">Extension Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_FileTransfer.htm" target="TopicContent">FileTransfer Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_FileTransfer.htm" target="TopicContent">FileTransfer Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_FileTransfer.htm" target="TopicContent">FileTransfer Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_FileTransfer.htm" target="TopicContent">FileTransfer Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_FileTransfer_Description.htm" target="TopicContent">Description Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_FileTransfer_From.htm" target="TopicContent">From Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_FileTransfer_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_FileTransfer_SessionId.htm" target="TopicContent">SessionId Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_FileTransfer_Size.htm" target="TopicContent">Size Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_FileTransfer_To.htm" target="TopicContent">To Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_FileTransfer_Transferred.htm" target="TopicContent">Transferred Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_FileTransferAbortedEventArgs.htm" target="TopicContent">FileTransferAbortedEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_FileTransferAbortedEventArgs.htm" target="TopicContent">FileTransferAbortedEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_FileTransferAbortedEventArgs.htm" target="TopicContent">FileTransferAbortedEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_FileTransferAbortedEventArgs.htm" target="TopicContent">FileTransferAbortedEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_FileTransferAbortedEventArgs_Transfer.htm" target="TopicContent">Transfer Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_FileTransferProgressEventArgs.htm" target="TopicContent">FileTransferProgressEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_FileTransferProgressEventArgs.htm" target="TopicContent">FileTransferProgressEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_FileTransferProgressEventArgs.htm" target="TopicContent">FileTransferProgressEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_FileTransferProgressEventArgs.htm" target="TopicContent">FileTransferProgressEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_FileTransferProgressEventArgs_Transfer.htm" target="TopicContent">Transfer Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Extensions_FileTransferRequest.htm" target="TopicContent">FileTransferRequest Delegate</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Extensions_GeneralActivity.htm" target="TopicContent">GeneralActivity Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Identity.htm" target="TopicContent">Identity Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Identity.htm" target="TopicContent">Identity Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Identity__ctor.htm" target="TopicContent">Identity Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Identity.htm" target="TopicContent">Identity Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Identity.htm" target="TopicContent">Identity Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Identity_Category.htm" target="TopicContent">Category Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Identity_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Identity_Type.htm" target="TopicContent">Type Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Item.htm" target="TopicContent">Item Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Item.htm" target="TopicContent">Item Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Item__ctor.htm" target="TopicContent">Item Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Item.htm" target="TopicContent">Item Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Item.htm" target="TopicContent">Item Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Item_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Item_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Item_Node.htm" target="TopicContent">Node Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Extensions_Mood.htm" target="TopicContent">Mood Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_MoodChangedEventArgs.htm" target="TopicContent">MoodChangedEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_MoodChangedEventArgs.htm" target="TopicContent">MoodChangedEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_MoodChangedEventArgs__ctor.htm" target="TopicContent">MoodChangedEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_MoodChangedEventArgs.htm" target="TopicContent">MoodChangedEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_MoodChangedEventArgs.htm" target="TopicContent">MoodChangedEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_MoodChangedEventArgs_Description.htm" target="TopicContent">Description Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_MoodChangedEventArgs_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_MoodChangedEventArgs_Mood.htm" target="TopicContent">Mood Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Extensions_RegistrationCallback.htm" target="TopicContent">RegistrationCallback Delegate</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Extensions_SpecificActivity.htm" target="TopicContent">SpecificActivity Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Streamhost.htm" target="TopicContent">Streamhost Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Streamhost.htm" target="TopicContent">Streamhost Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Streamhost__ctor.htm" target="TopicContent">Streamhost Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Streamhost.htm" target="TopicContent">Streamhost Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Streamhost.htm" target="TopicContent">Streamhost Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Streamhost_Host.htm" target="TopicContent">Host Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Streamhost_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Streamhost_Port.htm" target="TopicContent">Port Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_TuneEventArgs.htm" target="TopicContent">TuneEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_TuneEventArgs.htm" target="TopicContent">TuneEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_TuneEventArgs__ctor.htm" target="TopicContent">TuneEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_TuneEventArgs.htm" target="TopicContent">TuneEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_TuneEventArgs.htm" target="TopicContent">TuneEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_TuneEventArgs_Information.htm" target="TopicContent">Information Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_TuneEventArgs_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_TuneEventArgs_Stop.htm" target="TopicContent">Stop Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_TuneInformation.htm" target="TopicContent">TuneInformation Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_TuneInformation.htm" target="TopicContent">TuneInformation Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_TuneInformation__ctor.htm" target="TopicContent">TuneInformation Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_TuneInformation.htm" target="TopicContent">TuneInformation Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_TuneInformation.htm" target="TopicContent">TuneInformation Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_TuneInformation_Artist.htm" target="TopicContent">Artist Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_TuneInformation_Length.htm" target="TopicContent">Length Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_TuneInformation_Rating.htm" target="TopicContent">Rating Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_TuneInformation_Source.htm" target="TopicContent">Source Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_TuneInformation_Title.htm" target="TopicContent">Title Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_TuneInformation_Track.htm" target="TopicContent">Track Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_TuneInformation_Uri.htm" target="TopicContent">Uri Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_VersionInformation.htm" target="TopicContent">VersionInformation Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_VersionInformation.htm" target="TopicContent">VersionInformation Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_VersionInformation__ctor.htm" target="TopicContent">VersionInformation Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_VersionInformation.htm" target="TopicContent">VersionInformation Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_VersionInformation.htm" target="TopicContent">VersionInformation Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_VersionInformation_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_VersionInformation_Os.htm" target="TopicContent">Os Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_VersionInformation_Version.htm" target="TopicContent">Version Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_S22_Xmpp_Extensions_Dataforms.htm" target="TopicContent">S22.Xmpp.Extensions.Dataforms Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_BooleanField.htm" target="TopicContent">BooleanField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_BooleanField.htm" target="TopicContent">BooleanField Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_BooleanField__ctor.htm" target="TopicContent">BooleanField Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_BooleanField__ctor.htm" target="TopicContent">BooleanField Constructor (String, Boolean)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_BooleanField__ctor_1.htm" target="TopicContent">BooleanField Constructor (String, Boolean, String, String, Nullable(Boolean))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_BooleanField.htm" target="TopicContent">BooleanField Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_BooleanField.htm" target="TopicContent">BooleanField Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_BooleanField.htm" target="TopicContent">BooleanField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_BooleanField_Value.htm" target="TopicContent">Value Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_DataField.htm" target="TopicContent">DataField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_DataField.htm" target="TopicContent">DataField Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_DataField__ctor.htm" target="TopicContent">DataField Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_DataField.htm" target="TopicContent">DataField Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_S22_Xmpp_Extensions_Dataforms_DataField_element.htm" target="TopicContent">element Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_DataField.htm" target="TopicContent">DataField Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_DataField_AssertType.htm" target="TopicContent">AssertType Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_DataField_ToString.htm" target="TopicContent">ToString Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_DataField_ToXmlElement.htm" target="TopicContent">ToXmlElement Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_DataField.htm" target="TopicContent">DataField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Description.htm" target="TopicContent">Description Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Label.htm" target="TopicContent">Label Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Required.htm" target="TopicContent">Required Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Type.htm" target="TopicContent">Type Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Values.htm" target="TopicContent">Values Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_DataFieldType.htm" target="TopicContent">DataFieldType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_DataForm.htm" target="TopicContent">DataForm Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_DataForm.htm" target="TopicContent">DataForm Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_DataForm.htm" target="TopicContent">DataForm Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_S22_Xmpp_Extensions_Dataforms_DataForm_element.htm" target="TopicContent">element Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_DataForm.htm" target="TopicContent">DataForm Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_DataForm_AssertType.htm" target="TopicContent">AssertType Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_DataForm_ToString.htm" target="TopicContent">ToString Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_DataForm_ToXmlElement.htm" target="TopicContent">ToXmlElement Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_DataForm.htm" target="TopicContent">DataForm Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_DataForm_Fields.htm" target="TopicContent">Fields Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_DataForm_Instructions.htm" target="TopicContent">Instructions Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_DataForm_Title.htm" target="TopicContent">Title Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_DataForm_Type.htm" target="TopicContent">Type Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_DataFormType.htm" target="TopicContent">DataFormType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_FieldList.htm" target="TopicContent">FieldList Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_FieldList.htm" target="TopicContent">FieldList Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_FieldList__ctor.htm" target="TopicContent">FieldList Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_FieldList.htm" target="TopicContent">FieldList Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_FieldList_Add.htm" target="TopicContent">Add Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_FieldList_Clear.htm" target="TopicContent">Clear Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_FieldList_Contains.htm" target="TopicContent">Contains Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_FieldList_GetEnumerator.htm" target="TopicContent">GetEnumerator Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_FieldList_Remove.htm" target="TopicContent">Remove Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_FieldList_Remove_1.htm" target="TopicContent">Remove Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_FieldList_Remove.htm" target="TopicContent">Remove Method (DataField)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_FieldList.htm" target="TopicContent">FieldList Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_FieldList_Count.htm" target="TopicContent">Count Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_FieldList_IsReadOnly.htm" target="TopicContent">IsReadOnly Property </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_FieldList_Item.htm" target="TopicContent">Item Property </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_FieldList_Item.htm" target="TopicContent">Item Property (Int32)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_FieldList_Item_1.htm" target="TopicContent">Item Property (String)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_FixedField.htm" target="TopicContent">FixedField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_FixedField.htm" target="TopicContent">FixedField Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_FixedField__ctor.htm" target="TopicContent">FixedField Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_FixedField__ctor.htm" target="TopicContent">FixedField Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_FixedField__ctor_1.htm" target="TopicContent">FixedField Constructor (String, String, String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_FixedField.htm" target="TopicContent">FixedField Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_FixedField.htm" target="TopicContent">FixedField Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_FixedField.htm" target="TopicContent">FixedField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_FixedField_Value.htm" target="TopicContent">Value Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_HiddenField.htm" target="TopicContent">HiddenField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_HiddenField.htm" target="TopicContent">HiddenField Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_HiddenField__ctor.htm" target="TopicContent">HiddenField Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_HiddenField__ctor_1.htm" target="TopicContent">HiddenField Constructor (String, String[])</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_HiddenField__ctor.htm" target="TopicContent">HiddenField Constructor (String, Boolean, String, String, String[])</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_HiddenField.htm" target="TopicContent">HiddenField Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_HiddenField.htm" target="TopicContent">HiddenField Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_HiddenField.htm" target="TopicContent">HiddenField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_HiddenField_Values.htm" target="TopicContent">Values Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_JidField.htm" target="TopicContent">JidField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_JidField.htm" target="TopicContent">JidField Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_JidField__ctor.htm" target="TopicContent">JidField Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_JidField__ctor.htm" target="TopicContent">JidField Constructor (String, Jid)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_JidField__ctor_1.htm" target="TopicContent">JidField Constructor (String, Boolean, String, String, Jid)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_JidField.htm" target="TopicContent">JidField Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_JidField.htm" target="TopicContent">JidField Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_JidField.htm" target="TopicContent">JidField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_JidField_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_JidMultiField.htm" target="TopicContent">JidMultiField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_JidMultiField.htm" target="TopicContent">JidMultiField Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_JidMultiField__ctor.htm" target="TopicContent">JidMultiField Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_JidMultiField__ctor.htm" target="TopicContent">JidMultiField Constructor (String, Jid[])</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_JidMultiField__ctor_1.htm" target="TopicContent">JidMultiField Constructor (String, Boolean, String, String, Jid[])</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_JidMultiField.htm" target="TopicContent">JidMultiField Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_JidMultiField.htm" target="TopicContent">JidMultiField Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_JidMultiField.htm" target="TopicContent">JidMultiField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_JidMultiField_Values.htm" target="TopicContent">Values Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_ListField.htm" target="TopicContent">ListField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_ListField.htm" target="TopicContent">ListField Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_ListField__ctor.htm" target="TopicContent">ListField Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_ListField__ctor_1.htm" target="TopicContent">ListField Constructor (String, String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_ListField__ctor.htm" target="TopicContent">ListField Constructor (String, Boolean, String, String, IEnumerable(Option), String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_ListField.htm" target="TopicContent">ListField Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_ListField.htm" target="TopicContent">ListField Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_ListField.htm" target="TopicContent">ListField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_ListField_Options.htm" target="TopicContent">Options Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_ListField_Value.htm" target="TopicContent">Value Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_ListMultiField.htm" target="TopicContent">ListMultiField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_ListMultiField.htm" target="TopicContent">ListMultiField Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_ListMultiField__ctor.htm" target="TopicContent">ListMultiField Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_ListMultiField__ctor_1.htm" target="TopicContent">ListMultiField Constructor (String, String[])</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_ListMultiField__ctor.htm" target="TopicContent">ListMultiField Constructor (String, Boolean, String, String, IEnumerable(Option), String[])</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_ListMultiField.htm" target="TopicContent">ListMultiField Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_ListMultiField.htm" target="TopicContent">ListMultiField Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_ListMultiField.htm" target="TopicContent">ListMultiField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_ListMultiField_Options.htm" target="TopicContent">Options Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_ListMultiField_Values.htm" target="TopicContent">Values Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_Option.htm" target="TopicContent">Option Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_Option.htm" target="TopicContent">Option Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_Option__ctor.htm" target="TopicContent">Option Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_Option.htm" target="TopicContent">Option Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_Option_ToString.htm" target="TopicContent">ToString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_Option.htm" target="TopicContent">Option Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_Option_Label.htm" target="TopicContent">Label Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_Option_Value.htm" target="TopicContent">Value Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_PasswordField.htm" target="TopicContent">PasswordField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_PasswordField.htm" target="TopicContent">PasswordField Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_PasswordField__ctor.htm" target="TopicContent">PasswordField Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_PasswordField__ctor_1.htm" target="TopicContent">PasswordField Constructor (String, String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_PasswordField__ctor.htm" target="TopicContent">PasswordField Constructor (String, Boolean, String, String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_PasswordField.htm" target="TopicContent">PasswordField Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_PasswordField.htm" target="TopicContent">PasswordField Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_PasswordField.htm" target="TopicContent">PasswordField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_PasswordField_Value.htm" target="TopicContent">Value Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_RequestForm.htm" target="TopicContent">RequestForm Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_RequestForm.htm" target="TopicContent">RequestForm Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_RequestForm__ctor.htm" target="TopicContent">RequestForm Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_RequestForm__ctor_1.htm" target="TopicContent">RequestForm Constructor (XmlElement)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_RequestForm__ctor.htm" target="TopicContent">RequestForm Constructor (String, String, DataField[])</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_RequestForm.htm" target="TopicContent">RequestForm Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_RequestForm.htm" target="TopicContent">RequestForm Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_RequestForm.htm" target="TopicContent">RequestForm Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_SubmitForm.htm" target="TopicContent">SubmitForm Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_SubmitForm.htm" target="TopicContent">SubmitForm Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_SubmitForm__ctor.htm" target="TopicContent">SubmitForm Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_SubmitForm.htm" target="TopicContent">SubmitForm Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_SubmitForm.htm" target="TopicContent">SubmitForm Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_SubmitForm.htm" target="TopicContent">SubmitForm Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_TextField.htm" target="TopicContent">TextField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_TextField.htm" target="TopicContent">TextField Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_TextField__ctor.htm" target="TopicContent">TextField Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_TextField__ctor_1.htm" target="TopicContent">TextField Constructor (String, String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_TextField__ctor.htm" target="TopicContent">TextField Constructor (String, Boolean, String, String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_TextField.htm" target="TopicContent">TextField Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_TextField.htm" target="TopicContent">TextField Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_TextField.htm" target="TopicContent">TextField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_TextField_Value.htm" target="TopicContent">Value Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Extensions_Dataforms_TextMultiField.htm" target="TopicContent">TextMultiField Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_TextMultiField.htm" target="TopicContent">TextMultiField Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Extensions_Dataforms_TextMultiField__ctor.htm" target="TopicContent">TextMultiField Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_TextMultiField__ctor_1.htm" target="TopicContent">TextMultiField Constructor (String, String[])</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Extensions_Dataforms_TextMultiField__ctor.htm" target="TopicContent">TextMultiField Constructor (String, Boolean, String, String, String[])</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Extensions_Dataforms_TextMultiField.htm" target="TopicContent">TextMultiField Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Extensions_Dataforms_TextMultiField.htm" target="TopicContent">TextMultiField Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Extensions_Dataforms_TextMultiField.htm" target="TopicContent">TextMultiField Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Extensions_Dataforms_TextMultiField_Values.htm" target="TopicContent">Values Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_S22_Xmpp_Im.htm" target="TopicContent">S22.Xmpp.Im Namespace</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Im_Availability.htm" target="TopicContent">Availability Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_ErrorEventArgs.htm" target="TopicContent">ErrorEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_ErrorEventArgs.htm" target="TopicContent">ErrorEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_ErrorEventArgs__ctor.htm" target="TopicContent">ErrorEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_ErrorEventArgs.htm" target="TopicContent">ErrorEventArgs Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_S22_Xmpp_Im_ErrorEventArgs.htm" target="TopicContent">ErrorEventArgs Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_GroupPrivacyRule.htm" target="TopicContent">GroupPrivacyRule Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_GroupPrivacyRule.htm" target="TopicContent">GroupPrivacyRule Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_GroupPrivacyRule__ctor.htm" target="TopicContent">GroupPrivacyRule Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_GroupPrivacyRule.htm" target="TopicContent">GroupPrivacyRule Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_GroupPrivacyRule.htm" target="TopicContent">GroupPrivacyRule Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_GroupPrivacyRule_Group.htm" target="TopicContent">Group Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_JidPrivacyRule.htm" target="TopicContent">JidPrivacyRule Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_JidPrivacyRule.htm" target="TopicContent">JidPrivacyRule Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_JidPrivacyRule__ctor.htm" target="TopicContent">JidPrivacyRule Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_JidPrivacyRule.htm" target="TopicContent">JidPrivacyRule Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_JidPrivacyRule.htm" target="TopicContent">JidPrivacyRule Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_JidPrivacyRule_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_Message.htm" target="TopicContent">Message Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_Message.htm" target="TopicContent">Message Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Im_Message__ctor.htm" target="TopicContent">Message Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_Message__ctor.htm" target="TopicContent">Message Constructor (Jid, IDictionary(String, String), IDictionary(String, String), String, MessageType, CultureInfo)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_Message__ctor_1.htm" target="TopicContent">Message Constructor (Jid, String, String, String, MessageType, CultureInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_S22_Xmpp_Im_Message.htm" target="TopicContent">Message Fields</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_Message.htm" target="TopicContent">Message Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_Message.htm" target="TopicContent">Message Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_Message_AlternateBodies.htm" target="TopicContent">AlternateBodies Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_Message_AlternateSubjects.htm" target="TopicContent">AlternateSubjects Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_Message_Body.htm" target="TopicContent">Body Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_Message_Subject.htm" target="TopicContent">Subject Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_Message_Thread.htm" target="TopicContent">Thread Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_Message_Timestamp.htm" target="TopicContent">Timestamp Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_Message_Type.htm" target="TopicContent">Type Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_MessageEventArgs.htm" target="TopicContent">MessageEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_MessageEventArgs.htm" target="TopicContent">MessageEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_MessageEventArgs__ctor.htm" target="TopicContent">MessageEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_MessageEventArgs.htm" target="TopicContent">MessageEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_MessageEventArgs.htm" target="TopicContent">MessageEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_MessageEventArgs_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_MessageEventArgs_Message.htm" target="TopicContent">Message Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Im_MessageType.htm" target="TopicContent">MessageType Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Im_PrivacyGranularity.htm" target="TopicContent">PrivacyGranularity Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_PrivacyList.htm" target="TopicContent">PrivacyList Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_PrivacyList.htm" target="TopicContent">PrivacyList Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_PrivacyList__ctor.htm" target="TopicContent">PrivacyList Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_S22_Xmpp_Im_PrivacyList.htm" target="TopicContent">PrivacyList Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Im_PrivacyList_Add.htm" target="TopicContent">Add Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_PrivacyList_Add.htm" target="TopicContent">Add Method (PrivacyRule)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_PrivacyList_Add_1.htm" target="TopicContent">Add Method (PrivacyRule, Boolean)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_PrivacyList_Clear.htm" target="TopicContent">Clear Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_PrivacyList_Contains.htm" target="TopicContent">Contains Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_PrivacyList_CopyTo.htm" target="TopicContent">CopyTo Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_PrivacyList_GetEnumerator.htm" target="TopicContent">GetEnumerator Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_PrivacyList_Remove.htm" target="TopicContent">Remove Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_PrivacyList.htm" target="TopicContent">PrivacyList Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_PrivacyList_Count.htm" target="TopicContent">Count Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_PrivacyList_IsReadOnly.htm" target="TopicContent">IsReadOnly Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_PrivacyList_Name.htm" target="TopicContent">Name Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_PrivacyRule.htm" target="TopicContent">PrivacyRule Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_PrivacyRule.htm" target="TopicContent">PrivacyRule Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_PrivacyRule__ctor.htm" target="TopicContent">PrivacyRule Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_PrivacyRule.htm" target="TopicContent">PrivacyRule Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_PrivacyRule.htm" target="TopicContent">PrivacyRule Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_PrivacyRule_Allow.htm" target="TopicContent">Allow Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_PrivacyRule_Granularity.htm" target="TopicContent">Granularity Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_PrivacyRule_Order.htm" target="TopicContent">Order Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_Roster.htm" target="TopicContent">Roster Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_Roster.htm" target="TopicContent">Roster Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_S22_Xmpp_Im_Roster.htm" target="TopicContent">Roster Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_Roster_GetEnumerator.htm" target="TopicContent">GetEnumerator Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_Roster.htm" target="TopicContent">Roster Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_Roster_Count.htm" target="TopicContent">Count Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_RosterItem.htm" target="TopicContent">RosterItem Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_RosterItem.htm" target="TopicContent">RosterItem Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_RosterItem__ctor.htm" target="TopicContent">RosterItem Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_RosterItem.htm" target="TopicContent">RosterItem Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_RosterItem.htm" target="TopicContent">RosterItem Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_RosterItem_Groups.htm" target="TopicContent">Groups Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_RosterItem_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_RosterItem_Name.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_RosterItem_Pending.htm" target="TopicContent">Pending Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_RosterItem_SubscriptionState.htm" target="TopicContent">SubscriptionState Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_RosterUpdatedEventArgs.htm" target="TopicContent">RosterUpdatedEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_RosterUpdatedEventArgs.htm" target="TopicContent">RosterUpdatedEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_RosterUpdatedEventArgs__ctor.htm" target="TopicContent">RosterUpdatedEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_RosterUpdatedEventArgs.htm" target="TopicContent">RosterUpdatedEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_RosterUpdatedEventArgs.htm" target="TopicContent">RosterUpdatedEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_RosterUpdatedEventArgs_Item.htm" target="TopicContent">Item Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_RosterUpdatedEventArgs_Removed.htm" target="TopicContent">Removed Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_Status.htm" target="TopicContent">Status Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_Status.htm" target="TopicContent">Status Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Im_Status__ctor.htm" target="TopicContent">Status Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_Status__ctor.htm" target="TopicContent">Status Constructor (Availability, Dictionary(String, String), SByte)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_Status__ctor_1.htm" target="TopicContent">Status Constructor (Availability, String, SByte, CultureInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_Status.htm" target="TopicContent">Status Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_Status.htm" target="TopicContent">Status Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_Status_Availability.htm" target="TopicContent">Availability Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_Status_Message.htm" target="TopicContent">Message Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_Status_Messages.htm" target="TopicContent">Messages Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_Status_Priority.htm" target="TopicContent">Priority Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_StatusEventArgs.htm" target="TopicContent">StatusEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_StatusEventArgs.htm" target="TopicContent">StatusEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_StatusEventArgs__ctor.htm" target="TopicContent">StatusEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_StatusEventArgs.htm" target="TopicContent">StatusEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_StatusEventArgs.htm" target="TopicContent">StatusEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_StatusEventArgs_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_StatusEventArgs_Status.htm" target="TopicContent">Status Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_SubscriptionApprovedEventArgs.htm" target="TopicContent">SubscriptionApprovedEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_SubscriptionApprovedEventArgs.htm" target="TopicContent">SubscriptionApprovedEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_SubscriptionApprovedEventArgs__ctor.htm" target="TopicContent">SubscriptionApprovedEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_SubscriptionApprovedEventArgs.htm" target="TopicContent">SubscriptionApprovedEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_SubscriptionApprovedEventArgs.htm" target="TopicContent">SubscriptionApprovedEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_SubscriptionApprovedEventArgs_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_SubscriptionPrivacyRule.htm" target="TopicContent">SubscriptionPrivacyRule Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_SubscriptionPrivacyRule.htm" target="TopicContent">SubscriptionPrivacyRule Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_SubscriptionPrivacyRule__ctor.htm" target="TopicContent">SubscriptionPrivacyRule Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_SubscriptionPrivacyRule.htm" target="TopicContent">SubscriptionPrivacyRule Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_SubscriptionPrivacyRule.htm" target="TopicContent">SubscriptionPrivacyRule Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_SubscriptionPrivacyRule_SubscriptionState.htm" target="TopicContent">SubscriptionState Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_SubscriptionRefusedEventArgs.htm" target="TopicContent">SubscriptionRefusedEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_SubscriptionRefusedEventArgs.htm" target="TopicContent">SubscriptionRefusedEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_SubscriptionRefusedEventArgs__ctor.htm" target="TopicContent">SubscriptionRefusedEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_SubscriptionRefusedEventArgs.htm" target="TopicContent">SubscriptionRefusedEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_SubscriptionRefusedEventArgs.htm" target="TopicContent">SubscriptionRefusedEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_SubscriptionRefusedEventArgs_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Im_SubscriptionRequest.htm" target="TopicContent">SubscriptionRequest Delegate</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_SubscriptionRequestEventArgs.htm" target="TopicContent">SubscriptionRequestEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_SubscriptionRequestEventArgs.htm" target="TopicContent">SubscriptionRequestEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_SubscriptionRequestEventArgs__ctor.htm" target="TopicContent">SubscriptionRequestEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_SubscriptionRequestEventArgs.htm" target="TopicContent">SubscriptionRequestEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_SubscriptionRequestEventArgs.htm" target="TopicContent">SubscriptionRequestEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_SubscriptionRequestEventArgs_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_S22_Xmpp_Im_SubscriptionState.htm" target="TopicContent">SubscriptionState Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_UnsubscribedEventArgs.htm" target="TopicContent">UnsubscribedEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_UnsubscribedEventArgs.htm" target="TopicContent">UnsubscribedEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_UnsubscribedEventArgs__ctor.htm" target="TopicContent">UnsubscribedEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_S22_Xmpp_Im_UnsubscribedEventArgs.htm" target="TopicContent">UnsubscribedEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_UnsubscribedEventArgs.htm" target="TopicContent">UnsubscribedEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_UnsubscribedEventArgs_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_S22_Xmpp_Im_XmppIm.htm" target="TopicContent">XmppIm Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_S22_Xmpp_Im_XmppIm.htm" target="TopicContent">XmppIm Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Im_XmppIm__ctor.htm" target="TopicContent">XmppIm Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm__ctor.htm" target="TopicContent">XmppIm Constructor (String, Int32, Boolean, RemoteCertificateValidationCallback)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm__ctor_1.htm" target="TopicContent">XmppIm Constructor (String, String, String, Int32, Boolean, RemoteCertificateValidationCallback)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_S22_Xmpp_Im_XmppIm.htm" target="TopicContent">XmppIm Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_AddToRoster.htm" target="TopicContent">AddToRoster Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_ApproveSubscriptionRequest.htm" target="TopicContent">ApproveSubscriptionRequest Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_Autenticate.htm" target="TopicContent">Autenticate Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_Close.htm" target="TopicContent">Close Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_Connect.htm" target="TopicContent">Connect Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Im_XmppIm_Dispose.htm" target="TopicContent">Dispose Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_Dispose.htm" target="TopicContent">Dispose Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_Dispose_1.htm" target="TopicContent">Dispose Method (Boolean)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_EditPrivacyList.htm" target="TopicContent">EditPrivacyList Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_GetActivePrivacyList.htm" target="TopicContent">GetActivePrivacyList Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_GetDefaultPrivacyList.htm" target="TopicContent">GetDefaultPrivacyList Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_GetPrivacyList.htm" target="TopicContent">GetPrivacyList Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_GetPrivacyLists.htm" target="TopicContent">GetPrivacyLists Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_GetRoster.htm" target="TopicContent">GetRoster Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_RefuseSubscriptionRequest.htm" target="TopicContent">RefuseSubscriptionRequest Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Im_XmppIm_RemoveFromRoster.htm" target="TopicContent">RemoveFromRoster Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_RemoveFromRoster_1.htm" target="TopicContent">RemoveFromRoster Method (Jid)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_RemoveFromRoster.htm" target="TopicContent">RemoveFromRoster Method (RosterItem)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_RemovePrivacyList.htm" target="TopicContent">RemovePrivacyList Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_RequestSubscription.htm" target="TopicContent">RequestSubscription Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_RevokeSubscription.htm" target="TopicContent">RevokeSubscription Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Im_XmppIm_SendMessage.htm" target="TopicContent">SendMessage Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_SendMessage.htm" target="TopicContent">SendMessage Method (Message)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_SendMessage_1.htm" target="TopicContent">SendMessage Method (Jid, IDictionary(String, String), IDictionary(String, String), String, MessageType, CultureInfo)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_SendMessage_2.htm" target="TopicContent">SendMessage Method (Jid, String, String, String, MessageType, CultureInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_SetActivePrivacyList.htm" target="TopicContent">SetActivePrivacyList Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_SetDefaultPrivacyList.htm" target="TopicContent">SetDefaultPrivacyList Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_S22_Xmpp_Im_XmppIm_SetStatus.htm" target="TopicContent">SetStatus Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_SetStatus_2.htm" target="TopicContent">SetStatus Method (Status)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_SetStatus.htm" target="TopicContent">SetStatus Method (Availability, Dictionary(String, String), SByte)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_SetStatus_1.htm" target="TopicContent">SetStatus Method (Availability, String, SByte, CultureInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_S22_Xmpp_Im_XmppIm_Unsubscribe.htm" target="TopicContent">Unsubscribe Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_S22_Xmpp_Im_XmppIm.htm" target="TopicContent">XmppIm Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_XmppIm_Authenticated.htm" target="TopicContent">Authenticated Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_XmppIm_Connected.htm" target="TopicContent">Connected Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_XmppIm_Hostname.htm" target="TopicContent">Hostname Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_XmppIm_IsEncrypted.htm" target="TopicContent">IsEncrypted Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_XmppIm_Jid.htm" target="TopicContent">Jid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_XmppIm_Password.htm" target="TopicContent">Password Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_XmppIm_Port.htm" target="TopicContent">Port Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_XmppIm_SubscriptionRequest.htm" target="TopicContent">SubscriptionRequest Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_XmppIm_Tls.htm" target="TopicContent">Tls Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_XmppIm_Username.htm" target="TopicContent">Username Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_S22_Xmpp_Im_XmppIm_Validate.htm" target="TopicContent">Validate Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_S22_Xmpp_Im_XmppIm.htm" target="TopicContent">XmppIm Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Im_XmppIm_Error.htm" target="TopicContent">Error Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Im_XmppIm_Message.htm" target="TopicContent">Message Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Im_XmppIm_RosterUpdated.htm" target="TopicContent">RosterUpdated Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Im_XmppIm_Status.htm" target="TopicContent">Status Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Im_XmppIm_SubscriptionApproved.htm" target="TopicContent">SubscriptionApproved Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Im_XmppIm_SubscriptionRefused.htm" target="TopicContent">SubscriptionRefused Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_S22_Xmpp_Im_XmppIm_Unsubscribed.htm" target="TopicContent">Unsubscribed Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+
+<iframe id="TopicContent" name="TopicContent" class="TopicContent" src="html/9d783340-62ce-4064-80b2-ff72a890dbcc.htm">
+This page uses an IFRAME but your browser does not support it.
+</iframe>
+
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,925 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Introduction" Url="html/9d783340-62ce-4064-80b2-ff72a890dbcc.htm" />
+  <HelpTOCNode Title="About XMPP" Url="html/61c28636-6bb6-4238-bb8b-87e5a3c4994a.htm" />
+  <HelpTOCNode Title="Installation" Url="html/92f6838a-b0e2-461e-873a-ebdaf28d4e11.htm" />
+  <HelpTOCNode Title="Getting Started" Url="html/f9e6adf5-0277-4806-b402-0597eeaab625.htm" />
+  <HelpTOCNode Title="Howto: Connect to an XMPP server" Url="html/0e3b67fa-4603-4607-93eb-9aa2c173c85d.htm" />
+  <HelpTOCNode Title="Howto: Setup XMPP event handlers" Url="html/695c31af-6d2b-40fa-bab6-d8168e36e358.htm" />
+  <HelpTOCNode Title="Howto: Register an account" Url="html/0d3301ee-e88e-44a2-955a-3ff6e44007e1.htm" />
+  <HelpTOCNode Title="Howto: Configure file-transfers" Url="html/d0f35a14-4ca2-4fd0-8e22-4b158c02f0c5.htm" />
+  <HelpTOCNode Id="e560cedb-d99f-47c8-affd-d13875761d72" Title="S22.Xmpp Namespace" Url="html/N_S22_Xmpp.htm">
+    <HelpTOCNode Title="ErrorCondition Enumeration" Url="html/T_S22_Xmpp_ErrorCondition.htm" />
+    <HelpTOCNode Title="ErrorType Enumeration" Url="html/T_S22_Xmpp_ErrorType.htm" />
+    <HelpTOCNode Id="45af28b0-a9bc-4701-ba08-329fe0c7849b" Title="Jid Class" Url="html/T_S22_Xmpp_Jid.htm">
+      <HelpTOCNode Title="Jid Members" Url="html/AllMembers_T_S22_Xmpp_Jid.htm" />
+      <HelpTOCNode Id="c7274e04-5322-4459-bf57-69361ef13fd8" Title="Jid Constructor " Url="html/Overload_S22_Xmpp_Jid__ctor.htm">
+        <HelpTOCNode Title="Jid Constructor (String)" Url="html/M_S22_Xmpp_Jid__ctor.htm" />
+        <HelpTOCNode Title="Jid Constructor (String, String, String)" Url="html/M_S22_Xmpp_Jid__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a7c4c17e-3f15-4957-b457-fd0150ac74f6" Title="Jid Methods" Url="html/Methods_T_S22_Xmpp_Jid.htm">
+        <HelpTOCNode Title="Equals Method " Url="html/M_S22_Xmpp_Jid_Equals.htm" />
+        <HelpTOCNode Title="GetBareJid Method " Url="html/M_S22_Xmpp_Jid_GetBareJid.htm" />
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M_S22_Xmpp_Jid_GetHashCode.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M_S22_Xmpp_Jid_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="57675d0f-9325-4cde-ae5b-543c9beb9751" Title="Jid Operators and Type Conversions" Url="html/Operators_T_S22_Xmpp_Jid.htm">
+        <HelpTOCNode Title="Equality Operator " Url="html/M_S22_Xmpp_Jid_op_Equality.htm" />
+        <HelpTOCNode Title="Implicit Conversion (String to Jid)" Url="html/M_S22_Xmpp_Jid_op_Implicit.htm" />
+        <HelpTOCNode Title="Inequality Operator " Url="html/M_S22_Xmpp_Jid_op_Inequality.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4759bd86-d736-450c-86c7-4e296f6e9f40" Title="Jid Properties" Url="html/Properties_T_S22_Xmpp_Jid.htm">
+        <HelpTOCNode Title="Domain Property " Url="html/P_S22_Xmpp_Jid_Domain.htm" />
+        <HelpTOCNode Title="IsBareJid Property " Url="html/P_S22_Xmpp_Jid_IsBareJid.htm" />
+        <HelpTOCNode Title="IsFullJid Property " Url="html/P_S22_Xmpp_Jid_IsFullJid.htm" />
+        <HelpTOCNode Title="Node Property " Url="html/P_S22_Xmpp_Jid_Node.htm" />
+        <HelpTOCNode Title="Resource Property " Url="html/P_S22_Xmpp_Jid_Resource.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b1cb2061-b629-4a43-917f-167b253273aa" Title="XmppError Class" Url="html/T_S22_Xmpp_XmppError.htm">
+      <HelpTOCNode Title="XmppError Members" Url="html/AllMembers_T_S22_Xmpp_XmppError.htm" />
+      <HelpTOCNode Title="XmppError Constructor " Url="html/M_S22_Xmpp_XmppError__ctor.htm" />
+      <HelpTOCNode Id="7c8e944b-2135-44ad-9e2a-c30d5765595b" Title="XmppError Methods" Url="html/Methods_T_S22_Xmpp_XmppError.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/M_S22_Xmpp_XmppError_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="21487574-6c6b-49e7-aea2-8636c1478bb9" Title="XmppError Properties" Url="html/Properties_T_S22_Xmpp_XmppError.htm">
+        <HelpTOCNode Title="Condition Property " Url="html/P_S22_Xmpp_XmppError_Condition.htm" />
+        <HelpTOCNode Title="Data Property " Url="html/P_S22_Xmpp_XmppError_Data.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/P_S22_Xmpp_XmppError_Text.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/P_S22_Xmpp_XmppError_Type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5b514005-011e-4d8f-a2b9-0c98441d306e" Title="XmppErrorException Class" Url="html/T_S22_Xmpp_XmppErrorException.htm">
+      <HelpTOCNode Title="XmppErrorException Members" Url="html/AllMembers_T_S22_Xmpp_XmppErrorException.htm" />
+      <HelpTOCNode Id="4c45598a-875d-4eed-98f4-1588737969fe" Title="XmppErrorException Constructor " Url="html/Overload_S22_Xmpp_XmppErrorException__ctor.htm">
+        <HelpTOCNode Title="XmppErrorException Constructor (XmppError)" Url="html/M_S22_Xmpp_XmppErrorException__ctor.htm" />
+        <HelpTOCNode Title="XmppErrorException Constructor (XmppError, String)" Url="html/M_S22_Xmpp_XmppErrorException__ctor_2.htm" />
+        <HelpTOCNode Title="XmppErrorException Constructor (XmppError, SerializationInfo, StreamingContext)" Url="html/M_S22_Xmpp_XmppErrorException__ctor_1.htm" />
+        <HelpTOCNode Title="XmppErrorException Constructor (XmppError, String, Exception)" Url="html/M_S22_Xmpp_XmppErrorException__ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="XmppErrorException Methods" Url="html/Methods_T_S22_Xmpp_XmppErrorException.htm" />
+      <HelpTOCNode Id="9398aa4b-f426-4360-8418-0985c828d40b" Title="XmppErrorException Properties" Url="html/Properties_T_S22_Xmpp_XmppErrorException.htm">
+        <HelpTOCNode Title="Error Property " Url="html/P_S22_Xmpp_XmppErrorException_Error.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="XmppErrorException Events" Url="html/Events_T_S22_Xmpp_XmppErrorException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a32ad0e7-1f22-491d-8fb7-e651c9c696e4" Title="XmppException Class" Url="html/T_S22_Xmpp_XmppException.htm">
+      <HelpTOCNode Title="XmppException Members" Url="html/AllMembers_T_S22_Xmpp_XmppException.htm" />
+      <HelpTOCNode Id="3e93c8e2-8dc4-4564-aad6-f0c9658453e6" Title="XmppException Constructor " Url="html/Overload_S22_Xmpp_XmppException__ctor.htm">
+        <HelpTOCNode Title="XmppException Constructor " Url="html/M_S22_Xmpp_XmppException__ctor.htm" />
+        <HelpTOCNode Title="XmppException Constructor (String)" Url="html/M_S22_Xmpp_XmppException__ctor_2.htm" />
+        <HelpTOCNode Title="XmppException Constructor (SerializationInfo, StreamingContext)" Url="html/M_S22_Xmpp_XmppException__ctor_1.htm" />
+        <HelpTOCNode Title="XmppException Constructor (String, Exception)" Url="html/M_S22_Xmpp_XmppException__ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="XmppException Methods" Url="html/Methods_T_S22_Xmpp_XmppException.htm" />
+      <HelpTOCNode Title="XmppException Properties" Url="html/Properties_T_S22_Xmpp_XmppException.htm" />
+      <HelpTOCNode Title="XmppException Events" Url="html/Events_T_S22_Xmpp_XmppException.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="2318c12a-1244-4962-9455-df98734e7288" Title="S22.Xmpp.Client Namespace" Url="html/N_S22_Xmpp_Client.htm">
+    <HelpTOCNode Id="25fc699b-2aac-4ae6-8a0b-5cb6bfa89ced" Title="FileTransferSettings Class" Url="html/T_S22_Xmpp_Client_FileTransferSettings.htm">
+      <HelpTOCNode Title="FileTransferSettings Members" Url="html/AllMembers_T_S22_Xmpp_Client_FileTransferSettings.htm" />
+      <HelpTOCNode Title="FileTransferSettings Methods" Url="html/Methods_T_S22_Xmpp_Client_FileTransferSettings.htm" />
+      <HelpTOCNode Id="ec6ea3ae-b82a-400b-a4f9-c9aa7a9fe218" Title="FileTransferSettings Properties" Url="html/Properties_T_S22_Xmpp_Client_FileTransferSettings.htm">
+        <HelpTOCNode Title="ForceInBandBytestreams Property " Url="html/P_S22_Xmpp_Client_FileTransferSettings_ForceInBandBytestreams.htm" />
+        <HelpTOCNode Title="Proxies Property " Url="html/P_S22_Xmpp_Client_FileTransferSettings_Proxies.htm" />
+        <HelpTOCNode Title="ProxyAllowed Property " Url="html/P_S22_Xmpp_Client_FileTransferSettings_ProxyAllowed.htm" />
+        <HelpTOCNode Title="Socks5ServerPortFrom Property " Url="html/P_S22_Xmpp_Client_FileTransferSettings_Socks5ServerPortFrom.htm" />
+        <HelpTOCNode Title="Socks5ServerPortTo Property " Url="html/P_S22_Xmpp_Client_FileTransferSettings_Socks5ServerPortTo.htm" />
+        <HelpTOCNode Title="StunServer Property " Url="html/P_S22_Xmpp_Client_FileTransferSettings_StunServer.htm" />
+        <HelpTOCNode Title="UseUPnP Property " Url="html/P_S22_Xmpp_Client_FileTransferSettings_UseUPnP.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6a71c32d-6fc2-4899-b544-7c50988d28c9" Title="XmppClient Class" Url="html/T_S22_Xmpp_Client_XmppClient.htm">
+      <HelpTOCNode Title="XmppClient Members" Url="html/AllMembers_T_S22_Xmpp_Client_XmppClient.htm" />
+      <HelpTOCNode Id="fda3d2bf-3f18-463d-8c66-0e1d602ec43e" Title="XmppClient Constructor " Url="html/Overload_S22_Xmpp_Client_XmppClient__ctor.htm">
+        <HelpTOCNode Title="XmppClient Constructor (String, Int32, Boolean, RemoteCertificateValidationCallback)" Url="html/M_S22_Xmpp_Client_XmppClient__ctor.htm" />
+        <HelpTOCNode Title="XmppClient Constructor (String, String, String, Int32, Boolean, RemoteCertificateValidationCallback)" Url="html/M_S22_Xmpp_Client_XmppClient__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="86852ce8-c129-43ae-ac8e-60571907221d" Title="XmppClient Methods" Url="html/Methods_T_S22_Xmpp_Client_XmppClient.htm">
+        <HelpTOCNode Title="AddContact Method " Url="html/M_S22_Xmpp_Client_XmppClient_AddContact.htm" />
+        <HelpTOCNode Title="Authenticate Method " Url="html/M_S22_Xmpp_Client_XmppClient_Authenticate.htm" />
+        <HelpTOCNode Title="Block Method " Url="html/M_S22_Xmpp_Client_XmppClient_Block.htm" />
+        <HelpTOCNode Title="Buzz Method " Url="html/M_S22_Xmpp_Client_XmppClient_Buzz.htm" />
+        <HelpTOCNode Title="CancelFileTransfer Method " Url="html/M_S22_Xmpp_Client_XmppClient_CancelFileTransfer.htm" />
+        <HelpTOCNode Title="Close Method " Url="html/M_S22_Xmpp_Client_XmppClient_Close.htm" />
+        <HelpTOCNode Title="Connect Method " Url="html/M_S22_Xmpp_Client_XmppClient_Connect.htm" />
+        <HelpTOCNode Id="281179b1-ec7e-4603-b2a2-7260035aa4f4" Title="Dispose Method " Url="html/Overload_S22_Xmpp_Client_XmppClient_Dispose.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_S22_Xmpp_Client_XmppClient_Dispose.htm" />
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_S22_Xmpp_Client_XmppClient_Dispose_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetBlocklist Method " Url="html/M_S22_Xmpp_Client_XmppClient_GetBlocklist.htm" />
+        <HelpTOCNode Title="GetFeatures Method " Url="html/M_S22_Xmpp_Client_XmppClient_GetFeatures.htm" />
+        <HelpTOCNode Title="GetRoster Method " Url="html/M_S22_Xmpp_Client_XmppClient_GetRoster.htm" />
+        <HelpTOCNode Title="GetTime Method " Url="html/M_S22_Xmpp_Client_XmppClient_GetTime.htm" />
+        <HelpTOCNode Title="GetVersion Method " Url="html/M_S22_Xmpp_Client_XmppClient_GetVersion.htm" />
+        <HelpTOCNode Id="0ce10d03-60c1-4434-9949-440f95ce04f0" Title="InitiateFileTransfer Method " Url="html/Overload_S22_Xmpp_Client_XmppClient_InitiateFileTransfer.htm">
+          <HelpTOCNode Title="InitiateFileTransfer Method (Jid, String, String, Action(Boolean, FileTransfer))" Url="html/M_S22_Xmpp_Client_XmppClient_InitiateFileTransfer_1.htm" />
+          <HelpTOCNode Title="InitiateFileTransfer Method (Jid, Stream, String, Int64, String, Action(Boolean, FileTransfer))" Url="html/M_S22_Xmpp_Client_XmppClient_InitiateFileTransfer.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Ping Method " Url="html/M_S22_Xmpp_Client_XmppClient_Ping.htm" />
+        <HelpTOCNode Title="Register Method " Url="html/M_S22_Xmpp_Client_XmppClient_Register.htm" />
+        <HelpTOCNode Id="d878e301-d998-4c0f-87e0-4b775d99b86f" Title="RemoveContact Method " Url="html/Overload_S22_Xmpp_Client_XmppClient_RemoveContact.htm">
+          <HelpTOCNode Title="RemoveContact Method (Jid)" Url="html/M_S22_Xmpp_Client_XmppClient_RemoveContact_1.htm" />
+          <HelpTOCNode Title="RemoveContact Method (RosterItem)" Url="html/M_S22_Xmpp_Client_XmppClient_RemoveContact.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e2ab21f9-cc7b-4e4f-9869-5faeb17b39f4" Title="SendMessage Method " Url="html/Overload_S22_Xmpp_Client_XmppClient_SendMessage.htm">
+          <HelpTOCNode Title="SendMessage Method (Message)" Url="html/M_S22_Xmpp_Client_XmppClient_SendMessage.htm" />
+          <HelpTOCNode Title="SendMessage Method (Jid, IDictionary(String, String), IDictionary(String, String), String, MessageType, CultureInfo)" Url="html/M_S22_Xmpp_Client_XmppClient_SendMessage_1.htm" />
+          <HelpTOCNode Title="SendMessage Method (Jid, String, String, String, MessageType, CultureInfo)" Url="html/M_S22_Xmpp_Client_XmppClient_SendMessage_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SetActivity Method " Url="html/M_S22_Xmpp_Client_XmppClient_SetActivity.htm" />
+        <HelpTOCNode Title="SetAvatar Method " Url="html/M_S22_Xmpp_Client_XmppClient_SetAvatar.htm" />
+        <HelpTOCNode Title="SetMood Method " Url="html/M_S22_Xmpp_Client_XmppClient_SetMood.htm" />
+        <HelpTOCNode Id="6baad09c-70ed-4761-a244-059531b2191b" Title="SetStatus Method " Url="html/Overload_S22_Xmpp_Client_XmppClient_SetStatus.htm">
+          <HelpTOCNode Title="SetStatus Method (Status)" Url="html/M_S22_Xmpp_Client_XmppClient_SetStatus_2.htm" />
+          <HelpTOCNode Title="SetStatus Method (Availability, Dictionary(String, String), SByte)" Url="html/M_S22_Xmpp_Client_XmppClient_SetStatus.htm" />
+          <HelpTOCNode Title="SetStatus Method (Availability, String, SByte, CultureInfo)" Url="html/M_S22_Xmpp_Client_XmppClient_SetStatus_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b839bc65-bd12-4ae6-bce7-dc08097a7692" Title="SetTune Method " Url="html/Overload_S22_Xmpp_Client_XmppClient_SetTune.htm">
+          <HelpTOCNode Title="SetTune Method (TuneInformation)" Url="html/M_S22_Xmpp_Client_XmppClient_SetTune.htm" />
+          <HelpTOCNode Title="SetTune Method (String, String, String, Int32, Int32, String, String)" Url="html/M_S22_Xmpp_Client_XmppClient_SetTune_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Unblock Method " Url="html/M_S22_Xmpp_Client_XmppClient_Unblock.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f10d20e3-7933-4a11-afcc-e3c3acb64861" Title="XmppClient Properties" Url="html/Properties_T_S22_Xmpp_Client_XmppClient.htm">
+        <HelpTOCNode Title="Authenticated Property " Url="html/P_S22_Xmpp_Client_XmppClient_Authenticated.htm" />
+        <HelpTOCNode Title="Connected Property " Url="html/P_S22_Xmpp_Client_XmppClient_Connected.htm" />
+        <HelpTOCNode Title="FileTransferRequest Property " Url="html/P_S22_Xmpp_Client_XmppClient_FileTransferRequest.htm" />
+        <HelpTOCNode Title="FileTransferSettings Property " Url="html/P_S22_Xmpp_Client_XmppClient_FileTransferSettings.htm" />
+        <HelpTOCNode Title="Hostname Property " Url="html/P_S22_Xmpp_Client_XmppClient_Hostname.htm" />
+        <HelpTOCNode Title="Im Property " Url="html/P_S22_Xmpp_Client_XmppClient_Im.htm" />
+        <HelpTOCNode Title="IsEncrypted Property " Url="html/P_S22_Xmpp_Client_XmppClient_IsEncrypted.htm" />
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Client_XmppClient_Jid.htm" />
+        <HelpTOCNode Title="Password Property " Url="html/P_S22_Xmpp_Client_XmppClient_Password.htm" />
+        <HelpTOCNode Title="Port Property " Url="html/P_S22_Xmpp_Client_XmppClient_Port.htm" />
+        <HelpTOCNode Title="SubscriptionRequest Property " Url="html/P_S22_Xmpp_Client_XmppClient_SubscriptionRequest.htm" />
+        <HelpTOCNode Title="Tls Property " Url="html/P_S22_Xmpp_Client_XmppClient_Tls.htm" />
+        <HelpTOCNode Title="Username Property " Url="html/P_S22_Xmpp_Client_XmppClient_Username.htm" />
+        <HelpTOCNode Title="Validate Property " Url="html/P_S22_Xmpp_Client_XmppClient_Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="efbdf550-3054-46c9-9d85-a3314b5417bf" Title="XmppClient Events" Url="html/Events_T_S22_Xmpp_Client_XmppClient.htm">
+        <HelpTOCNode Title="ActivityChanged Event" Url="html/E_S22_Xmpp_Client_XmppClient_ActivityChanged.htm" />
+        <HelpTOCNode Title="AvatarChanged Event" Url="html/E_S22_Xmpp_Client_XmppClient_AvatarChanged.htm" />
+        <HelpTOCNode Title="ChatStateChanged Event" Url="html/E_S22_Xmpp_Client_XmppClient_ChatStateChanged.htm" />
+        <HelpTOCNode Title="FileTransferAborted Event" Url="html/E_S22_Xmpp_Client_XmppClient_FileTransferAborted.htm" />
+        <HelpTOCNode Title="FileTransferProgress Event" Url="html/E_S22_Xmpp_Client_XmppClient_FileTransferProgress.htm" />
+        <HelpTOCNode Title="Message Event" Url="html/E_S22_Xmpp_Client_XmppClient_Message.htm" />
+        <HelpTOCNode Title="MoodChanged Event" Url="html/E_S22_Xmpp_Client_XmppClient_MoodChanged.htm" />
+        <HelpTOCNode Title="RosterUpdated Event" Url="html/E_S22_Xmpp_Client_XmppClient_RosterUpdated.htm" />
+        <HelpTOCNode Title="StatusChanged Event" Url="html/E_S22_Xmpp_Client_XmppClient_StatusChanged.htm" />
+        <HelpTOCNode Title="SubscriptionApproved Event" Url="html/E_S22_Xmpp_Client_XmppClient_SubscriptionApproved.htm" />
+        <HelpTOCNode Title="SubscriptionRefused Event" Url="html/E_S22_Xmpp_Client_XmppClient_SubscriptionRefused.htm" />
+        <HelpTOCNode Title="Tune Event" Url="html/E_S22_Xmpp_Client_XmppClient_Tune.htm" />
+        <HelpTOCNode Title="Unsubscribed Event" Url="html/E_S22_Xmpp_Client_XmppClient_Unsubscribed.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="7c58ea1c-f0e2-4534-87b7-759bda0eabd4" Title="S22.Xmpp.Core Namespace" Url="html/N_S22_Xmpp_Core.htm">
+    <HelpTOCNode Id="30c9cd71-dac2-4554-b5e0-b018ee28db0d" Title="ErrorEventArgs Class" Url="html/T_S22_Xmpp_Core_ErrorEventArgs.htm">
+      <HelpTOCNode Title="ErrorEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Core_ErrorEventArgs.htm" />
+      <HelpTOCNode Title="ErrorEventArgs Constructor " Url="html/M_S22_Xmpp_Core_ErrorEventArgs__ctor.htm" />
+      <HelpTOCNode Title="ErrorEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Core_ErrorEventArgs.htm" />
+      <HelpTOCNode Id="d4e51ece-4f3d-480b-b0f0-4cd5977803e9" Title="ErrorEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Core_ErrorEventArgs.htm">
+        <HelpTOCNode Title="Exception Property " Url="html/P_S22_Xmpp_Core_ErrorEventArgs_Exception.htm" />
+        <HelpTOCNode Title="Reason Property " Url="html/P_S22_Xmpp_Core_ErrorEventArgs_Reason.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1026ce65-7673-4a70-bbe6-11ff287a521a" Title="Iq Class" Url="html/T_S22_Xmpp_Core_Iq.htm">
+      <HelpTOCNode Title="Iq Members" Url="html/AllMembers_T_S22_Xmpp_Core_Iq.htm" />
+      <HelpTOCNode Id="158584d2-0826-4929-94d3-149c6e702ace" Title="Iq Constructor " Url="html/Overload_S22_Xmpp_Core_Iq__ctor.htm">
+        <HelpTOCNode Title="Iq Constructor (XmlElement)" Url="html/M_S22_Xmpp_Core_Iq__ctor_1.htm" />
+        <HelpTOCNode Title="Iq Constructor (IqType, String, Jid, Jid, XmlElement, CultureInfo)" Url="html/M_S22_Xmpp_Core_Iq__ctor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Iq Fields" Url="html/Fields_T_S22_Xmpp_Core_Iq.htm" />
+      <HelpTOCNode Title="Iq Methods" Url="html/Methods_T_S22_Xmpp_Core_Iq.htm" />
+      <HelpTOCNode Id="3ba040e8-2491-4c62-b6cf-25a35e8916c5" Title="Iq Properties" Url="html/Properties_T_S22_Xmpp_Core_Iq.htm">
+        <HelpTOCNode Title="IsRequest Property " Url="html/P_S22_Xmpp_Core_Iq_IsRequest.htm" />
+        <HelpTOCNode Title="IsResponse Property " Url="html/P_S22_Xmpp_Core_Iq_IsResponse.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/P_S22_Xmpp_Core_Iq_Type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b5fba68a-f7c7-49fb-b685-ca164be9eb6a" Title="IqEventArgs Class" Url="html/T_S22_Xmpp_Core_IqEventArgs.htm">
+      <HelpTOCNode Title="IqEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Core_IqEventArgs.htm" />
+      <HelpTOCNode Title="IqEventArgs Constructor " Url="html/M_S22_Xmpp_Core_IqEventArgs__ctor.htm" />
+      <HelpTOCNode Title="IqEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Core_IqEventArgs.htm" />
+      <HelpTOCNode Id="0cec4f10-fceb-4912-a2ab-81b2cec58c7a" Title="IqEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Core_IqEventArgs.htm">
+        <HelpTOCNode Title="Stanza Property " Url="html/P_S22_Xmpp_Core_IqEventArgs_Stanza.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="IqType Enumeration" Url="html/T_S22_Xmpp_Core_IqType.htm" />
+    <HelpTOCNode Id="7f19c419-7e47-4eb1-ab03-fdebde97d942" Title="Message Class" Url="html/T_S22_Xmpp_Core_Message.htm">
+      <HelpTOCNode Title="Message Members" Url="html/AllMembers_T_S22_Xmpp_Core_Message.htm" />
+      <HelpTOCNode Id="6c65e392-8ca3-4bd0-b6a5-1c4e7a166382" Title="Message Constructor " Url="html/Overload_S22_Xmpp_Core_Message__ctor.htm">
+        <HelpTOCNode Title="Message Constructor (XmlElement)" Url="html/M_S22_Xmpp_Core_Message__ctor_1.htm" />
+        <HelpTOCNode Title="Message Constructor (Jid, Jid, XmlElement, String, CultureInfo)" Url="html/M_S22_Xmpp_Core_Message__ctor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Message Fields" Url="html/Fields_T_S22_Xmpp_Core_Message.htm" />
+      <HelpTOCNode Title="Message Methods" Url="html/Methods_T_S22_Xmpp_Core_Message.htm" />
+      <HelpTOCNode Title="Message Properties" Url="html/Properties_T_S22_Xmpp_Core_Message.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="dfab7adf-9f4b-4252-a252-73c0e6f14943" Title="MessageEventArgs Class" Url="html/T_S22_Xmpp_Core_MessageEventArgs.htm">
+      <HelpTOCNode Title="MessageEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Core_MessageEventArgs.htm" />
+      <HelpTOCNode Title="MessageEventArgs Constructor " Url="html/M_S22_Xmpp_Core_MessageEventArgs__ctor.htm" />
+      <HelpTOCNode Title="MessageEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Core_MessageEventArgs.htm" />
+      <HelpTOCNode Id="db711a8c-ed67-40cb-9d08-dd3489e9fef6" Title="MessageEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Core_MessageEventArgs.htm">
+        <HelpTOCNode Title="Stanza Property " Url="html/P_S22_Xmpp_Core_MessageEventArgs_Stanza.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4d8e1359-1526-4fc7-9052-17e13b77d25b" Title="Presence Class" Url="html/T_S22_Xmpp_Core_Presence.htm">
+      <HelpTOCNode Title="Presence Members" Url="html/AllMembers_T_S22_Xmpp_Core_Presence.htm" />
+      <HelpTOCNode Id="c5cf3788-d07a-43d2-8ced-880bed8ea7b7" Title="Presence Constructor " Url="html/Overload_S22_Xmpp_Core_Presence__ctor.htm">
+        <HelpTOCNode Title="Presence Constructor (XmlElement)" Url="html/M_S22_Xmpp_Core_Presence__ctor_1.htm" />
+        <HelpTOCNode Title="Presence Constructor (Jid, Jid, String, CultureInfo, XmlElement[])" Url="html/M_S22_Xmpp_Core_Presence__ctor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Presence Fields" Url="html/Fields_T_S22_Xmpp_Core_Presence.htm" />
+      <HelpTOCNode Title="Presence Methods" Url="html/Methods_T_S22_Xmpp_Core_Presence.htm" />
+      <HelpTOCNode Title="Presence Properties" Url="html/Properties_T_S22_Xmpp_Core_Presence.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="107b9d66-d4b8-478a-9112-901b737e44de" Title="PresenceEventArgs Class" Url="html/T_S22_Xmpp_Core_PresenceEventArgs.htm">
+      <HelpTOCNode Title="PresenceEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Core_PresenceEventArgs.htm" />
+      <HelpTOCNode Title="PresenceEventArgs Constructor " Url="html/M_S22_Xmpp_Core_PresenceEventArgs__ctor.htm" />
+      <HelpTOCNode Title="PresenceEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Core_PresenceEventArgs.htm" />
+      <HelpTOCNode Id="f21ca54d-406e-4451-89ab-75b3fab00f13" Title="PresenceEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Core_PresenceEventArgs.htm">
+        <HelpTOCNode Title="Stanza Property " Url="html/P_S22_Xmpp_Core_PresenceEventArgs_Stanza.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="683a878c-ee6b-4a0d-9fe9-b7cb159f7aef" Title="Stanza Class" Url="html/T_S22_Xmpp_Core_Stanza.htm">
+      <HelpTOCNode Title="Stanza Members" Url="html/AllMembers_T_S22_Xmpp_Core_Stanza.htm" />
+      <HelpTOCNode Id="0fdd8b52-8348-4d18-b341-58afe2ffee1b" Title="Stanza Constructor " Url="html/Overload_S22_Xmpp_Core_Stanza__ctor.htm">
+        <HelpTOCNode Title="Stanza Constructor (XmlElement)" Url="html/M_S22_Xmpp_Core_Stanza__ctor_1.htm" />
+        <HelpTOCNode Title="Stanza Constructor (String, Jid, Jid, String, CultureInfo, XmlElement[])" Url="html/M_S22_Xmpp_Core_Stanza__ctor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="32074779-b14f-4608-8823-f7e62628228f" Title="Stanza Fields" Url="html/Fields_T_S22_Xmpp_Core_Stanza.htm">
+        <HelpTOCNode Title="element Field" Url="html/F_S22_Xmpp_Core_Stanza_element.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a653b4db-2763-46e8-bf8a-ff76f098c0e7" Title="Stanza Methods" Url="html/Methods_T_S22_Xmpp_Core_Stanza.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/M_S22_Xmpp_Core_Stanza_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c7d07628-ce9c-47d0-8414-c605980c13ae" Title="Stanza Properties" Url="html/Properties_T_S22_Xmpp_Core_Stanza.htm">
+        <HelpTOCNode Title="Data Property " Url="html/P_S22_Xmpp_Core_Stanza_Data.htm" />
+        <HelpTOCNode Title="From Property " Url="html/P_S22_Xmpp_Core_Stanza_From.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P_S22_Xmpp_Core_Stanza_Id.htm" />
+        <HelpTOCNode Title="IsEmpty Property " Url="html/P_S22_Xmpp_Core_Stanza_IsEmpty.htm" />
+        <HelpTOCNode Title="Language Property " Url="html/P_S22_Xmpp_Core_Stanza_Language.htm" />
+        <HelpTOCNode Title="To Property " Url="html/P_S22_Xmpp_Core_Stanza_To.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="abdb4d50-374c-40ea-ac9c-2672c2fd3172" Title="XmppCore Class" Url="html/T_S22_Xmpp_Core_XmppCore.htm">
+      <HelpTOCNode Title="XmppCore Members" Url="html/AllMembers_T_S22_Xmpp_Core_XmppCore.htm" />
+      <HelpTOCNode Id="450c3fc0-f006-465c-8535-9325a38599a3" Title="XmppCore Constructor " Url="html/Overload_S22_Xmpp_Core_XmppCore__ctor.htm">
+        <HelpTOCNode Title="XmppCore Constructor (String, Int32, Boolean, RemoteCertificateValidationCallback)" Url="html/M_S22_Xmpp_Core_XmppCore__ctor.htm" />
+        <HelpTOCNode Title="XmppCore Constructor (String, String, String, Int32, Boolean, RemoteCertificateValidationCallback)" Url="html/M_S22_Xmpp_Core_XmppCore__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f5e2e489-0f99-43c7-b9ea-22355a0b2101" Title="XmppCore Methods" Url="html/Methods_T_S22_Xmpp_Core_XmppCore.htm">
+        <HelpTOCNode Title="Authenticate Method " Url="html/M_S22_Xmpp_Core_XmppCore_Authenticate.htm" />
+        <HelpTOCNode Title="Close Method " Url="html/M_S22_Xmpp_Core_XmppCore_Close.htm" />
+        <HelpTOCNode Title="Connect Method " Url="html/M_S22_Xmpp_Core_XmppCore_Connect.htm" />
+        <HelpTOCNode Id="9d56605b-7d2b-47b3-944e-e178c80731cc" Title="Dispose Method " Url="html/Overload_S22_Xmpp_Core_XmppCore_Dispose.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_S22_Xmpp_Core_XmppCore_Dispose.htm" />
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_S22_Xmpp_Core_XmppCore_Dispose_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="497d461b-d986-4529-aa33-f6fc7a225d6f" Title="IqRequest Method " Url="html/Overload_S22_Xmpp_Core_XmppCore_IqRequest.htm">
+          <HelpTOCNode Title="IqRequest Method (Iq, Int32)" Url="html/M_S22_Xmpp_Core_XmppCore_IqRequest.htm" />
+          <HelpTOCNode Title="IqRequest Method (IqType, Jid, Jid, XmlElement, CultureInfo, Int32)" Url="html/M_S22_Xmpp_Core_XmppCore_IqRequest_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a1040ea1-e0e0-4187-aaad-825a084c7790" Title="IqRequestAsync Method " Url="html/Overload_S22_Xmpp_Core_XmppCore_IqRequestAsync.htm">
+          <HelpTOCNode Title="IqRequestAsync Method (Iq, Action(String, Iq))" Url="html/M_S22_Xmpp_Core_XmppCore_IqRequestAsync.htm" />
+          <HelpTOCNode Title="IqRequestAsync Method (IqType, Jid, Jid, XmlElement, CultureInfo, Action(String, Iq))" Url="html/M_S22_Xmpp_Core_XmppCore_IqRequestAsync_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="412a190a-fb63-441f-bf9f-a78fa5110871" Title="IqResponse Method " Url="html/Overload_S22_Xmpp_Core_XmppCore_IqResponse.htm">
+          <HelpTOCNode Title="IqResponse Method (Iq)" Url="html/M_S22_Xmpp_Core_XmppCore_IqResponse.htm" />
+          <HelpTOCNode Title="IqResponse Method (IqType, String, Jid, Jid, XmlElement, CultureInfo)" Url="html/M_S22_Xmpp_Core_XmppCore_IqResponse_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="bc9c4854-c667-4c96-b391-498745fcb6a5" Title="SendMessage Method " Url="html/Overload_S22_Xmpp_Core_XmppCore_SendMessage.htm">
+          <HelpTOCNode Title="SendMessage Method (Message)" Url="html/M_S22_Xmpp_Core_XmppCore_SendMessage.htm" />
+          <HelpTOCNode Title="SendMessage Method (Jid, Jid, XmlElement, String, CultureInfo)" Url="html/M_S22_Xmpp_Core_XmppCore_SendMessage_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1f28d572-ca55-4f9a-8e03-a5d12ea45a57" Title="SendPresence Method " Url="html/Overload_S22_Xmpp_Core_XmppCore_SendPresence.htm">
+          <HelpTOCNode Title="SendPresence Method (Presence)" Url="html/M_S22_Xmpp_Core_XmppCore_SendPresence.htm" />
+          <HelpTOCNode Title="SendPresence Method (Jid, Jid, String, CultureInfo, XmlElement[])" Url="html/M_S22_Xmpp_Core_XmppCore_SendPresence_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b4f32896-85d4-4008-954e-a1202392ede1" Title="XmppCore Properties" Url="html/Properties_T_S22_Xmpp_Core_XmppCore.htm">
+        <HelpTOCNode Title="Authenticated Property " Url="html/P_S22_Xmpp_Core_XmppCore_Authenticated.htm" />
+        <HelpTOCNode Title="Connected Property " Url="html/P_S22_Xmpp_Core_XmppCore_Connected.htm" />
+        <HelpTOCNode Title="Hostname Property " Url="html/P_S22_Xmpp_Core_XmppCore_Hostname.htm" />
+        <HelpTOCNode Title="IsEncrypted Property " Url="html/P_S22_Xmpp_Core_XmppCore_IsEncrypted.htm" />
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Core_XmppCore_Jid.htm" />
+        <HelpTOCNode Title="Language Property " Url="html/P_S22_Xmpp_Core_XmppCore_Language.htm" />
+        <HelpTOCNode Title="Password Property " Url="html/P_S22_Xmpp_Core_XmppCore_Password.htm" />
+        <HelpTOCNode Title="Port Property " Url="html/P_S22_Xmpp_Core_XmppCore_Port.htm" />
+        <HelpTOCNode Title="Tls Property " Url="html/P_S22_Xmpp_Core_XmppCore_Tls.htm" />
+        <HelpTOCNode Title="Username Property " Url="html/P_S22_Xmpp_Core_XmppCore_Username.htm" />
+        <HelpTOCNode Title="Validate Property " Url="html/P_S22_Xmpp_Core_XmppCore_Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="49e37923-707c-4b78-afba-3e27dbdcc3a7" Title="XmppCore Events" Url="html/Events_T_S22_Xmpp_Core_XmppCore.htm">
+        <HelpTOCNode Title="Error Event" Url="html/E_S22_Xmpp_Core_XmppCore_Error.htm" />
+        <HelpTOCNode Title="Iq Event" Url="html/E_S22_Xmpp_Core_XmppCore_Iq.htm" />
+        <HelpTOCNode Title="Message Event" Url="html/E_S22_Xmpp_Core_XmppCore_Message.htm" />
+        <HelpTOCNode Title="Presence Event" Url="html/E_S22_Xmpp_Core_XmppCore_Presence.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="dcc8c5e5-9086-480f-a41a-d51867343aa2" Title="S22.Xmpp.Extensions Namespace" Url="html/N_S22_Xmpp_Extensions.htm">
+    <HelpTOCNode Id="fc02e375-ba91-4afb-a3de-0e55c304d5b2" Title="ActivityChangedEventArgs Class" Url="html/T_S22_Xmpp_Extensions_ActivityChangedEventArgs.htm">
+      <HelpTOCNode Title="ActivityChangedEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_ActivityChangedEventArgs.htm" />
+      <HelpTOCNode Title="ActivityChangedEventArgs Constructor " Url="html/M_S22_Xmpp_Extensions_ActivityChangedEventArgs__ctor.htm" />
+      <HelpTOCNode Title="ActivityChangedEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Extensions_ActivityChangedEventArgs.htm" />
+      <HelpTOCNode Id="e2858f98-bc40-4e19-81c9-4565f7126c11" Title="ActivityChangedEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Extensions_ActivityChangedEventArgs.htm">
+        <HelpTOCNode Title="Activity Property " Url="html/P_S22_Xmpp_Extensions_ActivityChangedEventArgs_Activity.htm" />
+        <HelpTOCNode Title="Description Property " Url="html/P_S22_Xmpp_Extensions_ActivityChangedEventArgs_Description.htm" />
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Extensions_ActivityChangedEventArgs_Jid.htm" />
+        <HelpTOCNode Title="Specific Property " Url="html/P_S22_Xmpp_Extensions_ActivityChangedEventArgs_Specific.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e81137b2-24ee-4d02-b6ac-aa09f545e0dd" Title="AvatarChangedEventArgs Class" Url="html/T_S22_Xmpp_Extensions_AvatarChangedEventArgs.htm">
+      <HelpTOCNode Title="AvatarChangedEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_AvatarChangedEventArgs.htm" />
+      <HelpTOCNode Title="AvatarChangedEventArgs Constructor " Url="html/M_S22_Xmpp_Extensions_AvatarChangedEventArgs__ctor.htm" />
+      <HelpTOCNode Title="AvatarChangedEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Extensions_AvatarChangedEventArgs.htm" />
+      <HelpTOCNode Id="f9f11f73-0b71-47b6-917f-e7c66932e24a" Title="AvatarChangedEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Extensions_AvatarChangedEventArgs.htm">
+        <HelpTOCNode Title="Avatar Property " Url="html/P_S22_Xmpp_Extensions_AvatarChangedEventArgs_Avatar.htm" />
+        <HelpTOCNode Title="Cleared Property " Url="html/P_S22_Xmpp_Extensions_AvatarChangedEventArgs_Cleared.htm" />
+        <HelpTOCNode Title="Hash Property " Url="html/P_S22_Xmpp_Extensions_AvatarChangedEventArgs_Hash.htm" />
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Extensions_AvatarChangedEventArgs_Jid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="ChatState Enumeration" Url="html/T_S22_Xmpp_Extensions_ChatState.htm" />
+    <HelpTOCNode Id="597219ea-d571-421b-a836-4cab869b3ed8" Title="ChatStateChangedEventArgs Class" Url="html/T_S22_Xmpp_Extensions_ChatStateChangedEventArgs.htm">
+      <HelpTOCNode Title="ChatStateChangedEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_ChatStateChangedEventArgs.htm" />
+      <HelpTOCNode Title="ChatStateChangedEventArgs Constructor " Url="html/M_S22_Xmpp_Extensions_ChatStateChangedEventArgs__ctor.htm" />
+      <HelpTOCNode Title="ChatStateChangedEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Extensions_ChatStateChangedEventArgs.htm" />
+      <HelpTOCNode Id="dfaf42fa-6eec-4915-8fe8-1a2a029b54f1" Title="ChatStateChangedEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Extensions_ChatStateChangedEventArgs.htm">
+        <HelpTOCNode Title="ChatState Property " Url="html/P_S22_Xmpp_Extensions_ChatStateChangedEventArgs_ChatState.htm" />
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Extensions_ChatStateChangedEventArgs_Jid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Extension Enumeration" Url="html/T_S22_Xmpp_Extensions_Extension.htm" />
+    <HelpTOCNode Id="fd883de0-be92-46a1-a0c9-e050c39035b4" Title="FileTransfer Class" Url="html/T_S22_Xmpp_Extensions_FileTransfer.htm">
+      <HelpTOCNode Title="FileTransfer Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_FileTransfer.htm" />
+      <HelpTOCNode Title="FileTransfer Methods" Url="html/Methods_T_S22_Xmpp_Extensions_FileTransfer.htm" />
+      <HelpTOCNode Id="dda46b26-7ffb-4d6d-a113-fc2d61c93525" Title="FileTransfer Properties" Url="html/Properties_T_S22_Xmpp_Extensions_FileTransfer.htm">
+        <HelpTOCNode Title="Description Property " Url="html/P_S22_Xmpp_Extensions_FileTransfer_Description.htm" />
+        <HelpTOCNode Title="From Property " Url="html/P_S22_Xmpp_Extensions_FileTransfer_From.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P_S22_Xmpp_Extensions_FileTransfer_Name.htm" />
+        <HelpTOCNode Title="SessionId Property " Url="html/P_S22_Xmpp_Extensions_FileTransfer_SessionId.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/P_S22_Xmpp_Extensions_FileTransfer_Size.htm" />
+        <HelpTOCNode Title="To Property " Url="html/P_S22_Xmpp_Extensions_FileTransfer_To.htm" />
+        <HelpTOCNode Title="Transferred Property " Url="html/P_S22_Xmpp_Extensions_FileTransfer_Transferred.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="be901b8f-6d58-45bf-bd77-9e311e7856c9" Title="FileTransferAbortedEventArgs Class" Url="html/T_S22_Xmpp_Extensions_FileTransferAbortedEventArgs.htm">
+      <HelpTOCNode Title="FileTransferAbortedEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_FileTransferAbortedEventArgs.htm" />
+      <HelpTOCNode Title="FileTransferAbortedEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Extensions_FileTransferAbortedEventArgs.htm" />
+      <HelpTOCNode Id="98eb0323-241a-4c86-968d-e3798d3457f2" Title="FileTransferAbortedEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Extensions_FileTransferAbortedEventArgs.htm">
+        <HelpTOCNode Title="Transfer Property " Url="html/P_S22_Xmpp_Extensions_FileTransferAbortedEventArgs_Transfer.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e4ac6193-e621-4bf7-afbf-96089a0137c2" Title="FileTransferProgressEventArgs Class" Url="html/T_S22_Xmpp_Extensions_FileTransferProgressEventArgs.htm">
+      <HelpTOCNode Title="FileTransferProgressEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_FileTransferProgressEventArgs.htm" />
+      <HelpTOCNode Title="FileTransferProgressEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Extensions_FileTransferProgressEventArgs.htm" />
+      <HelpTOCNode Id="e83ed85a-ab8a-483f-a2dd-f852e316d45c" Title="FileTransferProgressEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Extensions_FileTransferProgressEventArgs.htm">
+        <HelpTOCNode Title="Transfer Property " Url="html/P_S22_Xmpp_Extensions_FileTransferProgressEventArgs_Transfer.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="FileTransferRequest Delegate" Url="html/T_S22_Xmpp_Extensions_FileTransferRequest.htm" />
+    <HelpTOCNode Title="GeneralActivity Enumeration" Url="html/T_S22_Xmpp_Extensions_GeneralActivity.htm" />
+    <HelpTOCNode Id="f76b84ab-95fa-4f67-a450-8c6179029ebf" Title="Identity Class" Url="html/T_S22_Xmpp_Extensions_Identity.htm">
+      <HelpTOCNode Title="Identity Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Identity.htm" />
+      <HelpTOCNode Title="Identity Constructor " Url="html/M_S22_Xmpp_Extensions_Identity__ctor.htm" />
+      <HelpTOCNode Title="Identity Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Identity.htm" />
+      <HelpTOCNode Id="b9e3f5c1-88d1-4be3-a391-9969305b1bae" Title="Identity Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Identity.htm">
+        <HelpTOCNode Title="Category Property " Url="html/P_S22_Xmpp_Extensions_Identity_Category.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P_S22_Xmpp_Extensions_Identity_Name.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/P_S22_Xmpp_Extensions_Identity_Type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e8c739ee-264e-4a67-bfde-b55ed66c470c" Title="Item Class" Url="html/T_S22_Xmpp_Extensions_Item.htm">
+      <HelpTOCNode Title="Item Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Item.htm" />
+      <HelpTOCNode Title="Item Constructor " Url="html/M_S22_Xmpp_Extensions_Item__ctor.htm" />
+      <HelpTOCNode Title="Item Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Item.htm" />
+      <HelpTOCNode Id="3a224630-b46b-4326-b00d-64df7de712d4" Title="Item Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Item.htm">
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Extensions_Item_Jid.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P_S22_Xmpp_Extensions_Item_Name.htm" />
+        <HelpTOCNode Title="Node Property " Url="html/P_S22_Xmpp_Extensions_Item_Node.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Mood Enumeration" Url="html/T_S22_Xmpp_Extensions_Mood.htm" />
+    <HelpTOCNode Id="00696611-5984-4ed9-894a-5b0a0b8d5e41" Title="MoodChangedEventArgs Class" Url="html/T_S22_Xmpp_Extensions_MoodChangedEventArgs.htm">
+      <HelpTOCNode Title="MoodChangedEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_MoodChangedEventArgs.htm" />
+      <HelpTOCNode Title="MoodChangedEventArgs Constructor " Url="html/M_S22_Xmpp_Extensions_MoodChangedEventArgs__ctor.htm" />
+      <HelpTOCNode Title="MoodChangedEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Extensions_MoodChangedEventArgs.htm" />
+      <HelpTOCNode Id="38486a42-e420-46a6-a1ef-5aeb50b8b8cc" Title="MoodChangedEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Extensions_MoodChangedEventArgs.htm">
+        <HelpTOCNode Title="Description Property " Url="html/P_S22_Xmpp_Extensions_MoodChangedEventArgs_Description.htm" />
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Extensions_MoodChangedEventArgs_Jid.htm" />
+        <HelpTOCNode Title="Mood Property " Url="html/P_S22_Xmpp_Extensions_MoodChangedEventArgs_Mood.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="RegistrationCallback Delegate" Url="html/T_S22_Xmpp_Extensions_RegistrationCallback.htm" />
+    <HelpTOCNode Title="SpecificActivity Enumeration" Url="html/T_S22_Xmpp_Extensions_SpecificActivity.htm" />
+    <HelpTOCNode Id="2510daff-7561-4c49-b0bb-7bc6a98eb688" Title="Streamhost Class" Url="html/T_S22_Xmpp_Extensions_Streamhost.htm">
+      <HelpTOCNode Title="Streamhost Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Streamhost.htm" />
+      <HelpTOCNode Title="Streamhost Constructor " Url="html/M_S22_Xmpp_Extensions_Streamhost__ctor.htm" />
+      <HelpTOCNode Title="Streamhost Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Streamhost.htm" />
+      <HelpTOCNode Id="7522cbc2-9f8a-4387-aec0-a5d8f57ddaaf" Title="Streamhost Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Streamhost.htm">
+        <HelpTOCNode Title="Host Property " Url="html/P_S22_Xmpp_Extensions_Streamhost_Host.htm" />
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Extensions_Streamhost_Jid.htm" />
+        <HelpTOCNode Title="Port Property " Url="html/P_S22_Xmpp_Extensions_Streamhost_Port.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="815b4220-8119-49d4-8124-84857e090607" Title="TuneEventArgs Class" Url="html/T_S22_Xmpp_Extensions_TuneEventArgs.htm">
+      <HelpTOCNode Title="TuneEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_TuneEventArgs.htm" />
+      <HelpTOCNode Title="TuneEventArgs Constructor " Url="html/M_S22_Xmpp_Extensions_TuneEventArgs__ctor.htm" />
+      <HelpTOCNode Title="TuneEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Extensions_TuneEventArgs.htm" />
+      <HelpTOCNode Id="18e8f482-c847-4163-aa20-df07ffdb5242" Title="TuneEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Extensions_TuneEventArgs.htm">
+        <HelpTOCNode Title="Information Property " Url="html/P_S22_Xmpp_Extensions_TuneEventArgs_Information.htm" />
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Extensions_TuneEventArgs_Jid.htm" />
+        <HelpTOCNode Title="Stop Property " Url="html/P_S22_Xmpp_Extensions_TuneEventArgs_Stop.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c242278b-edb9-4568-95c0-423a6806454f" Title="TuneInformation Class" Url="html/T_S22_Xmpp_Extensions_TuneInformation.htm">
+      <HelpTOCNode Title="TuneInformation Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_TuneInformation.htm" />
+      <HelpTOCNode Title="TuneInformation Constructor " Url="html/M_S22_Xmpp_Extensions_TuneInformation__ctor.htm" />
+      <HelpTOCNode Title="TuneInformation Methods" Url="html/Methods_T_S22_Xmpp_Extensions_TuneInformation.htm" />
+      <HelpTOCNode Id="81da4f48-9b12-4207-b843-8893f5a29542" Title="TuneInformation Properties" Url="html/Properties_T_S22_Xmpp_Extensions_TuneInformation.htm">
+        <HelpTOCNode Title="Artist Property " Url="html/P_S22_Xmpp_Extensions_TuneInformation_Artist.htm" />
+        <HelpTOCNode Title="Length Property " Url="html/P_S22_Xmpp_Extensions_TuneInformation_Length.htm" />
+        <HelpTOCNode Title="Rating Property " Url="html/P_S22_Xmpp_Extensions_TuneInformation_Rating.htm" />
+        <HelpTOCNode Title="Source Property " Url="html/P_S22_Xmpp_Extensions_TuneInformation_Source.htm" />
+        <HelpTOCNode Title="Title Property " Url="html/P_S22_Xmpp_Extensions_TuneInformation_Title.htm" />
+        <HelpTOCNode Title="Track Property " Url="html/P_S22_Xmpp_Extensions_TuneInformation_Track.htm" />
+        <HelpTOCNode Title="Uri Property " Url="html/P_S22_Xmpp_Extensions_TuneInformation_Uri.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c3f8f168-e971-4f31-a004-c775518c8bb9" Title="VersionInformation Class" Url="html/T_S22_Xmpp_Extensions_VersionInformation.htm">
+      <HelpTOCNode Title="VersionInformation Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_VersionInformation.htm" />
+      <HelpTOCNode Title="VersionInformation Constructor " Url="html/M_S22_Xmpp_Extensions_VersionInformation__ctor.htm" />
+      <HelpTOCNode Title="VersionInformation Methods" Url="html/Methods_T_S22_Xmpp_Extensions_VersionInformation.htm" />
+      <HelpTOCNode Id="cca602c8-b692-44fe-93d7-6c70aecbda91" Title="VersionInformation Properties" Url="html/Properties_T_S22_Xmpp_Extensions_VersionInformation.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P_S22_Xmpp_Extensions_VersionInformation_Name.htm" />
+        <HelpTOCNode Title="Os Property " Url="html/P_S22_Xmpp_Extensions_VersionInformation_Os.htm" />
+        <HelpTOCNode Title="Version Property " Url="html/P_S22_Xmpp_Extensions_VersionInformation_Version.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="6ee3b184-0efe-4548-af21-e8eea4a248da" Title="S22.Xmpp.Extensions.Dataforms Namespace" Url="html/N_S22_Xmpp_Extensions_Dataforms.htm">
+    <HelpTOCNode Id="d58e50fb-f661-411f-b230-e61b043eb465" Title="BooleanField Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_BooleanField.htm">
+      <HelpTOCNode Title="BooleanField Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_BooleanField.htm" />
+      <HelpTOCNode Id="6fceafe6-18e9-4023-87db-8e30ff286f59" Title="BooleanField Constructor " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_BooleanField__ctor.htm">
+        <HelpTOCNode Title="BooleanField Constructor (String, Boolean)" Url="html/M_S22_Xmpp_Extensions_Dataforms_BooleanField__ctor.htm" />
+        <HelpTOCNode Title="BooleanField Constructor (String, Boolean, String, String, Nullable(Boolean))" Url="html/M_S22_Xmpp_Extensions_Dataforms_BooleanField__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BooleanField Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_BooleanField.htm" />
+      <HelpTOCNode Title="BooleanField Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_BooleanField.htm" />
+      <HelpTOCNode Id="4d2c2d8e-5768-4cf6-a421-512395358f0b" Title="BooleanField Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_BooleanField.htm">
+        <HelpTOCNode Title="Value Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_BooleanField_Value.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a3ea1046-b745-49ac-bed6-697e3cff3d9a" Title="DataField Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_DataField.htm">
+      <HelpTOCNode Title="DataField Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_DataField.htm" />
+      <HelpTOCNode Title="DataField Constructor " Url="html/M_S22_Xmpp_Extensions_Dataforms_DataField__ctor.htm" />
+      <HelpTOCNode Id="593afc1d-ab5e-4b2c-8414-cda77bb05b55" Title="DataField Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_DataField.htm">
+        <HelpTOCNode Title="element Field" Url="html/F_S22_Xmpp_Extensions_Dataforms_DataField_element.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="02a12652-6225-4bfb-aa53-de7f8dd9a4da" Title="DataField Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_DataField.htm">
+        <HelpTOCNode Title="AssertType Method " Url="html/M_S22_Xmpp_Extensions_Dataforms_DataField_AssertType.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M_S22_Xmpp_Extensions_Dataforms_DataField_ToString.htm" />
+        <HelpTOCNode Title="ToXmlElement Method " Url="html/M_S22_Xmpp_Extensions_Dataforms_DataField_ToXmlElement.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ce6c7f0a-d988-480c-a0a1-5fe3c0266e5b" Title="DataField Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_DataField.htm">
+        <HelpTOCNode Title="Description Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Description.htm" />
+        <HelpTOCNode Title="Label Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Label.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Name.htm" />
+        <HelpTOCNode Title="Required Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Required.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Type.htm" />
+        <HelpTOCNode Title="Values Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_DataField_Values.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="DataFieldType Enumeration" Url="html/T_S22_Xmpp_Extensions_Dataforms_DataFieldType.htm" />
+    <HelpTOCNode Id="681ad6bd-18f4-4bf1-a37f-88e9f3f506d6" Title="DataForm Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_DataForm.htm">
+      <HelpTOCNode Title="DataForm Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_DataForm.htm" />
+      <HelpTOCNode Id="0ee1993e-8f56-4d5b-bf3a-0df30934b98e" Title="DataForm Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_DataForm.htm">
+        <HelpTOCNode Title="element Field" Url="html/F_S22_Xmpp_Extensions_Dataforms_DataForm_element.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c7cb4747-d51b-4055-90d8-1ef75f651dbd" Title="DataForm Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_DataForm.htm">
+        <HelpTOCNode Title="AssertType Method " Url="html/M_S22_Xmpp_Extensions_Dataforms_DataForm_AssertType.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M_S22_Xmpp_Extensions_Dataforms_DataForm_ToString.htm" />
+        <HelpTOCNode Title="ToXmlElement Method " Url="html/M_S22_Xmpp_Extensions_Dataforms_DataForm_ToXmlElement.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2f2d7d04-a67f-499f-9a4f-6c760da81ba0" Title="DataForm Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_DataForm.htm">
+        <HelpTOCNode Title="Fields Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_DataForm_Fields.htm" />
+        <HelpTOCNode Title="Instructions Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_DataForm_Instructions.htm" />
+        <HelpTOCNode Title="Title Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_DataForm_Title.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_DataForm_Type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="DataFormType Enumeration" Url="html/T_S22_Xmpp_Extensions_Dataforms_DataFormType.htm" />
+    <HelpTOCNode Id="1f3d0e80-9ee0-4c44-92b6-36aa51144d7b" Title="FieldList Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_FieldList.htm">
+      <HelpTOCNode Title="FieldList Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_FieldList.htm" />
+      <HelpTOCNode Title="FieldList Constructor " Url="html/M_S22_Xmpp_Extensions_Dataforms_FieldList__ctor.htm" />
+      <HelpTOCNode Id="9f441d75-06cd-424c-99bd-985b35fe2cc2" Title="FieldList Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_FieldList.htm">
+        <HelpTOCNode Title="Add Method " Url="html/M_S22_Xmpp_Extensions_Dataforms_FieldList_Add.htm" />
+        <HelpTOCNode Title="Clear Method " Url="html/M_S22_Xmpp_Extensions_Dataforms_FieldList_Clear.htm" />
+        <HelpTOCNode Title="Contains Method " Url="html/M_S22_Xmpp_Extensions_Dataforms_FieldList_Contains.htm" />
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/M_S22_Xmpp_Extensions_Dataforms_FieldList_GetEnumerator.htm" />
+        <HelpTOCNode Id="bc11abf3-7ce2-4977-ae07-2bfca7fd1d59" Title="Remove Method " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_FieldList_Remove.htm">
+          <HelpTOCNode Title="Remove Method (String)" Url="html/M_S22_Xmpp_Extensions_Dataforms_FieldList_Remove_1.htm" />
+          <HelpTOCNode Title="Remove Method (DataField)" Url="html/M_S22_Xmpp_Extensions_Dataforms_FieldList_Remove.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3e4f65a4-bbba-49fc-a563-40a88d58a264" Title="FieldList Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_FieldList.htm">
+        <HelpTOCNode Title="Count Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_FieldList_Count.htm" />
+        <HelpTOCNode Title="IsReadOnly Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_FieldList_IsReadOnly.htm" />
+        <HelpTOCNode Id="69eca4e8-df89-437f-95c6-0c2d01f6a90f" Title="Item Property " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_FieldList_Item.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/P_S22_Xmpp_Extensions_Dataforms_FieldList_Item.htm" />
+          <HelpTOCNode Title="Item Property (String)" Url="html/P_S22_Xmpp_Extensions_Dataforms_FieldList_Item_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0343eb5a-d16e-4ffe-8804-e2a3fdbb23ee" Title="FixedField Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_FixedField.htm">
+      <HelpTOCNode Title="FixedField Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_FixedField.htm" />
+      <HelpTOCNode Id="e9af7e12-5eb3-4d9f-9272-eb502af3e525" Title="FixedField Constructor " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_FixedField__ctor.htm">
+        <HelpTOCNode Title="FixedField Constructor (String)" Url="html/M_S22_Xmpp_Extensions_Dataforms_FixedField__ctor.htm" />
+        <HelpTOCNode Title="FixedField Constructor (String, String, String, String)" Url="html/M_S22_Xmpp_Extensions_Dataforms_FixedField__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FixedField Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_FixedField.htm" />
+      <HelpTOCNode Title="FixedField Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_FixedField.htm" />
+      <HelpTOCNode Id="c814fbf1-6f33-409d-b56e-5061e9a3033f" Title="FixedField Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_FixedField.htm">
+        <HelpTOCNode Title="Value Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_FixedField_Value.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="206d8503-95a3-490b-9848-b53ddee0b61e" Title="HiddenField Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_HiddenField.htm">
+      <HelpTOCNode Title="HiddenField Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_HiddenField.htm" />
+      <HelpTOCNode Id="cc9ff97b-ffd5-41f5-b029-9b471c2010ca" Title="HiddenField Constructor " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_HiddenField__ctor.htm">
+        <HelpTOCNode Title="HiddenField Constructor (String, String[])" Url="html/M_S22_Xmpp_Extensions_Dataforms_HiddenField__ctor_1.htm" />
+        <HelpTOCNode Title="HiddenField Constructor (String, Boolean, String, String, String[])" Url="html/M_S22_Xmpp_Extensions_Dataforms_HiddenField__ctor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="HiddenField Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_HiddenField.htm" />
+      <HelpTOCNode Title="HiddenField Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_HiddenField.htm" />
+      <HelpTOCNode Id="1df139a3-301a-4836-9efe-2cad187e5dcd" Title="HiddenField Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_HiddenField.htm">
+        <HelpTOCNode Title="Values Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_HiddenField_Values.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="892a34fd-5124-4160-8f9a-4ac43943ab24" Title="JidField Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_JidField.htm">
+      <HelpTOCNode Title="JidField Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_JidField.htm" />
+      <HelpTOCNode Id="3d5eb79b-a814-4c84-8d59-ed53079e1006" Title="JidField Constructor " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_JidField__ctor.htm">
+        <HelpTOCNode Title="JidField Constructor (String, Jid)" Url="html/M_S22_Xmpp_Extensions_Dataforms_JidField__ctor.htm" />
+        <HelpTOCNode Title="JidField Constructor (String, Boolean, String, String, Jid)" Url="html/M_S22_Xmpp_Extensions_Dataforms_JidField__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="JidField Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_JidField.htm" />
+      <HelpTOCNode Title="JidField Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_JidField.htm" />
+      <HelpTOCNode Id="421603ef-cc71-4649-88df-0d9fa1fc0e6e" Title="JidField Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_JidField.htm">
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_JidField_Jid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9026847a-44af-44ed-b12b-cd58031b3716" Title="JidMultiField Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_JidMultiField.htm">
+      <HelpTOCNode Title="JidMultiField Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_JidMultiField.htm" />
+      <HelpTOCNode Id="0aca1b52-65e2-4060-8dd8-0cd47566ffbd" Title="JidMultiField Constructor " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_JidMultiField__ctor.htm">
+        <HelpTOCNode Title="JidMultiField Constructor (String, Jid[])" Url="html/M_S22_Xmpp_Extensions_Dataforms_JidMultiField__ctor.htm" />
+        <HelpTOCNode Title="JidMultiField Constructor (String, Boolean, String, String, Jid[])" Url="html/M_S22_Xmpp_Extensions_Dataforms_JidMultiField__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="JidMultiField Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_JidMultiField.htm" />
+      <HelpTOCNode Title="JidMultiField Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_JidMultiField.htm" />
+      <HelpTOCNode Id="18d3f160-8444-48a8-a0d0-3b8f7e9647a9" Title="JidMultiField Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_JidMultiField.htm">
+        <HelpTOCNode Title="Values Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_JidMultiField_Values.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1d2c83e3-6ebf-4de6-b3cf-68fcf2c07c72" Title="ListField Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_ListField.htm">
+      <HelpTOCNode Title="ListField Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_ListField.htm" />
+      <HelpTOCNode Id="55f9e8dd-ce1d-43aa-978f-549d7b1184be" Title="ListField Constructor " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_ListField__ctor.htm">
+        <HelpTOCNode Title="ListField Constructor (String, String)" Url="html/M_S22_Xmpp_Extensions_Dataforms_ListField__ctor_1.htm" />
+        <HelpTOCNode Title="ListField Constructor (String, Boolean, String, String, IEnumerable(Option), String)" Url="html/M_S22_Xmpp_Extensions_Dataforms_ListField__ctor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ListField Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_ListField.htm" />
+      <HelpTOCNode Title="ListField Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_ListField.htm" />
+      <HelpTOCNode Id="15247417-b466-40fb-958f-5aa06a5629b4" Title="ListField Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_ListField.htm">
+        <HelpTOCNode Title="Options Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_ListField_Options.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_ListField_Value.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="059b8258-cc71-46a8-93cd-d089d0dfcf33" Title="ListMultiField Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_ListMultiField.htm">
+      <HelpTOCNode Title="ListMultiField Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_ListMultiField.htm" />
+      <HelpTOCNode Id="68773059-9135-43a4-a918-dfb5182925dd" Title="ListMultiField Constructor " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_ListMultiField__ctor.htm">
+        <HelpTOCNode Title="ListMultiField Constructor (String, String[])" Url="html/M_S22_Xmpp_Extensions_Dataforms_ListMultiField__ctor_1.htm" />
+        <HelpTOCNode Title="ListMultiField Constructor (String, Boolean, String, String, IEnumerable(Option), String[])" Url="html/M_S22_Xmpp_Extensions_Dataforms_ListMultiField__ctor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ListMultiField Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_ListMultiField.htm" />
+      <HelpTOCNode Title="ListMultiField Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_ListMultiField.htm" />
+      <HelpTOCNode Id="4d5e86f8-dcdb-463e-a447-c62cb24a1a98" Title="ListMultiField Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_ListMultiField.htm">
+        <HelpTOCNode Title="Options Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_ListMultiField_Options.htm" />
+        <HelpTOCNode Title="Values Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_ListMultiField_Values.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8d599270-d73d-4d92-adfe-bd5e7daec3a4" Title="Option Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_Option.htm">
+      <HelpTOCNode Title="Option Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_Option.htm" />
+      <HelpTOCNode Title="Option Constructor " Url="html/M_S22_Xmpp_Extensions_Dataforms_Option__ctor.htm" />
+      <HelpTOCNode Id="5ecb84cd-f40f-47a2-9082-a0148a79f143" Title="Option Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_Option.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/M_S22_Xmpp_Extensions_Dataforms_Option_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1e805adf-e607-435d-994e-d2ab3be268cb" Title="Option Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_Option.htm">
+        <HelpTOCNode Title="Label Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_Option_Label.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_Option_Value.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e29220cc-9769-404c-8ab0-1bdb574549ad" Title="PasswordField Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_PasswordField.htm">
+      <HelpTOCNode Title="PasswordField Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_PasswordField.htm" />
+      <HelpTOCNode Id="ddec4e60-b750-4a9f-a22e-eab4f236b173" Title="PasswordField Constructor " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_PasswordField__ctor.htm">
+        <HelpTOCNode Title="PasswordField Constructor (String, String)" Url="html/M_S22_Xmpp_Extensions_Dataforms_PasswordField__ctor_1.htm" />
+        <HelpTOCNode Title="PasswordField Constructor (String, Boolean, String, String, String)" Url="html/M_S22_Xmpp_Extensions_Dataforms_PasswordField__ctor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PasswordField Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_PasswordField.htm" />
+      <HelpTOCNode Title="PasswordField Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_PasswordField.htm" />
+      <HelpTOCNode Id="29c8d7e1-3ee2-4e5e-b449-959021dae6a4" Title="PasswordField Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_PasswordField.htm">
+        <HelpTOCNode Title="Value Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_PasswordField_Value.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1fbf9250-ab9a-46b1-bfb9-db543f2a99b2" Title="RequestForm Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_RequestForm.htm">
+      <HelpTOCNode Title="RequestForm Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_RequestForm.htm" />
+      <HelpTOCNode Id="026d28a6-ef30-428f-ba6c-60f8191fd91d" Title="RequestForm Constructor " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_RequestForm__ctor.htm">
+        <HelpTOCNode Title="RequestForm Constructor (XmlElement)" Url="html/M_S22_Xmpp_Extensions_Dataforms_RequestForm__ctor_1.htm" />
+        <HelpTOCNode Title="RequestForm Constructor (String, String, DataField[])" Url="html/M_S22_Xmpp_Extensions_Dataforms_RequestForm__ctor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RequestForm Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_RequestForm.htm" />
+      <HelpTOCNode Title="RequestForm Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_RequestForm.htm" />
+      <HelpTOCNode Title="RequestForm Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_RequestForm.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9e403e92-8121-4f7d-b400-5668d3ccb826" Title="SubmitForm Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_SubmitForm.htm">
+      <HelpTOCNode Title="SubmitForm Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_SubmitForm.htm" />
+      <HelpTOCNode Title="SubmitForm Constructor " Url="html/M_S22_Xmpp_Extensions_Dataforms_SubmitForm__ctor.htm" />
+      <HelpTOCNode Title="SubmitForm Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_SubmitForm.htm" />
+      <HelpTOCNode Title="SubmitForm Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_SubmitForm.htm" />
+      <HelpTOCNode Title="SubmitForm Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_SubmitForm.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8048eb2a-4d57-4cda-b675-ca35043c9467" Title="TextField Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_TextField.htm">
+      <HelpTOCNode Title="TextField Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_TextField.htm" />
+      <HelpTOCNode Id="e3b0c0d7-8e39-48a3-9a53-bd8b0af4814d" Title="TextField Constructor " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_TextField__ctor.htm">
+        <HelpTOCNode Title="TextField Constructor (String, String)" Url="html/M_S22_Xmpp_Extensions_Dataforms_TextField__ctor_1.htm" />
+        <HelpTOCNode Title="TextField Constructor (String, Boolean, String, String, String)" Url="html/M_S22_Xmpp_Extensions_Dataforms_TextField__ctor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TextField Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_TextField.htm" />
+      <HelpTOCNode Title="TextField Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_TextField.htm" />
+      <HelpTOCNode Id="d5ffa64b-a3b0-44ba-907a-71b0cbbe7fec" Title="TextField Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_TextField.htm">
+        <HelpTOCNode Title="Value Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_TextField_Value.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="371e2fcd-dab3-4218-a7b1-07585464244d" Title="TextMultiField Class" Url="html/T_S22_Xmpp_Extensions_Dataforms_TextMultiField.htm">
+      <HelpTOCNode Title="TextMultiField Members" Url="html/AllMembers_T_S22_Xmpp_Extensions_Dataforms_TextMultiField.htm" />
+      <HelpTOCNode Id="dfe97079-d7f0-4d9d-93db-a42c897ee8ba" Title="TextMultiField Constructor " Url="html/Overload_S22_Xmpp_Extensions_Dataforms_TextMultiField__ctor.htm">
+        <HelpTOCNode Title="TextMultiField Constructor (String, String[])" Url="html/M_S22_Xmpp_Extensions_Dataforms_TextMultiField__ctor_1.htm" />
+        <HelpTOCNode Title="TextMultiField Constructor (String, Boolean, String, String, String[])" Url="html/M_S22_Xmpp_Extensions_Dataforms_TextMultiField__ctor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TextMultiField Fields" Url="html/Fields_T_S22_Xmpp_Extensions_Dataforms_TextMultiField.htm" />
+      <HelpTOCNode Title="TextMultiField Methods" Url="html/Methods_T_S22_Xmpp_Extensions_Dataforms_TextMultiField.htm" />
+      <HelpTOCNode Id="908c1527-50ee-4760-b5d6-a9bb0b03cf94" Title="TextMultiField Properties" Url="html/Properties_T_S22_Xmpp_Extensions_Dataforms_TextMultiField.htm">
+        <HelpTOCNode Title="Values Property " Url="html/P_S22_Xmpp_Extensions_Dataforms_TextMultiField_Values.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="bee54f18-28a0-4063-97fd-5d334e787016" Title="S22.Xmpp.Im Namespace" Url="html/N_S22_Xmpp_Im.htm">
+    <HelpTOCNode Title="Availability Enumeration" Url="html/T_S22_Xmpp_Im_Availability.htm" />
+    <HelpTOCNode Id="5009734c-9c35-4b9d-a53d-c3fc88e6dfed" Title="ErrorEventArgs Class" Url="html/T_S22_Xmpp_Im_ErrorEventArgs.htm">
+      <HelpTOCNode Title="ErrorEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Im_ErrorEventArgs.htm" />
+      <HelpTOCNode Title="ErrorEventArgs Constructor " Url="html/M_S22_Xmpp_Im_ErrorEventArgs__ctor.htm" />
+      <HelpTOCNode Title="ErrorEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Im_ErrorEventArgs.htm" />
+      <HelpTOCNode Title="ErrorEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Im_ErrorEventArgs.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="db1262b2-9e0d-4e3f-8c13-ab3170da32b7" Title="GroupPrivacyRule Class" Url="html/T_S22_Xmpp_Im_GroupPrivacyRule.htm">
+      <HelpTOCNode Title="GroupPrivacyRule Members" Url="html/AllMembers_T_S22_Xmpp_Im_GroupPrivacyRule.htm" />
+      <HelpTOCNode Title="GroupPrivacyRule Constructor " Url="html/M_S22_Xmpp_Im_GroupPrivacyRule__ctor.htm" />
+      <HelpTOCNode Title="GroupPrivacyRule Methods" Url="html/Methods_T_S22_Xmpp_Im_GroupPrivacyRule.htm" />
+      <HelpTOCNode Id="448e5149-48b0-4eca-a258-211b9af6616c" Title="GroupPrivacyRule Properties" Url="html/Properties_T_S22_Xmpp_Im_GroupPrivacyRule.htm">
+        <HelpTOCNode Title="Group Property " Url="html/P_S22_Xmpp_Im_GroupPrivacyRule_Group.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="321782c8-88bd-4351-8f76-ed3ae8fc3a4d" Title="JidPrivacyRule Class" Url="html/T_S22_Xmpp_Im_JidPrivacyRule.htm">
+      <HelpTOCNode Title="JidPrivacyRule Members" Url="html/AllMembers_T_S22_Xmpp_Im_JidPrivacyRule.htm" />
+      <HelpTOCNode Title="JidPrivacyRule Constructor " Url="html/M_S22_Xmpp_Im_JidPrivacyRule__ctor.htm" />
+      <HelpTOCNode Title="JidPrivacyRule Methods" Url="html/Methods_T_S22_Xmpp_Im_JidPrivacyRule.htm" />
+      <HelpTOCNode Id="9dedeb0a-4054-4815-97c7-b099fc0b30e2" Title="JidPrivacyRule Properties" Url="html/Properties_T_S22_Xmpp_Im_JidPrivacyRule.htm">
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Im_JidPrivacyRule_Jid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1741f229-f014-410e-8864-b71e7b7b7484" Title="Message Class" Url="html/T_S22_Xmpp_Im_Message.htm">
+      <HelpTOCNode Title="Message Members" Url="html/AllMembers_T_S22_Xmpp_Im_Message.htm" />
+      <HelpTOCNode Id="f940cd35-9835-4db5-88a6-37b1f6f6ff6c" Title="Message Constructor " Url="html/Overload_S22_Xmpp_Im_Message__ctor.htm">
+        <HelpTOCNode Title="Message Constructor (Jid, IDictionary(String, String), IDictionary(String, String), String, MessageType, CultureInfo)" Url="html/M_S22_Xmpp_Im_Message__ctor.htm" />
+        <HelpTOCNode Title="Message Constructor (Jid, String, String, String, MessageType, CultureInfo)" Url="html/M_S22_Xmpp_Im_Message__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Message Fields" Url="html/Fields_T_S22_Xmpp_Im_Message.htm" />
+      <HelpTOCNode Title="Message Methods" Url="html/Methods_T_S22_Xmpp_Im_Message.htm" />
+      <HelpTOCNode Id="ca2ca57a-8325-422e-8162-853e75a32347" Title="Message Properties" Url="html/Properties_T_S22_Xmpp_Im_Message.htm">
+        <HelpTOCNode Title="AlternateBodies Property " Url="html/P_S22_Xmpp_Im_Message_AlternateBodies.htm" />
+        <HelpTOCNode Title="AlternateSubjects Property " Url="html/P_S22_Xmpp_Im_Message_AlternateSubjects.htm" />
+        <HelpTOCNode Title="Body Property " Url="html/P_S22_Xmpp_Im_Message_Body.htm" />
+        <HelpTOCNode Title="Subject Property " Url="html/P_S22_Xmpp_Im_Message_Subject.htm" />
+        <HelpTOCNode Title="Thread Property " Url="html/P_S22_Xmpp_Im_Message_Thread.htm" />
+        <HelpTOCNode Title="Timestamp Property " Url="html/P_S22_Xmpp_Im_Message_Timestamp.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/P_S22_Xmpp_Im_Message_Type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="404547ce-d7cb-4001-b528-44db4865e442" Title="MessageEventArgs Class" Url="html/T_S22_Xmpp_Im_MessageEventArgs.htm">
+      <HelpTOCNode Title="MessageEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Im_MessageEventArgs.htm" />
+      <HelpTOCNode Title="MessageEventArgs Constructor " Url="html/M_S22_Xmpp_Im_MessageEventArgs__ctor.htm" />
+      <HelpTOCNode Title="MessageEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Im_MessageEventArgs.htm" />
+      <HelpTOCNode Id="c6bb1ab7-385c-42e5-81ab-3dd27ce2270f" Title="MessageEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Im_MessageEventArgs.htm">
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Im_MessageEventArgs_Jid.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/P_S22_Xmpp_Im_MessageEventArgs_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="MessageType Enumeration" Url="html/T_S22_Xmpp_Im_MessageType.htm" />
+    <HelpTOCNode Title="PrivacyGranularity Enumeration" Url="html/T_S22_Xmpp_Im_PrivacyGranularity.htm" />
+    <HelpTOCNode Id="04ad36a7-deea-406b-8e7b-51b1215d1f12" Title="PrivacyList Class" Url="html/T_S22_Xmpp_Im_PrivacyList.htm">
+      <HelpTOCNode Title="PrivacyList Members" Url="html/AllMembers_T_S22_Xmpp_Im_PrivacyList.htm" />
+      <HelpTOCNode Title="PrivacyList Constructor " Url="html/M_S22_Xmpp_Im_PrivacyList__ctor.htm" />
+      <HelpTOCNode Id="964ebc41-c645-4d63-8d8f-8045905422a7" Title="PrivacyList Methods" Url="html/Methods_T_S22_Xmpp_Im_PrivacyList.htm">
+        <HelpTOCNode Id="65803b4b-8360-4d2b-a6de-2e978391ddb0" Title="Add Method " Url="html/Overload_S22_Xmpp_Im_PrivacyList_Add.htm">
+          <HelpTOCNode Title="Add Method (PrivacyRule)" Url="html/M_S22_Xmpp_Im_PrivacyList_Add.htm" />
+          <HelpTOCNode Title="Add Method (PrivacyRule, Boolean)" Url="html/M_S22_Xmpp_Im_PrivacyList_Add_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clear Method " Url="html/M_S22_Xmpp_Im_PrivacyList_Clear.htm" />
+        <HelpTOCNode Title="Contains Method " Url="html/M_S22_Xmpp_Im_PrivacyList_Contains.htm" />
+        <HelpTOCNode Title="CopyTo Method " Url="html/M_S22_Xmpp_Im_PrivacyList_CopyTo.htm" />
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/M_S22_Xmpp_Im_PrivacyList_GetEnumerator.htm" />
+        <HelpTOCNode Title="Remove Method " Url="html/M_S22_Xmpp_Im_PrivacyList_Remove.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="910d4882-4044-4d87-81bf-fa268963c705" Title="PrivacyList Properties" Url="html/Properties_T_S22_Xmpp_Im_PrivacyList.htm">
+        <HelpTOCNode Title="Count Property " Url="html/P_S22_Xmpp_Im_PrivacyList_Count.htm" />
+        <HelpTOCNode Title="IsReadOnly Property " Url="html/P_S22_Xmpp_Im_PrivacyList_IsReadOnly.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P_S22_Xmpp_Im_PrivacyList_Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="08321c0e-795d-4b25-b7f4-0d839f472081" Title="PrivacyRule Class" Url="html/T_S22_Xmpp_Im_PrivacyRule.htm">
+      <HelpTOCNode Title="PrivacyRule Members" Url="html/AllMembers_T_S22_Xmpp_Im_PrivacyRule.htm" />
+      <HelpTOCNode Title="PrivacyRule Constructor " Url="html/M_S22_Xmpp_Im_PrivacyRule__ctor.htm" />
+      <HelpTOCNode Title="PrivacyRule Methods" Url="html/Methods_T_S22_Xmpp_Im_PrivacyRule.htm" />
+      <HelpTOCNode Id="a02cddd7-c2b0-41ba-b130-0c331b56bd77" Title="PrivacyRule Properties" Url="html/Properties_T_S22_Xmpp_Im_PrivacyRule.htm">
+        <HelpTOCNode Title="Allow Property " Url="html/P_S22_Xmpp_Im_PrivacyRule_Allow.htm" />
+        <HelpTOCNode Title="Granularity Property " Url="html/P_S22_Xmpp_Im_PrivacyRule_Granularity.htm" />
+        <HelpTOCNode Title="Order Property " Url="html/P_S22_Xmpp_Im_PrivacyRule_Order.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="10576de8-cb90-433a-8729-c968b5b8931a" Title="Roster Class" Url="html/T_S22_Xmpp_Im_Roster.htm">
+      <HelpTOCNode Title="Roster Members" Url="html/AllMembers_T_S22_Xmpp_Im_Roster.htm" />
+      <HelpTOCNode Id="5d24aa41-5781-493b-a499-9b12afcda7ed" Title="Roster Methods" Url="html/Methods_T_S22_Xmpp_Im_Roster.htm">
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/M_S22_Xmpp_Im_Roster_GetEnumerator.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="826d40b2-d8e9-41a6-9d2c-9543a16c27bf" Title="Roster Properties" Url="html/Properties_T_S22_Xmpp_Im_Roster.htm">
+        <HelpTOCNode Title="Count Property " Url="html/P_S22_Xmpp_Im_Roster_Count.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="142f3214-41d6-47f5-b8b3-d8535e2b5679" Title="RosterItem Class" Url="html/T_S22_Xmpp_Im_RosterItem.htm">
+      <HelpTOCNode Title="RosterItem Members" Url="html/AllMembers_T_S22_Xmpp_Im_RosterItem.htm" />
+      <HelpTOCNode Title="RosterItem Constructor " Url="html/M_S22_Xmpp_Im_RosterItem__ctor.htm" />
+      <HelpTOCNode Title="RosterItem Methods" Url="html/Methods_T_S22_Xmpp_Im_RosterItem.htm" />
+      <HelpTOCNode Id="8118728e-3562-4027-b832-f0ea530367bb" Title="RosterItem Properties" Url="html/Properties_T_S22_Xmpp_Im_RosterItem.htm">
+        <HelpTOCNode Title="Groups Property " Url="html/P_S22_Xmpp_Im_RosterItem_Groups.htm" />
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Im_RosterItem_Jid.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P_S22_Xmpp_Im_RosterItem_Name.htm" />
+        <HelpTOCNode Title="Pending Property " Url="html/P_S22_Xmpp_Im_RosterItem_Pending.htm" />
+        <HelpTOCNode Title="SubscriptionState Property " Url="html/P_S22_Xmpp_Im_RosterItem_SubscriptionState.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="25c85bf7-0250-49d8-bd32-01735f369126" Title="RosterUpdatedEventArgs Class" Url="html/T_S22_Xmpp_Im_RosterUpdatedEventArgs.htm">
+      <HelpTOCNode Title="RosterUpdatedEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Im_RosterUpdatedEventArgs.htm" />
+      <HelpTOCNode Title="RosterUpdatedEventArgs Constructor " Url="html/M_S22_Xmpp_Im_RosterUpdatedEventArgs__ctor.htm" />
+      <HelpTOCNode Title="RosterUpdatedEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Im_RosterUpdatedEventArgs.htm" />
+      <HelpTOCNode Id="4c0bd6ee-55f6-4663-87ea-838552e596a5" Title="RosterUpdatedEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Im_RosterUpdatedEventArgs.htm">
+        <HelpTOCNode Title="Item Property " Url="html/P_S22_Xmpp_Im_RosterUpdatedEventArgs_Item.htm" />
+        <HelpTOCNode Title="Removed Property " Url="html/P_S22_Xmpp_Im_RosterUpdatedEventArgs_Removed.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7bfa17ed-19fb-45f3-83f1-d409f9a2b231" Title="Status Class" Url="html/T_S22_Xmpp_Im_Status.htm">
+      <HelpTOCNode Title="Status Members" Url="html/AllMembers_T_S22_Xmpp_Im_Status.htm" />
+      <HelpTOCNode Id="a14b7e6e-31c8-442b-876f-bc486901406e" Title="Status Constructor " Url="html/Overload_S22_Xmpp_Im_Status__ctor.htm">
+        <HelpTOCNode Title="Status Constructor (Availability, Dictionary(String, String), SByte)" Url="html/M_S22_Xmpp_Im_Status__ctor.htm" />
+        <HelpTOCNode Title="Status Constructor (Availability, String, SByte, CultureInfo)" Url="html/M_S22_Xmpp_Im_Status__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Status Methods" Url="html/Methods_T_S22_Xmpp_Im_Status.htm" />
+      <HelpTOCNode Id="714eedf9-e0eb-4bf0-b314-90be64063a1b" Title="Status Properties" Url="html/Properties_T_S22_Xmpp_Im_Status.htm">
+        <HelpTOCNode Title="Availability Property " Url="html/P_S22_Xmpp_Im_Status_Availability.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/P_S22_Xmpp_Im_Status_Message.htm" />
+        <HelpTOCNode Title="Messages Property " Url="html/P_S22_Xmpp_Im_Status_Messages.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/P_S22_Xmpp_Im_Status_Priority.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8807b36c-c25d-4365-b618-e4fa3482f1bf" Title="StatusEventArgs Class" Url="html/T_S22_Xmpp_Im_StatusEventArgs.htm">
+      <HelpTOCNode Title="StatusEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Im_StatusEventArgs.htm" />
+      <HelpTOCNode Title="StatusEventArgs Constructor " Url="html/M_S22_Xmpp_Im_StatusEventArgs__ctor.htm" />
+      <HelpTOCNode Title="StatusEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Im_StatusEventArgs.htm" />
+      <HelpTOCNode Id="57ad65ca-671e-4e65-aba6-893b5ee566c3" Title="StatusEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Im_StatusEventArgs.htm">
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Im_StatusEventArgs_Jid.htm" />
+        <HelpTOCNode Title="Status Property " Url="html/P_S22_Xmpp_Im_StatusEventArgs_Status.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="76eda2e3-1c7a-4180-a03a-a1df88345611" Title="SubscriptionApprovedEventArgs Class" Url="html/T_S22_Xmpp_Im_SubscriptionApprovedEventArgs.htm">
+      <HelpTOCNode Title="SubscriptionApprovedEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Im_SubscriptionApprovedEventArgs.htm" />
+      <HelpTOCNode Title="SubscriptionApprovedEventArgs Constructor " Url="html/M_S22_Xmpp_Im_SubscriptionApprovedEventArgs__ctor.htm" />
+      <HelpTOCNode Title="SubscriptionApprovedEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Im_SubscriptionApprovedEventArgs.htm" />
+      <HelpTOCNode Id="207079a1-707f-4217-9d10-3bca1fea4b0b" Title="SubscriptionApprovedEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Im_SubscriptionApprovedEventArgs.htm">
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Im_SubscriptionApprovedEventArgs_Jid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fa2e13b9-511a-4992-8064-e2742e782c75" Title="SubscriptionPrivacyRule Class" Url="html/T_S22_Xmpp_Im_SubscriptionPrivacyRule.htm">
+      <HelpTOCNode Title="SubscriptionPrivacyRule Members" Url="html/AllMembers_T_S22_Xmpp_Im_SubscriptionPrivacyRule.htm" />
+      <HelpTOCNode Title="SubscriptionPrivacyRule Constructor " Url="html/M_S22_Xmpp_Im_SubscriptionPrivacyRule__ctor.htm" />
+      <HelpTOCNode Title="SubscriptionPrivacyRule Methods" Url="html/Methods_T_S22_Xmpp_Im_SubscriptionPrivacyRule.htm" />
+      <HelpTOCNode Id="3d3cdfdb-6631-40e3-b9f1-5b6ea27f12a4" Title="SubscriptionPrivacyRule Properties" Url="html/Properties_T_S22_Xmpp_Im_SubscriptionPrivacyRule.htm">
+        <HelpTOCNode Title="SubscriptionState Property " Url="html/P_S22_Xmpp_Im_SubscriptionPrivacyRule_SubscriptionState.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="263e349c-af10-49da-96fe-c0680ab2b543" Title="SubscriptionRefusedEventArgs Class" Url="html/T_S22_Xmpp_Im_SubscriptionRefusedEventArgs.htm">
+      <HelpTOCNode Title="SubscriptionRefusedEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Im_SubscriptionRefusedEventArgs.htm" />
+      <HelpTOCNode Title="SubscriptionRefusedEventArgs Constructor " Url="html/M_S22_Xmpp_Im_SubscriptionRefusedEventArgs__ctor.htm" />
+      <HelpTOCNode Title="SubscriptionRefusedEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Im_SubscriptionRefusedEventArgs.htm" />
+      <HelpTOCNode Id="70bb64d6-f82d-4831-9fcd-4db81ed4f3e4" Title="SubscriptionRefusedEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Im_SubscriptionRefusedEventArgs.htm">
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Im_SubscriptionRefusedEventArgs_Jid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="SubscriptionRequest Delegate" Url="html/T_S22_Xmpp_Im_SubscriptionRequest.htm" />
+    <HelpTOCNode Id="165e801b-24af-45b3-90b9-13e54e2aeda4" Title="SubscriptionRequestEventArgs Class" Url="html/T_S22_Xmpp_Im_SubscriptionRequestEventArgs.htm">
+      <HelpTOCNode Title="SubscriptionRequestEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Im_SubscriptionRequestEventArgs.htm" />
+      <HelpTOCNode Title="SubscriptionRequestEventArgs Constructor " Url="html/M_S22_Xmpp_Im_SubscriptionRequestEventArgs__ctor.htm" />
+      <HelpTOCNode Title="SubscriptionRequestEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Im_SubscriptionRequestEventArgs.htm" />
+      <HelpTOCNode Id="64fd8904-8ef6-4405-aeb2-25f6813ad494" Title="SubscriptionRequestEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Im_SubscriptionRequestEventArgs.htm">
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Im_SubscriptionRequestEventArgs_Jid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="SubscriptionState Enumeration" Url="html/T_S22_Xmpp_Im_SubscriptionState.htm" />
+    <HelpTOCNode Id="d73fb3cb-b6dd-434a-aa55-0e070374e7ca" Title="UnsubscribedEventArgs Class" Url="html/T_S22_Xmpp_Im_UnsubscribedEventArgs.htm">
+      <HelpTOCNode Title="UnsubscribedEventArgs Members" Url="html/AllMembers_T_S22_Xmpp_Im_UnsubscribedEventArgs.htm" />
+      <HelpTOCNode Title="UnsubscribedEventArgs Constructor " Url="html/M_S22_Xmpp_Im_UnsubscribedEventArgs__ctor.htm" />
+      <HelpTOCNode Title="UnsubscribedEventArgs Methods" Url="html/Methods_T_S22_Xmpp_Im_UnsubscribedEventArgs.htm" />
+      <HelpTOCNode Id="a2af4ae0-8780-4e16-83ed-df7adf9805a3" Title="UnsubscribedEventArgs Properties" Url="html/Properties_T_S22_Xmpp_Im_UnsubscribedEventArgs.htm">
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Im_UnsubscribedEventArgs_Jid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dce6864b-6804-483b-8c21-55782b4e89be" Title="XmppIm Class" Url="html/T_S22_Xmpp_Im_XmppIm.htm">
+      <HelpTOCNode Title="XmppIm Members" Url="html/AllMembers_T_S22_Xmpp_Im_XmppIm.htm" />
+      <HelpTOCNode Id="5a0c81a0-f973-44a2-acbd-a7f5baad0dc4" Title="XmppIm Constructor " Url="html/Overload_S22_Xmpp_Im_XmppIm__ctor.htm">
+        <HelpTOCNode Title="XmppIm Constructor (String, Int32, Boolean, RemoteCertificateValidationCallback)" Url="html/M_S22_Xmpp_Im_XmppIm__ctor.htm" />
+        <HelpTOCNode Title="XmppIm Constructor (String, String, String, Int32, Boolean, RemoteCertificateValidationCallback)" Url="html/M_S22_Xmpp_Im_XmppIm__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="738c8eed-c177-4414-86dd-56d8cb8515f5" Title="XmppIm Methods" Url="html/Methods_T_S22_Xmpp_Im_XmppIm.htm">
+        <HelpTOCNode Title="AddToRoster Method " Url="html/M_S22_Xmpp_Im_XmppIm_AddToRoster.htm" />
+        <HelpTOCNode Title="ApproveSubscriptionRequest Method " Url="html/M_S22_Xmpp_Im_XmppIm_ApproveSubscriptionRequest.htm" />
+        <HelpTOCNode Title="Autenticate Method " Url="html/M_S22_Xmpp_Im_XmppIm_Autenticate.htm" />
+        <HelpTOCNode Title="Close Method " Url="html/M_S22_Xmpp_Im_XmppIm_Close.htm" />
+        <HelpTOCNode Title="Connect Method " Url="html/M_S22_Xmpp_Im_XmppIm_Connect.htm" />
+        <HelpTOCNode Id="03d16beb-6685-4661-995f-dfa75d5a5cc9" Title="Dispose Method " Url="html/Overload_S22_Xmpp_Im_XmppIm_Dispose.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_S22_Xmpp_Im_XmppIm_Dispose.htm" />
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_S22_Xmpp_Im_XmppIm_Dispose_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="EditPrivacyList Method " Url="html/M_S22_Xmpp_Im_XmppIm_EditPrivacyList.htm" />
+        <HelpTOCNode Title="GetActivePrivacyList Method " Url="html/M_S22_Xmpp_Im_XmppIm_GetActivePrivacyList.htm" />
+        <HelpTOCNode Title="GetDefaultPrivacyList Method " Url="html/M_S22_Xmpp_Im_XmppIm_GetDefaultPrivacyList.htm" />
+        <HelpTOCNode Title="GetPrivacyList Method " Url="html/M_S22_Xmpp_Im_XmppIm_GetPrivacyList.htm" />
+        <HelpTOCNode Title="GetPrivacyLists Method " Url="html/M_S22_Xmpp_Im_XmppIm_GetPrivacyLists.htm" />
+        <HelpTOCNode Title="GetRoster Method " Url="html/M_S22_Xmpp_Im_XmppIm_GetRoster.htm" />
+        <HelpTOCNode Title="RefuseSubscriptionRequest Method " Url="html/M_S22_Xmpp_Im_XmppIm_RefuseSubscriptionRequest.htm" />
+        <HelpTOCNode Id="73937fdd-cae8-4b94-a29c-c050ca45618c" Title="RemoveFromRoster Method " Url="html/Overload_S22_Xmpp_Im_XmppIm_RemoveFromRoster.htm">
+          <HelpTOCNode Title="RemoveFromRoster Method (Jid)" Url="html/M_S22_Xmpp_Im_XmppIm_RemoveFromRoster_1.htm" />
+          <HelpTOCNode Title="RemoveFromRoster Method (RosterItem)" Url="html/M_S22_Xmpp_Im_XmppIm_RemoveFromRoster.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RemovePrivacyList Method " Url="html/M_S22_Xmpp_Im_XmppIm_RemovePrivacyList.htm" />
+        <HelpTOCNode Title="RequestSubscription Method " Url="html/M_S22_Xmpp_Im_XmppIm_RequestSubscription.htm" />
+        <HelpTOCNode Title="RevokeSubscription Method " Url="html/M_S22_Xmpp_Im_XmppIm_RevokeSubscription.htm" />
+        <HelpTOCNode Id="9e2ab39e-c11f-4ff5-ad4c-38a6a6f6b98a" Title="SendMessage Method " Url="html/Overload_S22_Xmpp_Im_XmppIm_SendMessage.htm">
+          <HelpTOCNode Title="SendMessage Method (Message)" Url="html/M_S22_Xmpp_Im_XmppIm_SendMessage.htm" />
+          <HelpTOCNode Title="SendMessage Method (Jid, IDictionary(String, String), IDictionary(String, String), String, MessageType, CultureInfo)" Url="html/M_S22_Xmpp_Im_XmppIm_SendMessage_1.htm" />
+          <HelpTOCNode Title="SendMessage Method (Jid, String, String, String, MessageType, CultureInfo)" Url="html/M_S22_Xmpp_Im_XmppIm_SendMessage_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SetActivePrivacyList Method " Url="html/M_S22_Xmpp_Im_XmppIm_SetActivePrivacyList.htm" />
+        <HelpTOCNode Title="SetDefaultPrivacyList Method " Url="html/M_S22_Xmpp_Im_XmppIm_SetDefaultPrivacyList.htm" />
+        <HelpTOCNode Id="d5f83930-be51-49e6-a64f-38fa80b9dba4" Title="SetStatus Method " Url="html/Overload_S22_Xmpp_Im_XmppIm_SetStatus.htm">
+          <HelpTOCNode Title="SetStatus Method (Status)" Url="html/M_S22_Xmpp_Im_XmppIm_SetStatus_2.htm" />
+          <HelpTOCNode Title="SetStatus Method (Availability, Dictionary(String, String), SByte)" Url="html/M_S22_Xmpp_Im_XmppIm_SetStatus.htm" />
+          <HelpTOCNode Title="SetStatus Method (Availability, String, SByte, CultureInfo)" Url="html/M_S22_Xmpp_Im_XmppIm_SetStatus_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Unsubscribe Method " Url="html/M_S22_Xmpp_Im_XmppIm_Unsubscribe.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4e5841fa-1136-4336-b514-d71d375a2fcd" Title="XmppIm Properties" Url="html/Properties_T_S22_Xmpp_Im_XmppIm.htm">
+        <HelpTOCNode Title="Authenticated Property " Url="html/P_S22_Xmpp_Im_XmppIm_Authenticated.htm" />
+        <HelpTOCNode Title="Connected Property " Url="html/P_S22_Xmpp_Im_XmppIm_Connected.htm" />
+        <HelpTOCNode Title="Hostname Property " Url="html/P_S22_Xmpp_Im_XmppIm_Hostname.htm" />
+        <HelpTOCNode Title="IsEncrypted Property " Url="html/P_S22_Xmpp_Im_XmppIm_IsEncrypted.htm" />
+        <HelpTOCNode Title="Jid Property " Url="html/P_S22_Xmpp_Im_XmppIm_Jid.htm" />
+        <HelpTOCNode Title="Password Property " Url="html/P_S22_Xmpp_Im_XmppIm_Password.htm" />
+        <HelpTOCNode Title="Port Property " Url="html/P_S22_Xmpp_Im_XmppIm_Port.htm" />
+        <HelpTOCNode Title="SubscriptionRequest Property " Url="html/P_S22_Xmpp_Im_XmppIm_SubscriptionRequest.htm" />
+        <HelpTOCNode Title="Tls Property " Url="html/P_S22_Xmpp_Im_XmppIm_Tls.htm" />
+        <HelpTOCNode Title="Username Property " Url="html/P_S22_Xmpp_Im_XmppIm_Username.htm" />
+        <HelpTOCNode Title="Validate Property " Url="html/P_S22_Xmpp_Im_XmppIm_Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f3d14c86-d98b-49c4-8a99-3d807b0b5f27" Title="XmppIm Events" Url="html/Events_T_S22_Xmpp_Im_XmppIm.htm">
+        <HelpTOCNode Title="Error Event" Url="html/E_S22_Xmpp_Im_XmppIm_Error.htm" />
+        <HelpTOCNode Title="Message Event" Url="html/E_S22_Xmpp_Im_XmppIm_Message.htm" />
+        <HelpTOCNode Title="RosterUpdated Event" Url="html/E_S22_Xmpp_Im_XmppIm_RosterUpdated.htm" />
+        <HelpTOCNode Title="Status Event" Url="html/E_S22_Xmpp_Im_XmppIm_Status.htm" />
+        <HelpTOCNode Title="SubscriptionApproved Event" Url="html/E_S22_Xmpp_Im_XmppIm_SubscriptionApproved.htm" />
+        <HelpTOCNode Title="SubscriptionRefused Event" Url="html/E_S22_Xmpp_Im_XmppIm_SubscriptionRefused.htm" />
+        <HelpTOCNode Title="Unsubscribed Event" Url="html/E_S22_Xmpp_Im_XmppIm_Unsubscribed.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
