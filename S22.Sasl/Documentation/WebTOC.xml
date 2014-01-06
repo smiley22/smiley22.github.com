@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="7542c315-34cb-4988-a41b-9815129dd58d" Title="S22.Sasl Namespace" Url="html/N_S22_Sasl.htm">
+    <HelpTOCNode Id="b064a4cb-418b-48c1-bee4-143fe8c85ab6" Title="SaslConfigurationSection Class" Url="html/T_S22_Sasl_SaslConfigurationSection.htm">
+      <HelpTOCNode Title="SaslConfigurationSection Members" Url="html/AllMembers_T_S22_Sasl_SaslConfigurationSection.htm" />
+      <HelpTOCNode Title="SaslConfigurationSection Constructor " Url="html/M_S22_Sasl_SaslConfigurationSection__ctor.htm" />
+      <HelpTOCNode Title="SaslConfigurationSection Methods" Url="html/Methods_T_S22_Sasl_SaslConfigurationSection.htm" />
+      <HelpTOCNode Id="573276a3-0d5f-4bae-ba85-3e604072a350" Title="SaslConfigurationSection Properties" Url="html/Properties_T_S22_Sasl_SaslConfigurationSection.htm">
+        <HelpTOCNode Title="SaslProviders Property " Url="html/P_S22_Sasl_SaslConfigurationSection_SaslProviders.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3212f587-b19c-4e2f-b797-2e643abdd3c7" Title="SaslProvider Class" Url="html/T_S22_Sasl_SaslProvider.htm">
+      <HelpTOCNode Title="SaslProvider Members" Url="html/AllMembers_T_S22_Sasl_SaslProvider.htm" />
+      <HelpTOCNode Title="SaslProvider Constructor " Url="html/M_S22_Sasl_SaslProvider__ctor.htm" />
+      <HelpTOCNode Title="SaslProvider Methods" Url="html/Methods_T_S22_Sasl_SaslProvider.htm" />
+      <HelpTOCNode Id="504a8a26-fbfb-4b99-8ebd-e2ec0c2a9bcf" Title="SaslProvider Properties" Url="html/Properties_T_S22_Sasl_SaslProvider.htm">
+        <HelpTOCNode Id="606b3f7b-cb16-41ec-947d-91e85858a55c" Title="Item Property " Url="html/Overload_S22_Sasl_SaslProvider_Item.htm">
+          <HelpTOCNode Title="Item Property (String)" Url="html/P_S22_Sasl_SaslProvider_Item.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Name Property " Url="html/P_S22_Sasl_SaslProvider_Name.htm" />
+        <HelpTOCNode Title="Settings Property " Url="html/P_S22_Sasl_SaslProvider_Settings.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/P_S22_Sasl_SaslProvider_Type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d9d8e045-6897-4815-8c4c-27b5c395d4fa" Title="SaslProviderCollection Class" Url="html/T_S22_Sasl_SaslProviderCollection.htm">
+      <HelpTOCNode Title="SaslProviderCollection Members" Url="html/AllMembers_T_S22_Sasl_SaslProviderCollection.htm" />
+      <HelpTOCNode Title="SaslProviderCollection Constructor " Url="html/M_S22_Sasl_SaslProviderCollection__ctor.htm" />
+      <HelpTOCNode Id="b89eb324-1d67-4584-bbd4-29ed25615e38" Title="SaslProviderCollection Methods" Url="html/Methods_T_S22_Sasl_SaslProviderCollection.htm">
+        <HelpTOCNode Id="db3dce8d-fcf7-40cc-bb90-d67fd7f7302f" Title="CreateNewElement Method " Url="html/Overload_S22_Sasl_SaslProviderCollection_CreateNewElement.htm">
+          <HelpTOCNode Title="CreateNewElement Method " Url="html/M_S22_Sasl_SaslProviderCollection_CreateNewElement.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetElementKey Method " Url="html/M_S22_Sasl_SaslProviderCollection_GetElementKey.htm" />
+        <HelpTOCNode Title="IsElementName Method " Url="html/M_S22_Sasl_SaslProviderCollection_IsElementName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="735f656f-84a3-4f7a-b7f5-0886c309f9be" Title="SaslProviderCollection Properties" Url="html/Properties_T_S22_Sasl_SaslProviderCollection.htm">
+        <HelpTOCNode Title="CollectionType Property " Url="html/P_S22_Sasl_SaslProviderCollection_CollectionType.htm" />
+        <HelpTOCNode Title="ElementName Property " Url="html/P_S22_Sasl_SaslProviderCollection_ElementName.htm" />
+        <HelpTOCNode Id="26bffc4b-c5f8-4879-8eb7-ececd60840b5" Title="Item Property " Url="html/Overload_S22_Sasl_SaslProviderCollection_Item.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/P_S22_Sasl_SaslProviderCollection_Item.htm" />
+          <HelpTOCNode Title="Item Property (String)" Url="html/P_S22_Sasl_SaslProviderCollection_Item_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="ed541e4d-6885-475a-b54e-a1562a801e45" Title="S22.Sasl.Test Namespace" Url="html/N_S22_Sasl_Test.htm">
+    <HelpTOCNode Id="af5e42e9-426f-49ca-99cf-5d49b79837f5" Title="CramMd5Test Class" Url="html/T_S22_Sasl_Test_CramMd5Test.htm">
+      <HelpTOCNode Title="CramMd5Test Members" Url="html/AllMembers_T_S22_Sasl_Test_CramMd5Test.htm" />
+      <HelpTOCNode Title="CramMd5Test Constructor " Url="html/M_S22_Sasl_Test_CramMd5Test__ctor.htm" />
+      <HelpTOCNode Id="11e80154-b815-419d-a932-aa8fea870f6e" Title="CramMd5Test Methods" Url="html/Methods_T_S22_Sasl_Test_CramMd5Test.htm">
+        <HelpTOCNode Title="VerifyAuthenticationExchange Method " Url="html/M_S22_Sasl_Test_CramMd5Test_VerifyAuthenticationExchange.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d3a31948-fa10-4170-9974-197df381ad89" Title="DigestMd5Test Class" Url="html/T_S22_Sasl_Test_DigestMd5Test.htm">
+      <HelpTOCNode Title="DigestMd5Test Members" Url="html/AllMembers_T_S22_Sasl_Test_DigestMd5Test.htm" />
+      <HelpTOCNode Title="DigestMd5Test Constructor " Url="html/M_S22_Sasl_Test_DigestMd5Test__ctor.htm" />
+      <HelpTOCNode Id="fd1a00b8-f0af-4bd3-8889-adceffcc3d04" Title="DigestMd5Test Methods" Url="html/Methods_T_S22_Sasl_Test_DigestMd5Test.htm">
+        <HelpTOCNode Title="VerifyAuthenticationExchange Method " Url="html/M_S22_Sasl_Test_DigestMd5Test_VerifyAuthenticationExchange.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="478a595f-3ed1-482a-b707-58f4c1141cad" Title="NtmlTest Class" Url="html/T_S22_Sasl_Test_NtmlTest.htm">
+      <HelpTOCNode Title="NtmlTest Members" Url="html/AllMembers_T_S22_Sasl_Test_NtmlTest.htm" />
+      <HelpTOCNode Title="NtmlTest Constructor " Url="html/M_S22_Sasl_Test_NtmlTest__ctor.htm" />
+      <HelpTOCNode Id="079c464d-f0a1-4240-ae9e-30e677a442cf" Title="NtmlTest Methods" Url="html/Methods_T_S22_Sasl_Test_NtmlTest.htm">
+        <HelpTOCNode Title="DeserializeType2Message Method " Url="html/M_S22_Sasl_Test_NtmlTest_DeserializeType2Message.htm" />
+        <HelpTOCNode Title="DeserializeType2Version3Message Method " Url="html/M_S22_Sasl_Test_NtmlTest_DeserializeType2Version3Message.htm" />
+        <HelpTOCNode Title="SerializeType1Message Method " Url="html/M_S22_Sasl_Test_NtmlTest_SerializeType1Message.htm" />
+        <HelpTOCNode Title="SerializeType3Message Method " Url="html/M_S22_Sasl_Test_NtmlTest_SerializeType3Message.htm" />
+        <HelpTOCNode Title="VerifyAnotherAuthenticationExchange Method " Url="html/M_S22_Sasl_Test_NtmlTest_VerifyAnotherAuthenticationExchange.htm" />
+        <HelpTOCNode Title="VerifyAuthenticationExchange Method " Url="html/M_S22_Sasl_Test_NtmlTest_VerifyAuthenticationExchange.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7e236dbf-e169-4a7a-bede-1e94e55d7292" Title="OAuth2Test Class" Url="html/T_S22_Sasl_Test_OAuth2Test.htm">
+      <HelpTOCNode Title="OAuth2Test Members" Url="html/AllMembers_T_S22_Sasl_Test_OAuth2Test.htm" />
+      <HelpTOCNode Title="OAuth2Test Constructor " Url="html/M_S22_Sasl_Test_OAuth2Test__ctor.htm" />
+      <HelpTOCNode Id="ebb9ec31-8b2f-452f-bf39-f2067e68ffe8" Title="OAuth2Test Methods" Url="html/Methods_T_S22_Sasl_Test_OAuth2Test.htm">
+        <HelpTOCNode Title="VerifyAuthenticationExchange Method " Url="html/M_S22_Sasl_Test_OAuth2Test_VerifyAuthenticationExchange.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f5e065cd-0205-4e73-a8c0-769bc3ddc499" Title="PlainTest Class" Url="html/T_S22_Sasl_Test_PlainTest.htm">
+      <HelpTOCNode Title="PlainTest Members" Url="html/AllMembers_T_S22_Sasl_Test_PlainTest.htm" />
+      <HelpTOCNode Title="PlainTest Constructor " Url="html/M_S22_Sasl_Test_PlainTest__ctor.htm" />
+      <HelpTOCNode Id="6adca14a-ed22-4335-941d-16f767415344" Title="PlainTest Methods" Url="html/Methods_T_S22_Sasl_Test_PlainTest.htm">
+        <HelpTOCNode Title="VerfiyAuthenticationExchange Method " Url="html/M_S22_Sasl_Test_PlainTest_VerfiyAuthenticationExchange.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f12a958a-0217-42d0-ad6a-a9b69c7d145f" Title="ScramSha1Test Class" Url="html/T_S22_Sasl_Test_ScramSha1Test.htm">
+      <HelpTOCNode Title="ScramSha1Test Members" Url="html/AllMembers_T_S22_Sasl_Test_ScramSha1Test.htm" />
+      <HelpTOCNode Title="ScramSha1Test Constructor " Url="html/M_S22_Sasl_Test_ScramSha1Test__ctor.htm" />
+      <HelpTOCNode Id="4bd4ed52-07a7-4c41-aee7-b5ef84c68c5a" Title="ScramSha1Test Methods" Url="html/Methods_T_S22_Sasl_Test_ScramSha1Test.htm">
+        <HelpTOCNode Title="TamperedNonce Method " Url="html/M_S22_Sasl_Test_ScramSha1Test_TamperedNonce.htm" />
+        <HelpTOCNode Title="VerifyAuthenticationExchange Method " Url="html/M_S22_Sasl_Test_ScramSha1Test_VerifyAuthenticationExchange.htm" />
+        <HelpTOCNode Title="VerifyClientFirstMessage Method " Url="html/M_S22_Sasl_Test_ScramSha1Test_VerifyClientFirstMessage.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="048bdfb6-3445-4201-8b64-7729e3bb6650" Title="SrpTest Class" Url="html/T_S22_Sasl_Test_SrpTest.htm">
+      <HelpTOCNode Title="SrpTest Members" Url="html/AllMembers_T_S22_Sasl_Test_SrpTest.htm" />
+      <HelpTOCNode Title="SrpTest Constructor " Url="html/M_S22_Sasl_Test_SrpTest__ctor.htm" />
+      <HelpTOCNode Id="ba8f271b-5a1c-47ff-a3e7-0f13d411b4c0" Title="SrpTest Methods" Url="html/Methods_T_S22_Sasl_Test_SrpTest.htm">
+        <HelpTOCNode Title="DeserializeServerFirstMessage Method " Url="html/M_S22_Sasl_Test_SrpTest_DeserializeServerFirstMessage.htm" />
+        <HelpTOCNode Title="DeserializeServerSecondMessage Method " Url="html/M_S22_Sasl_Test_SrpTest_DeserializeServerSecondMessage.htm" />
+        <HelpTOCNode Title="SerializeClientFirstMessage Method " Url="html/M_S22_Sasl_Test_SrpTest_SerializeClientFirstMessage.htm" />
+        <HelpTOCNode Title="SerializeClientSecondMessage Method " Url="html/M_S22_Sasl_Test_SrpTest_SerializeClientSecondMessage.htm" />
+        <HelpTOCNode Title="VerifyAuthenticationExchange Method " Url="html/M_S22_Sasl_Test_SrpTest_VerifyAuthenticationExchange.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

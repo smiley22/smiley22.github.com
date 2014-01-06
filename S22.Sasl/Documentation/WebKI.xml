@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="CollectionType property" Url="html/P_S22_Sasl_SaslProviderCollection_CollectionType.htm" />
+  <HelpKINode Title="CramMd5Test class" Url="html/AllMembers_T_S22_Sasl_Test_CramMd5Test.htm" />
+  <HelpKINode Title="CramMd5Test class" Url="html/T_S22_Sasl_Test_CramMd5Test.htm" />
+  <HelpKINode Title="CramMd5Test class">
+    <HelpKINode Title="about CramMd5Test class" Url="html/T_S22_Sasl_Test_CramMd5Test.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Sasl_Test_CramMd5Test.htm" />
+    <HelpKINode Title="constructor" Url="html/M_S22_Sasl_Test_CramMd5Test__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Sasl_Test_CramMd5Test.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CramMd5Test.CramMd5Test constructor" Url="html/M_S22_Sasl_Test_CramMd5Test__ctor.htm" />
+  <HelpKINode Title="CramMd5Test.VerifyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_CramMd5Test_VerifyAuthenticationExchange.htm" />
+  <HelpKINode Title="CreateNewElement method" Url="html/Overload_S22_Sasl_SaslProviderCollection_CreateNewElement.htm" />
+  <HelpKINode Title="DeserializeServerFirstMessage method" Url="html/M_S22_Sasl_Test_SrpTest_DeserializeServerFirstMessage.htm" />
+  <HelpKINode Title="DeserializeServerSecondMessage method" Url="html/M_S22_Sasl_Test_SrpTest_DeserializeServerSecondMessage.htm" />
+  <HelpKINode Title="DeserializeType2Message method" Url="html/M_S22_Sasl_Test_NtmlTest_DeserializeType2Message.htm" />
+  <HelpKINode Title="DeserializeType2Version3Message method" Url="html/M_S22_Sasl_Test_NtmlTest_DeserializeType2Version3Message.htm" />
+  <HelpKINode Title="DigestMd5Test class" Url="html/AllMembers_T_S22_Sasl_Test_DigestMd5Test.htm" />
+  <HelpKINode Title="DigestMd5Test class" Url="html/T_S22_Sasl_Test_DigestMd5Test.htm" />
+  <HelpKINode Title="DigestMd5Test class">
+    <HelpKINode Title="about DigestMd5Test class" Url="html/T_S22_Sasl_Test_DigestMd5Test.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Sasl_Test_DigestMd5Test.htm" />
+    <HelpKINode Title="constructor" Url="html/M_S22_Sasl_Test_DigestMd5Test__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Sasl_Test_DigestMd5Test.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DigestMd5Test.DigestMd5Test constructor" Url="html/M_S22_Sasl_Test_DigestMd5Test__ctor.htm" />
+  <HelpKINode Title="DigestMd5Test.VerifyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_DigestMd5Test_VerifyAuthenticationExchange.htm" />
+  <HelpKINode Title="ElementName property" Url="html/P_S22_Sasl_SaslProviderCollection_ElementName.htm" />
+  <HelpKINode Title="GetElementKey method" Url="html/M_S22_Sasl_SaslProviderCollection_GetElementKey.htm" />
+  <HelpKINode Title="IsElementName method" Url="html/M_S22_Sasl_SaslProviderCollection_IsElementName.htm" />
+  <HelpKINode Title="Item property" Url="html/Overload_S22_Sasl_SaslProviderCollection_Item.htm" />
+  <HelpKINode Title="Item property" Url="html/Overload_S22_Sasl_SaslProvider_Item.htm" />
+  <HelpKINode Title="Name property" Url="html/P_S22_Sasl_SaslProvider_Name.htm" />
+  <HelpKINode Title="NtmlTest class" Url="html/AllMembers_T_S22_Sasl_Test_NtmlTest.htm" />
+  <HelpKINode Title="NtmlTest class" Url="html/T_S22_Sasl_Test_NtmlTest.htm" />
+  <HelpKINode Title="NtmlTest class">
+    <HelpKINode Title="about NtmlTest class" Url="html/T_S22_Sasl_Test_NtmlTest.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Sasl_Test_NtmlTest.htm" />
+    <HelpKINode Title="constructor" Url="html/M_S22_Sasl_Test_NtmlTest__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Sasl_Test_NtmlTest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NtmlTest.DeserializeType2Message method" Url="html/M_S22_Sasl_Test_NtmlTest_DeserializeType2Message.htm" />
+  <HelpKINode Title="NtmlTest.DeserializeType2Version3Message method" Url="html/M_S22_Sasl_Test_NtmlTest_DeserializeType2Version3Message.htm" />
+  <HelpKINode Title="NtmlTest.NtmlTest constructor" Url="html/M_S22_Sasl_Test_NtmlTest__ctor.htm" />
+  <HelpKINode Title="NtmlTest.SerializeType1Message method" Url="html/M_S22_Sasl_Test_NtmlTest_SerializeType1Message.htm" />
+  <HelpKINode Title="NtmlTest.SerializeType3Message method" Url="html/M_S22_Sasl_Test_NtmlTest_SerializeType3Message.htm" />
+  <HelpKINode Title="NtmlTest.VerifyAnotherAuthenticationExchange method" Url="html/M_S22_Sasl_Test_NtmlTest_VerifyAnotherAuthenticationExchange.htm" />
+  <HelpKINode Title="NtmlTest.VerifyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_NtmlTest_VerifyAuthenticationExchange.htm" />
+  <HelpKINode Title="OAuth2Test class" Url="html/AllMembers_T_S22_Sasl_Test_OAuth2Test.htm" />
+  <HelpKINode Title="OAuth2Test class" Url="html/T_S22_Sasl_Test_OAuth2Test.htm" />
+  <HelpKINode Title="OAuth2Test class">
+    <HelpKINode Title="about OAuth2Test class" Url="html/T_S22_Sasl_Test_OAuth2Test.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Sasl_Test_OAuth2Test.htm" />
+    <HelpKINode Title="constructor" Url="html/M_S22_Sasl_Test_OAuth2Test__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Sasl_Test_OAuth2Test.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OAuth2Test.OAuth2Test constructor" Url="html/M_S22_Sasl_Test_OAuth2Test__ctor.htm" />
+  <HelpKINode Title="OAuth2Test.VerifyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_OAuth2Test_VerifyAuthenticationExchange.htm" />
+  <HelpKINode Title="PlainTest class" Url="html/AllMembers_T_S22_Sasl_Test_PlainTest.htm" />
+  <HelpKINode Title="PlainTest class" Url="html/T_S22_Sasl_Test_PlainTest.htm" />
+  <HelpKINode Title="PlainTest class">
+    <HelpKINode Title="about PlainTest class" Url="html/T_S22_Sasl_Test_PlainTest.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Sasl_Test_PlainTest.htm" />
+    <HelpKINode Title="constructor" Url="html/M_S22_Sasl_Test_PlainTest__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Sasl_Test_PlainTest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlainTest.PlainTest constructor" Url="html/M_S22_Sasl_Test_PlainTest__ctor.htm" />
+  <HelpKINode Title="PlainTest.VerfiyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_PlainTest_VerfiyAuthenticationExchange.htm" />
+  <HelpKINode Title="S22.Sasl namespace" Url="html/N_S22_Sasl.htm" />
+  <HelpKINode Title="S22.Sasl.SaslConfigurationSection class" Url="html/AllMembers_T_S22_Sasl_SaslConfigurationSection.htm" />
+  <HelpKINode Title="S22.Sasl.SaslConfigurationSection class" Url="html/T_S22_Sasl_SaslConfigurationSection.htm" />
+  <HelpKINode Title="S22.Sasl.SaslProvider class" Url="html/AllMembers_T_S22_Sasl_SaslProvider.htm" />
+  <HelpKINode Title="S22.Sasl.SaslProvider class" Url="html/T_S22_Sasl_SaslProvider.htm" />
+  <HelpKINode Title="S22.Sasl.SaslProviderCollection class" Url="html/AllMembers_T_S22_Sasl_SaslProviderCollection.htm" />
+  <HelpKINode Title="S22.Sasl.SaslProviderCollection class" Url="html/T_S22_Sasl_SaslProviderCollection.htm" />
+  <HelpKINode Title="S22.Sasl.Test namespace" Url="html/N_S22_Sasl_Test.htm" />
+  <HelpKINode Title="S22.Sasl.Test.CramMd5Test class" Url="html/AllMembers_T_S22_Sasl_Test_CramMd5Test.htm" />
+  <HelpKINode Title="S22.Sasl.Test.CramMd5Test class" Url="html/T_S22_Sasl_Test_CramMd5Test.htm" />
+  <HelpKINode Title="S22.Sasl.Test.DigestMd5Test class" Url="html/AllMembers_T_S22_Sasl_Test_DigestMd5Test.htm" />
+  <HelpKINode Title="S22.Sasl.Test.DigestMd5Test class" Url="html/T_S22_Sasl_Test_DigestMd5Test.htm" />
+  <HelpKINode Title="S22.Sasl.Test.NtmlTest class" Url="html/AllMembers_T_S22_Sasl_Test_NtmlTest.htm" />
+  <HelpKINode Title="S22.Sasl.Test.NtmlTest class" Url="html/T_S22_Sasl_Test_NtmlTest.htm" />
+  <HelpKINode Title="S22.Sasl.Test.OAuth2Test class" Url="html/AllMembers_T_S22_Sasl_Test_OAuth2Test.htm" />
+  <HelpKINode Title="S22.Sasl.Test.OAuth2Test class" Url="html/T_S22_Sasl_Test_OAuth2Test.htm" />
+  <HelpKINode Title="S22.Sasl.Test.PlainTest class" Url="html/AllMembers_T_S22_Sasl_Test_PlainTest.htm" />
+  <HelpKINode Title="S22.Sasl.Test.PlainTest class" Url="html/T_S22_Sasl_Test_PlainTest.htm" />
+  <HelpKINode Title="S22.Sasl.Test.ScramSha1Test class" Url="html/AllMembers_T_S22_Sasl_Test_ScramSha1Test.htm" />
+  <HelpKINode Title="S22.Sasl.Test.ScramSha1Test class" Url="html/T_S22_Sasl_Test_ScramSha1Test.htm" />
+  <HelpKINode Title="S22.Sasl.Test.SrpTest class" Url="html/AllMembers_T_S22_Sasl_Test_SrpTest.htm" />
+  <HelpKINode Title="S22.Sasl.Test.SrpTest class" Url="html/T_S22_Sasl_Test_SrpTest.htm" />
+  <HelpKINode Title="SaslConfigurationSection class" Url="html/AllMembers_T_S22_Sasl_SaslConfigurationSection.htm" />
+  <HelpKINode Title="SaslConfigurationSection class" Url="html/T_S22_Sasl_SaslConfigurationSection.htm" />
+  <HelpKINode Title="SaslConfigurationSection class">
+    <HelpKINode Title="about SaslConfigurationSection class" Url="html/T_S22_Sasl_SaslConfigurationSection.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Sasl_SaslConfigurationSection.htm" />
+    <HelpKINode Title="constructor" Url="html/M_S22_Sasl_SaslConfigurationSection__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Sasl_SaslConfigurationSection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_S22_Sasl_SaslConfigurationSection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SaslConfigurationSection.SaslConfigurationSection constructor" Url="html/M_S22_Sasl_SaslConfigurationSection__ctor.htm" />
+  <HelpKINode Title="SaslConfigurationSection.SaslProviders property" Url="html/P_S22_Sasl_SaslConfigurationSection_SaslProviders.htm" />
+  <HelpKINode Title="SaslProvider class" Url="html/AllMembers_T_S22_Sasl_SaslProvider.htm" />
+  <HelpKINode Title="SaslProvider class" Url="html/T_S22_Sasl_SaslProvider.htm" />
+  <HelpKINode Title="SaslProvider class">
+    <HelpKINode Title="about SaslProvider class" Url="html/T_S22_Sasl_SaslProvider.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Sasl_SaslProvider.htm" />
+    <HelpKINode Title="constructor" Url="html/M_S22_Sasl_SaslProvider__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Sasl_SaslProvider.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_S22_Sasl_SaslProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SaslProvider.Item property" Url="html/Overload_S22_Sasl_SaslProvider_Item.htm" />
+  <HelpKINode Title="SaslProvider.Name property" Url="html/P_S22_Sasl_SaslProvider_Name.htm" />
+  <HelpKINode Title="SaslProvider.SaslProvider constructor" Url="html/M_S22_Sasl_SaslProvider__ctor.htm" />
+  <HelpKINode Title="SaslProvider.Settings property" Url="html/P_S22_Sasl_SaslProvider_Settings.htm" />
+  <HelpKINode Title="SaslProvider.Type property" Url="html/P_S22_Sasl_SaslProvider_Type.htm" />
+  <HelpKINode Title="SaslProviderCollection class" Url="html/AllMembers_T_S22_Sasl_SaslProviderCollection.htm" />
+  <HelpKINode Title="SaslProviderCollection class" Url="html/T_S22_Sasl_SaslProviderCollection.htm" />
+  <HelpKINode Title="SaslProviderCollection class">
+    <HelpKINode Title="about SaslProviderCollection class" Url="html/T_S22_Sasl_SaslProviderCollection.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Sasl_SaslProviderCollection.htm" />
+    <HelpKINode Title="constructor" Url="html/M_S22_Sasl_SaslProviderCollection__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Sasl_SaslProviderCollection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_S22_Sasl_SaslProviderCollection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SaslProviderCollection.CollectionType property" Url="html/P_S22_Sasl_SaslProviderCollection_CollectionType.htm" />
+  <HelpKINode Title="SaslProviderCollection.CreateNewElement method" Url="html/Overload_S22_Sasl_SaslProviderCollection_CreateNewElement.htm" />
+  <HelpKINode Title="SaslProviderCollection.ElementName property" Url="html/P_S22_Sasl_SaslProviderCollection_ElementName.htm" />
+  <HelpKINode Title="SaslProviderCollection.GetElementKey method" Url="html/M_S22_Sasl_SaslProviderCollection_GetElementKey.htm" />
+  <HelpKINode Title="SaslProviderCollection.IsElementName method" Url="html/M_S22_Sasl_SaslProviderCollection_IsElementName.htm" />
+  <HelpKINode Title="SaslProviderCollection.Item property" Url="html/Overload_S22_Sasl_SaslProviderCollection_Item.htm" />
+  <HelpKINode Title="SaslProviderCollection.SaslProviderCollection constructor" Url="html/M_S22_Sasl_SaslProviderCollection__ctor.htm" />
+  <HelpKINode Title="SaslProviders property" Url="html/P_S22_Sasl_SaslConfigurationSection_SaslProviders.htm" />
+  <HelpKINode Title="ScramSha1Test class" Url="html/AllMembers_T_S22_Sasl_Test_ScramSha1Test.htm" />
+  <HelpKINode Title="ScramSha1Test class" Url="html/T_S22_Sasl_Test_ScramSha1Test.htm" />
+  <HelpKINode Title="ScramSha1Test class">
+    <HelpKINode Title="about ScramSha1Test class" Url="html/T_S22_Sasl_Test_ScramSha1Test.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Sasl_Test_ScramSha1Test.htm" />
+    <HelpKINode Title="constructor" Url="html/M_S22_Sasl_Test_ScramSha1Test__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Sasl_Test_ScramSha1Test.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ScramSha1Test.ScramSha1Test constructor" Url="html/M_S22_Sasl_Test_ScramSha1Test__ctor.htm" />
+  <HelpKINode Title="ScramSha1Test.TamperedNonce method" Url="html/M_S22_Sasl_Test_ScramSha1Test_TamperedNonce.htm" />
+  <HelpKINode Title="ScramSha1Test.VerifyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_ScramSha1Test_VerifyAuthenticationExchange.htm" />
+  <HelpKINode Title="ScramSha1Test.VerifyClientFirstMessage method" Url="html/M_S22_Sasl_Test_ScramSha1Test_VerifyClientFirstMessage.htm" />
+  <HelpKINode Title="SerializeClientFirstMessage method" Url="html/M_S22_Sasl_Test_SrpTest_SerializeClientFirstMessage.htm" />
+  <HelpKINode Title="SerializeClientSecondMessage method" Url="html/M_S22_Sasl_Test_SrpTest_SerializeClientSecondMessage.htm" />
+  <HelpKINode Title="SerializeType1Message method" Url="html/M_S22_Sasl_Test_NtmlTest_SerializeType1Message.htm" />
+  <HelpKINode Title="SerializeType3Message method" Url="html/M_S22_Sasl_Test_NtmlTest_SerializeType3Message.htm" />
+  <HelpKINode Title="Settings property" Url="html/P_S22_Sasl_SaslProvider_Settings.htm" />
+  <HelpKINode Title="SrpTest class" Url="html/AllMembers_T_S22_Sasl_Test_SrpTest.htm" />
+  <HelpKINode Title="SrpTest class" Url="html/T_S22_Sasl_Test_SrpTest.htm" />
+  <HelpKINode Title="SrpTest class">
+    <HelpKINode Title="about SrpTest class" Url="html/T_S22_Sasl_Test_SrpTest.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Sasl_Test_SrpTest.htm" />
+    <HelpKINode Title="constructor" Url="html/M_S22_Sasl_Test_SrpTest__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Sasl_Test_SrpTest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SrpTest.DeserializeServerFirstMessage method" Url="html/M_S22_Sasl_Test_SrpTest_DeserializeServerFirstMessage.htm" />
+  <HelpKINode Title="SrpTest.DeserializeServerSecondMessage method" Url="html/M_S22_Sasl_Test_SrpTest_DeserializeServerSecondMessage.htm" />
+  <HelpKINode Title="SrpTest.SerializeClientFirstMessage method" Url="html/M_S22_Sasl_Test_SrpTest_SerializeClientFirstMessage.htm" />
+  <HelpKINode Title="SrpTest.SerializeClientSecondMessage method" Url="html/M_S22_Sasl_Test_SrpTest_SerializeClientSecondMessage.htm" />
+  <HelpKINode Title="SrpTest.SrpTest constructor" Url="html/M_S22_Sasl_Test_SrpTest__ctor.htm" />
+  <HelpKINode Title="SrpTest.VerifyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_SrpTest_VerifyAuthenticationExchange.htm" />
+  <HelpKINode Title="TamperedNonce method" Url="html/M_S22_Sasl_Test_ScramSha1Test_TamperedNonce.htm" />
+  <HelpKINode Title="Type property" Url="html/P_S22_Sasl_SaslProvider_Type.htm" />
+  <HelpKINode Title="VerfiyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_PlainTest_VerfiyAuthenticationExchange.htm" />
+  <HelpKINode Title="VerifyAnotherAuthenticationExchange method" Url="html/M_S22_Sasl_Test_NtmlTest_VerifyAnotherAuthenticationExchange.htm" />
+  <HelpKINode Title="VerifyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_CramMd5Test_VerifyAuthenticationExchange.htm" />
+  <HelpKINode Title="VerifyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_DigestMd5Test_VerifyAuthenticationExchange.htm" />
+  <HelpKINode Title="VerifyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_NtmlTest_VerifyAuthenticationExchange.htm" />
+  <HelpKINode Title="VerifyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_OAuth2Test_VerifyAuthenticationExchange.htm" />
+  <HelpKINode Title="VerifyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_ScramSha1Test_VerifyAuthenticationExchange.htm" />
+  <HelpKINode Title="VerifyAuthenticationExchange method" Url="html/M_S22_Sasl_Test_SrpTest_VerifyAuthenticationExchange.htm" />
+  <HelpKINode Title="VerifyClientFirstMessage method" Url="html/M_S22_Sasl_Test_ScramSha1Test_VerifyClientFirstMessage.htm" />
+</HelpKI>
