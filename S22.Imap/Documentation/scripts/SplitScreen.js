@@ -25,5 +25,6 @@
 		} else {
 			this.scrollingRegion.style.height = 0;
 		}
-		this.scrollingRegion.style.width = this.scrollingRegion.parentElement.clientWidth;
+// smiley22: doesn't work with IE9.
+//		this.scrollingRegion.style.width = this.scrollingRegion.parentElement.clientWidth;
 	}

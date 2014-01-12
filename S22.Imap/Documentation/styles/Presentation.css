@@ -193,10 +193,20 @@ html>body #mainBody
 }
 
 /* Adds right padding for all blocks in mainBody */
-div#mainBody p, div#mainBody ol, div#mainBody ul, div#mainBody dl
+div#mainBody p, div#mainBody dl
 {
 	padding-right: 5;
 	font-size:130%;
+}
+
+div#mainBody ul {
+	padding-right: 5;
+	font-size:100%;
+}
+
+div#mainBody ol {
+	padding-right: 5;
+	font-size:100%;
 }
 
 /*------------------------------ Begin Non-scrolling Header Region Styles -------------------------------*/
@@ -287,6 +297,10 @@ div#mainBody div.section ul div.tableSection, div#mainBody div.section ol div.al
 div#mainBody div.section ol div.code, div#mainBody div.section ol div.tableSection
 {
 	width:100%;
+}
+
+.code {
+	font-size:120%;
 }
 
 div.alert p, div.code p
@@ -531,7 +545,6 @@ h1.heading
 /* Formats the titles of author-generated tables. */
 h3.subHeading
 {
-    font-family: Verdana;
 	color:  #000000;
 	font-size: 120%;
     font-weight:800;
@@ -539,7 +552,6 @@ h3.subHeading
 
 h3.procedureSubHeading
 {
-    font-family: Verdana;
 	color: #000000;
 	font-size: 120%;
 }
@@ -565,7 +577,7 @@ h4.subHeading
 {
     font-family: 'Segoe UI',Verdana,Arial;
 	color: #3F529C;
-	font-size: 130%;
+	font-size: 100%;
 	font-weight:800;
 }
 span.labelheading, div.labelheading
@@ -786,6 +798,7 @@ div.code pre
 	margin-top:0;
 	padding:1em;
 	border:1px solid #BBB;
+	font-size:80%;
 }
 
 /* Formats parameter tooltips. */
