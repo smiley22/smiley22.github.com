@@ -9,12 +9,12 @@
             <span class="highlight-keyword">using</span> (ImapClient Client = <span class="highlight-keyword">new</span> ImapClient(<span class="highlight-literal">"imap.gmail.com"</span>, <span class="highlight-number">993</span>, <span class="highlight-literal">"username"</span>,
               <span class="highlight-literal">"password"</span>, AuthMethod.Login, <span class="highlight-keyword">true</span>))
             {
-                <span class="highlight-comment">// This returns *ALL* messages in the inbox</span>
-                <span class="highlight-keyword">uint</span>[] uids = Client.Search( SearchCondition.All() );
+                <span class="highlight-comment">// This returns *ALL* messages in the inbox.</span>
+                IEnumerable&lt;<span class="highlight-keyword">uint</span>&gt; uids = Client.Search( SearchCondition.All() );
 
                 <span class="highlight-comment">// If we're only interested in the subject line or envelope information, just downloading</span>
                 <span class="highlight-comment">// the mail headers is alot cheaper and alot faster.</span>
-                MailMessage[] messages = Client.GetMessages(uids. FetchOptions.HeadersOnly);
+                IEnumerable&lt;MailMessage&gt; messages = Client.GetMessages(uids. FetchOptions.HeadersOnly);
             }
         }
     }

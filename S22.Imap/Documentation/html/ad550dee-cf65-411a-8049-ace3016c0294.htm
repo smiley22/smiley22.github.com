@@ -9,19 +9,19 @@
             <span class="highlight-keyword">using</span> (ImapClient Client = <span class="highlight-keyword">new</span> ImapClient(<span class="highlight-literal">"imap.gmail.com"</span>, <span class="highlight-number">993</span>, <span class="highlight-literal">"username"</span>,
               <span class="highlight-literal">"password"</span>, AuthMethod.Login, <span class="highlight-keyword">true</span>))
             {
-                <span class="highlight-comment">// This returns all messages sent since August 23rd 2012</span>
-                <span class="highlight-keyword">uint</span>[] uids = Client.Search(
+                <span class="highlight-comment">// This returns all messages sent since August 23rd 2012.</span>
+                IEnumerable&lt;<span class="highlight-keyword">uint</span>&gt; uids = Client.Search(
                     SearchCondition.SentSince( <span class="highlight-keyword">new</span> DateTime(<span class="highlight-number">2012</span>, <span class="highlight-number">8</span>, <span class="highlight-number">23</span>) )
                 );
 
-                <span class="highlight-comment">// Our lambda expression will be evaluated for every MIME part</span>
-                <span class="highlight-comment">// of every mail message in the uids array</span>
-                MailMessage[] messages = Client.GetMessages(uids,
+                <span class="highlight-comment">// The expression will be evaluated for every MIME part</span>
+                <span class="highlight-comment">// of every mail message in the uids collection.</span>
+                IEnumerable&lt;MailMessage&gt; messages = Client.GetMessages(uids,
                     (Bodypart part) =&gt; {
-                        <span class="highlight-comment">// We're only interested in attachments</span>
+                        <span class="highlight-comment">// We're only interested in attachments.</span>
                         <span class="highlight-keyword">if</span>(part.Disposition.Type == ContentDispositionType.Attachment)
                         {
-                            <span class="highlight-comment">// Zip files have a content-type of application/zip</span>
+                            <span class="highlight-comment">// Zip files have a content-type of application/zip.</span>
                             <span class="highlight-keyword">if</span>(part.Type == ContentType.Application &amp;&amp;
                                part.Subtype.toLower() == <span class="highlight-literal">"zip"</span>)
                             {
@@ -29,12 +29,12 @@
                             }
                             <span class="highlight-keyword">else</span>
                             {
-                                <span class="highlight-comment">// Skip this attachment, it's not a zip archive</span>
+                                <span class="highlight-comment">// Skip this attachment, it's not a zip archive.</span>
                                 <span class="highlight-keyword">return</span> <span class="highlight-keyword">false</span>;
                             }
                         }
 
-                        <span class="highlight-comment">// fetch MIME part and include it in the returned MailMessage instance</span>
+                        <span class="highlight-comment">// Fetch MIME part and include it in the returned MailMessage instance.</span>
                         <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
                     }
                 );

@@ -9,8 +9,8 @@
         {
             <span class="highlight-keyword">using</span> (ImapClient client = <span class="highlight-keyword">new</span> ImapClient(<span class="highlight-literal">"imap.gmail.com"</span>, <span class="highlight-number">993</span>, <span class="highlight-literal">"username"</span>, <span class="highlight-literal">"password"</span>, AuthMethod.Login, <span class="highlight-keyword">true</span>))
             {
-                <span class="highlight-comment">// Find messages that were sent from abc@def.com and have the string "Hello World" in their subject line</span>
-                <span class="highlight-keyword">uint</span>[] uids = client.Search(
+                <span class="highlight-comment">// Find messages that were sent from abc@def.com and have the string "Hello World" in their subject line.</span>
+                IEnumerable&lt;<span class="highlight-keyword">uint</span>&gt; uids = client.Search(
                     SearchCondition.From(<span class="highlight-literal">"abc@def.com"</span>).And(
                     SearchCondition.Subject(<span class="highlight-literal">"Hello World"</span>))
                 );

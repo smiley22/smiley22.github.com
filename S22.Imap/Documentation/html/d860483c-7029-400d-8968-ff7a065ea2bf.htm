@@ -10,10 +10,10 @@
         {
             <span class="highlight-keyword">using</span> (ImapClient client = <span class="highlight-keyword">new</span> ImapClient(<span class="highlight-literal">"imap.gmail.com"</span>, <span class="highlight-number">993</span>, <span class="highlight-literal">"username"</span>, <span class="highlight-literal">"password"</span>, AuthMethod.Login, <span class="highlight-keyword">true</span>))
             {
-                <span class="highlight-comment">// Returns an array of identifiers of all mails matching the specified search criteria.</span>
-                <span class="highlight-keyword">uint</span>[] uids = client.Search( SearchCondition.Unseen() );
+                <span class="highlight-comment">// Returns a collection of identifiers of all mails matching the specified search criteria.</span>
+                IEnumerable&lt;<span class="highlight-keyword">uint</span>&gt; uids = client.Search( SearchCondition.Unseen() );
                 <span class="highlight-comment">// Download mail messages from the default mailbox.</span>
-                MailMessage[] messages = client.GetMessages(uids);
+                IEnumerable&lt;MailMessage&gt; messages = client.GetMessages(uids);
             }
         }
     }

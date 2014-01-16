@@ -91,7 +91,7 @@
   <HelpKINode Title="DeleteMessage method" Url="html/M_S22_Imap_ImapClient_DeleteMessage.htm" />
   <HelpKINode Title="Description property" Url="html/P_S22_Imap_Bodypart_Description.htm" />
   <HelpKINode Title="DigestMd5 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
-  <HelpKINode Title="Dispose method" Url="html/M_S22_Imap_ImapClient_Dispose.htm" />
+  <HelpKINode Title="Dispose method" Url="html/Overload_S22_Imap_ImapClient_Dispose.htm" />
   <HelpKINode Title="Disposition property" Url="html/P_S22_Imap_Bodypart_Disposition.htm" />
   <HelpKINode Title="Draft enumeration member" Url="html/T_S22_Imap_MessageFlag.htm" />
   <HelpKINode Title="Draft method" Url="html/M_S22_Imap_SearchCondition_Draft.htm" />
@@ -185,7 +185,7 @@
   <HelpKINode Title="ImapClient.DefaultMailbox property" Url="html/P_S22_Imap_ImapClient_DefaultMailbox.htm" />
   <HelpKINode Title="ImapClient.DeleteMailbox method" Url="html/M_S22_Imap_ImapClient_DeleteMailbox.htm" />
   <HelpKINode Title="ImapClient.DeleteMessage method" Url="html/M_S22_Imap_ImapClient_DeleteMessage.htm" />
-  <HelpKINode Title="ImapClient.Dispose method" Url="html/M_S22_Imap_ImapClient_Dispose.htm" />
+  <HelpKINode Title="ImapClient.Dispose method" Url="html/Overload_S22_Imap_ImapClient_Dispose.htm" />
   <HelpKINode Title="ImapClient.Expunge method" Url="html/M_S22_Imap_ImapClient_Expunge.htm" />
   <HelpKINode Title="ImapClient.GetMailboxInfo method" Url="html/M_S22_Imap_ImapClient_GetMailboxInfo.htm" />
   <HelpKINode Title="ImapClient.GetMessage method" Url="html/Overload_S22_Imap_ImapClient_GetMessage.htm" />
