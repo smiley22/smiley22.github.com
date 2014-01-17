@@ -492,6 +492,10 @@ div.section
 	font-size:130%;
 }
 
+#remarksSection p {
+	font-size:100% !important;
+}
+
 html>body div.section
 {
 	margin-left:0;
