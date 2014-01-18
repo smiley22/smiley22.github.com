@@ -78,6 +78,7 @@
   <HelpKINode Title="ContentType enumeration" Url="html/T_S22_Imap_ContentType.htm" />
   <HelpKINode Title="CopyMessage method" Url="html/M_S22_Imap_IImapClient_CopyMessage.htm" />
   <HelpKINode Title="CopyMessage method" Url="html/M_S22_Imap_ImapClient_CopyMessage.htm" />
+  <HelpKINode Title="CopyMessages method" Url="html/M_S22_Imap_ImapClient_CopyMessages.htm" />
   <HelpKINode Title="CramMd5 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="CreateMailbox method" Url="html/M_S22_Imap_IImapClient_CreateMailbox.htm" />
   <HelpKINode Title="CreateMailbox method" Url="html/M_S22_Imap_ImapClient_CreateMailbox.htm" />
@@ -89,6 +90,7 @@
   <HelpKINode Title="DeleteMailbox method" Url="html/M_S22_Imap_ImapClient_DeleteMailbox.htm" />
   <HelpKINode Title="DeleteMessage method" Url="html/M_S22_Imap_IImapClient_DeleteMessage.htm" />
   <HelpKINode Title="DeleteMessage method" Url="html/M_S22_Imap_ImapClient_DeleteMessage.htm" />
+  <HelpKINode Title="DeleteMessages method" Url="html/M_S22_Imap_ImapClient_DeleteMessages.htm" />
   <HelpKINode Title="Description property" Url="html/P_S22_Imap_Bodypart_Description.htm" />
   <HelpKINode Title="DigestMd5 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="Dispose method" Url="html/Overload_S22_Imap_ImapClient_Dispose.htm" />
@@ -181,10 +183,12 @@
   <HelpKINode Title="ImapClient.Authed property" Url="html/P_S22_Imap_ImapClient_Authed.htm" />
   <HelpKINode Title="ImapClient.Capabilities method" Url="html/M_S22_Imap_ImapClient_Capabilities.htm" />
   <HelpKINode Title="ImapClient.CopyMessage method" Url="html/M_S22_Imap_ImapClient_CopyMessage.htm" />
+  <HelpKINode Title="ImapClient.CopyMessages method" Url="html/M_S22_Imap_ImapClient_CopyMessages.htm" />
   <HelpKINode Title="ImapClient.CreateMailbox method" Url="html/M_S22_Imap_ImapClient_CreateMailbox.htm" />
   <HelpKINode Title="ImapClient.DefaultMailbox property" Url="html/P_S22_Imap_ImapClient_DefaultMailbox.htm" />
   <HelpKINode Title="ImapClient.DeleteMailbox method" Url="html/M_S22_Imap_ImapClient_DeleteMailbox.htm" />
   <HelpKINode Title="ImapClient.DeleteMessage method" Url="html/M_S22_Imap_ImapClient_DeleteMessage.htm" />
+  <HelpKINode Title="ImapClient.DeleteMessages method" Url="html/M_S22_Imap_ImapClient_DeleteMessages.htm" />
   <HelpKINode Title="ImapClient.Dispose method" Url="html/Overload_S22_Imap_ImapClient_Dispose.htm" />
   <HelpKINode Title="ImapClient.Expunge method" Url="html/M_S22_Imap_ImapClient_Expunge.htm" />
   <HelpKINode Title="ImapClient.GetMailboxInfo method" Url="html/M_S22_Imap_ImapClient_GetMailboxInfo.htm" />
@@ -197,6 +201,7 @@
   <HelpKINode Title="ImapClient.Logout method" Url="html/M_S22_Imap_ImapClient_Logout.htm" />
   <HelpKINode Title="ImapClient.MessageDeleted event" Url="html/E_S22_Imap_ImapClient_MessageDeleted.htm" />
   <HelpKINode Title="ImapClient.MoveMessage method" Url="html/M_S22_Imap_ImapClient_MoveMessage.htm" />
+  <HelpKINode Title="ImapClient.MoveMessages method" Url="html/M_S22_Imap_ImapClient_MoveMessages.htm" />
   <HelpKINode Title="ImapClient.NewMessage event" Url="html/E_S22_Imap_ImapClient_NewMessage.htm" />
   <HelpKINode Title="ImapClient.RemoveMessageFlags method" Url="html/M_S22_Imap_ImapClient_RemoveMessageFlags.htm" />
   <HelpKINode Title="ImapClient.RenameMailbox method" Url="html/M_S22_Imap_ImapClient_RenameMailbox.htm" />
@@ -257,6 +262,7 @@
   <HelpKINode Title="MessageUID property" Url="html/P_S22_Imap_IdleMessageEventArgs_MessageUID.htm" />
   <HelpKINode Title="MoveMessage method" Url="html/M_S22_Imap_IImapClient_MoveMessage.htm" />
   <HelpKINode Title="MoveMessage method" Url="html/M_S22_Imap_ImapClient_MoveMessage.htm" />
+  <HelpKINode Title="MoveMessages method" Url="html/M_S22_Imap_ImapClient_MoveMessages.htm" />
   <HelpKINode Title="Name property" Url="html/P_S22_Imap_MailboxInfo_Name.htm" />
   <HelpKINode Title="New method" Url="html/M_S22_Imap_SearchCondition_New.htm" />
   <HelpKINode Title="NewMessage event" Url="html/E_S22_Imap_IImapClient_NewMessage.htm" />
