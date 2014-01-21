@@ -59,6 +59,7 @@
   <HelpKINode Title="Capabilities method" Url="html/M_S22_Imap_IImapClient_Capabilities.htm" />
   <HelpKINode Title="Capabilities method" Url="html/M_S22_Imap_ImapClient_Capabilities.htm" />
   <HelpKINode Title="Cc method" Url="html/M_S22_Imap_SearchCondition_Cc.htm" />
+  <HelpKINode Title="Client property" Url="html/P_S22_Imap_IdleErrorEventArgs_Client.htm" />
   <HelpKINode Title="Client property" Url="html/P_S22_Imap_IdleMessageEventArgs_Client.htm" />
   <HelpKINode Title="ContentDisposition class" Url="html/AllMembers_T_S22_Imap_ContentDisposition.htm" />
   <HelpKINode Title="ContentDisposition class" Url="html/T_S22_Imap_ContentDisposition.htm" />
@@ -102,6 +103,7 @@
   <HelpKINode Title="Drafts enumeration member" Url="html/T_S22_Imap_MailboxFlag.htm" />
   <HelpKINode Title="Encoding property" Url="html/P_S22_Imap_Bodypart_Encoding.htm" />
   <HelpKINode Title="ExaminePartDelegate delegate" Url="html/T_S22_Imap_ExaminePartDelegate.htm" />
+  <HelpKINode Title="Exception property" Url="html/P_S22_Imap_IdleErrorEventArgs_Exception.htm" />
   <HelpKINode Title="Expunge method" Url="html/M_S22_Imap_IImapClient_Expunge.htm" />
   <HelpKINode Title="Expunge method" Url="html/M_S22_Imap_ImapClient_Expunge.htm" />
   <HelpKINode Title="FetchOptions enumeration" Url="html/T_S22_Imap_FetchOptions.htm" />
@@ -124,6 +126,17 @@
   <HelpKINode Title="Header method" Url="html/M_S22_Imap_SearchCondition_Header.htm" />
   <HelpKINode Title="HeadersOnly enumeration member" Url="html/T_S22_Imap_FetchOptions.htm" />
   <HelpKINode Title="Id property" Url="html/P_S22_Imap_Bodypart_Id.htm" />
+  <HelpKINode Title="IdleError event" Url="html/E_S22_Imap_ImapClient_IdleError.htm" />
+  <HelpKINode Title="IdleErrorEventArgs class" Url="html/AllMembers_T_S22_Imap_IdleErrorEventArgs.htm" />
+  <HelpKINode Title="IdleErrorEventArgs class" Url="html/T_S22_Imap_IdleErrorEventArgs.htm" />
+  <HelpKINode Title="IdleErrorEventArgs class">
+    <HelpKINode Title="about IdleErrorEventArgs class" Url="html/T_S22_Imap_IdleErrorEventArgs.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Imap_IdleErrorEventArgs.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Imap_IdleErrorEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_S22_Imap_IdleErrorEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IdleErrorEventArgs.Client property" Url="html/P_S22_Imap_IdleErrorEventArgs_Client.htm" />
+  <HelpKINode Title="IdleErrorEventArgs.Exception property" Url="html/P_S22_Imap_IdleErrorEventArgs_Exception.htm" />
   <HelpKINode Title="IdleMessageEventArgs class" Url="html/AllMembers_T_S22_Imap_IdleMessageEventArgs.htm" />
   <HelpKINode Title="IdleMessageEventArgs class" Url="html/T_S22_Imap_IdleMessageEventArgs.htm" />
   <HelpKINode Title="IdleMessageEventArgs class">
@@ -200,6 +213,7 @@
   <HelpKINode Title="ImapClient.GetMessage method" Url="html/Overload_S22_Imap_ImapClient_GetMessage.htm" />
   <HelpKINode Title="ImapClient.GetMessageFlags method" Url="html/M_S22_Imap_ImapClient_GetMessageFlags.htm" />
   <HelpKINode Title="ImapClient.GetMessages method" Url="html/Overload_S22_Imap_ImapClient_GetMessages.htm" />
+  <HelpKINode Title="ImapClient.IdleError event" Url="html/E_S22_Imap_ImapClient_IdleError.htm" />
   <HelpKINode Title="ImapClient.ImapClient constructor" Url="html/Overload_S22_Imap_ImapClient__ctor.htm" />
   <HelpKINode Title="ImapClient.ListMailboxes method" Url="html/M_S22_Imap_ImapClient_ListMailboxes.htm" />
   <HelpKINode Title="ImapClient.Login method" Url="html/M_S22_Imap_ImapClient_Login.htm" />
@@ -318,6 +332,8 @@
   <HelpKINode Title="S22.Imap.ContentType enumeration" Url="html/T_S22_Imap_ContentType.htm" />
   <HelpKINode Title="S22.Imap.ExaminePartDelegate delegate" Url="html/T_S22_Imap_ExaminePartDelegate.htm" />
   <HelpKINode Title="S22.Imap.FetchOptions enumeration" Url="html/T_S22_Imap_FetchOptions.htm" />
+  <HelpKINode Title="S22.Imap.IdleErrorEventArgs class" Url="html/AllMembers_T_S22_Imap_IdleErrorEventArgs.htm" />
+  <HelpKINode Title="S22.Imap.IdleErrorEventArgs class" Url="html/T_S22_Imap_IdleErrorEventArgs.htm" />
   <HelpKINode Title="S22.Imap.IdleMessageEventArgs class" Url="html/AllMembers_T_S22_Imap_IdleMessageEventArgs.htm" />
   <HelpKINode Title="S22.Imap.IdleMessageEventArgs class" Url="html/T_S22_Imap_IdleMessageEventArgs.htm" />
   <HelpKINode Title="S22.Imap.IImapClient interface" Url="html/AllMembers_T_S22_Imap_IImapClient.htm" />
