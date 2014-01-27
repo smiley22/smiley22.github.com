@@ -84,6 +84,7 @@
   <HelpKINode Title="CramMd5 enumeration member" Url="html/T_S22_Imap_AuthMethod.htm" />
   <HelpKINode Title="CreateMailbox method" Url="html/M_S22_Imap_IImapClient_CreateMailbox.htm" />
   <HelpKINode Title="CreateMailbox method" Url="html/M_S22_Imap_ImapClient_CreateMailbox.htm" />
+  <HelpKINode Title="Date method" Url="html/M_S22_Imap_MailMessageExtension_Date.htm" />
   <HelpKINode Title="DefaultMailbox property" Url="html/P_S22_Imap_IImapClient_DefaultMailbox.htm" />
   <HelpKINode Title="DefaultMailbox property" Url="html/P_S22_Imap_ImapClient_DefaultMailbox.htm" />
   <HelpKINode Title="Deleted enumeration member" Url="html/T_S22_Imap_MessageFlag.htm" />
@@ -271,6 +272,14 @@
   <HelpKINode Title="MailboxInfo.ToString method" Url="html/M_S22_Imap_MailboxInfo_ToString.htm" />
   <HelpKINode Title="MailboxInfo.Unread property" Url="html/P_S22_Imap_MailboxInfo_Unread.htm" />
   <HelpKINode Title="MailboxInfo.UsedStorage property" Url="html/P_S22_Imap_MailboxInfo_UsedStorage.htm" />
+  <HelpKINode Title="MailMessageExtension class" Url="html/AllMembers_T_S22_Imap_MailMessageExtension.htm" />
+  <HelpKINode Title="MailMessageExtension class" Url="html/T_S22_Imap_MailMessageExtension.htm" />
+  <HelpKINode Title="MailMessageExtension class">
+    <HelpKINode Title="about MailMessageExtension class" Url="html/T_S22_Imap_MailMessageExtension.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_S22_Imap_MailMessageExtension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_S22_Imap_MailMessageExtension.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MailMessageExtension.Date method" Url="html/M_S22_Imap_MailMessageExtension_Date.htm" />
   <HelpKINode Title="Md5 property" Url="html/P_S22_Imap_Bodypart_Md5.htm" />
   <HelpKINode Title="Message enumeration member" Url="html/T_S22_Imap_ContentType.htm" />
   <HelpKINode Title="MessageCount property" Url="html/P_S22_Imap_IdleMessageEventArgs_MessageCount.htm" />
@@ -345,6 +354,8 @@
   <HelpKINode Title="S22.Imap.MailboxFlag enumeration" Url="html/T_S22_Imap_MailboxFlag.htm" />
   <HelpKINode Title="S22.Imap.MailboxInfo class" Url="html/AllMembers_T_S22_Imap_MailboxInfo.htm" />
   <HelpKINode Title="S22.Imap.MailboxInfo class" Url="html/T_S22_Imap_MailboxInfo.htm" />
+  <HelpKINode Title="S22.Imap.MailMessageExtension class" Url="html/AllMembers_T_S22_Imap_MailMessageExtension.htm" />
+  <HelpKINode Title="S22.Imap.MailMessageExtension class" Url="html/T_S22_Imap_MailMessageExtension.htm" />
   <HelpKINode Title="S22.Imap.MessageFlag enumeration" Url="html/T_S22_Imap_MessageFlag.htm" />
   <HelpKINode Title="S22.Imap.NotAuthenticatedException class" Url="html/AllMembers_T_S22_Imap_NotAuthenticatedException.htm" />
   <HelpKINode Title="S22.Imap.NotAuthenticatedException class" Url="html/T_S22_Imap_NotAuthenticatedException.htm" />
