@@ -433,8 +433,8 @@
   <HelpKINode Title="Interpreter.ReadCommand method" Url="html/M_Network_Sim_Core_Interpreter_ReadCommand.htm" />
   <HelpKINode Title="Interrupt enumeration" Url="html/T_Network_Sim_Lan_Interrupt.htm" />
   <HelpKINode Title="Interrupt event">
-    <HelpKINode Title="Nic.Interrupt Event" Url="html/E_Network_Sim_Lan_Nic_Interrupt.htm" />
     <HelpKINode Title="Nic.Interrupt Event" Url="html/E_Network_Sim_Lan_Ethernet_Nic_Interrupt.htm" />
+    <HelpKINode Title="Nic.Interrupt Event" Url="html/E_Network_Sim_Lan_Nic_Interrupt.htm" />
   </HelpKINode>
   <HelpKINode Title="InterruptReason property" Url="html/P_Network_Sim_Lan_Nic_InterruptReason.htm" />
   <HelpKINode Title="IpAddress class">
@@ -621,8 +621,8 @@
   <HelpKINode Title="Nic class">
     <HelpKINode Title="Nic Class" Url="html/T_Network_Sim_Lan_Ethernet_Nic.htm" />
     <HelpKINode Title="Nic Class" Url="html/T_Network_Sim_Lan_Nic.htm" />
-    <HelpKINode Title="about Nic class" Url="html/T_Network_Sim_Lan_Nic.htm" />
     <HelpKINode Title="about Nic class" Url="html/T_Network_Sim_Lan_Ethernet_Nic.htm" />
+    <HelpKINode Title="about Nic class" Url="html/T_Network_Sim_Lan_Nic.htm" />
     <HelpKINode Title="constructor" Url="html/M_Network_Sim_Lan_Ethernet_Nic__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_Network_Sim_Lan_Nic__ctor.htm" />
     <HelpKINode Title="events" Url="html/Events_T_Network_Sim_Lan_Nic.htm" />
@@ -645,12 +645,12 @@
     <HelpKINode Title="Nic.MaximumTransmissionUnit Property " Url="html/P_Network_Sim_Lan_Nic_MaximumTransmissionUnit.htm" />
   </HelpKINode>
   <HelpKINode Title="Nic.Nic constructor">
-    <HelpKINode Title="Nic Constructor " Url="html/M_Network_Sim_Lan_Nic__ctor.htm" />
     <HelpKINode Title="Nic Constructor " Url="html/M_Network_Sim_Lan_Ethernet_Nic__ctor.htm" />
+    <HelpKINode Title="Nic Constructor " Url="html/M_Network_Sim_Lan_Nic__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Nic.Output method">
-    <HelpKINode Title="Nic.Output Method " Url="html/M_Network_Sim_Lan_Nic_Output.htm" />
     <HelpKINode Title="Nic.Output Method " Url="html/M_Network_Sim_Lan_Ethernet_Nic_Output.htm" />
+    <HelpKINode Title="Nic.Output Method " Url="html/M_Network_Sim_Lan_Nic_Output.htm" />
   </HelpKINode>
   <HelpKINode Title="NodalProcessingDelay property" Url="html/P_Network_Sim_Core_Host_NodalProcessingDelay.htm" />
   <HelpKINode Title="Objects property" Url="html/P_Network_Sim_Core_Simulation_Objects.htm" />

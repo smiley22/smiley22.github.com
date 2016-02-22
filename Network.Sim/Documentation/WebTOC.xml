@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="f8bb5536-124d-4166-b899-d0ab55e35602" Title="Network.Sim.Core" Url="html/N_Network_Sim_Core.htm">
-    <HelpTOCNode Id="4819d417-dd53-438d-8aeb-b9f85d8008a7" Title="C10Base2 Class" Url="html/T_Network_Sim_Core_C10Base2.htm">
+  <HelpTOCNode Id="f2efbbb5-2861-4c92-a30c-7a9610542353" Title="Network.Sim.Core" Url="html/N_Network_Sim_Core.htm">
+    <HelpTOCNode Id="ed0bd620-218a-4ad5-a452-021e27b0ee6a" Title="C10Base2 Class" Url="html/T_Network_Sim_Core_C10Base2.htm">
       <HelpTOCNode Title="C10Base2 Constructor " Url="html/M_Network_Sim_Core_C10Base2__ctor.htm" />
       <HelpTOCNode Title="C10Base2 Properties" Url="html/Properties_T_Network_Sim_Core_C10Base2.htm" />
-      <HelpTOCNode Id="64bbc626-7d37-465b-9521-b0e262a4765f" Title="C10Base2 Methods" Url="html/Methods_T_Network_Sim_Core_C10Base2.htm">
+      <HelpTOCNode Id="f23e8a56-c724-4f6d-83af-3b69b8e82a91" Title="C10Base2 Methods" Url="html/Methods_T_Network_Sim_Core_C10Base2.htm">
         <HelpTOCNode Title="Attach Method " Url="html/M_Network_Sim_Core_C10Base2_Attach.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="C10Base2 Fields" Url="html/Fields_T_Network_Sim_Core_C10Base2.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="8fd65a78-63ff-4d84-bbd8-5b7ecb2e9900" Title="C10Base5 Class" Url="html/T_Network_Sim_Core_C10Base5.htm">
+    <HelpTOCNode Id="d44d9197-045b-42ef-89b6-b46d02106e49" Title="C10Base5 Class" Url="html/T_Network_Sim_Core_C10Base5.htm">
       <HelpTOCNode Title="C10Base5 Constructor " Url="html/M_Network_Sim_Core_C10Base5__ctor.htm" />
       <HelpTOCNode Title="C10Base5 Properties" Url="html/Properties_T_Network_Sim_Core_C10Base5.htm" />
-      <HelpTOCNode Id="77494881-d5d4-452b-928e-df048e83f4da" Title="C10Base5 Methods" Url="html/Methods_T_Network_Sim_Core_C10Base5.htm">
+      <HelpTOCNode Id="ec94dcbb-15cb-4803-af5f-69127db576ac" Title="C10Base5 Methods" Url="html/Methods_T_Network_Sim_Core_C10Base5.htm">
         <HelpTOCNode Title="Pierce Method " Url="html/M_Network_Sim_Core_C10Base5_Pierce.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="C10Base5 Fields" Url="html/Fields_T_Network_Sim_Core_C10Base5.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1e7eda20-9fe2-42a1-9e2b-a7622710cb08" Title="Cable Class" Url="html/T_Network_Sim_Core_Cable.htm">
+    <HelpTOCNode Id="331f966b-6c01-4004-8060-eeae670af7b0" Title="Cable Class" Url="html/T_Network_Sim_Core_Cable.htm">
       <HelpTOCNode Title="Cable Constructor " Url="html/M_Network_Sim_Core_Cable__ctor.htm" />
-      <HelpTOCNode Id="0f56c33c-382b-4166-b0ad-406e8357d014" Title="Cable Properties" Url="html/Properties_T_Network_Sim_Core_Cable.htm">
+      <HelpTOCNode Id="845b063c-2369-4229-8caf-d0958a1cfb28" Title="Cable Properties" Url="html/Properties_T_Network_Sim_Core_Cable.htm">
         <HelpTOCNode Title="BitErrorRate Property " Url="html/P_Network_Sim_Core_Cable_BitErrorRate.htm" />
         <HelpTOCNode Title="Bitrate Property " Url="html/P_Network_Sim_Core_Cable_Bitrate.htm" />
         <HelpTOCNode Title="Connectors Property " Url="html/P_Network_Sim_Core_Cable_Connectors.htm" />
@@ -31,89 +31,89 @@
         <HelpTOCNode Title="MinBurstErrorLength Property " Url="html/P_Network_Sim_Core_Cable_MinBurstErrorLength.htm" />
         <HelpTOCNode Title="PropagationSpeed Property " Url="html/P_Network_Sim_Core_Cable_PropagationSpeed.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="96102246-3900-4dc8-8ff9-d1a94ef9077b" Title="Cable Methods" Url="html/Methods_T_Network_Sim_Core_Cable.htm">
+      <HelpTOCNode Id="a1c8bd19-2cde-4a7c-b39f-6754842500fd" Title="Cable Methods" Url="html/Methods_T_Network_Sim_Core_Cable.htm">
         <HelpTOCNode Title="Jam Method " Url="html/M_Network_Sim_Core_Cable_Jam.htm" />
         <HelpTOCNode Title="Transmit Method " Url="html/M_Network_Sim_Core_Cable_Transmit.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="d69d9afb-612c-4439-b41b-6242836522b0" Title="Cable Fields" Url="html/Fields_T_Network_Sim_Core_Cable.htm">
+      <HelpTOCNode Id="5df3fc66-01e3-4d9b-b2f9-0149728fdd50" Title="Cable Fields" Url="html/Fields_T_Network_Sim_Core_Cable.htm">
         <HelpTOCNode Title="connectors Field" Url="html/F_Network_Sim_Core_Cable_connectors.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="43b3e375-d65d-477a-8ed4-0abab5d69a56" Title="CallbackEvent Class" Url="html/T_Network_Sim_Core_CallbackEvent.htm">
+    <HelpTOCNode Id="05ed94a4-ee5a-4dfc-972e-0a3a9d0bb379" Title="CallbackEvent Class" Url="html/T_Network_Sim_Core_CallbackEvent.htm">
       <HelpTOCNode Title="CallbackEvent Constructor " Url="html/M_Network_Sim_Core_CallbackEvent__ctor.htm" />
-      <HelpTOCNode Id="6c6078dc-9fc3-4172-920e-c6719a55a004" Title="CallbackEvent Properties" Url="html/Properties_T_Network_Sim_Core_CallbackEvent.htm">
+      <HelpTOCNode Id="f5ea8a52-6d49-479b-9a50-b1058c6df764" Title="CallbackEvent Properties" Url="html/Properties_T_Network_Sim_Core_CallbackEvent.htm">
         <HelpTOCNode Title="Callback Property " Url="html/P_Network_Sim_Core_CallbackEvent_Callback.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="4ea0b24d-06c8-4290-9659-7f5e6a3d067d" Title="CallbackEvent Methods" Url="html/Methods_T_Network_Sim_Core_CallbackEvent.htm">
+      <HelpTOCNode Id="53a205e9-dc73-46a9-bb4d-b5adba524bb8" Title="CallbackEvent Methods" Url="html/Methods_T_Network_Sim_Core_CallbackEvent.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Network_Sim_Core_CallbackEvent_Run.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M_Network_Sim_Core_CallbackEvent_ToString.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="71409bf0-19b0-4152-8619-4d09403f23c0" Title="Connector Class" Url="html/T_Network_Sim_Core_Connector.htm">
+    <HelpTOCNode Id="d863fc98-02c2-4b7b-b7a7-865f9ea317df" Title="Connector Class" Url="html/T_Network_Sim_Core_Connector.htm">
       <HelpTOCNode Title="Connector Constructor " Url="html/M_Network_Sim_Core_Connector__ctor.htm" />
-      <HelpTOCNode Id="7926ee0c-08f1-4861-9b50-c989723f9e7b" Title="Connector Properties" Url="html/Properties_T_Network_Sim_Core_Connector.htm">
+      <HelpTOCNode Id="70a449b8-376d-4168-b6cc-5e24c29c8704" Title="Connector Properties" Url="html/Properties_T_Network_Sim_Core_Connector.htm">
         <HelpTOCNode Title="Cable Property " Url="html/P_Network_Sim_Core_Connector_Cable.htm" />
         <HelpTOCNode Title="IsConnected Property " Url="html/P_Network_Sim_Core_Connector_IsConnected.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="25950b6d-d368-4590-b901-039c128afcd4" Title="Connector Methods" Url="html/Methods_T_Network_Sim_Core_Connector.htm">
+      <HelpTOCNode Id="92a738c8-49f9-41c0-9cbc-1bcbd80295c5" Title="Connector Methods" Url="html/Methods_T_Network_Sim_Core_Connector.htm">
         <HelpTOCNode Title="Jam Method " Url="html/M_Network_Sim_Core_Connector_Jam.htm" />
         <HelpTOCNode Title="RaiseSignalCease Method " Url="html/M_Network_Sim_Core_Connector_RaiseSignalCease.htm" />
         <HelpTOCNode Title="RaiseSignalSense Method " Url="html/M_Network_Sim_Core_Connector_RaiseSignalSense.htm" />
         <HelpTOCNode Title="Transmit Method " Url="html/M_Network_Sim_Core_Connector_Transmit.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="75246dcf-2726-4121-88e3-93627b50a379" Title="Connector Events" Url="html/Events_T_Network_Sim_Core_Connector.htm">
+      <HelpTOCNode Id="53757baa-ada6-400e-bb06-71d6ea64a5ac" Title="Connector Events" Url="html/Events_T_Network_Sim_Core_Connector.htm">
         <HelpTOCNode Title="SignalCease Event" Url="html/E_Network_Sim_Core_Connector_SignalCease.htm" />
         <HelpTOCNode Title="SignalSense Event" Url="html/E_Network_Sim_Core_Connector_SignalSense.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="27940ab5-58ea-49a5-b45f-a909c6544787" Title="DataReceivedEventArgs Class" Url="html/T_Network_Sim_Core_DataReceivedEventArgs.htm">
+    <HelpTOCNode Id="08758368-444b-49dc-9368-f94e15c24964" Title="DataReceivedEventArgs Class" Url="html/T_Network_Sim_Core_DataReceivedEventArgs.htm">
       <HelpTOCNode Title="DataReceivedEventArgs Constructor " Url="html/M_Network_Sim_Core_DataReceivedEventArgs__ctor.htm" />
-      <HelpTOCNode Id="0603151b-d122-4f96-a6ae-75282c8561d1" Title="DataReceivedEventArgs Properties" Url="html/Properties_T_Network_Sim_Core_DataReceivedEventArgs.htm">
+      <HelpTOCNode Id="a76a3182-f9c3-468b-b44a-997e8969def4" Title="DataReceivedEventArgs Properties" Url="html/Properties_T_Network_Sim_Core_DataReceivedEventArgs.htm">
         <HelpTOCNode Title="Data Property " Url="html/P_Network_Sim_Core_DataReceivedEventArgs_Data.htm" />
         <HelpTOCNode Title="Type Property " Url="html/P_Network_Sim_Core_DataReceivedEventArgs_Type.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="DataReceivedEventArgs Methods" Url="html/Methods_T_Network_Sim_Core_DataReceivedEventArgs.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="02440df6-b038-4f82-88f1-6fed47252885" Title="Event Class" Url="html/T_Network_Sim_Core_Event.htm">
+    <HelpTOCNode Id="aeb67e7a-2912-453f-b9c4-a140a65c3ba6" Title="Event Class" Url="html/T_Network_Sim_Core_Event.htm">
       <HelpTOCNode Title="Event Constructor " Url="html/M_Network_Sim_Core_Event__ctor.htm" />
-      <HelpTOCNode Id="e324f85a-2715-4fdd-b19e-08d45b9438f7" Title="Event Properties" Url="html/Properties_T_Network_Sim_Core_Event.htm">
+      <HelpTOCNode Id="c3031609-22b5-425e-a694-8a9f51f2430c" Title="Event Properties" Url="html/Properties_T_Network_Sim_Core_Event.htm">
         <HelpTOCNode Title="Sender Property " Url="html/P_Network_Sim_Core_Event_Sender.htm" />
         <HelpTOCNode Title="Time Property " Url="html/P_Network_Sim_Core_Event_Time.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="ea6735e6-e376-41d5-b898-63285a251f02" Title="Event Methods" Url="html/Methods_T_Network_Sim_Core_Event.htm">
+      <HelpTOCNode Id="03dbb2f7-58dc-4076-b2b4-a6ec2e2cbba5" Title="Event Methods" Url="html/Methods_T_Network_Sim_Core_Event.htm">
         <HelpTOCNode Title="CompareTo Method " Url="html/M_Network_Sim_Core_Event_CompareTo.htm" />
         <HelpTOCNode Title="Run Method " Url="html/M_Network_Sim_Core_Event_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2a93fbcc-6863-4b40-881e-ffeda8296d40" Title="Host Class" Url="html/T_Network_Sim_Core_Host.htm">
+    <HelpTOCNode Id="cf2f206a-69c9-4f7b-838a-a82dc3fab771" Title="Host Class" Url="html/T_Network_Sim_Core_Host.htm">
       <HelpTOCNode Title="Host Constructor " Url="html/M_Network_Sim_Core_Host__ctor.htm" />
-      <HelpTOCNode Id="0f457ae7-a4a2-4796-bafd-2f1df1d016e4" Title="Host Properties" Url="html/Properties_T_Network_Sim_Core_Host.htm">
+      <HelpTOCNode Id="a7dabedc-97b8-451b-a3b2-a07ced45acb7" Title="Host Properties" Url="html/Properties_T_Network_Sim_Core_Host.htm">
         <HelpTOCNode Title="Hostname Property " Url="html/P_Network_Sim_Core_Host_Hostname.htm" />
         <HelpTOCNode Title="Interfaces Property " Url="html/P_Network_Sim_Core_Host_Interfaces.htm" />
         <HelpTOCNode Title="Network Property " Url="html/P_Network_Sim_Core_Host_Network.htm" />
         <HelpTOCNode Title="NodalProcessingDelay Property " Url="html/P_Network_Sim_Core_Host_NodalProcessingDelay.htm" />
         <HelpTOCNode Title="Routes Property " Url="html/P_Network_Sim_Core_Host_Routes.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="8593da11-9ae8-417e-b046-41e3479c87b8" Title="Host Methods" Url="html/Methods_T_Network_Sim_Core_Host.htm">
-        <HelpTOCNode Id="0349c4ad-8da7-4223-8619-4ca64130399c" Title="AddRoute Method " Url="html/Overload_Network_Sim_Core_Host_AddRoute.htm">
+      <HelpTOCNode Id="b1deeccc-0ebf-4ccd-b078-bdfdea641ffc" Title="Host Methods" Url="html/Methods_T_Network_Sim_Core_Host.htm">
+        <HelpTOCNode Id="aeceea31-dbc9-41e0-8b8e-b9e3cde54e65" Title="AddRoute Method " Url="html/Overload_Network_Sim_Core_Host_AddRoute.htm">
           <HelpTOCNode Title="AddRoute Method (Route, Nullable(Int32))" Url="html/M_Network_Sim_Core_Host_AddRoute.htm" />
           <HelpTOCNode Title="AddRoute Method (String, String, Interface, Int32, Nullable(Int32))" Url="html/M_Network_Sim_Core_Host_AddRoute_1.htm" />
           <HelpTOCNode Title="AddRoute Method (String, String, String, Int32, Nullable(Int32))" Url="html/M_Network_Sim_Core_Host_AddRoute_2.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="Output Method " Url="html/M_Network_Sim_Core_Host_Output.htm" />
         <HelpTOCNode Title="RegisterInterface Method " Url="html/M_Network_Sim_Core_Host_RegisterInterface.htm" />
-        <HelpTOCNode Id="ac3dbec0-5e33-4839-987b-865c028d086b" Title="RemoveRoute Method " Url="html/Overload_Network_Sim_Core_Host_RemoveRoute.htm">
+        <HelpTOCNode Id="e55f46d2-7fa7-4df4-9dfb-4e0d874e1f6d" Title="RemoveRoute Method " Url="html/Overload_Network_Sim_Core_Host_RemoveRoute.htm">
           <HelpTOCNode Title="RemoveRoute Method (Int32)" Url="html/M_Network_Sim_Core_Host_RemoveRoute_1.htm" />
           <HelpTOCNode Title="RemoveRoute Method (Route)" Url="html/M_Network_Sim_Core_Host_RemoveRoute.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d834c640-ca52-42ab-8fae-6302006b6595" Title="Interface Class" Url="html/T_Network_Sim_Core_Interface.htm">
-      <HelpTOCNode Id="a8d3e48d-41bf-4df7-95df-a3326d764577" Title="Interface Constructor " Url="html/Overload_Network_Sim_Core_Interface__ctor.htm">
+    <HelpTOCNode Id="e5633914-978b-4e82-82f6-281628e5baf6" Title="Interface Class" Url="html/T_Network_Sim_Core_Interface.htm">
+      <HelpTOCNode Id="b20d757f-adff-4564-bb11-a940b0e76693" Title="Interface Constructor " Url="html/Overload_Network_Sim_Core_Interface__ctor.htm">
         <HelpTOCNode Title="Interface Constructor (Nic, String, String, String)" Url="html/M_Network_Sim_Core_Interface__ctor_1.htm" />
         <HelpTOCNode Title="Interface Constructor (Nic, String, IpAddress, IpAddress, IpAddress)" Url="html/M_Network_Sim_Core_Interface__ctor.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="77c2ed8a-77bb-4c80-9e65-5c178fd8ef10" Title="Interface Properties" Url="html/Properties_T_Network_Sim_Core_Interface.htm">
+      <HelpTOCNode Id="7d269bc8-d7d7-4c62-afba-dbe9fa3be908" Title="Interface Properties" Url="html/Properties_T_Network_Sim_Core_Interface.htm">
         <HelpTOCNode Title="FullName Property " Url="html/P_Network_Sim_Core_Interface_FullName.htm" />
         <HelpTOCNode Title="Gateway Property " Url="html/P_Network_Sim_Core_Interface_Gateway.htm" />
         <HelpTOCNode Title="Hostname Property " Url="html/P_Network_Sim_Core_Interface_Hostname.htm" />
@@ -123,61 +123,61 @@
         <HelpTOCNode Title="Netmask Property " Url="html/P_Network_Sim_Core_Interface_Netmask.htm" />
         <HelpTOCNode Title="Nic Property " Url="html/P_Network_Sim_Core_Interface_Nic.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="83493259-ee0d-4347-b87f-cf67145a302a" Title="Interface Methods" Url="html/Methods_T_Network_Sim_Core_Interface.htm">
+      <HelpTOCNode Id="0666acde-5e96-4d9b-bd05-7981271ed077" Title="Interface Methods" Url="html/Methods_T_Network_Sim_Core_Interface.htm">
         <HelpTOCNode Title="Output Method " Url="html/M_Network_Sim_Core_Interface_Output.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="1be0397e-e0d3-4ffe-9050-a24dc1860963" Title="Interface Events" Url="html/Events_T_Network_Sim_Core_Interface.htm">
+      <HelpTOCNode Id="d7b4dd16-6fc1-4e14-8944-667adbd9bd07" Title="Interface Events" Url="html/Events_T_Network_Sim_Core_Interface.htm">
         <HelpTOCNode Title="DataReceivedEvent Event" Url="html/E_Network_Sim_Core_Interface_DataReceivedEvent.htm" />
         <HelpTOCNode Title="SendFifoEmptyEvent Event" Url="html/E_Network_Sim_Core_Interface_SendFifoEmptyEvent.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="8d052034-67a1-4d61-b041-f99e4737e248" Title="Interpreter Class" Url="html/T_Network_Sim_Core_Interpreter.htm">
-      <HelpTOCNode Id="ac79e994-055b-4c45-81c1-d12b42708cc6" Title="Interpreter Methods" Url="html/Methods_T_Network_Sim_Core_Interpreter.htm">
+    <HelpTOCNode Id="9f8fd057-8f2d-4a45-8049-4c3c79f8e052" Title="Interpreter Class" Url="html/T_Network_Sim_Core_Interpreter.htm">
+      <HelpTOCNode Id="c6a4f239-bc38-46ec-96e0-05ccf95843a1" Title="Interpreter Methods" Url="html/Methods_T_Network_Sim_Core_Interpreter.htm">
         <HelpTOCNode Title="ReadCommand Method " Url="html/M_Network_Sim_Core_Interpreter_ReadCommand.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="OutputLevel Enumeration" Url="html/T_Network_Sim_Core_OutputLevel.htm" />
-    <HelpTOCNode Id="8da6b56a-825e-42a3-bc89-fb383e3a523e" Title="Scenario Class" Url="html/T_Network_Sim_Core_Scenario.htm">
+    <HelpTOCNode Id="1a7b4bf2-eacb-4a83-b257-8b1eb5b05022" Title="Scenario Class" Url="html/T_Network_Sim_Core_Scenario.htm">
       <HelpTOCNode Title="Scenario Constructor " Url="html/M_Network_Sim_Core_Scenario__ctor.htm" />
-      <HelpTOCNode Id="0116f7b7-a2df-4079-b847-dee2b9061090" Title="Scenario Properties" Url="html/Properties_T_Network_Sim_Core_Scenario.htm">
+      <HelpTOCNode Id="a8912228-bf3b-4f50-aff9-53191ac01c1d" Title="Scenario Properties" Url="html/Properties_T_Network_Sim_Core_Scenario.htm">
         <HelpTOCNode Title="Description Property " Url="html/P_Network_Sim_Core_Scenario_Description.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_Network_Sim_Core_Scenario_Name.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="55f88fd0-1c53-4a97-9e87-331eca1e0332" Title="Scenario Methods" Url="html/Methods_T_Network_Sim_Core_Scenario.htm">
+      <HelpTOCNode Id="e6a5ca8d-f7df-4d21-8d5b-6bbc9bb01822" Title="Scenario Methods" Url="html/Methods_T_Network_Sim_Core_Scenario.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Network_Sim_Core_Scenario_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c911e885-03dc-4e68-80a6-4e7445fbf8d4" Title="SignalCeaseEvent Class" Url="html/T_Network_Sim_Core_SignalCeaseEvent.htm">
+    <HelpTOCNode Id="cd1ee663-893b-4abc-b422-7db8a390f3a7" Title="SignalCeaseEvent Class" Url="html/T_Network_Sim_Core_SignalCeaseEvent.htm">
       <HelpTOCNode Title="SignalCeaseEvent Constructor " Url="html/M_Network_Sim_Core_SignalCeaseEvent__ctor.htm" />
       <HelpTOCNode Title="SignalCeaseEvent Properties" Url="html/Properties_T_Network_Sim_Core_SignalCeaseEvent.htm" />
-      <HelpTOCNode Id="7b4e1edf-15d6-40f6-ab55-dbf0bd260055" Title="SignalCeaseEvent Methods" Url="html/Methods_T_Network_Sim_Core_SignalCeaseEvent.htm">
+      <HelpTOCNode Id="066899fe-1611-41a3-8572-5ca06fd28c39" Title="SignalCeaseEvent Methods" Url="html/Methods_T_Network_Sim_Core_SignalCeaseEvent.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Network_Sim_Core_SignalCeaseEvent_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="853c2d6f-f591-4bf2-8e49-6b00784ee19f" Title="SignalCeaseEventArgs Class" Url="html/T_Network_Sim_Core_SignalCeaseEventArgs.htm">
+    <HelpTOCNode Id="4ced32a4-2688-4362-9e3b-1065ff1ffbaa" Title="SignalCeaseEventArgs Class" Url="html/T_Network_Sim_Core_SignalCeaseEventArgs.htm">
       <HelpTOCNode Title="SignalCeaseEventArgs Constructor " Url="html/M_Network_Sim_Core_SignalCeaseEventArgs__ctor.htm" />
-      <HelpTOCNode Id="90029a3e-9cf9-4c48-b735-5453842154b5" Title="SignalCeaseEventArgs Properties" Url="html/Properties_T_Network_Sim_Core_SignalCeaseEventArgs.htm">
+      <HelpTOCNode Id="2f0d2760-1361-4683-bffa-ddfb2bb1c32f" Title="SignalCeaseEventArgs Properties" Url="html/Properties_T_Network_Sim_Core_SignalCeaseEventArgs.htm">
         <HelpTOCNode Title="Data Property " Url="html/P_Network_Sim_Core_SignalCeaseEventArgs_Data.htm" />
         <HelpTOCNode Title="IsJam Property " Url="html/P_Network_Sim_Core_SignalCeaseEventArgs_IsJam.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="SignalCeaseEventArgs Methods" Url="html/Methods_T_Network_Sim_Core_SignalCeaseEventArgs.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="67047757-3c93-4dd1-b214-12faced1111a" Title="SignalSenseEvent Class" Url="html/T_Network_Sim_Core_SignalSenseEvent.htm">
+    <HelpTOCNode Id="763d8151-783d-4bb1-8b0a-c6cf93af37ad" Title="SignalSenseEvent Class" Url="html/T_Network_Sim_Core_SignalSenseEvent.htm">
       <HelpTOCNode Title="SignalSenseEvent Constructor " Url="html/M_Network_Sim_Core_SignalSenseEvent__ctor.htm" />
-      <HelpTOCNode Id="ec56073f-11dd-4dcb-ae31-e7ce782d7831" Title="SignalSenseEvent Properties" Url="html/Properties_T_Network_Sim_Core_SignalSenseEvent.htm">
+      <HelpTOCNode Id="b246845a-e4b1-4aac-aeaa-050f25ecc9a9" Title="SignalSenseEvent Properties" Url="html/Properties_T_Network_Sim_Core_SignalSenseEvent.htm">
         <HelpTOCNode Title="Connector Property " Url="html/P_Network_Sim_Core_SignalSenseEvent_Connector.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="11c8d95d-c044-49ce-bcbe-422550821414" Title="SignalSenseEvent Methods" Url="html/Methods_T_Network_Sim_Core_SignalSenseEvent.htm">
+      <HelpTOCNode Id="0c1fc0b7-d885-482b-9b95-9b9e981e4329" Title="SignalSenseEvent Methods" Url="html/Methods_T_Network_Sim_Core_SignalSenseEvent.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Network_Sim_Core_SignalSenseEvent_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="e75d4917-ace3-41b1-9d99-377dcff32c0d" Title="Simulation Class" Url="html/T_Network_Sim_Core_Simulation.htm">
-      <HelpTOCNode Id="3e9490d0-b3f8-4c56-a565-399ab74141f0" Title="Simulation Properties" Url="html/Properties_T_Network_Sim_Core_Simulation.htm">
+    <HelpTOCNode Id="2b50ae1e-4746-47fa-a939-d406f2b178fd" Title="Simulation Class" Url="html/T_Network_Sim_Core_Simulation.htm">
+      <HelpTOCNode Id="789d924c-d53c-4d6d-ae49-65a53668f5ff" Title="Simulation Properties" Url="html/Properties_T_Network_Sim_Core_Simulation.htm">
         <HelpTOCNode Title="Objects Property " Url="html/P_Network_Sim_Core_Simulation_Objects.htm" />
         <HelpTOCNode Title="OutputLevel Property " Url="html/P_Network_Sim_Core_Simulation_OutputLevel.htm" />
         <HelpTOCNode Title="Time Property " Url="html/P_Network_Sim_Core_Simulation_Time.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="8579fc2b-ffa5-4e60-852f-63a395bdf5de" Title="Simulation Methods" Url="html/Methods_T_Network_Sim_Core_Simulation.htm">
+      <HelpTOCNode Id="ce4d6536-5d4d-49bd-91d0-12b20a645312" Title="Simulation Methods" Url="html/Methods_T_Network_Sim_Core_Simulation.htm">
         <HelpTOCNode Title="AddEvent Method " Url="html/M_Network_Sim_Core_Simulation_AddEvent.htm" />
         <HelpTOCNode Title="AddObject Method " Url="html/M_Network_Sim_Core_Simulation_AddObject.htm" />
         <HelpTOCNode Title="Callback Method " Url="html/M_Network_Sim_Core_Simulation_Callback.htm" />
@@ -190,119 +190,119 @@
     </HelpTOCNode>
     <HelpTOCNode Title="Simulation.RemoveEventsHandler Delegate" Url="html/T_Network_Sim_Core_Simulation_RemoveEventsHandler.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="49ba09cd-7df1-4d28-9be2-0145afcf46b5" Title="Network.Sim.Lan" Url="html/N_Network_Sim_Lan.htm">
+  <HelpTOCNode Id="e3e0f8bd-f430-4564-8b8d-996eae4585fb" Title="Network.Sim.Lan" Url="html/N_Network_Sim_Lan.htm">
     <HelpTOCNode Title="Interrupt Enumeration" Url="html/T_Network_Sim_Lan_Interrupt.htm" />
-    <HelpTOCNode Id="10d1ee33-fac2-4278-ac55-748b9e55f7e6" Title="Nic Class" Url="html/T_Network_Sim_Lan_Nic.htm">
+    <HelpTOCNode Id="5c75b924-a17e-4c4c-8464-86bfa3805f25" Title="Nic Class" Url="html/T_Network_Sim_Lan_Nic.htm">
       <HelpTOCNode Title="Nic Constructor " Url="html/M_Network_Sim_Lan_Nic__ctor.htm" />
-      <HelpTOCNode Id="c689c038-e967-413f-b880-b38296bdeaa4" Title="Nic Properties" Url="html/Properties_T_Network_Sim_Lan_Nic.htm">
+      <HelpTOCNode Id="feac0827-58a6-4242-bcf1-8725f86ccd77" Title="Nic Properties" Url="html/Properties_T_Network_Sim_Lan_Nic.htm">
         <HelpTOCNode Title="Connector Property " Url="html/P_Network_Sim_Lan_Nic_Connector.htm" />
         <HelpTOCNode Title="InterruptReason Property " Url="html/P_Network_Sim_Lan_Nic_InterruptReason.htm" />
         <HelpTOCNode Title="MacAddress Property " Url="html/P_Network_Sim_Lan_Nic_MacAddress.htm" />
         <HelpTOCNode Title="MaximumTransmissionUnit Property " Url="html/P_Network_Sim_Lan_Nic_MaximumTransmissionUnit.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="5c680e8e-b778-4e45-9856-c82cd4f9bf9e" Title="Nic Methods" Url="html/Methods_T_Network_Sim_Lan_Nic.htm">
+      <HelpTOCNode Id="6685aa75-1028-465d-aafc-c7c4d38605a7" Title="Nic Methods" Url="html/Methods_T_Network_Sim_Lan_Nic.htm">
         <HelpTOCNode Title="Output Method " Url="html/M_Network_Sim_Lan_Nic_Output.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="293b1ef4-f290-45e0-9f05-aa094f884a00" Title="Nic Events" Url="html/Events_T_Network_Sim_Lan_Nic.htm">
+      <HelpTOCNode Id="a63a4a61-d4f8-486d-8f05-1353d281f62a" Title="Nic Events" Url="html/Events_T_Network_Sim_Lan_Nic.htm">
         <HelpTOCNode Title="Interrupt Event" Url="html/E_Network_Sim_Lan_Nic_Interrupt.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="aa03a082-7da8-491b-85c1-6433a019cc27" Title="Network.Sim.Lan.Ethernet" Url="html/N_Network_Sim_Lan_Ethernet.htm">
-    <HelpTOCNode Id="ed8ebd93-8353-4d48-bde8-9e283e4cc5fb" Title="Bridge Class" Url="html/T_Network_Sim_Lan_Ethernet_Bridge.htm">
+  <HelpTOCNode Id="4a1b07c8-ce0b-4dd8-8b56-643339cd223e" Title="Network.Sim.Lan.Ethernet" Url="html/N_Network_Sim_Lan_Ethernet.htm">
+    <HelpTOCNode Id="ea539ccb-9d13-4846-a002-8d89c6e857b2" Title="Bridge Class" Url="html/T_Network_Sim_Lan_Ethernet_Bridge.htm">
       <HelpTOCNode Title="Bridge Constructor " Url="html/M_Network_Sim_Lan_Ethernet_Bridge__ctor.htm" />
-      <HelpTOCNode Id="78b79fd1-0c8e-4134-bcdc-848dffbb093e" Title="Bridge Properties" Url="html/Properties_T_Network_Sim_Lan_Ethernet_Bridge.htm">
+      <HelpTOCNode Id="6c76d0d9-47b1-4ffc-9d51-f87b2b7ccc8a" Title="Bridge Properties" Url="html/Properties_T_Network_Sim_Lan_Ethernet_Bridge.htm">
         <HelpTOCNode Title="Delay Property " Url="html/P_Network_Sim_Lan_Ethernet_Bridge_Delay.htm" />
         <HelpTOCNode Title="ForwardTable Property " Url="html/P_Network_Sim_Lan_Ethernet_Bridge_ForwardTable.htm" />
         <HelpTOCNode Title="Ports Property " Url="html/P_Network_Sim_Lan_Ethernet_Bridge_Ports.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="Bridge Methods" Url="html/Methods_T_Network_Sim_Lan_Ethernet_Bridge.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="02364e4d-9530-4cad-8975-9d5662e935d5" Title="Frame Class" Url="html/T_Network_Sim_Lan_Ethernet_Frame.htm">
+    <HelpTOCNode Id="55b66a65-86e1-4c00-bd1e-f7b1fc4ba233" Title="Frame Class" Url="html/T_Network_Sim_Lan_Ethernet_Frame.htm">
       <HelpTOCNode Title="Frame Constructor " Url="html/M_Network_Sim_Lan_Ethernet_Frame__ctor.htm" />
-      <HelpTOCNode Id="c277d366-cd68-48a8-98cd-46b481259c8a" Title="Frame Properties" Url="html/Properties_T_Network_Sim_Lan_Ethernet_Frame.htm">
+      <HelpTOCNode Id="4d735789-a8d0-4e2a-b051-8216b9dc9a34" Title="Frame Properties" Url="html/Properties_T_Network_Sim_Lan_Ethernet_Frame.htm">
         <HelpTOCNode Title="CheckSequence Property " Url="html/P_Network_Sim_Lan_Ethernet_Frame_CheckSequence.htm" />
         <HelpTOCNode Title="Destination Property " Url="html/P_Network_Sim_Lan_Ethernet_Frame_Destination.htm" />
         <HelpTOCNode Title="Payload Property " Url="html/P_Network_Sim_Lan_Ethernet_Frame_Payload.htm" />
         <HelpTOCNode Title="Source Property " Url="html/P_Network_Sim_Lan_Ethernet_Frame_Source.htm" />
         <HelpTOCNode Title="Type Property " Url="html/P_Network_Sim_Lan_Ethernet_Frame_Type.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="7b5857ad-4af2-469f-883a-6447371965eb" Title="Frame Methods" Url="html/Methods_T_Network_Sim_Lan_Ethernet_Frame.htm">
+      <HelpTOCNode Id="0c82e04e-e6d5-4d02-b77b-2b981eb550de" Title="Frame Methods" Url="html/Methods_T_Network_Sim_Lan_Ethernet_Frame.htm">
         <HelpTOCNode Title="ComputeCheckSequence Method " Url="html/M_Network_Sim_Lan_Ethernet_Frame_ComputeCheckSequence.htm" />
         <HelpTOCNode Title="Deserialize Method " Url="html/M_Network_Sim_Lan_Ethernet_Frame_Deserialize.htm" />
         <HelpTOCNode Title="Serialize Method " Url="html/M_Network_Sim_Lan_Ethernet_Frame_Serialize.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0d75a894-5b9f-4867-9e90-8c0d6b34b719" Title="Frame Fields" Url="html/Fields_T_Network_Sim_Lan_Ethernet_Frame.htm">
+      <HelpTOCNode Id="7723ef4d-5c2b-45a8-bb19-877484797354" Title="Frame Fields" Url="html/Fields_T_Network_Sim_Lan_Ethernet_Frame.htm">
         <HelpTOCNode Title="MaximumPayloadSize Field" Url="html/F_Network_Sim_Lan_Ethernet_Frame_MaximumPayloadSize.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="7381ffb8-6e5e-4b7a-997a-e1c970ef1bd9" Title="Hub Class" Url="html/T_Network_Sim_Lan_Ethernet_Hub.htm">
+    <HelpTOCNode Id="46b5783e-54c1-45a6-961a-5ebbf20440d9" Title="Hub Class" Url="html/T_Network_Sim_Lan_Ethernet_Hub.htm">
       <HelpTOCNode Title="Hub Constructor " Url="html/M_Network_Sim_Lan_Ethernet_Hub__ctor.htm" />
-      <HelpTOCNode Id="24020acc-7dd9-4004-83d1-88e6de2cb256" Title="Hub Properties" Url="html/Properties_T_Network_Sim_Lan_Ethernet_Hub.htm">
+      <HelpTOCNode Id="7af0687d-39e8-4605-bb39-7de660e2725e" Title="Hub Properties" Url="html/Properties_T_Network_Sim_Lan_Ethernet_Hub.htm">
         <HelpTOCNode Title="Delay Property " Url="html/P_Network_Sim_Lan_Ethernet_Hub_Delay.htm" />
         <HelpTOCNode Title="Ports Property " Url="html/P_Network_Sim_Lan_Ethernet_Hub_Ports.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="Hub Methods" Url="html/Methods_T_Network_Sim_Lan_Ethernet_Hub.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="151925e0-4316-4251-b8e7-8c5575823e61" Title="Nic Class" Url="html/T_Network_Sim_Lan_Ethernet_Nic.htm">
+    <HelpTOCNode Id="0517e1e0-b035-4cf3-a2d2-9d900898cc9e" Title="Nic Class" Url="html/T_Network_Sim_Lan_Ethernet_Nic.htm">
       <HelpTOCNode Title="Nic Constructor " Url="html/M_Network_Sim_Lan_Ethernet_Nic__ctor.htm" />
-      <HelpTOCNode Id="d7ceb991-f206-41b8-bbe2-e12b7f10ad33" Title="Nic Properties" Url="html/Properties_T_Network_Sim_Lan_Ethernet_Nic.htm">
+      <HelpTOCNode Id="f9a67cfb-e37a-466a-94a9-1ce8967d491c" Title="Nic Properties" Url="html/Properties_T_Network_Sim_Lan_Ethernet_Nic.htm">
         <HelpTOCNode Title="MaximumTransmissionUnit Property " Url="html/P_Network_Sim_Lan_Ethernet_Nic_MaximumTransmissionUnit.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="64212b6c-9e93-422d-ae34-5985b3116916" Title="Nic Methods" Url="html/Methods_T_Network_Sim_Lan_Ethernet_Nic.htm">
+      <HelpTOCNode Id="4e0096c5-6b77-4a16-8830-441e48956bd9" Title="Nic Methods" Url="html/Methods_T_Network_Sim_Lan_Ethernet_Nic.htm">
         <HelpTOCNode Title="Output Method " Url="html/M_Network_Sim_Lan_Ethernet_Nic_Output.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="26bac956-ad87-4813-9ad7-6fa359abc854" Title="Nic Events" Url="html/Events_T_Network_Sim_Lan_Ethernet_Nic.htm">
+      <HelpTOCNode Id="8f005764-f355-4984-8fa3-4433a29073f7" Title="Nic Events" Url="html/Events_T_Network_Sim_Lan_Ethernet_Nic.htm">
         <HelpTOCNode Title="Interrupt Event" Url="html/E_Network_Sim_Lan_Ethernet_Nic_Interrupt.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="7d17ba62-5ff6-4ff0-a135-6bcbddd38ff2" Title="Network.Sim.Link" Url="html/N_Network_Sim_Link.htm">
+  <HelpTOCNode Id="b2179ff2-885a-4f2f-bfce-dd4111db3eba" Title="Network.Sim.Link" Url="html/N_Network_Sim_Link.htm">
     <HelpTOCNode Title="EtherType Enumeration" Url="html/T_Network_Sim_Link_EtherType.htm" />
-    <HelpTOCNode Id="7b0f1d88-11fb-49fb-8635-e6468656e1d3" Title="MacAddress Class" Url="html/T_Network_Sim_Link_MacAddress.htm">
-      <HelpTOCNode Id="24964487-d8c8-4c3f-9bd4-ca94ef6db61e" Title="MacAddress Constructor " Url="html/Overload_Network_Sim_Link_MacAddress__ctor.htm">
+    <HelpTOCNode Id="77cd4f02-e79b-493b-a1c0-9ed9293834dd" Title="MacAddress Class" Url="html/T_Network_Sim_Link_MacAddress.htm">
+      <HelpTOCNode Id="3aff8cd7-fb31-40ed-ad68-67f25e767734" Title="MacAddress Constructor " Url="html/Overload_Network_Sim_Link_MacAddress__ctor.htm">
         <HelpTOCNode Title="MacAddress Constructor " Url="html/M_Network_Sim_Link_MacAddress__ctor.htm" />
         <HelpTOCNode Title="MacAddress Constructor (Byte[])" Url="html/M_Network_Sim_Link_MacAddress__ctor_1.htm" />
         <HelpTOCNode Title="MacAddress Constructor (String)" Url="html/M_Network_Sim_Link_MacAddress__ctor_2.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="58cbd44b-341a-4acb-bc55-7d0e4445f17f" Title="MacAddress Properties" Url="html/Properties_T_Network_Sim_Link_MacAddress.htm">
+      <HelpTOCNode Id="44a6a375-bee1-4b98-a416-4ec93d956583" Title="MacAddress Properties" Url="html/Properties_T_Network_Sim_Link_MacAddress.htm">
         <HelpTOCNode Title="Bytes Property " Url="html/P_Network_Sim_Link_MacAddress_Bytes.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="d3dca986-7e3f-44d5-a853-31397396f7a1" Title="MacAddress Methods" Url="html/Methods_T_Network_Sim_Link_MacAddress.htm">
+      <HelpTOCNode Id="b10fb52e-02f2-4474-a21e-7dbe98d85c04" Title="MacAddress Methods" Url="html/Methods_T_Network_Sim_Link_MacAddress.htm">
         <HelpTOCNode Title="Equals Method " Url="html/M_Network_Sim_Link_MacAddress_Equals.htm" />
         <HelpTOCNode Title="GetHashCode Method " Url="html/M_Network_Sim_Link_MacAddress_GetHashCode.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M_Network_Sim_Link_MacAddress_ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="6e5f2abc-2519-4dab-8b60-55fb24e0884c" Title="MacAddress Operators" Url="html/Operators_T_Network_Sim_Link_MacAddress.htm">
+      <HelpTOCNode Id="c0f0a59a-1352-4c6f-8727-fc42cd752dbb" Title="MacAddress Operators" Url="html/Operators_T_Network_Sim_Link_MacAddress.htm">
         <HelpTOCNode Title="Equality Operator " Url="html/M_Network_Sim_Link_MacAddress_op_Equality.htm" />
         <HelpTOCNode Title="Inequality Operator " Url="html/M_Network_Sim_Link_MacAddress_op_Inequality.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="fe286b3d-5795-4e72-a08e-312b82d4506f" Title="Network.Sim.Miscellaneous" Url="html/N_Network_Sim_Miscellaneous.htm">
-    <HelpTOCNode Id="813a71b7-84d2-435e-b0cc-4c0f0d9a1027" Title="CappedQueue(T) Class" Url="html/T_Network_Sim_Miscellaneous_CappedQueue_1.htm">
+  <HelpTOCNode Id="30162684-c489-4e4c-a455-75046057f3d4" Title="Network.Sim.Miscellaneous" Url="html/N_Network_Sim_Miscellaneous.htm">
+    <HelpTOCNode Id="0e144273-c4e9-4aca-b9f8-ef17bf6d32d7" Title="CappedQueue(T) Class" Url="html/T_Network_Sim_Miscellaneous_CappedQueue_1.htm">
       <HelpTOCNode Title="CappedQueue(T) Constructor " Url="html/M_Network_Sim_Miscellaneous_CappedQueue_1__ctor.htm" />
-      <HelpTOCNode Id="fa3538fa-1f28-4119-a8eb-1f045099dade" Title="CappedQueue(T) Properties" Url="html/Properties_T_Network_Sim_Miscellaneous_CappedQueue_1.htm">
+      <HelpTOCNode Id="c85fc826-1abf-436a-8a70-250603ed8be7" Title="CappedQueue(T) Properties" Url="html/Properties_T_Network_Sim_Miscellaneous_CappedQueue_1.htm">
         <HelpTOCNode Title="Count Property " Url="html/P_Network_Sim_Miscellaneous_CappedQueue_1_Count.htm" />
         <HelpTOCNode Title="MaxCapacity Property " Url="html/P_Network_Sim_Miscellaneous_CappedQueue_1_MaxCapacity.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="aa59e848-8f90-4c9e-8e0d-46c5fafa0e2a" Title="CappedQueue(T) Methods" Url="html/Methods_T_Network_Sim_Miscellaneous_CappedQueue_1.htm">
+      <HelpTOCNode Id="8c17c03d-2510-4144-a329-ac5a5aaca1e3" Title="CappedQueue(T) Methods" Url="html/Methods_T_Network_Sim_Miscellaneous_CappedQueue_1.htm">
         <HelpTOCNode Title="Dequeue Method " Url="html/M_Network_Sim_Miscellaneous_CappedQueue_1_Dequeue.htm" />
         <HelpTOCNode Title="Enqueue Method " Url="html/M_Network_Sim_Miscellaneous_CappedQueue_1_Enqueue.htm" />
         <HelpTOCNode Title="GetEnumerator Method " Url="html/M_Network_Sim_Miscellaneous_CappedQueue_1_GetEnumerator.htm" />
         <HelpTOCNode Title="Peek Method " Url="html/M_Network_Sim_Miscellaneous_CappedQueue_1_Peek.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b9f1664c-89f4-45b5-94b3-b08f9d81df01" Title="Crc32 Class" Url="html/T_Network_Sim_Miscellaneous_Crc32.htm">
-      <HelpTOCNode Id="f5620c1e-c4bf-45db-a823-8e02ec476179" Title="Crc32 Constructor " Url="html/Overload_Network_Sim_Miscellaneous_Crc32__ctor.htm">
+    <HelpTOCNode Id="f6b06630-e27f-40f8-bf01-49f9ce966a53" Title="Crc32 Class" Url="html/T_Network_Sim_Miscellaneous_Crc32.htm">
+      <HelpTOCNode Id="529a3c78-ae61-4619-8812-19b8117d7ffc" Title="Crc32 Constructor " Url="html/Overload_Network_Sim_Miscellaneous_Crc32__ctor.htm">
         <HelpTOCNode Title="Crc32 Constructor " Url="html/M_Network_Sim_Miscellaneous_Crc32__ctor.htm" />
         <HelpTOCNode Title="Crc32 Constructor (UInt32, UInt32)" Url="html/M_Network_Sim_Miscellaneous_Crc32__ctor_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="e781c5fc-a103-49a7-99fc-5d42fd173e07" Title="Crc32 Properties" Url="html/Properties_T_Network_Sim_Miscellaneous_Crc32.htm">
+      <HelpTOCNode Id="861a8e69-92bd-4363-9410-a9ff68033c92" Title="Crc32 Properties" Url="html/Properties_T_Network_Sim_Miscellaneous_Crc32.htm">
         <HelpTOCNode Title="HashSize Property " Url="html/P_Network_Sim_Miscellaneous_Crc32_HashSize.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="14af61e9-346c-4050-939c-9d8c6f463dfd" Title="Crc32 Methods" Url="html/Methods_T_Network_Sim_Miscellaneous_Crc32.htm">
-        <HelpTOCNode Id="dd33fc44-1cbd-4794-9194-84f362bd14b9" Title="Compute Method " Url="html/Overload_Network_Sim_Miscellaneous_Crc32_Compute.htm">
+      <HelpTOCNode Id="e70452c0-5fe8-4259-b78d-ab8cca9b7e21" Title="Crc32 Methods" Url="html/Methods_T_Network_Sim_Miscellaneous_Crc32.htm">
+        <HelpTOCNode Id="af588349-7be8-4f68-8446-589bd2ce3884" Title="Compute Method " Url="html/Overload_Network_Sim_Miscellaneous_Crc32_Compute.htm">
           <HelpTOCNode Title="Compute Method (Byte[])" Url="html/M_Network_Sim_Miscellaneous_Crc32_Compute.htm" />
           <HelpTOCNode Title="Compute Method (UInt32, Byte[])" Url="html/M_Network_Sim_Miscellaneous_Crc32_Compute_1.htm" />
           <HelpTOCNode Title="Compute Method (UInt32, UInt32, Byte[])" Url="html/M_Network_Sim_Miscellaneous_Crc32_Compute_2.htm" />
@@ -311,75 +311,75 @@
         <HelpTOCNode Title="HashFinal Method " Url="html/M_Network_Sim_Miscellaneous_Crc32_HashFinal.htm" />
         <HelpTOCNode Title="Initialize Method " Url="html/M_Network_Sim_Miscellaneous_Crc32_Initialize.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="83a5ed75-3ef3-4326-a421-2b73b211fda3" Title="Crc32 Fields" Url="html/Fields_T_Network_Sim_Miscellaneous_Crc32.htm">
+      <HelpTOCNode Id="27b401a2-ec92-426e-b15b-7c6fcce244bb" Title="Crc32 Fields" Url="html/Fields_T_Network_Sim_Miscellaneous_Crc32.htm">
         <HelpTOCNode Title="DefaultPolynomial Field" Url="html/F_Network_Sim_Miscellaneous_Crc32_DefaultPolynomial.htm" />
         <HelpTOCNode Title="DefaultSeed Field" Url="html/F_Network_Sim_Miscellaneous_Crc32_DefaultSeed.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9a49bd1c-3494-493e-8ea5-9feadef4afdf" Title="Hash Class" Url="html/T_Network_Sim_Miscellaneous_Hash.htm">
-      <HelpTOCNode Id="66fcb81c-9509-4096-bfd7-a980bb027758" Title="Hash Methods" Url="html/Methods_T_Network_Sim_Miscellaneous_Hash.htm">
-        <HelpTOCNode Id="a51079a5-0979-4163-809d-e9134764f0ab" Title="Sha256 Method " Url="html/Overload_Network_Sim_Miscellaneous_Hash_Sha256.htm">
+    <HelpTOCNode Id="7e595915-6292-456b-9470-8dd3fc87f5dc" Title="Hash Class" Url="html/T_Network_Sim_Miscellaneous_Hash.htm">
+      <HelpTOCNode Id="1ef0eef0-2af8-4416-8f93-00b48f26d193" Title="Hash Methods" Url="html/Methods_T_Network_Sim_Miscellaneous_Hash.htm">
+        <HelpTOCNode Id="4e05f8cb-3f7d-43be-a060-02d40e6c1236" Title="Sha256 Method " Url="html/Overload_Network_Sim_Miscellaneous_Hash_Sha256.htm">
           <HelpTOCNode Title="Sha256 Method (Byte[])" Url="html/M_Network_Sim_Miscellaneous_Hash_Sha256.htm" />
           <HelpTOCNode Title="Sha256 Method (Stream)" Url="html/M_Network_Sim_Miscellaneous_Hash_Sha256_1.htm" />
           <HelpTOCNode Title="Sha256 Method (String)" Url="html/M_Network_Sim_Miscellaneous_Hash_Sha256_2.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c7a81114-d2d0-4f0b-a520-9b6bf7dbd6e3" Title="Serializable Interface" Url="html/T_Network_Sim_Miscellaneous_Serializable.htm">
-      <HelpTOCNode Id="c6d94737-a0a4-45f3-bd94-5ee9e6dc64d0" Title="Serializable Methods" Url="html/Methods_T_Network_Sim_Miscellaneous_Serializable.htm">
+    <HelpTOCNode Id="f967f633-62fe-4127-86bb-2069af15c19f" Title="Serializable Interface" Url="html/T_Network_Sim_Miscellaneous_Serializable.htm">
+      <HelpTOCNode Id="9f65320e-ea3c-4fac-a33f-301bc4cc1ac8" Title="Serializable Methods" Url="html/Methods_T_Network_Sim_Miscellaneous_Serializable.htm">
         <HelpTOCNode Title="Serialize Method " Url="html/M_Network_Sim_Miscellaneous_Serializable_Serialize.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9f67eece-7378-465d-ac9b-964bf623eb7c" Title="TupleList(T1, T2) Class" Url="html/T_Network_Sim_Miscellaneous_TupleList_2.htm">
+    <HelpTOCNode Id="7dc22188-f27d-4a7c-aedb-05514b10df96" Title="TupleList(T1, T2) Class" Url="html/T_Network_Sim_Miscellaneous_TupleList_2.htm">
       <HelpTOCNode Title="TupleList(T1, T2) Constructor " Url="html/M_Network_Sim_Miscellaneous_TupleList_2__ctor.htm" />
       <HelpTOCNode Title="TupleList(T1, T2) Properties" Url="html/Properties_T_Network_Sim_Miscellaneous_TupleList_2.htm" />
-      <HelpTOCNode Id="9ed0e9e0-f291-4dfc-9b80-91587c289ee8" Title="TupleList(T1, T2) Methods" Url="html/Methods_T_Network_Sim_Miscellaneous_TupleList_2.htm">
-        <HelpTOCNode Id="ff728d56-dda8-4f6e-b9b8-faf6fe40d255" Title="Add Method " Url="html/Overload_Network_Sim_Miscellaneous_TupleList_2_Add.htm">
+      <HelpTOCNode Id="1e937b66-5e9a-4a9f-81a0-fe7a45b9ad72" Title="TupleList(T1, T2) Methods" Url="html/Methods_T_Network_Sim_Miscellaneous_TupleList_2.htm">
+        <HelpTOCNode Id="da99b01e-72b9-4c3a-90a7-37098012a777" Title="Add Method " Url="html/Overload_Network_Sim_Miscellaneous_TupleList_2_Add.htm">
           <HelpTOCNode Title="Add Method (T1, T2)" Url="html/M_Network_Sim_Miscellaneous_TupleList_2_Add.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="ccc7c676-0496-4e1a-b19f-2241082b4e02" Title="UnionFind Class" Url="html/T_Network_Sim_Miscellaneous_UnionFind.htm">
+    <HelpTOCNode Id="9f1c344a-96c7-44fc-aab0-f5360638cef7" Title="UnionFind Class" Url="html/T_Network_Sim_Miscellaneous_UnionFind.htm">
       <HelpTOCNode Title="UnionFind Constructor " Url="html/M_Network_Sim_Miscellaneous_UnionFind__ctor.htm" />
-      <HelpTOCNode Id="fb7faf36-26ad-42e7-b590-33783e3d766c" Title="UnionFind Properties" Url="html/Properties_T_Network_Sim_Miscellaneous_UnionFind.htm">
+      <HelpTOCNode Id="6db5fb7a-8fbf-47d6-affb-ad83af3928e9" Title="UnionFind Properties" Url="html/Properties_T_Network_Sim_Miscellaneous_UnionFind.htm">
         <HelpTOCNode Title="Count Property " Url="html/P_Network_Sim_Miscellaneous_UnionFind_Count.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="8e8c5aa4-7406-4493-8fbf-cce697764383" Title="UnionFind Methods" Url="html/Methods_T_Network_Sim_Miscellaneous_UnionFind.htm">
+      <HelpTOCNode Id="63e6a792-0d0c-4cd8-a514-586b2f2841fe" Title="UnionFind Methods" Url="html/Methods_T_Network_Sim_Miscellaneous_UnionFind.htm">
         <HelpTOCNode Title="Connected Method " Url="html/M_Network_Sim_Miscellaneous_UnionFind_Connected.htm" />
         <HelpTOCNode Title="Union Method " Url="html/M_Network_Sim_Miscellaneous_UnionFind_Union.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="28a93406-0444-46c5-80d5-5975aa5b9fff" Title="Network.Sim.Network.Ip" Url="html/N_Network_Sim_Network_Ip.htm">
-    <HelpTOCNode Id="cad79572-630d-4aaf-b599-138225fc8a9b" Title="IpAddress Class" Url="html/T_Network_Sim_Network_Ip_IpAddress.htm">
-      <HelpTOCNode Id="7023e0ee-9909-41d8-980a-41101f0cbe0c" Title="IpAddress Constructor " Url="html/Overload_Network_Sim_Network_Ip_IpAddress__ctor.htm">
+  <HelpTOCNode Id="f11944a8-7470-4f29-8bce-885d03317401" Title="Network.Sim.Network.Ip" Url="html/N_Network_Sim_Network_Ip.htm">
+    <HelpTOCNode Id="6457a51e-847c-4884-9ed4-baf586119a13" Title="IpAddress Class" Url="html/T_Network_Sim_Network_Ip_IpAddress.htm">
+      <HelpTOCNode Id="eabda5b0-392c-487d-a49b-cf796dcde29f" Title="IpAddress Constructor " Url="html/Overload_Network_Sim_Network_Ip_IpAddress__ctor.htm">
         <HelpTOCNode Title="IpAddress Constructor (Byte[])" Url="html/M_Network_Sim_Network_Ip_IpAddress__ctor.htm" />
         <HelpTOCNode Title="IpAddress Constructor (Int32)" Url="html/M_Network_Sim_Network_Ip_IpAddress__ctor_1.htm" />
         <HelpTOCNode Title="IpAddress Constructor (String)" Url="html/M_Network_Sim_Network_Ip_IpAddress__ctor_2.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="a04d272a-02b5-42b3-8a24-150560d8e47c" Title="IpAddress Properties" Url="html/Properties_T_Network_Sim_Network_Ip_IpAddress.htm">
+      <HelpTOCNode Id="6b7d5ec3-b849-4747-a27b-21f2a49b2e64" Title="IpAddress Properties" Url="html/Properties_T_Network_Sim_Network_Ip_IpAddress.htm">
         <HelpTOCNode Title="Bytes Property " Url="html/P_Network_Sim_Network_Ip_IpAddress_Bytes.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="a70253c1-1cd3-4275-8629-b2e55c02a202" Title="IpAddress Methods" Url="html/Methods_T_Network_Sim_Network_Ip_IpAddress.htm">
+      <HelpTOCNode Id="fbaf2c92-ba28-4f49-a0fe-1ba054e799dd" Title="IpAddress Methods" Url="html/Methods_T_Network_Sim_Network_Ip_IpAddress.htm">
         <HelpTOCNode Title="Equals Method " Url="html/M_Network_Sim_Network_Ip_IpAddress_Equals.htm" />
         <HelpTOCNode Title="GetHashCode Method " Url="html/M_Network_Sim_Network_Ip_IpAddress_GetHashCode.htm" />
         <HelpTOCNode Title="Parse Method " Url="html/M_Network_Sim_Network_Ip_IpAddress_Parse.htm" />
         <HelpTOCNode Title="ParseCIDRNotation Method " Url="html/M_Network_Sim_Network_Ip_IpAddress_ParseCIDRNotation.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M_Network_Sim_Network_Ip_IpAddress_ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="de6d42e4-9515-4ffc-b9c1-77ac0a8e2236" Title="IpAddress Operators" Url="html/Operators_T_Network_Sim_Network_Ip_IpAddress.htm">
+      <HelpTOCNode Id="265d96b9-d7fd-4a3f-974d-300ca0c299aa" Title="IpAddress Operators" Url="html/Operators_T_Network_Sim_Network_Ip_IpAddress.htm">
         <HelpTOCNode Title="BitwiseAnd Operator " Url="html/M_Network_Sim_Network_Ip_IpAddress_op_BitwiseAnd.htm" />
         <HelpTOCNode Title="Equality Operator " Url="html/M_Network_Sim_Network_Ip_IpAddress_op_Equality.htm" />
         <HelpTOCNode Title="Inequality Operator " Url="html/M_Network_Sim_Network_Ip_IpAddress_op_Inequality.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="IpFlag Enumeration" Url="html/T_Network_Sim_Network_Ip_IpFlag.htm" />
-    <HelpTOCNode Id="817df53c-f1eb-4060-800a-c7bd380ad33e" Title="IpPacket Class" Url="html/T_Network_Sim_Network_Ip_IpPacket.htm">
-      <HelpTOCNode Id="c25e6dcd-342b-4909-afcf-304ff0f21168" Title="IpPacket Constructor " Url="html/Overload_Network_Sim_Network_Ip_IpPacket__ctor.htm">
+    <HelpTOCNode Id="341c3432-a82e-4fae-beec-5bc8f3223ca0" Title="IpPacket Class" Url="html/T_Network_Sim_Network_Ip_IpPacket.htm">
+      <HelpTOCNode Id="aed18382-1f37-4a71-a511-8b47a89fb576" Title="IpPacket Constructor " Url="html/Overload_Network_Sim_Network_Ip_IpPacket__ctor.htm">
         <HelpTOCNode Title="IpPacket Constructor (IpAddress, IpAddress, IpProtocol, Byte[])" Url="html/M_Network_Sim_Network_Ip_IpPacket__ctor_1.htm" />
         <HelpTOCNode Title="IpPacket Constructor (IpAddress, IpAddress, IpProtocol, Byte, Byte, Byte, UInt16, IpFlag, UInt16, Byte[])" Url="html/M_Network_Sim_Network_Ip_IpPacket__ctor.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="bb297da8-06ab-4528-996f-94cc4ee91c9f" Title="IpPacket Properties" Url="html/Properties_T_Network_Sim_Network_Ip_IpPacket.htm">
+      <HelpTOCNode Id="914472f1-232c-40d1-a98a-09458d82cc11" Title="IpPacket Properties" Url="html/Properties_T_Network_Sim_Network_Ip_IpPacket.htm">
         <HelpTOCNode Title="Checksum Property " Url="html/P_Network_Sim_Network_Ip_IpPacket_Checksum.htm" />
         <HelpTOCNode Title="Data Property " Url="html/P_Network_Sim_Network_Ip_IpPacket_Data.htm" />
         <HelpTOCNode Title="Destination Property " Url="html/P_Network_Sim_Network_Ip_IpPacket_Destination.htm" />
@@ -395,7 +395,7 @@
         <HelpTOCNode Title="TotalLength Property " Url="html/P_Network_Sim_Network_Ip_IpPacket_TotalLength.htm" />
         <HelpTOCNode Title="Version Property " Url="html/P_Network_Sim_Network_Ip_IpPacket_Version.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="f7fadaee-a196-4c48-b830-e4682ebb9cd2" Title="IpPacket Methods" Url="html/Methods_T_Network_Sim_Network_Ip_IpPacket.htm">
+      <HelpTOCNode Id="903457e1-366d-4909-ac16-2f48ff6a656b" Title="IpPacket Methods" Url="html/Methods_T_Network_Sim_Network_Ip_IpPacket.htm">
         <HelpTOCNode Title="ComputeChecksum Method " Url="html/M_Network_Sim_Network_Ip_IpPacket_ComputeChecksum.htm" />
         <HelpTOCNode Title="Deserialize Method " Url="html/M_Network_Sim_Network_Ip_IpPacket_Deserialize.htm" />
         <HelpTOCNode Title="Serialize Method " Url="html/M_Network_Sim_Network_Ip_IpPacket_Serialize.htm" />
@@ -403,9 +403,9 @@
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="IpProtocol Enumeration" Url="html/T_Network_Sim_Network_Ip_IpProtocol.htm" />
-    <HelpTOCNode Id="5d85f5db-7e5e-4d8d-bfa4-aebe815b1560" Title="Ipv4 Class" Url="html/T_Network_Sim_Network_Ip_Ipv4.htm">
+    <HelpTOCNode Id="7c9526d7-51e2-4036-aba5-861d30ecf1bb" Title="Ipv4 Class" Url="html/T_Network_Sim_Network_Ip_Ipv4.htm">
       <HelpTOCNode Title="Ipv4 Constructor " Url="html/M_Network_Sim_Network_Ip_Ipv4__ctor.htm" />
-      <HelpTOCNode Id="dc50204a-e889-4fd2-b9b2-428e3424e30c" Title="Ipv4 Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Ipv4.htm">
+      <HelpTOCNode Id="ec3fab3a-d0e2-43e8-beae-68cde426b5b0" Title="Ipv4 Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Ipv4.htm">
         <HelpTOCNode Title="ArpTableOf Method " Url="html/M_Network_Sim_Network_Ip_Ipv4_ArpTableOf.htm" />
         <HelpTOCNode Title="FragmentPacket Method " Url="html/M_Network_Sim_Network_Ip_Ipv4_FragmentPacket.htm" />
         <HelpTOCNode Title="OnAvailableToSent Method " Url="html/M_Network_Sim_Network_Ip_Ipv4_OnAvailableToSent.htm" />
@@ -417,10 +417,10 @@
     </HelpTOCNode>
     <HelpTOCNode Title="IpVersion Enumeration" Url="html/T_Network_Sim_Network_Ip_IpVersion.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="dbcb39bb-410a-4c06-b649-c302077ba57c" Title="Network.Sim.Network.Ip.Arp" Url="html/N_Network_Sim_Network_Ip_Arp.htm">
-    <HelpTOCNode Id="745c98c8-5d23-4d73-96ef-401dc12dbcc7" Title="Arp Class" Url="html/T_Network_Sim_Network_Ip_Arp_Arp.htm">
+  <HelpTOCNode Id="a4434089-8c85-457f-9dbd-fc8d769666d1" Title="Network.Sim.Network.Ip.Arp" Url="html/N_Network_Sim_Network_Ip_Arp.htm">
+    <HelpTOCNode Id="b3e85281-6e31-4cb9-bafd-284c71abf13b" Title="Arp Class" Url="html/T_Network_Sim_Network_Ip_Arp_Arp.htm">
       <HelpTOCNode Title="Arp Constructor " Url="html/M_Network_Sim_Network_Ip_Arp_Arp__ctor.htm" />
-      <HelpTOCNode Id="f9de837d-9261-4d7b-b6f5-0613e236c309" Title="Arp Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Arp_Arp.htm">
+      <HelpTOCNode Id="fa9644de-ae92-4415-a9d5-5472e806caec" Title="Arp Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Arp_Arp.htm">
         <HelpTOCNode Title="ArpTableOf Method " Url="html/M_Network_Sim_Network_Ip_Arp_Arp_ArpTableOf.htm" />
         <HelpTOCNode Title="Lookup Method " Url="html/M_Network_Sim_Network_Ip_Arp_Arp_Lookup.htm" />
         <HelpTOCNode Title="OnInput Method " Url="html/M_Network_Sim_Network_Ip_Arp_Arp_OnInput.htm" />
@@ -428,33 +428,33 @@
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="Arp.Output Delegate" Url="html/T_Network_Sim_Network_Ip_Arp_Arp_Output.htm" />
-    <HelpTOCNode Id="17bf9715-477a-4201-a893-c3811bc1cd97" Title="ArpCache Class" Url="html/T_Network_Sim_Network_Ip_Arp_ArpCache.htm">
+    <HelpTOCNode Id="9a907bd5-7cab-4e58-8df3-c061de9824e8" Title="ArpCache Class" Url="html/T_Network_Sim_Network_Ip_Arp_ArpCache.htm">
       <HelpTOCNode Title="ArpCache Constructor " Url="html/M_Network_Sim_Network_Ip_Arp_ArpCache__ctor.htm" />
-      <HelpTOCNode Id="3ac5b2f8-f6c3-431b-8b5c-07aded59639a" Title="ArpCache Properties" Url="html/Properties_T_Network_Sim_Network_Ip_Arp_ArpCache.htm">
+      <HelpTOCNode Id="9763409c-c341-43bd-8a6e-7bba738f9ba6" Title="ArpCache Properties" Url="html/Properties_T_Network_Sim_Network_Ip_Arp_ArpCache.htm">
         <HelpTOCNode Title="Item Property " Url="html/P_Network_Sim_Network_Ip_Arp_ArpCache_Item.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="97234c85-2740-48b3-8a57-a970c096fecb" Title="ArpCache Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Arp_ArpCache.htm">
+      <HelpTOCNode Id="d48078d8-2193-4ae9-a593-963ff535b2ad" Title="ArpCache Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Arp_ArpCache.htm">
         <HelpTOCNode Title="Add Method " Url="html/M_Network_Sim_Network_Ip_Arp_ArpCache_Add.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5fbb95bf-bd73-477e-957d-6977d8957301" Title="ArpEntry Class" Url="html/T_Network_Sim_Network_Ip_Arp_ArpEntry.htm">
+    <HelpTOCNode Id="50a91b9e-8746-4008-80bf-ed3a37a522a9" Title="ArpEntry Class" Url="html/T_Network_Sim_Network_Ip_Arp_ArpEntry.htm">
       <HelpTOCNode Title="ArpEntry Constructor " Url="html/M_Network_Sim_Network_Ip_Arp_ArpEntry__ctor.htm" />
-      <HelpTOCNode Id="775a801c-ccad-45f7-9151-75b5eacc26eb" Title="ArpEntry Properties" Url="html/Properties_T_Network_Sim_Network_Ip_Arp_ArpEntry.htm">
+      <HelpTOCNode Id="3b5eb474-3c35-4c5e-bddb-35e235bd6ba7" Title="ArpEntry Properties" Url="html/Properties_T_Network_Sim_Network_Ip_Arp_ArpEntry.htm">
         <HelpTOCNode Title="Expired Property " Url="html/P_Network_Sim_Network_Ip_Arp_ArpEntry_Expired.htm" />
         <HelpTOCNode Title="ExpiryTime Property " Url="html/P_Network_Sim_Network_Ip_Arp_ArpEntry_ExpiryTime.htm" />
         <HelpTOCNode Title="IpAddress Property " Url="html/P_Network_Sim_Network_Ip_Arp_ArpEntry_IpAddress.htm" />
         <HelpTOCNode Title="MacAddress Property " Url="html/P_Network_Sim_Network_Ip_Arp_ArpEntry_MacAddress.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="23c96058-045f-4def-bbf7-55ca270eb36d" Title="ArpEntry Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Arp_ArpEntry.htm">
+      <HelpTOCNode Id="d76802e2-8af7-4c73-9334-faffa60c5def" Title="ArpEntry Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Arp_ArpEntry.htm">
         <HelpTOCNode Title="ToString Method " Url="html/M_Network_Sim_Network_Ip_Arp_ArpEntry_ToString.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="0f92ea02-f64b-416c-9062-7b413d4f8a3a" Title="ArpPacket Class" Url="html/T_Network_Sim_Network_Ip_Arp_ArpPacket.htm">
-      <HelpTOCNode Id="b7276f0d-edbb-4b80-8dfc-7e9a0d7bbf92" Title="ArpPacket Constructor " Url="html/Overload_Network_Sim_Network_Ip_Arp_ArpPacket__ctor.htm">
+    <HelpTOCNode Id="a6497e9c-8847-4383-9c8a-ffe1199dd84c" Title="ArpPacket Class" Url="html/T_Network_Sim_Network_Ip_Arp_ArpPacket.htm">
+      <HelpTOCNode Id="0946af62-da33-44be-b0aa-6d9460879a09" Title="ArpPacket Constructor " Url="html/Overload_Network_Sim_Network_Ip_Arp_ArpPacket__ctor.htm">
         <HelpTOCNode Title="ArpPacket Constructor (MacAddress, IpAddress, IpAddress)" Url="html/M_Network_Sim_Network_Ip_Arp_ArpPacket__ctor_1.htm" />
         <HelpTOCNode Title="ArpPacket Constructor (MacAddress, IpAddress, MacAddress, IpAddress)" Url="html/M_Network_Sim_Network_Ip_Arp_ArpPacket__ctor.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="7cc57e21-1962-4a82-adb7-73bba5008dc7" Title="ArpPacket Properties" Url="html/Properties_T_Network_Sim_Network_Ip_Arp_ArpPacket.htm">
+      <HelpTOCNode Id="980115b0-1df3-49ec-812e-189b8d686118" Title="ArpPacket Properties" Url="html/Properties_T_Network_Sim_Network_Ip_Arp_ArpPacket.htm">
         <HelpTOCNode Title="IpAddressSender Property " Url="html/P_Network_Sim_Network_Ip_Arp_ArpPacket_IpAddressSender.htm" />
         <HelpTOCNode Title="IpAddressTarget Property " Url="html/P_Network_Sim_Network_Ip_Arp_ArpPacket_IpAddressTarget.htm" />
         <HelpTOCNode Title="IsRequest Property " Url="html/P_Network_Sim_Network_Ip_Arp_ArpPacket_IsRequest.htm" />
@@ -462,24 +462,24 @@
         <HelpTOCNode Title="MacAddressSender Property " Url="html/P_Network_Sim_Network_Ip_Arp_ArpPacket_MacAddressSender.htm" />
         <HelpTOCNode Title="MacAddressTarget Property " Url="html/P_Network_Sim_Network_Ip_Arp_ArpPacket_MacAddressTarget.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="5a040287-e539-4767-95cb-d425aa8bcb02" Title="ArpPacket Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Arp_ArpPacket.htm">
+      <HelpTOCNode Id="9369a25e-8840-4344-a188-30fa17942b19" Title="ArpPacket Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Arp_ArpPacket.htm">
         <HelpTOCNode Title="Deserialize Method " Url="html/M_Network_Sim_Network_Ip_Arp_ArpPacket_Deserialize.htm" />
         <HelpTOCNode Title="Serialize Method " Url="html/M_Network_Sim_Network_Ip_Arp_ArpPacket_Serialize.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M_Network_Sim_Network_Ip_Arp_ArpPacket_ToString.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="de4e386d-1f0f-4351-ba21-6aa2bdcfbd60" Title="Network.Sim.Network.Ip.Icmp" Url="html/N_Network_Sim_Network_Ip_Icmp.htm">
+  <HelpTOCNode Id="abbf2cd9-b77b-4053-b464-aa48fa69d3c4" Title="Network.Sim.Network.Ip.Icmp" Url="html/N_Network_Sim_Network_Ip_Icmp.htm">
     <HelpTOCNode Title="IcmpCode Enumeration" Url="html/T_Network_Sim_Network_Ip_Icmp_IcmpCode.htm" />
-    <HelpTOCNode Id="972899c5-56e7-4e1f-a2cd-0741f5d3885a" Title="IcmpPacket Class" Url="html/T_Network_Sim_Network_Ip_Icmp_IcmpPacket.htm">
+    <HelpTOCNode Id="b697b2f4-52c4-4927-b3d0-f5fd4d66c12b" Title="IcmpPacket Class" Url="html/T_Network_Sim_Network_Ip_Icmp_IcmpPacket.htm">
       <HelpTOCNode Title="IcmpPacket Constructor " Url="html/M_Network_Sim_Network_Ip_Icmp_IcmpPacket__ctor.htm" />
-      <HelpTOCNode Id="935038c8-3072-4a99-9e36-429c40f5cd8c" Title="IcmpPacket Properties" Url="html/Properties_T_Network_Sim_Network_Ip_Icmp_IcmpPacket.htm">
+      <HelpTOCNode Id="179e5453-edef-4461-9b83-3a1a64fc24a8" Title="IcmpPacket Properties" Url="html/Properties_T_Network_Sim_Network_Ip_Icmp_IcmpPacket.htm">
         <HelpTOCNode Title="Checksum Property " Url="html/P_Network_Sim_Network_Ip_Icmp_IcmpPacket_Checksum.htm" />
         <HelpTOCNode Title="Code Property " Url="html/P_Network_Sim_Network_Ip_Icmp_IcmpPacket_Code.htm" />
         <HelpTOCNode Title="Data Property " Url="html/P_Network_Sim_Network_Ip_Icmp_IcmpPacket_Data.htm" />
         <HelpTOCNode Title="Type Property " Url="html/P_Network_Sim_Network_Ip_Icmp_IcmpPacket_Type.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="594b1688-fedb-48f8-89d1-0605cb2e68cb" Title="IcmpPacket Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Icmp_IcmpPacket.htm">
+      <HelpTOCNode Id="cd49f359-2306-47b0-801e-b58932604713" Title="IcmpPacket Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Icmp_IcmpPacket.htm">
         <HelpTOCNode Title="ComputeChecksum Method " Url="html/M_Network_Sim_Network_Ip_Icmp_IcmpPacket_ComputeChecksum.htm" />
         <HelpTOCNode Title="Deserialize Method " Url="html/M_Network_Sim_Network_Ip_Icmp_IcmpPacket_Deserialize.htm" />
         <HelpTOCNode Title="FragmentationRequired Method " Url="html/M_Network_Sim_Network_Ip_Icmp_IcmpPacket_FragmentationRequired.htm" />
@@ -491,31 +491,31 @@
     </HelpTOCNode>
     <HelpTOCNode Title="IcmpType Enumeration" Url="html/T_Network_Sim_Network_Ip_Icmp_IcmpType.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="590c0227-cc3d-4a96-a8a6-8d606669922d" Title="Network.Sim.Network.Ip.Routing" Url="html/N_Network_Sim_Network_Ip_Routing.htm">
-    <HelpTOCNode Id="e5d4deca-4a4d-4dc6-a407-07fa5bdfe2e7" Title="Route Class" Url="html/T_Network_Sim_Network_Ip_Routing_Route.htm">
-      <HelpTOCNode Id="5af56fbc-f226-4cb9-88fd-cee34d70cc47" Title="Route Constructor " Url="html/Overload_Network_Sim_Network_Ip_Routing_Route__ctor.htm">
+  <HelpTOCNode Id="bc205d29-b28d-4f84-ab70-399c60f44d5b" Title="Network.Sim.Network.Ip.Routing" Url="html/N_Network_Sim_Network_Ip_Routing.htm">
+    <HelpTOCNode Id="5783c51d-8f38-41f6-bc6d-3991a97ad430" Title="Route Class" Url="html/T_Network_Sim_Network_Ip_Routing_Route.htm">
+      <HelpTOCNode Id="4d9c497f-5885-4222-bfd4-ec9a94d30dac" Title="Route Constructor " Url="html/Overload_Network_Sim_Network_Ip_Routing_Route__ctor.htm">
         <HelpTOCNode Title="Route Constructor (String, String, Interface, Int32)" Url="html/M_Network_Sim_Network_Ip_Routing_Route__ctor_1.htm" />
         <HelpTOCNode Title="Route Constructor (IpAddress, IpAddress, IpAddress, Interface, Int32)" Url="html/M_Network_Sim_Network_Ip_Routing_Route__ctor.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="7e0f5b0e-2072-48c6-b389-5c9691f655b6" Title="Route Properties" Url="html/Properties_T_Network_Sim_Network_Ip_Routing_Route.htm">
+      <HelpTOCNode Id="696dbfeb-6c00-4d8f-bc46-49ee4b3a521a" Title="Route Properties" Url="html/Properties_T_Network_Sim_Network_Ip_Routing_Route.htm">
         <HelpTOCNode Title="Destination Property " Url="html/P_Network_Sim_Network_Ip_Routing_Route_Destination.htm" />
         <HelpTOCNode Title="Gateway Property " Url="html/P_Network_Sim_Network_Ip_Routing_Route_Gateway.htm" />
         <HelpTOCNode Title="Interface Property " Url="html/P_Network_Sim_Network_Ip_Routing_Route_Interface.htm" />
         <HelpTOCNode Title="Metric Property " Url="html/P_Network_Sim_Network_Ip_Routing_Route_Metric.htm" />
         <HelpTOCNode Title="Netmask Property " Url="html/P_Network_Sim_Network_Ip_Routing_Route_Netmask.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="6d1b236b-c327-4f20-9a39-47c91e34a20d" Title="Route Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Routing_Route.htm">
+      <HelpTOCNode Id="527cf503-e05a-494b-b199-a52c4322f414" Title="Route Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Routing_Route.htm">
         <HelpTOCNode Title="ToString Method " Url="html/M_Network_Sim_Network_Ip_Routing_Route_ToString.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="da520a0e-d44d-4bd2-9bd3-c57a5b764d8b" Title="RoutingTable Class" Url="html/T_Network_Sim_Network_Ip_Routing_RoutingTable.htm">
-      <HelpTOCNode Id="a60d8bc3-ef8a-4a86-8f97-86e93d475d60" Title="RoutingTable Constructor " Url="html/Overload_Network_Sim_Network_Ip_Routing_RoutingTable__ctor.htm">
+    <HelpTOCNode Id="4d1e6e2c-8ab9-41ef-b5e9-eab55e8cb76a" Title="RoutingTable Class" Url="html/T_Network_Sim_Network_Ip_Routing_RoutingTable.htm">
+      <HelpTOCNode Id="9ab97f52-4ec6-426a-8dfb-988f0c6887dc" Title="RoutingTable Constructor " Url="html/Overload_Network_Sim_Network_Ip_Routing_RoutingTable__ctor.htm">
         <HelpTOCNode Title="RoutingTable Constructor " Url="html/M_Network_Sim_Network_Ip_Routing_RoutingTable__ctor.htm" />
         <HelpTOCNode Title="RoutingTable Constructor (IEnumerable(Route))" Url="html/M_Network_Sim_Network_Ip_Routing_RoutingTable__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="RoutingTable Properties" Url="html/Properties_T_Network_Sim_Network_Ip_Routing_RoutingTable.htm" />
-      <HelpTOCNode Id="eb65a797-98b7-4d8b-851c-72a2e7ddfebc" Title="RoutingTable Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Routing_RoutingTable.htm">
-        <HelpTOCNode Id="b754a63f-6fe4-40e2-8127-5abb89acdc2d" Title="Add Method " Url="html/Overload_Network_Sim_Network_Ip_Routing_RoutingTable_Add.htm">
+      <HelpTOCNode Id="69793794-d701-4807-8c85-552b08a60a72" Title="RoutingTable Methods" Url="html/Methods_T_Network_Sim_Network_Ip_Routing_RoutingTable.htm">
+        <HelpTOCNode Id="7942c423-e36f-4e78-a0e6-9b8afaab2f8a" Title="Add Method " Url="html/Overload_Network_Sim_Network_Ip_Routing_RoutingTable_Add.htm">
           <HelpTOCNode Title="Add Method (IpAddress, IpAddress, IpAddress, Interface, Int32)" Url="html/M_Network_Sim_Network_Ip_Routing_RoutingTable_Add.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
