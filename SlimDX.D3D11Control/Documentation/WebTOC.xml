@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="c5282bc5-5fe6-447a-bff6-ffca16e622b1" Title="SlimDX.Windows" Url="html/N_SlimDX_Windows.htm">
+    <HelpTOCNode Id="3f1305b1-9aaf-4272-8359-3b2cd791f09f" Title="D3D11Control Class" Url="html/T_SlimDX_Windows_D3D11Control.htm">
+      <HelpTOCNode Id="43cb5c72-1012-4b7d-a944-34b999e8fb23" Title="D3D11Control Constructor " Url="html/Overload_SlimDX_Windows_D3D11Control__ctor.htm">
+        <HelpTOCNode Title="D3D11Control Constructor " Url="html/M_SlimDX_Windows_D3D11Control__ctor.htm" />
+        <HelpTOCNode Title="D3D11Control Constructor (DriverType, DeviceCreationFlags, FeatureLevel[], Nullable(SwapChainDescription))" Url="html/M_SlimDX_Windows_D3D11Control__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fadf86cd-93be-4b5d-8ff5-e5cbcb33dd37" Title="D3D11Control Properties" Url="html/Properties_T_SlimDX_Windows_D3D11Control.htm">
+        <HelpTOCNode Title="AspectRatio Property " Url="html/P_SlimDX_Windows_D3D11Control_AspectRatio.htm" />
+        <HelpTOCNode Title="AutoAdjustViewPort Property " Url="html/P_SlimDX_Windows_D3D11Control_AutoAdjustViewPort.htm" />
+        <HelpTOCNode Title="Context Property " Url="html/P_SlimDX_Windows_D3D11Control_Context.htm" />
+        <HelpTOCNode Title="CullMode Property " Url="html/P_SlimDX_Windows_D3D11Control_CullMode.htm" />
+        <HelpTOCNode Title="DepthStencilView Property " Url="html/P_SlimDX_Windows_D3D11Control_DepthStencilView.htm" />
+        <HelpTOCNode Title="Device Property " Url="html/P_SlimDX_Windows_D3D11Control_Device.htm" />
+        <HelpTOCNode Title="FillMode Property " Url="html/P_SlimDX_Windows_D3D11Control_FillMode.htm" />
+        <HelpTOCNode Title="FrontCounterClockwise Property " Url="html/P_SlimDX_Windows_D3D11Control_FrontCounterClockwise.htm" />
+        <HelpTOCNode Title="RenderTargetView Property " Url="html/P_SlimDX_Windows_D3D11Control_RenderTargetView.htm" />
+        <HelpTOCNode Title="SwapChain Property " Url="html/P_SlimDX_Windows_D3D11Control_SwapChain.htm" />
+        <HelpTOCNode Title="VSync Property " Url="html/P_SlimDX_Windows_D3D11Control_VSync.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d1b38cc9-f66e-41c6-a1ce-4bc2285d3453" Title="D3D11Control Methods" Url="html/Methods_T_SlimDX_Windows_D3D11Control.htm">
+        <HelpTOCNode Title="Clear Method " Url="html/M_SlimDX_Windows_D3D11Control_Clear.htm" />
+        <HelpTOCNode Title="Present Method " Url="html/M_SlimDX_Windows_D3D11Control_Present.htm" />
+        <HelpTOCNode Title="ResizeViewport Method " Url="html/M_SlimDX_Windows_D3D11Control_ResizeViewport.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bc0adaea-f539-4bf8-870a-2b8d83a2c27a" Title="D3D11Control Events" Url="html/Events_T_SlimDX_Windows_D3D11Control.htm">
+        <HelpTOCNode Title="AspectRatioChanged Event" Url="html/E_SlimDX_Windows_D3D11Control_AspectRatioChanged.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

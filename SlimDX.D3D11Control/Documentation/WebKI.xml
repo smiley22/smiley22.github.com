@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AspectRatio property" Url="html/P_SlimDX_Windows_D3D11Control_AspectRatio.htm" />
+  <HelpKINode Title="AspectRatioChanged event" Url="html/E_SlimDX_Windows_D3D11Control_AspectRatioChanged.htm" />
+  <HelpKINode Title="AutoAdjustViewPort property" Url="html/P_SlimDX_Windows_D3D11Control_AutoAdjustViewPort.htm" />
+  <HelpKINode Title="Clear method" Url="html/M_SlimDX_Windows_D3D11Control_Clear.htm" />
+  <HelpKINode Title="Context property" Url="html/P_SlimDX_Windows_D3D11Control_Context.htm" />
+  <HelpKINode Title="CullMode property" Url="html/P_SlimDX_Windows_D3D11Control_CullMode.htm" />
+  <HelpKINode Title="D3D11Control class">
+    <HelpKINode Title="D3D11Control Class" Url="html/T_SlimDX_Windows_D3D11Control.htm" />
+    <HelpKINode Title="about D3D11Control class" Url="html/T_SlimDX_Windows_D3D11Control.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SlimDX_Windows_D3D11Control__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_SlimDX_Windows_D3D11Control.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SlimDX_Windows_D3D11Control.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SlimDX_Windows_D3D11Control.htm" />
+  </HelpKINode>
+  <HelpKINode Title="D3D11Control.AspectRatio property" Url="html/P_SlimDX_Windows_D3D11Control_AspectRatio.htm" />
+  <HelpKINode Title="D3D11Control.AspectRatioChanged event" Url="html/E_SlimDX_Windows_D3D11Control_AspectRatioChanged.htm" />
+  <HelpKINode Title="D3D11Control.AutoAdjustViewPort property" Url="html/P_SlimDX_Windows_D3D11Control_AutoAdjustViewPort.htm" />
+  <HelpKINode Title="D3D11Control.Clear method" Url="html/M_SlimDX_Windows_D3D11Control_Clear.htm" />
+  <HelpKINode Title="D3D11Control.Context property" Url="html/P_SlimDX_Windows_D3D11Control_Context.htm" />
+  <HelpKINode Title="D3D11Control.CullMode property" Url="html/P_SlimDX_Windows_D3D11Control_CullMode.htm" />
+  <HelpKINode Title="D3D11Control.D3D11Control constructor" Url="html/Overload_SlimDX_Windows_D3D11Control__ctor.htm" />
+  <HelpKINode Title="D3D11Control.DepthStencilView property" Url="html/P_SlimDX_Windows_D3D11Control_DepthStencilView.htm" />
+  <HelpKINode Title="D3D11Control.Device property" Url="html/P_SlimDX_Windows_D3D11Control_Device.htm" />
+  <HelpKINode Title="D3D11Control.FillMode property" Url="html/P_SlimDX_Windows_D3D11Control_FillMode.htm" />
+  <HelpKINode Title="D3D11Control.FrontCounterClockwise property" Url="html/P_SlimDX_Windows_D3D11Control_FrontCounterClockwise.htm" />
+  <HelpKINode Title="D3D11Control.Present method" Url="html/M_SlimDX_Windows_D3D11Control_Present.htm" />
+  <HelpKINode Title="D3D11Control.RenderTargetView property" Url="html/P_SlimDX_Windows_D3D11Control_RenderTargetView.htm" />
+  <HelpKINode Title="D3D11Control.ResizeViewport method" Url="html/M_SlimDX_Windows_D3D11Control_ResizeViewport.htm" />
+  <HelpKINode Title="D3D11Control.SwapChain property" Url="html/P_SlimDX_Windows_D3D11Control_SwapChain.htm" />
+  <HelpKINode Title="D3D11Control.VSync property" Url="html/P_SlimDX_Windows_D3D11Control_VSync.htm" />
+  <HelpKINode Title="DepthStencilView property" Url="html/P_SlimDX_Windows_D3D11Control_DepthStencilView.htm" />
+  <HelpKINode Title="Device property" Url="html/P_SlimDX_Windows_D3D11Control_Device.htm" />
+  <HelpKINode Title="FillMode property" Url="html/P_SlimDX_Windows_D3D11Control_FillMode.htm" />
+  <HelpKINode Title="FrontCounterClockwise property" Url="html/P_SlimDX_Windows_D3D11Control_FrontCounterClockwise.htm" />
+  <HelpKINode Title="Present method" Url="html/M_SlimDX_Windows_D3D11Control_Present.htm" />
+  <HelpKINode Title="RenderTargetView property" Url="html/P_SlimDX_Windows_D3D11Control_RenderTargetView.htm" />
+  <HelpKINode Title="ResizeViewport method" Url="html/M_SlimDX_Windows_D3D11Control_ResizeViewport.htm" />
+  <HelpKINode Title="SlimDX.Windows namespace" Url="html/N_SlimDX_Windows.htm" />
+  <HelpKINode Title="SlimDX.Windows.D3D11Control class" Url="html/T_SlimDX_Windows_D3D11Control.htm" />
+  <HelpKINode Title="SwapChain property" Url="html/P_SlimDX_Windows_D3D11Control_SwapChain.htm" />
+  <HelpKINode Title="VSync property" Url="html/P_SlimDX_Windows_D3D11Control_VSync.htm" />
+</HelpKI>
